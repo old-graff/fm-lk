@@ -54,7 +54,7 @@ module.exports = function (buildOptions) {
                 templaterUrl = 'https://github.com/' + githubConfig.user + '/' + githubConfig.repoPrefix + templaterName() + '/archive/' + templaterVersion + '.zip';
             }
 
-            downloadTemplater = new Download({ extract: true })
+            downloadTemplater = new Download({extract: true})
                 .get(templaterUrl)
                 .dest('./.tmpTemplater');
 
@@ -95,7 +95,7 @@ module.exports = function (buildOptions) {
                 cssPreprocessorUrl = 'https://github.com/' + githubConfig.user + '/' + githubConfig.repoPrefix + tarsConfig.cssPreprocessor + '/archive/' + cssVersion + '.zip';
             }
 
-            downloadCssPreprocessor = new Download({ extract: true })
+            downloadCssPreprocessor = new Download({extract: true})
                 .get(cssPreprocessorUrl)
                 .dest('./.tmpPreproc');
 
