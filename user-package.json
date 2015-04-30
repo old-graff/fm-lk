@@ -1,5 +1,5 @@
 {
     "dependencies": {
-
+        "gulp-beml": "1.0.0"
     }
 }
