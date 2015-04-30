@@ -1,0 +1,23 @@
+.social {
+    text-align: justify;
+    line-height: 0;
+    font-size: 1px;
+    &:after {
+        width: 100%;
+        height: 0px;
+        visibility: hidden;
+        overflow: hidden;
+        content: " ";
+        display: inline-block;
+    }
+
+    &__item {
+        width: 25px;
+        height: 25px;
+        background-color: $color-bg-grey-medium;
+        display: inline-block;
+        line-height: normal;
+        font-size: 14px;
+        vertical-align: top;
+    }
+}

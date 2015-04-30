@@ -1,0 +1,19 @@
+.login {
+    background: $color-bg-grey-medium;
+    height: 30px;
+    &:hover {
+        background: $color-bg-grey-dark;
+    }
+    &__btn {
+        text-align: right;
+        display: block;
+        height: 30px;
+        padding-right: 10px;
+        background: url('%=staticPrefixForCss=%assets/header/homeIcon.png') no-repeat 8px 9px;
+        text-decoration: none;
+        @include font-tuning(11,30);
+        &:visited {
+            color: #fff;
+        }
+    }
+}

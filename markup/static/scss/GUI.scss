@@ -1,0 +1,63 @@
+// GUI stylies of the project
+// For example, styles of the links, buttons and so on.
+.bg {
+    &_grey {
+        background: $color-bg-grey-light;
+    }
+    &_orange {
+        background: $color-orange;
+    }
+}
+
+.icon {
+    &-add-page {
+        @include bg-svg($payment7); // Подключение svg-изображения
+    }
+    &-people {
+    }
+    &_round {
+        margin: 0 auto;
+        display: block;
+        width: 105px;
+        height: 105px;
+        border-radius: 50%;
+        border: 1px solid $color-orange;
+        @include at(md) {
+            height: 95px;
+            width: 95px;
+        }
+        @include at(sm) {
+            height: 77px;
+            width: 77px;
+        }
+        @include at(xs) {
+            height: 50px;
+            width: 50px;
+        }
+    }
+}
+
+.form {
+    input[type="text"] {
+        width: 100%;
+        padding: 5px 10px;
+        border: none;
+        height: 37px;
+        line-height: 37px;
+    }
+}
+
+.btn {
+    width: 100%;
+    border: none;
+    font-weight: bold;
+    border: none;
+
+    &_color_red {
+        color: #fff;
+        background-color: $color-red;
+    }
+    &_size_big {
+        height: 50px;
+    }
+}

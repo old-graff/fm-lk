@@ -1,0 +1,45 @@
+<header block="header">
+    <div class="container">
+        <div class="row">
+            <div elem="left-col">
+                <div block="logo">
+                    <div elem="img">
+                        <a href="/" elem="link">
+                            <img alt="Facemaster.ru Logo" src="%=staticPrefix=%img/general/facemasterLogo.png"
+                                 width="100%">
+                        </a>
+                    </div>
+                    <div block="visitor">
+                        <p elem="count">{{visitor}}</p>
+
+                        <p elem="mera">в неделю</p>
+                    </div>
+                </div>
+            </div>
+            <div elem="title">
+                <a href="#" block="title">
+                    <p elem="text" mix="block:h1">ПОИСК МАСТЕРОВ В СФЕРЕ УСЛУГ</p>
+                </a>
+            </div>
+            <div elem="login">
+                <div block="login">
+                    <a href="{{loginUrl}}" elem="btn" mix="block:btn">Вход для Мастеров</a>
+                </div>
+            </div>
+            <div elem="menu">
+                <nav block="menu" {{#if mod}}mod="{{mod}}" {{/if}}>
+                <ul block="main-menu">
+                    {{#each menu}}
+                    <li elem="item">
+                        <a href="{{url}}" elem="item-link" mix="block:link">{{{title}}}</a>
+                    </li>
+                    {{/each}}
+                </ul>
+                </nav>
+            </div>
+            <div elem="social">
+                {{> social/social social}}
+            </div>
+        </div>
+    </div>
+</header>
