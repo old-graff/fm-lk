@@ -1,6 +1,7 @@
 .why-we-wr {
+    z-index: 8;
     @extend .bg_grey;
-    @include at(xs) {
+    @include to(md) {
         background: none;
     }
 }
@@ -12,8 +13,12 @@
     &__list {
         padding-top: 45px;
     }
+    @include to(md){
+        background-color: $color-bg-grey-light;
+    }
     @include at(xs) {
-        @extend .bg_grey;
+        padding-top: 20px;
+        padding-bottom: 20px;
         &__list {
             padding-top: 10px;
         }

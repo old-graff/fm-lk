@@ -1,5 +1,26 @@
-<div class="footer">
+<div block="footer">
+    <div class="container">
+        <div class="row">
+            <div elem="coordinator">Координатор сайта: (8482) 74-44-19</div>
 
-    <!-- Main scripts. You can replace it, but I recommend you to leave it here     -->
-    <script src="%=staticPrefix=%js/main%=hash=%%=min=%.js"></script>
+            <div elem="copyright">
+                <p elem="copyright-who">© FaceMaster — Фейсмастер</p>
+                <p elem="copyright-text">При полном или частичном воспроизведении информации активная ссылка на Фейсмастер обязательна.</p>
+            </div>
+
+
+            <div elem="links">
+                <a href="/site/oferta" elem="links-a">Оферта</a>&nbsp;
+                <a href="/flaglinks" elem="links-a">Обратная ссылка</a> <br>
+                <a href="/site/contact" elem="links-a">Контакты</a>&nbsp;
+                <a href="/site/svyaz" elem="links-a">Обратная связь</a>
+            </div>
+
+
+            <div elem="counters">
+                {{> footer/counters}}
+            </div>
+            <script src="%=staticPrefix=%js/main%=hash=%%=min=%.js"></script>
+        </div>
+    </div>
 </div>

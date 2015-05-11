@@ -11,10 +11,9 @@ html, body {
 h1,.h1   {font-size: 25px; /*ie8*/ font-size: 1.5625rem; font-weight: normal;}
 p    {line-height:1.3em}
 
-:link                         {color:#808285; text-decoration: underline}
-:visited                      {color:#808285; text-decoration: underline}
-:link:hover, :visited:hover   {color:#005b8d; text-decoration: none}
-:link:active, :visited:active {color:#763f00; text-decoration: none}
+a        {color:#808285; text-decoration: underline}
+a:hover  {color:#005b8d; text-decoration: none}
+a:active {color:#005b8d; text-decoration: none}
 
 .page {
     
@@ -142,6 +141,17 @@ p    {line-height:1.3em}
         }
     }
 }
-.subtitle {
-
+.sub-title {
+    @include at(lg){
+        @include font-tuning(25,46);
+    }
+    @include at(md) {
+        @include font-tuning(20,25);
+    }
+    @include at(sm) {
+        @include font-tuning(17,23);
+    }
+    @include at(xs) {
+        @include font-tuning(15,20);
+    }
 }

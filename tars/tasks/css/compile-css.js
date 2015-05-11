@@ -30,7 +30,8 @@ var scssFilesToConcatinate = [
 
 if (tarsConfig.useSVG) {
     scssFilesToConcatinate.push(
-        './markup/' + tarsConfig.fs.staticFolderName + '/scss/sprites-scss/svg-sprite.scss'
+        './markup/' + tarsConfig.fs.staticFolderName + '/scss/sprites-scss/svg-sprite.scss',
+        './markup/' + tarsConfig.fs.staticFolderName + '/scss/sprites-scss/svg-sprite-before.scss'
     );
 }
 

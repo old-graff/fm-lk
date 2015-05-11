@@ -9,33 +9,139 @@
     }
 }
 
-.icon {
-    &-add-page {
-        @include bg-svg($payment7); // Подключение svg-изображения
-    }
-    &-people {
-    }
-    &_round {
-        margin: 0 auto;
+/* углы */
+.corner {
+    position: relative;
+    &:after {
+        content: ' ';
         display: block;
-        width: 105px;
-        height: 105px;
-        border-radius: 50%;
-        border: 1px solid $color-orange;
-        @include at(md) {
-            height: 95px;
-            width: 95px;
+        position: absolute;
+        bottom: -20px;
+        left: 50%;
+        transform: translate(-50%);
+        width: 22px;
+        height: 20px;
+        border-top-width: 20px;
+        border-right-width: 10px;
+        border-left-width: 10px;
+        border-bottom-width: 0;
+        border-right-color: transparent;
+        border-left-color: transparent;
+        border-style: solid;
+    }
+    &_grey {
+        &:after {
+            border-top-color:$color-bg-grey-light;
         }
-        @include at(sm) {
-            height: 77px;
-            width: 77px;
+    }
+    &_bg {
+        &:after {
+            border-top-color:$color-bg;
         }
-        @include at(xs) {
-            height: 50px;
-            width: 50px;
+    }
+    &_orange {
+        &:after {
+            border-top-color:$color-orange;
         }
     }
 }
+
+/* углы конец */
+
+/* иконки */
+@mixin icon_size($size) {
+    $koef: strip-unit($size)/strip-unit($base-icon-size);
+    @include svg-sprite-size($people, $koef);
+}
+@mixin icon_size_xbig {
+    @include icon_size(64px);
+}
+@mixin icon_size_big {
+    @include icon_size(48px);
+}
+
+@mixin icon_size_medium {
+    @include icon_size(32px);
+}
+
+@mixin icon_size_small {
+    @include icon_size(24px);
+}
+@mixin icon_size_xsmall {
+    @include icon_size(18px);
+}
+
+%icon {
+    //base scale 64x64
+    @include bg-svg-image($people); //переделать \!/!
+    &_add-page {
+        @include svg-sprite-position-percent($add-page);
+    }
+    &_people {
+        @include svg-sprite-position-percent($people);
+    }
+    &_picture {
+        @include svg-sprite-position-percent($picture);
+    }
+    &_picture_white {
+        @include svg-sprite-position-percent($picture_white);
+    }
+    &_medal {
+        @include svg-sprite-position-percent($medal);
+    }
+    &_mini-page {
+        @include svg-sprite-position-percent($mini-page);
+    }
+    &_page {
+        @include svg-sprite-position-percent($page);
+    }
+    &_video {
+        @include svg-sprite-position-percent($video);
+    }
+    &_video_white {
+        @include svg-sprite-position-percent($video_white);
+    }
+    &_dialog {
+        @include svg-sprite-position-percent($dialog)
+    }
+    &_dialog_white {
+        @include svg-sprite-position-percent($dialog_white);
+    }
+    &_gift {
+        @include svg-sprite-position-percent($gift);
+    }
+    &_gift_white {
+        @include svg-sprite-position-percent($gift_white);
+    }
+    &_strelka {
+        @include svg-sprite-position-percent($strelka);
+    }
+
+    &_size_xbig {
+        @include icon_size_xbig;
+    }
+    &_size_big {
+        @include icon_size_big;
+    }
+    &_size_medium {
+        @include icon_size_medium;
+    }
+    &_size_small {
+        @include icon_size_small;
+    }
+    &_size_xsmall {
+        @include icon_size_xsmall;
+    }
+
+    &_block {
+        display: block;
+    }
+    &_inline {
+        display: inline-block;
+    }
+}
+
+/* иконки конец */
 
 .form {
     input[type="text"] {
@@ -51,13 +157,42 @@
     width: 100%;
     border: none;
     font-weight: bold;
-    border: none;
-
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    &_color_black{
+        color: #fff;
+        background-color: $color-bg-black-light;
+        &:hover {
+            background-color: $color-pink;
+            color: #fff;
+        }
+    }
+    &_color_pink {
+        color: #fff;
+        background-color: $color-pink;
+        &:hover {
+            background-color: $color-bg-black-light;
+            color: #fff;
+        }
+    }
     &_color_red {
         color: #fff;
         background-color: $color-red;
+        &:hover {
+            background-color: darken($color-red, 10%);
+            color: #fff;
+        }
     }
     &_size_big {
         height: 50px;
+        line-height: 50px;
+    }
+    &_size_medium {
+        height: 40px;
+        line-height: 40px;
+    }
+    &_uppercase{
+        text-transform: uppercase;
     }
 }

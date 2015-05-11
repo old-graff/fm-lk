@@ -17,7 +17,7 @@ if (tarsConfig.jsPathsToConcatBeforeModulesJs.length) {
     });
 }
 
-jsPaths.push('./markup/modules/*/*.js');
+jsPaths.push('./markup/modules/**/*.js');
 
 if (tarsConfig.jsPathsToConcatAfterModulesJs.length) {
     tarsConfig.jsPathsToConcatAfterModulesJs.forEach(function (path) {

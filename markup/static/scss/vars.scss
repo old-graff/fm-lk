@@ -2,16 +2,21 @@
 
 // For example: main colors, paddings and so on.
 $font-size: 16px;
+
+$base-icon-size: 64px;
 // Colors ======================================================================
 $color-text:             #6d6e71;
 $color-bg:               #f0f3fa;
 $color-bg-grey-light:    #e6e7e8;
+$color-bg-grey-xmedium:  #d3d5d6;
 $color-bg-grey-medium:   #bbbdc0;
 $color-bg-grey-dark:     #949599;
+$color-bg-black-light:   #59595c;
 
 $color-orange:           #EF850D;
 $color-yellow:           #eed214;
 $color-red:              #ef4036;
+$color-pink:             #ed686f;
 
 //== Media queries breakpoints
 //
