@@ -1,0 +1,56 @@
+  $mini-page: 0px 0px 64px 64px 64px 960px './test.svg' 'mini-page';
+  $add-page: 0px -64px 64px 64px 64px 960px './test.svg' 'add-page';
+  $dialog: 0px -128px 64px 64px 64px 960px './test.svg' 'dialog';
+  $dialog_white: 0px -192px 64px 64px 64px 960px './test.svg' 'dialog_white';
+  $gift: 0px -256px 64px 64px 64px 960px './test.svg' 'gift';
+  $gift_white: 0px -320px 64px 64px 64px 960px './test.svg' 'gift_white';
+  $medal: 0px -384px 64px 64px 64px 960px './test.svg' 'medal';
+  $arrow_orange: 0px -448px 64px 64px 64px 960px './test.svg' 'arrow_orange';
+  $page: 0px -512px 64px 64px 64px 960px './test.svg' 'page';
+  $people: 0px -576px 64px 64px 64px 960px './test.svg' 'people';
+  $picture-white: 0px -640px 64px 64px 64px 960px './test.svg' 'picture-white';
+  $picture: 0px -704px 64px 64px 64px 960px './test.svg' 'picture';
+  $strelka: 0px -768px 64px 64px 64px 960px './test.svg' 'strelka';
+  $video: 0px -832px 64px 64px 64px 960px './test.svg' 'video';
+  $video_white: 0px -896px 64px 64px 64px 960px './test.svg' 'video_white';
+
+@mixin svg-sprite-position($svg-sprite) {
+  $svg-sprite-offset-x: nth($svg-sprite, 1);
+  $svg-sprite-offset-y: nth($svg-sprite, 2);
+  background-position: $svg-sprite-offset-x  $svg-sprite-offset-y;
+}
+
+@mixin svg-sprite-position-percent($svg-sprite) {
+    $w : strip-unit(nth($svg-sprite, 5)) - strip-unit(nth($svg-sprite, 3));
+    $h : strip-unit(nth($svg-sprite, 6)) - strip-unit(nth($svg-sprite, 4));
+
+    @if $w > 0 {
+        $svg-sprite-offset-x: (-1 * strip-unit(nth($svg-sprite, 1))) / $w * 100%;
+    } @else {
+        $svg-sprite-offset-x: strip-unit(nth($svg-sprite, 1)) + 0%;
+    }
+    @if $h > 0 {
+        $svg-sprite-offset-y: (-1 * strip-unit(nth($svg-sprite, 2))) / $h * 100%;
+    } @else {
+        $svg-sprite-offset-y: strip-unit(nth($svg-sprite, 2)) + 0%;
+    }
+
+    background-position: $svg-sprite-offset-x  $svg-sprite-offset-y;
+}
+
+@mixin svg-sprite-size($svg-sprite, $koef: 1) {
+    width: nth($svg-sprite, 3) * $koef;
+    height: nth($svg-sprite, 4) * $koef;
+    background-size: nth($svg-sprite, 5) * $koef auto;
+}
+
+@mixin bg-svg-image($svg-sprite, $repeat: no-repeat) {
+    background-image: url('%=staticPrefixForCss=%svg-sprite/sprite.svg');
+    background-repeat: $repeat;
+}
+
+@mixin bg-svg($svg-sprite, $koef: 1, $repeat: no-repeat) {
+    @include bg-svg-image($svg-sprite, $repeat);
+    @include svg-sprite-position-percent($svg-sprite);
+    @include svg-sprite-size($svg-sprite, $koef);
+}

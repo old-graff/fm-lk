@@ -278,6 +278,9 @@
         bottom: 0;
         @extend .col-sm-12;
     }
+    &_long {
+        height: 390px;
+    }
     @include at(sm) {
         height: 290px;
         &__part-1 {
@@ -309,6 +312,9 @@
             margin-top: 10px;
             color: #1a97cc;
             @include font-tuning(12, 12);
+        }
+        &_long {
+            height: 310px;
         }
     }
     @include at(xs) {

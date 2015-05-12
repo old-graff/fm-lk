@@ -150,6 +150,11 @@
         border: none;
         height: 37px;
         line-height: 37px;
+        border: 1px solid #fff;
+        &.error{
+            border: 1px solid $color-red;
+            background-color: lighten($color-red, 37%);
+        }
     }
 }
 
