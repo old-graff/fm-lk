@@ -48,8 +48,15 @@
             &-title {
                 padding: 10px;
                 text-align: left;
+                height: 58px;
+                display: table;
                 &:after {
                     display: block;
+                }
+                &-inner{
+                    display: table-cell;
+                    vertical-align: middle;
+                    width: 100%;
                 }
             }
             &-text {

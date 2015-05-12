@@ -1,18 +1,22 @@
-  $mini-page: 0px 0px 64px 64px 64px 960px './test.svg' 'mini-page';
-  $add-page: 0px -64px 64px 64px 64px 960px './test.svg' 'add-page';
-  $dialog: 0px -128px 64px 64px 64px 960px './test.svg' 'dialog';
-  $dialog_white: 0px -192px 64px 64px 64px 960px './test.svg' 'dialog_white';
-  $gift: 0px -256px 64px 64px 64px 960px './test.svg' 'gift';
-  $gift_white: 0px -320px 64px 64px 64px 960px './test.svg' 'gift_white';
-  $medal: 0px -384px 64px 64px 64px 960px './test.svg' 'medal';
-  $arrow_orange: 0px -448px 64px 64px 64px 960px './test.svg' 'arrow_orange';
-  $page: 0px -512px 64px 64px 64px 960px './test.svg' 'page';
-  $people: 0px -576px 64px 64px 64px 960px './test.svg' 'people';
-  $picture-white: 0px -640px 64px 64px 64px 960px './test.svg' 'picture-white';
-  $picture: 0px -704px 64px 64px 64px 960px './test.svg' 'picture';
-  $strelka: 0px -768px 64px 64px 64px 960px './test.svg' 'strelka';
-  $video: 0px -832px 64px 64px 64px 960px './test.svg' 'video';
-  $video_white: 0px -896px 64px 64px 64px 960px './test.svg' 'video_white';
+  $ok_white: 0px 0px 64px 64px 64px 1216px './test.svg' 'ok_white';
+  $add-page: 0px -64px 64px 64px 64px 1216px './test.svg' 'add-page';
+  $dialog: 0px -128px 64px 64px 64px 1216px './test.svg' 'dialog';
+  $dialog_white: 0px -192px 64px 64px 64px 1216px './test.svg' 'dialog_white';
+  $fb_white: 0px -256px 64px 64px 64px 1216px './test.svg' 'fb_white';
+  $gift: 0px -320px 64px 64px 64px 1216px './test.svg' 'gift';
+  $gift_white: 0px -384px 64px 64px 64px 1216px './test.svg' 'gift_white';
+  $medal: 0px -448px 64px 64px 64px 1216px './test.svg' 'medal';
+  $mini-page: 0px -512px 64px 64px 64px 1216px './test.svg' 'mini-page';
+  $arrow_orange: 0px -576px 64px 64px 64px 1216px './test.svg' 'arrow_orange';
+  $page: 0px -640px 64px 64px 64px 1216px './test.svg' 'page';
+  $people: 0px -704px 64px 64px 64px 1216px './test.svg' 'people';
+  $picture: 0px -768px 64px 64px 64px 1216px './test.svg' 'picture';
+  $picture_white: 0px -832px 64px 64px 64px 1216px './test.svg' 'picture_white';
+  $strelka: 0px -896px 64px 64px 64px 1216px './test.svg' 'strelka';
+  $tw_white: 0px -960px 64px 64px 64px 1216px './test.svg' 'tw_white';
+  $video: 0px -1024px 64px 64px 64px 1216px './test.svg' 'video';
+  $video_white: 0px -1088px 64px 64px 64px 1216px './test.svg' 'video_white';
+  $vk_white: 0px -1152px 64px 64px 64px 1216px './test.svg' 'vk_white';
 
 @mixin svg-sprite-position($svg-sprite) {
   $svg-sprite-offset-x: nth($svg-sprite, 1);
