@@ -5,7 +5,7 @@
                 <div block="logo">
                     <div elem="img">
                         <a href="/" elem="link">
-                            <img alt="Facemaster.ru Logo" src="%=staticPrefix=%img/general/facemasterLogo.png"
+                            <img alt="Facemaster.ru Logo" src="/%=staticPrefix=%img/general/facemasterLogo.png"
                                  width="100%">
                         </a>
                     </div>
@@ -22,12 +22,27 @@
                 </a>
             </div>
             <div elem="login">
+                {{#if auth}}
                 <div block="login">
-                    <a href="{{loginUrl}}" elem="btn" mix="block:btn">Вход для Мастеров</a>
+                    <a href="{{homeUrl}}" elem="btn" mix="block:btn">{{authData.name}}</a>
+                    <div block="menu-user">
+                        <ul elem="ul">
+                            {{#each authData.menuUser}}
+                            <li elem="item">
+                                <a href="{{url}}" elem="item-link">{{{title}}}</a>
+                            </li>
+                            {{/each}}
+                        </ul>
+                    </div>
                 </div>
+                {{else}}
+                <div block="login">
+                    <a href="{{authUrl}}" elem="btn" mix="block:btn">Вход для Мастеров</a>
+                </div>
+                {{/if}}
             </div>
             <div elem="menu">
-                <nav block="menu" {{#if mod}}mod="{{mod}}" {{/if}}>
+                <nav block="menu">
                 <ul block="main-menu">
                     {{#each menu}}
                     <li elem="item">

@@ -9,7 +9,7 @@ var watcherLog = require('../helpers/watcher-log');
  * @param  {Object} watchOptions
  */
 module.exports = function (watchOptions) {
-    return chokidar.watch('/* String of path pattern or array of strings */', {
+    return chokidar.watch('./markup/pages/**/data/data.js', {
         ignored: '/* String of path pattern or array of strings to ignore. If nothing to igonre — just set it empty string */',
         persistent: true,
         ignoreInitial: true

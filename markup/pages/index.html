@@ -8,30 +8,30 @@
 <!--[if (gt IE 9)|!(IE)]><!-->
 <html class="no-js" lang="ru"><!--<![endif]-->
 
-<head>
-    {{> head/head head.defaults}}
-</head>
+    <head>
+        {{> head/head head.defaults}}
+    </head>
 
-<body class="page">
-{{> header/header header.top}}
+    <body class="page">
+        {{> header/header header}}
 
-{{> reg-master/about/about}}
-<div id="form1">
-    {{> reg-master/form/form}}
-</div>
-{{> reg-master/why-we/why-we}}
-{{> reg-master/price/price}}
-<div id="form2">
-    {{> reg-master/form/form}}
-</div>
-{{> reg-master/more-page/more-page}}
-{{> reg-master/faq/faq}}
-<div id="form3">
-    {{> reg-master/form/form}}
-</div>
+        
+        {{> reg-master/about/about}}
+        <div id="form1">
+            {{> reg-master/form/form}}
+        </div>
+        {{> reg-master/why-we/why-we}}
+        {{> reg-master/price/price}}
+        <div id="form2">
+            {{> reg-master/form/form}}
+        </div>
+        {{> reg-master/more-page/more-page}}
+        {{> reg-master/faq/faq}}
+        <div id="form3">
+            {{> reg-master/form/form}}
+        </div>
 
 
-<footer class="page__footer">
-    {{> footer/footer}}
-</footer>
-</body>
+        {{> footer/footer}}
+    </body>
+</html>

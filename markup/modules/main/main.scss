@@ -1,0 +1,10 @@
+.main-page{
+    padding: 20px 0;
+}
+.main-function{
+    background-color: $color-blue;
+    @extend .col-md-9;
+}
+.dop-function{
+    @extend .col-md-3;
+}
