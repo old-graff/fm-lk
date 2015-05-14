@@ -1,4 +1,4 @@
-header: {
+block_header: {
     visitor: '12 456 посещений',
     menu: [
         {

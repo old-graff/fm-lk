@@ -1,1 +1,30 @@
-sjhdf
+<div block="become-master">
+    <div elem="title">Мастерам</div>
+    <ul elem="menu">
+        {{#each menuMaster}}
+        <li elem="item">
+            <a href="{{url}}" elem="item-link">{{{title}}}</a>
+        </li>
+        {{/each}}
+    </ul>
+</div>
+<div block="about-company">
+    <div elem="title">О компании</div>
+    <ul elem="menu">
+        {{#each menuAbout}}
+        <li elem="item">
+            <a href="{{url}}" elem="item-link">{{{title}}}</a>
+        </li>
+        {{/each}}
+    </ul>
+</div>
+<div block="bayda">
+    <ul elem="menu">
+        <li elem="item"><a href="">Конкурсы газеты Презент</a></li>
+        <li elem="item"><a href="">Маршрутки Тольятти с 01.01.2015</a></li>
+    </ul>
+    <ul elem="menu">
+        <li elem="item">&nbsp;</li>
+        <li elem="item"><a href="">Дачные перевозки</a></li>
+    </ul>
+</div>

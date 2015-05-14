@@ -11,14 +11,36 @@ var tarsConfig = require('../../../tars-config');
 module.exports = function (buildOptions) {
 
     return gulp.task('html:concat-modules-data', function (cb) {
-        return gulp.src(['./markup/modules/**/data/data.js', './markup/pages/**/data/data.js'])
-            .pipe(concat('modulesData.js', { newLine: ',\n\n' }))
+        
+        gulp.src(['./markup/modules/**/data/data.js'])
+            .pipe(concat('blockData.js', { newLine: ',\n\n' }))
             .on('error', notify.onError(function (error) {
-                return '\nAn error occurred while concating module\'s data.\nLook in the console for details.\n' + error;
+                return '\nAn error occurred while concating block\'s data.\nLook in the console for details.\n' + error;
             }))
             .pipe(gulp.dest('./dev/temp/'))
             .pipe(
-                notifier('Data for modules ready')
+                notifier('Data for blocks ready')
             );
+
+        return gulp.src(['./markup/pages/**/data/data.js'])
+            .pipe(concat('pageData.js', { newLine: ',\n\n' }))
+            .on('error', notify.onError(function (error) {
+                return '\nAn error occurred while concating page\'s data.\nLook in the console for details.\n' + error;
+            }))
+            .pipe(gulp.dest('./dev/temp/'))
+            .pipe(
+                notifier('Data for pages ready')
+            );
+        
+        
+//        return gulp.src(['./markup/modules/**/data/data.js', './markup/pages/**/data/data.js'])
+//            .pipe(concat('modulesData.js', { newLine: ',\n\n' }))
+//            .on('error', notify.onError(function (error) {
+//                return '\nAn error occurred while concating module\'s data.\nLook in the console for details.\n' + error;
+//            }))
+//            .pipe(gulp.dest('./dev/temp/'))
+//            .pipe(
+//                notifier('Data for modules ready')
+//            );
     });
 };
