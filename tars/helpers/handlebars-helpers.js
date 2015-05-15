@@ -8,11 +8,11 @@ var helpers = {
      * @param  {[type]} options [description]
      * @return {[type]}         [description]
      */
-    repeat: function (n, options) {
+    repeat: function(n, options) {
         options = options || {};
         var _data = {},
-            content = '',
-            count = n - 1;
+                content = '',
+                count = n - 1;
 
         if (options._data) {
             _data = Handlebars.createFrame(options._data);
@@ -20,13 +20,12 @@ var helpers = {
 
         for (var i = 0; i <= count; i++) {
             _data = {
-                index: digits.pad((i + 1), { auto: n })
+                index: digits.pad((i + 1), {auto: n})
             };
-            content += options.fn(this, { data: _data });
+            content += options.fn(this, {data: _data});
         }
         return new Handlebars.SafeString(content);
     },
-
     /**
      * If helper with params
      * @param  {[type]} a        [description]
@@ -34,9 +33,9 @@ var helpers = {
      * @param  {String} options  operation
      * @return {[type]}          [description]
      */
-    is: function (leftOperand, operation, rightOperand, options) {
+    is: function(leftOperand, operation, rightOperand, options) {
         var a = leftOperand || false,
-            b = rightOperand || false;
+                b = rightOperand || false;
 
         if (operation && typeof operation === 'string') {
             switch (operation) {
@@ -50,7 +49,7 @@ var helpers = {
                     }
                     break;
 
-                // Strictly equal
+                    // Strictly equal
                 case '===':
                     if (a === b) {
                         return options.fn(this);
@@ -59,7 +58,7 @@ var helpers = {
                     }
                     break;
 
-                // a > b checking
+                    // a > b checking
                 case '>':
                     if (a > b) {
                         return options.fn(this);
@@ -68,7 +67,7 @@ var helpers = {
                     }
                     break;
 
-                // a >= b checking
+                    // a >= b checking
                 case '>=':
                     if (a >= b) {
                         return options.fn(this);
@@ -77,7 +76,7 @@ var helpers = {
                     }
                     break;
 
-                // a < b checking
+                    // a < b checking
                 case '<':
                     if (a < b) {
                         return options.fn(this);
@@ -86,7 +85,7 @@ var helpers = {
                     }
                     break;
 
-                // a <= b checking
+                    // a <= b checking
                 case '<=':
                     if (a <= b) {
                         return options.fn(this);
@@ -95,79 +94,75 @@ var helpers = {
                     }
                     break;
 
-                // Action, if operation is unknown
+                    // Action, if operation is unknown
                 default:
                     throw new Error(
-                        'Operation is unknown!\n"is" helper supports only:\n' +
-                        '"==",\n' +
-                        '"===",\n' +
-                        '">",\n' +
-                        '">=",\n' +
-                        '"<",\n' +
-                        '"<=",\n'
-                    );
+                            'Operation is unknown!\n"is" helper supports only:\n' +
+                            '"==",\n' +
+                            '"===",\n' +
+                            '">",\n' +
+                            '">=",\n' +
+                            '"<",\n' +
+                            '"<=",\n'
+                            );
             }
         } else {
             throw new Error('Operation have to be recived and have to be a string');
         }
 
     },
-
     /**
      * Str to lower case
      * @param  {String} str [description]
      * @return {[type]}     [description]
      */
-    toLowerCase: function (str) {
+    toLowerCase: function(str) {
         if (typeof str != 'string') {
             str.toString();
         }
 
         return str.toLowerCase();
     },
-
     /**
      * Str to upper case
      * @param  {String} str [description]
      * @return {[type]}     [description]
      */
-    toUpperCase: function (str) {
+    toUpperCase: function(str) {
         if (typeof str != 'string') {
             str.toString();
         }
 
         return str.toUpperCase();
     },
-
     /**
      * Capitalize first symbol of str
      * @param  {String} str [description]
      * @return {[type]}     [description]
      */
-    capitalizeFirst: function (str) {
+    capitalizeFirst: function(str) {
         if (typeof str != 'string') {
             str.toString();
         }
 
         return str.charAt(0).toUpperCase() + str.slice(1);
     },
-
     /**
      * Remove whitespaces from recived data to helper
      * @param  {[type]} options [description]
      * @return {[type]}         [description]
      */
-    strip: function (options) {
+    strip: function(options) {
         options = options || {};
 
         var _data = {},
-            content = '';
+                content = '';
 
         if (options._data) {
             _data = Handlebars.createFrame(options._data);
         }
 
-        content = options.fn(this, { data: _data }).replace(/\s+/g, '');
+        content = options.fn(this, {data: _data}).replace(/\s+/g, '');
 
         return new Handlebars.SafeString(content);
     }

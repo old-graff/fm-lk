@@ -3,7 +3,12 @@
     <ul elem="menu">
         {{#each menuMaster}}
         <li elem="item">
-            <a href="{{url}}" elem="item-link">{{{title}}}</a>
+            <a href="{{url}}" elem="item-link" {{#if icon}} mod="hover"{{/if}}>
+                {{#if icon}}
+                <span elem="icon"></span>
+                {{/if}}
+                {{{title}}}
+            </a>
         </li>
         {{/each}}
     </ul>
@@ -19,12 +24,13 @@
     </ul>
 </div>
 <div block="bayda">
-    <ul elem="menu">
-        <li elem="item"><a href="">Конкурсы газеты Презент</a></li>
-        <li elem="item"><a href="">Маршрутки Тольятти с 01.01.2015</a></li>
-    </ul>
-    <ul elem="menu">
-        <li elem="item">&nbsp;</li>
-        <li elem="item"><a href="">Дачные перевозки</a></li>
+    <ul elem="menu-cube">
+        {{#each menuBayda}}
+        <li elem="item-cube">
+            {{#unless empty}}
+            <a href="{{url}}" elem="item-cube-link">{{{title}}}</a>
+            {{/unless}}
+        </li>
+        {{/each}}
     </ul>
 </div>

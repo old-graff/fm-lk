@@ -157,7 +157,11 @@
 
 .form {
     input[type="text"],input[type="password"] {
-        width: 100%;
+        @extent .input-text;
+    }
+}
+.input-text {
+    width: 100%;
         padding: 5px 10px;
         border: none;
         height: 37px;
@@ -167,7 +171,6 @@
             border: 1px solid $color-red;
             background-color: lighten($color-red, 37%);
         }
-    }
 }
 
 .btn {

@@ -1,9 +1,12 @@
 .main-page{
-    padding: 20px 0;
+    padding-top: 20px;
 }
-.main-function{
-    background-color: $color-blue;
+.main-function {
     @extend .col-md-9;
+    &__inner{
+        background-color: $color-blue-light;
+        padding:10px;
+    }
 }
 .dop-function{
     @extend .col-md-3;
