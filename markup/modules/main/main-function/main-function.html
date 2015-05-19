@@ -3,22 +3,40 @@
     {{> search/search}}
     <div block="or">или</div>
     <div block="find-master">
-        <span elem="icon"></span>
-        <p elem="title">Выбери Мастера</p>
-        <a elem="btn" href="">У нас 1175 Мастеров</a>
+        <a elem="inner"  href="{{url.findMaster}}">
+            <div elem="inner-rel">
+                <span elem="icon"></span>
+                <p elem="title">Выбери Мастера</p>
+                <span elem="btn">У нас 1175 Мастеров</span>
+            </div>
+        </a>
     </div>
     <div block="call-back">
-        <span elem="icon"></span>
-        <p elem="title">Закажи услугу </p>
-        <p elem="text">Мы бесплатно отправим вашу заявку всем подходящим Мастерам</p>
-        <a elem="btn" href="">Создать заявку</a>
+        <a elem="inner"  href="{{url.order}}">
+            <div elem="inner-rel">
+                <span elem="icon"></span>
+                <p elem="title">Закажи услугу </p>
+                <p elem="text">Мы бесплатно отправим вашу заявку всем подходящим Мастерам</p>
+                <span elem="btn">Создать заявку</span>
+            </div>
+        </a>
     </div>
     <div block="catalogs">
-        <div elem="services">
-            <a href="">Весь каталог услуг</a>
+        <div elem="inner">
+            <div elem="services">
+                <a href="" elem="services-link">Весь каталог услуг</a>
+            </div>
+            <div elem="dop">
+                <ul block="catalogs-dop">
+                    {{#each catalogs}}
+                    <li elem="item">
+                        <a href="{{url}}" elem="item-link">
+                            <span elem="icon" mod="{{icon}}"></span>{{{title}}}
+                        </a>
+                    </li>
+                    {{/each}}
+                </ul>
+            </div>
         </div>
-        <ul>
-            <li> </li>
-        </ul>
     </div>
 </div>

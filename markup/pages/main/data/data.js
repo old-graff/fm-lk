@@ -3,5 +3,6 @@ page_main: {
         title: 'FaceMaster.ru. Специалисты Тольятти'
     },
     header: readyBlocksData.block_header,
-    dopFunction: readyBlocksData.block_main_dopFunction
+    dopFunction: readyBlocksData.block_main_dopFunction,
+    mainFunction: readyBlocksData.block_main_mainFunction
 }

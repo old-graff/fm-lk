@@ -3,6 +3,7 @@
     height: 30px;
     &:hover {
         background: $color-bg-grey-dark;
+        
     }
     &__btn {
         text-align: right;
@@ -11,8 +12,9 @@
         padding-right: 10px;
         background: url('%=staticPrefixForCss=%assets/header/homeIcon.png') no-repeat 8px 9px;
         text-decoration: none;
+        color: #fff;
         @include font-tuning(11,30);
-        &:visited {
+        &:visited, &:hover {
             color: #fff;
         }
     }

@@ -1,28 +1,33 @@
 .search{
-    
+    @include cf;
     &__title, &__field, &__button{
-        height: 80px;
-        background-color: $color-blue;
+        height: 94px;
     }
     &__title{
-        padding-left: 20px;
+        @extend .col-lg-1;
+        @extend .col-md-2;
         @extend .col-sm-1;
     }
     &__field{
-        @extend .col-sm-9;
+        padding-right:5px;
+        @extend .col-lg-9;
+        @extend .col-md-7;
+        @extend .col-sm-8;
         &-input{
             color: #666;
-            font-size: 1.2rem;
             height: 40px;
             width: 100%;
             @include font-tuning(19, 40);
             @include vertical-align;
         }
+        @include at(md){
+            padding-left:0px;
+        }
     }
     &__button{
-        padding-right: 20px;
-       // padding-left: 10px;
-        @extend .col-sm-2;    
+        padding-left:5px;
+        @extend .col-lg-2;
+        @extend .col-sm-3;    
         &-submit {
             display:table-cell;
             vertical-align: middle;
@@ -30,14 +35,15 @@
             height: 40px;
             width: 100%;
             padding:0;
-            //background-color: rgba(128,130,133,1);
-            background-color: $color-text;
-            color: $color-blue;
-            @include font-tuning(16, 18);
+            background-color: $color-blue;
+            @include font-tuning(15, 14);
             @extend .btn;
             @include vertical-align;
             &:hover{
-                background-color: rgba(128,130,133,1);
+                background-color: darken($color-blue, 10%);
+            }
+            @include at(lg){
+                padding: 0 20px;
             }
         }
     }
@@ -45,7 +51,28 @@
         @include vertical-align;
         @extend %icon;
         @extend %icon_block;
-        @extend %icon_size_medium;        
+        @extend %icon_size_big;        
         @extend %icon_people;
+    }
+    @include at(sm){
+        &__title, &__field, &__button{
+            height: 70px;
+            
+        }
+        &__field {
+            &-input{
+                height: 30px;
+                @include font-tuning(16, 30);
+            }
+        }
+        &__button{
+            &-submit {
+                height: 30px;
+                @include font-tuning(13, 13);
+            }
+        }
+        &__icon-search{
+            @include icon_size_medium;
+        }
     }
 }

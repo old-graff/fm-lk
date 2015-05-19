@@ -2,12 +2,16 @@
     padding-top: 20px;
 }
 .main-function {
-    @extend .col-md-9;
+    @extend .col-lg-9;
+    @extend .col-md-8;
     &__inner{
+        @extend .row;
         background-color: $color-blue-light;
-        padding:10px;
+        padding-bottom:10px;
     }
 }
 .dop-function{
-    @extend .col-md-3;
+    @extend .col-lg-3;
+    @extend .col-md-4;
+    @extend .col-ms-12;
 }

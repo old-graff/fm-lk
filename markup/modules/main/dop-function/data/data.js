@@ -16,7 +16,7 @@ block_main_dopFunction: {
             title: 'Новости'
         },
         {
-            url: '/404',
+            url: '/404', 
             title: 'Вакансии'
         }
     ],
