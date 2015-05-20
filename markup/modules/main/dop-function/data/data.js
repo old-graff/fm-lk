@@ -30,11 +30,11 @@ block_main_dopFunction: {
             title: 'Маршрутки Тольятти с 01.01.2015'
         },
         {
-            empty: true
-        },
-        {
             url: '/404',
             title: 'Дачные перевозки'
-        }
+        },
+        {
+            empty: true 
+        } 
     ]
 }

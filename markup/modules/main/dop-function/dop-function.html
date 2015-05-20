@@ -1,36 +1,45 @@
-<div block="become-master">
-    <div elem="title">Мастерам</div>
-    <ul elem="menu">
-        {{#each menuMaster}}
-        <li elem="item">
-            <a href="{{url}}" elem="item-link" {{#if icon}} mod="hover"{{/if}}>
-                {{#if icon}}
-                <span elem="icon"></span>
-                {{/if}}
-                {{{title}}}
-            </a>
-        </li>
-        {{/each}}
-    </ul>
-</div>
-<div block="about-company">
-    <div elem="title">О компании</div>
-    <ul elem="menu">
-        {{#each menuAbout}}
-        <li elem="item">
-            <a href="{{url}}" elem="item-link">{{{title}}}</a>
-        </li>
-        {{/each}}
-    </ul>
-</div>
-<div block="bayda">
-    <ul elem="menu-cube">
-        {{#each menuBayda}}
-        <li elem="item-cube">
-            {{#unless empty}}
-            <a href="{{url}}" elem="item-cube-link">{{{title}}}</a>
-            {{/unless}}
-        </li>
-        {{/each}}
-    </ul>
+<div elem="inner">
+    <div block="become-master">
+        <div elem="inner">
+            <div elem="title" mix="block:dop-function-block-js">Мастерам</div>
+            <ul elem="menu">
+                {{#each menuMaster}}
+                <li elem="item">
+                    <a href="{{url}}" elem="item-link" {{#if icon}} mod="hover"{{/if}}>
+                       {{#if icon}}
+                       <span elem="icon"></span>
+                        {{/if}}
+                        {{{title}}}
+                    </a>
+                </li>
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+    <div block="about-company">
+        <div elem="inner">
+            <div elem="title" mix="block:dop-function-block-js">О компании</div>
+            <ul elem="menu">
+                {{#each menuAbout}}
+                <li elem="item">
+                    <a href="{{url}}" elem="item-link">{{{title}}}</a>
+                </li>
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+    <div block="bayda">
+        <div elem="inner">
+            <div elem="title" mix="block:dop-function-block-js">Развлечения</div>
+            <ul elem="menu-cube">
+                {{#each menuBayda}}
+                <li elem="item-cube">
+                    {{#unless empty}}
+                    <a href="{{url}}" elem="item-cube-link">{{{title}}}</a>
+                    {{/unless}}
+                </li>
+                {{/each}}
+            </ul>
+        </div>
+    </div>
 </div>
