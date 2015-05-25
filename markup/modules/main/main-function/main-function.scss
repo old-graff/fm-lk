@@ -22,6 +22,17 @@
         font-weight:normal;
         transform:translateX(22px);
     }
+    @include at(xs){
+        background-color: transparent;
+        height: auto;
+        text-align: center;
+        padding-top:0;
+        right:0;
+        top: 54 px;
+        width:100%;
+        transform: none;
+        @include font-tuning(12,15);
+    }
 }
 .find-master, .call-back {
     &__inner{

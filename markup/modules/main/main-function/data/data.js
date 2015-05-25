@@ -1,4 +1,5 @@
 block_main_mainFunction: {
+    countMaster: '1175 Мастеров',
     url:{
         findMaster: '/404',
         order: '/404'

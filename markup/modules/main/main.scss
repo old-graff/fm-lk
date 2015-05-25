@@ -12,6 +12,10 @@
         background-color: $color-blue-light;
         padding-bottom:10px;
     }
+    @include at(xs){
+        padding-right: 10px;
+        padding-left: 10px;
+    }
 }
 .dop-function{
     

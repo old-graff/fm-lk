@@ -75,4 +75,16 @@
             @include icon_size_medium;
         }
     }
+    @include at(xs){
+        &__field,&__title {
+            display:none;
+        }
+        &__icon-search {
+            @include icon_size_small; 
+        }
+        &__button {
+            padding-left:10px;
+            height: 70px;
+        }
+    }
 }
