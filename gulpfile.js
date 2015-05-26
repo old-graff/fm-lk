@@ -162,13 +162,54 @@ gulp.task('build-dev', function (cb) {
             'js:move-separate', 'js:processing'
         ],
         [
-            'html:compile-templates',
+            'html:compile-templates', 
             'other:move-misc-files', 'other:move-fonts', 'other:move-assets',
             'images:move-content-img', 'images:move-plugins-img', 'images:move-general-img'
         ],
         cb
     );
 });
+
+gulp.task('build-dev-php', function (cb) {
+    runSequence(
+        'service:builder-start-screen',
+        'service:clean',
+        ['images:minify-svg', 'images:raster-svg'],
+        [
+            'css:make-sprite-for-svg', 'css:make-fallback-for-svg', 'css:make-sprite'
+        ],
+        [
+            'css:compile-css', 'css:compile-css-for-ie8',
+            'html:concat-modules-data',
+            'js:move-separate', 'js:processing'
+        ],
+        [
+            'html:compile-templates-for-php',
+            'other:move-misc-files', 'other:move-fonts', 'other:move-assets',
+            'images:move-content-img', 'images:move-plugins-img', 'images:move-general-img'
+        ],
+        cb
+    );
+});
+gulp.task('build-php', function () {
+    runSequence(
+        'build-dev-php',
+        [
+            'images:minify-raster-img'
+        ],
+        'service:pre-build',
+        [
+            'js:compress', 'css:compress-css'
+        ],
+        'service:zip-build',
+        function () {
+            console.log(gutil.colors.black.bold('\n------------------------------------------------------------'));
+            gutil.log(gutil.colors.green('✔'), gutil.colors.green.bold('Release version have been created successfully!'));
+            console.log(gutil.colors.black.bold('------------------------------------------------------------\n'));
+        }
+    );
+});
+
 
 // Build release version
 // Also you can add your own tasks in queue of build task

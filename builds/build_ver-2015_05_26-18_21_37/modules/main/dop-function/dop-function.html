@@ -1,0 +1,45 @@
+<div>
+    <div class="become-master">
+        <div class="become-master__inner">
+            <div class="become-master__title dop-function-block-js">Мастерам</div>
+            <ul class="become-master__menu">
+                {{#each menuMaster}}
+                <li class="become-master__item">
+                    <a class="become-master__item-link become-master__item-link_hover" href="{{url}}" {{#if="" icon}}="" {{="" if}}="">
+                       {{#if icon}}
+                       <span class="become-master__icon"></span>
+                        {{/if}}
+                        {{{title}}}
+                    </a>
+                </li>
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+    <div class="about-company">
+        <div class="about-company__inner">
+            <div class="about-company__title dop-function-block-js">О компании</div>
+            <ul class="about-company__menu">
+                {{#each menuAbout}}
+                <li class="about-company__item">
+                    <a class="about-company__item-link" href="{{url}}">{{{title}}}</a>
+                </li>
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+    <div class="bayda">
+        <div class="bayda__inner">
+            <div class="bayda__title dop-function-block-js">Развлечения</div>
+            <ul class="bayda__menu-cube">
+                {{#each menuBayda}}
+                <li class="bayda__item-cube">
+                    {{#unless empty}}
+                    <a class="bayda__item-cube-link" href="{{url}}">{{{title}}}</a>
+                    {{/unless}}
+                </li>
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+</div>

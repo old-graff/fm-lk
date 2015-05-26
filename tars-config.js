@@ -146,6 +146,7 @@ var tarsConfig = {
      * @type {Boolean}
      */
     minifyHtml: false,
+    beml: true,
 
     /**
      * Beginning of path for static files

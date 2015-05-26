@@ -22,52 +22,60 @@ var handlebarsOptions = {
  */
 module.exports = function(buildOptions) {
 
-    function concatModulesData() {
-        var dataEntry, dataEntry2,
-                 readyBlocksData, readyPagesData;
-
-        /* try {
-         dataEntry = fs.readFileSync('./dev/temp/modulesData.js', 'utf8');
-         } catch (er) {
-         dataEntry = false;
-         }
-         
-         if (dataEntry) {
-         eval('readyModulesData = {' + dataEntry + '}');
-         } else {
-         readyModulesData = '{}';
-         }
-         */
+    function iterator(array, data, callback) {
+        var item, i = 0;
+        for (i in array) {
+            item = array[i];
+            if (Object.prototype.toString.call(item) === '[object Object]') {
+                iterator(item, data, callback);
+            } else {
+                array[i] = callback(item, data);
+            }
+        }
+        return array;
+    }
+    function callback(item, data) {
+        var readyBlocksData = data;
+        if (item.indexOf('readyBlocksData.') + 1) {
+            eval('var m = ' + item + ';');
+            return m;
+        } else
+            return item;
+    }
+    function downLevelObject(array) {
+        var rezult = {};
+        for (var item in array) {
+            var p = array[item];
+            for (i in p)
+                rezult[i] = p[i];
+        }
+        return rezult;
+    }
+    function readJSON(path) {
+        var dataEntry, rezult;
         try {
-            dataEntry = fs.readFileSync('./dev/temp/blockData.js', 'utf8');
+            dataEntry = fs.readFileSync(path, 'utf8');
         } catch (er) {
             dataEntry = false;
         }
 
         if (dataEntry) {
-            eval('readyBlocksData = {' + dataEntry + '}');
+            rezult = JSON.parse(dataEntry);
         } else {
-            readyBlocksData = '{}';
+            rezult = '{}';
         }
+        return rezult;
+    }
+    function concatModulesData() {
+        var readyBlocksData, readyPagesData, json = {};
+        readyBlocksData = readJSON('./dev/temp/blockData.json');
+        readyPagesData = readJSON('./dev/temp/pageData.json');
         
-        try {
-            dataEntry2 = fs.readFileSync('./dev/temp/pageData.js', 'utf8');
-        } catch (er) {
-            dataEntry2 = false;
-        }
-        
-        
-        if (dataEntry2) {
-            eval('readyPagesData = {' + dataEntry2 + '}');
-        } else {
-            readyPagesData = '{}';
-        }
-
-        return readyPagesData;
+        json = iterator(readyPagesData, downLevelObject(readyBlocksData), callback);
+        return downLevelObject(json);
     }
 
     var patterns = [];
-
     if (!gutil.env.ie8) {
         patterns.push(
                 {
@@ -125,7 +133,6 @@ module.exports = function(buildOptions) {
             error = er;
             modulesData = false;
         }
-        
         return gulp.src(['./markup/pages/**/*.html', '!./markup/pages/**/_*.html'])
                 .pipe(
                 modulesData

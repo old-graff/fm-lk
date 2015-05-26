@@ -157,7 +157,7 @@
 
 .form {
     input[type="text"],input[type="password"] {
-        @extent .input-text;
+        @extend .input-text;
     }
 }
 .input-text {

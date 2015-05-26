@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 var concat = require('gulp-concat');
 var notify = require('gulp-notify');
+var concat_json = require("gulp-concat-json");
 var notifier = require('../../helpers/notifier');
 var tarsConfig = require('../../../tars-config');
 
@@ -11,9 +12,9 @@ var tarsConfig = require('../../../tars-config');
 module.exports = function (buildOptions) {
 
     return gulp.task('html:concat-modules-data', function (cb) {
-        
-        gulp.src(['./markup/modules/**/data/data.js'])
-            .pipe(concat('blockData.js', { newLine: ',\n\n' }))
+       
+        gulp.src(['./markup/modules/**/data/json.json'])
+            .pipe(concat_json('blockData.json'))
             .on('error', notify.onError(function (error) {
                 return '\nAn error occurred while concating block\'s data.\nLook in the console for details.\n' + error;
             }))
@@ -22,8 +23,8 @@ module.exports = function (buildOptions) {
                 notifier('Data for blocks ready')
             );
 
-        return gulp.src(['./markup/pages/**/data/data.js'])
-            .pipe(concat('pageData.js', { newLine: ',\n\n' }))
+        return gulp.src(['./markup/pages/**/json.json'])
+            .pipe(concat_json('pageData.json', { newLine: ',\n\n' }))
             .on('error', notify.onError(function (error) {
                 return '\nAn error occurred while concating page\'s data.\nLook in the console for details.\n' + error;
             }))
