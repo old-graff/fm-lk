@@ -110,7 +110,7 @@ module.exports = function(buildOptions) {
     patterns.push(
             {
                 match: '%=staticPrefix=%',
-                replacement: tarsConfig.staticPrefix
+                replacement: tarsConfig.staticPrefixForPhp
             }
     );
 
@@ -129,10 +129,13 @@ module.exports = function(buildOptions) {
                 .pipe(jeditor(function(json) {
             var readyBlocksData = readJSON('./dev/temp/blockData.json');
             var rezult = iterator(json, downLevelObject(readyBlocksData), callback);
-            return downLevelObject(rezult);
+            
+            return rezult;
         }
         ))
                 .pipe(gulp.dest("./dev/pages/"));
+        gulp.src('./markup/modules/**/data/json.json')
+                .pipe(gulp.dest("./dev/modules/"));
         /** data end **/
 
         /** modules **/

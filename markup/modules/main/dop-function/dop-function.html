@@ -5,12 +5,14 @@
             <ul elem="menu">
                 {{#each menuMaster}}
                 <li elem="item">
-                    <a href="{{url}}" elem="item-link" {{#if icon}} mod="hover"{{/if}}>
-                       {{#if icon}}
-                       <span elem="icon"></span>
-                        {{/if}}
+                    {{#if icon}}
+                    <a href="{{url}}" elem="item-link" mod="hover">
+                        <span elem="icon"></span>
                         {{{title}}}
                     </a>
+                    {{else}}
+                    <a href="{{url}}" elem="item-link">{{{title}}}</a>
+                    {{/if}}
                 </li>
                 {{/each}}
             </ul>
