@@ -3,6 +3,7 @@
         "head": {
             "title": "Стать Мастером. FaceMaster.ru."
         },
-        "header": "readyBlocksData.block_header"
+        "header": "readyBlocksData.block_header",
+        "footer": "readyBlocksData.block_footer"
     }
 }

@@ -1,0 +1,15 @@
+<div block="container">
+    <div block="row">
+        <div block="breadcrumbs">
+            <span elem="header">Вы находитесь: </span>
+            {{#each links}}
+            <span elem="ico" mod="arrow"></span>
+            {{#if url}}
+            <a href="{{url}}" elem="level" mod="link">{{title}}</a>
+            {{else}}
+            <span elem="level">{{title}}</span>
+            {{/if}}
+            {{/each}}
+        </div>
+    </div>
+</div>

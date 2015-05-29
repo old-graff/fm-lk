@@ -22,7 +22,6 @@ module.exports = function (buildOptions) {
             .pipe(
                 notifier('Data for blocks ready')
             );
-
         return gulp.src(['./markup/pages/**/json.json'])
             .pipe(concat_json('pageData.json', { newLine: ',\n\n' }))
             .on('error', notify.onError(function (error) {

@@ -9,6 +9,7 @@ html, body {
     color: $color-text;
 }
 h1,.h1   {font-size: 25px; /*ie8*/ font-size: 1.5625rem; font-weight: normal;}
+.h1_style {text-transform:uppercase; color: $color-orange; font-weight: bold}
 p    {line-height:1.3em}
 
 a        {color:#808285; text-decoration: underline}

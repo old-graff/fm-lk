@@ -1,0 +1,16 @@
+{
+    "page_oht_oferta": {
+        "head": {
+            "title": "Оферта - FaceMaster.ru. Специалисты Тольятти"
+        },
+        "header": "readyBlocksData.block_header",
+        "footer": "readyBlocksData.block_footer",
+        "breadcrumps": {
+            "links": [
+                {
+                    "title": "Оферта"
+                }
+            ]
+        }
+    }
+}
