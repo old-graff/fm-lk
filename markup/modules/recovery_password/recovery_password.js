@@ -6,11 +6,18 @@ $('#recovery_password-form').submit(function () {
     return false;
 });
 
-$('.reload-link a').click(function(){
+$('.capcha__reload-link a').click(function () {
     jQuery.ajax({
         url: $(this).attr('href'),
         type: 'get',
-        dataType: 'json'
+        dataType: 'json',
+        success: function (response) {
+            if (response.url) {
+                $('.capcha__code-img img').remove();
+                $('.capcha__code-img').append('<img alt="capcha" src="' + response.url + '">');
+            }
+        }
+
     });
     return false;
 });

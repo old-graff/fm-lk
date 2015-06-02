@@ -4,7 +4,7 @@
         "method": "get",
         "capcha":{
             "img-url": "%=staticPrefix=%img/assets/recovery_password/captcha.png",
-            "reload-url": ""
+            "reload-url": "/recovery_password/capcha.json"
         }
     }
 }
