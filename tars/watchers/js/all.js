@@ -29,7 +29,8 @@ module.exports = function (watchOptions) {
         'markup/' + tarsConfig.fs.staticFolderName + '/js/framework/**/*.js',
         'markup/' + tarsConfig.fs.staticFolderName + '/js/libraries/**/*.js',
         'markup/' + tarsConfig.fs.staticFolderName + '/js/plugins/**/*.js',
-        'markup/modules/**/*.js'
+        'markup/modules/**/*.js',
+        'markup/modules/**/**/*.js'
     );
 
     return chokidar.watch(jsPathToWatch, {

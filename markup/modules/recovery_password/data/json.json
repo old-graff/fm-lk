@@ -1,0 +1,10 @@
+{
+    "block_recovery":{
+        "url": "/recovery_password/error.json",
+        "method": "get",
+        "capcha":{
+            "img-url": "%=staticPrefix=%img/assets/recovery_password/captcha.png",
+            "reload-url": ""
+        }
+    }
+}

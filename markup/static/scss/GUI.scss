@@ -1,13 +1,11 @@
 // GUI stylies of the project
 // For example, styles of the links, buttons and so on.
-.bg {
-    &_grey {
-        background: $color-bg-grey-light;
-    }
-    &_orange {
-        background: $color-orange;
-    }
-}
+
+a        {color:#808285; text-decoration: underline}
+a:hover  {color:#005b8d; text-decoration: none}
+a:active {color:#005b8d; text-decoration: none}
+
+
 
 /* углы */
 .corner {
@@ -31,17 +29,17 @@
     }
     &_grey {
         &:after {
-            border-top-color:$color-bg-grey-light;
+            border-top-color: $color-bg-grey-light;
         }
     }
     &_bg {
         &:after {
-            border-top-color:$color-bg;
+            border-top-color: $color-bg;
         }
     }
     &_orange {
         &:after {
-            border-top-color:$color-orange;
+            border-top-color: $color-orange;
         }
     }
 }
@@ -53,9 +51,11 @@
     $koef: strip-unit($size)/strip-unit($base-icon-size);
     @include svg-sprite-size($people, $koef);
 }
+
 @mixin icon_size_xbig {
     @include icon_size(64px);
 }
+
 @mixin icon_size_big {
     @include icon_size(48px);
 }
@@ -67,6 +67,7 @@
 @mixin icon_size_small {
     @include icon_size(24px);
 }
+
 @mixin icon_size_xsmall {
     @include icon_size(18px);
 }
@@ -156,21 +157,75 @@
 /* иконки конец */
 
 .form {
-    input[type="text"],input[type="password"] {
+    input[type="text"], input[type="password"] {
         @extend .input-text;
     }
 }
+
 .input-text {
     width: 100%;
-        padding: 5px 10px;
-        border: none;
-        height: 37px;
-        line-height: 37px;
-        border: 1px solid #fff;
-        &.error{
-            border: 1px solid $color-red;
-            background-color: lighten($color-red, 37%);
-        }
+    padding: 5px 10px;
+    border: none;
+    height: 37px;
+    line-height: 37px;
+    border: 1px solid #fff;
+    &.error {
+        border: 1px solid $color-red;
+        background-color: lighten($color-red, 37%);
+    }
+}
+
+.textarea {
+    width: 100%;
+    padding: 5px 10px;
+    border: none;
+    border: 1px solid #fff;
+    resize: vertical;
+    &.error {
+        border: 1px solid $color-red;
+        background-color: lighten($color-red, 37%);
+    }
+}
+
+.label {
+    min-height: 37px;
+    text-align: left;
+    &:before {
+        content: '';
+        display: inline-block;
+        min-height: inherit;
+        height: 100%;
+        vertical-align: middle;
+    }
+    &__text {
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 1.2em;
+    }
+}
+
+.labeled-input {
+    padding-bottom: 10px;
+    @extend .row;
+    &__label {
+        @extend .col-md-4;
+    }
+    &__input {
+        @extend .col-md-8;
+    }
+    &__submit {
+        @extend .col-md-4;
+        @extend .col-md-offset-4;
+
+    }
+}
+
+.error-summary {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid $color-red;
+    @include font-tuning(14, 16);
+
 }
 
 .btn {
@@ -180,7 +235,7 @@
     cursor: pointer;
     text-decoration: none;
     display: block;
-    &_color_black{
+    &_color_black {
         color: #fff;
         background-color: $color-bg-black-light;
         &:hover {
@@ -204,6 +259,14 @@
             color: #fff;
         }
     }
+    &_color_orange {
+        color: #fff;
+        background-color: $color-orange;
+        &:hover {
+            background-color: darken($color-orange, 10%);
+            color: #fff;
+        }
+    }
     &_size_big {
         height: 50px;
         line-height: 50px;
@@ -212,7 +275,14 @@
         height: 40px;
         line-height: 40px;
     }
-    &_uppercase{
+    &_uppercase {
         text-transform: uppercase;
     }
+    &-accent{
+        @extend .btn;
+        @extend .btn_size_medium;
+        @extend .btn_color_orange;
+        @extend .btn_uppercase;
+    }
 }
+
