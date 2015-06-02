@@ -2,7 +2,7 @@
     "block_main_mainFunction": {
         "countMaster": "1175 Мастеров",
         "url": {
-            "findMaster": "/404",
+            "findMaster": "/master_rubrikator/master_rubrikator.html",
             "order": "/404"
         },
         "catalogs": [
