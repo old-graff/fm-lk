@@ -1,0 +1,32 @@
+<div block="filter">
+    {{#each filter-section}}
+    <a elem="title" href="{{url}}">
+        <i elem="icon" mod="{{icon}}"></i>
+        <span>{{title}}</span>
+    </a>
+
+    <div elem="section">
+        {{#if is-sort}}
+        <p>Отсортировать:</p>
+
+        <form action="{{url}}" method="{{method}}">
+            <div block="labeled-input">
+                <input type="radio" name="sort-by[name]">
+                <label>по фамилии по алфавиту</label>
+            </div>
+            <div block="labeled-input">
+                <input type="radio" name="sort-by[recommendation]">
+                <label>по количеству рекомендаций</label>
+            </div>
+        </form>
+        {{/if}}
+        <p>Отфильтровать:</p>
+        {{#each}}
+        <a elem="tag" href="">
+
+        </a>
+        {{/each}}
+
+        {{/each}}
+    </div>
+</div>
