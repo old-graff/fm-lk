@@ -1,5 +1,5 @@
 {
-    "page_recovery_password": {
+    "page_recovery-password": {
         "head": {
             "title": "Восстановление пароля - FaceMaster.ru. Специалисты Тольятти"
         },
@@ -12,6 +12,6 @@
                 }
             ]
         },
-        "recovery_password": "readyBlocksData.block_recovery"
+        "recovery-password": "readyBlocksData.block_recovery"
     }
 }
