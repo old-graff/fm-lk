@@ -1,6 +1,6 @@
 {
     "success": false,
-    "object": "recovery_password",
+    "object": "recovery-password",
     "fields": {
         "login": "Поле обязательно для заполнения",
         "code": "Поле обязательно для заполнения"
