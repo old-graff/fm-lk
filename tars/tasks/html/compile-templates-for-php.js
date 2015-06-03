@@ -34,7 +34,7 @@ module.exports = function(buildOptions) {
     }
     function callback(item, data) {
         var readyBlocksData = data;
-        if (item.indexOf('readyBlocksData.') + 1) {
+        if (Object.prototype.toString.call(item) !== '[object Boolean]' && (item.indexOf('readyBlocksData.') + 1)) {
             eval('var m = ' + item + ';');
             return m;
         } else
@@ -128,8 +128,9 @@ module.exports = function(buildOptions) {
         gulp.src('./markup/pages/**/json.json')
                 .pipe(jeditor(function(json) {
             var readyBlocksData = readJSON('./dev/temp/blockData.json');
+            readyBlocksData = iterator(readyBlocksData, downLevelObject(readyBlocksData), callback);
             var rezult = iterator(json, downLevelObject(readyBlocksData), callback);
-            
+
             return rezult;
         }
         ))

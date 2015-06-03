@@ -36,7 +36,7 @@ module.exports = function(buildOptions) {
     }
     function callback(item, data) {
         var readyBlocksData = data;
-        if (item.indexOf('readyBlocksData.') + 1) {
+        if (Object.prototype.toString.call(item) !== '[object Boolean]' && (item.indexOf('readyBlocksData.') + 1)) {
             eval('var m = ' + item + ';');
             return m;
         } else
@@ -71,6 +71,7 @@ module.exports = function(buildOptions) {
         readyBlocksData = readJSON('./dev/temp/blockData.json');
         readyPagesData = readJSON('./dev/temp/pageData.json');
         
+        readyBlocksData = iterator(readyBlocksData, downLevelObject(readyBlocksData), callback);
         json = iterator(readyPagesData, downLevelObject(readyBlocksData), callback);
         return downLevelObject(json);
     }

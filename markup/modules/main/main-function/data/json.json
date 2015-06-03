@@ -3,30 +3,10 @@
         "countMaster": "1175 Мастеров",
         "url": {
             "findMaster": "/master_rubrikator/master_rubrikator.html",
-            "order": "/404"
+            "callback": "/404",
+            "catalog": "/master_rubrikator/master_rubrikator.html"
         },
-        "catalogs": [
-            {
-                "url": "/404",
-                "title": "Поиск по скидке",
-                "icon": "gift"
-            },
-            {
-                "url": "/404",
-                "title": "Поиск по видео",
-                "icon": "video"
-            },
-            {
-                "url": "/404",
-                "title": "Секреты Мастеров",
-                "icon": "gift"
-            },
-            {
-                "url": "/404",
-                "title": "Каталог фирм",
-                "icon": "gift"
-            }
-        ]
+        "catalogs": "readyBlocksData.block_main_catalogs"
     }
 }
 

@@ -1,33 +1,33 @@
 {
-    "block_master_rubrikator":{
-        "rubriks":[
+    "block_master_rubrikator": {
+        "rubriks": [
             {
                 "name": "Строительство",
                 "count": "125",
                 "color": "#37aae9",
                 "podrubriks": [
                     {
-                        "title":"Бани",
+                        "title": "Бани",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "9"
                     },
                     {
-                        "title":"Бассейны",
+                        "title": "Бассейны",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "1"
                     },
                     {
-                        "title":"Ландшафтный дизайн",
+                        "title": "Ландшафтный дизайн",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "3"
                     },
                     {
-                        "title":"Металлоконструкции",
+                        "title": "Металлоконструкции",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "28"
                     },
                     {
-                        "title":"Печи и камины",
+                        "title": "Печи и камины",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "4"
                     }
@@ -39,22 +39,22 @@
                 "color": "#37aae9",
                 "podrubriks": [
                     {
-                        "title":"Ремонт квартир",
+                        "title": "Ремонт квартир",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "105"
                     },
                     {
-                        "title":"Реставрация ванн",
+                        "title": "Реставрация ванн",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "6"
                     },
                     {
-                        "title":"Сантехники",
+                        "title": "Сантехники",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "47"
                     },
                     {
-                        "title":"Электрики",
+                        "title": "Электрики",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "39"
                     }
@@ -66,22 +66,22 @@
                 "color": "#37aae9",
                 "podrubriks": [
                     {
-                        "title":"Ремонт квартир",
+                        "title": "Ремонт квартир",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "105"
                     },
                     {
-                        "title":"Реставрация ванн",
+                        "title": "Реставрация ванн",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "6"
                     },
                     {
-                        "title":"Сантехники",
+                        "title": "Сантехники",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "47"
                     },
                     {
-                        "title":"Электрики",
+                        "title": "Электрики",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "39"
                     }
@@ -93,22 +93,22 @@
                 "color": "#37aae9",
                 "podrubriks": [
                     {
-                        "title":"Ремонт квартир",
+                        "title": "Ремонт квартир",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "105"
                     },
                     {
-                        "title":"Реставрация ванн",
+                        "title": "Реставрация ванн",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "6"
                     },
                     {
-                        "title":"Сантехники",
+                        "title": "Сантехники",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "47"
                     },
                     {
-                        "title":"Электрики",
+                        "title": "Электрики",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "39"
                     }
@@ -120,22 +120,22 @@
                 "color": "#004d5a",
                 "podrubriks": [
                     {
-                        "title":"Ремонт квартир",
+                        "title": "Ремонт квартир",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "105"
                     },
                     {
-                        "title":"Реставрация ванн",
+                        "title": "Реставрация ванн",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "6"
                     },
                     {
-                        "title":"Сантехники",
+                        "title": "Сантехники",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "47"
                     },
                     {
-                        "title":"Электрики",
+                        "title": "Электрики",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "39"
                     }
@@ -147,22 +147,22 @@
                 "color": "#004d5a",
                 "podrubriks": [
                     {
-                        "title":"Ремонт квартир",
+                        "title": "Ремонт квартир",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "105"
                     },
                     {
-                        "title":"Реставрация ванн",
+                        "title": "Реставрация ванн",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "6"
                     },
                     {
-                        "title":"Сантехники",
+                        "title": "Сантехники",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "47"
                     },
                     {
-                        "title":"Электрики",
+                        "title": "Электрики",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "39"
                     }
@@ -174,22 +174,22 @@
                 "color": "#004d5a",
                 "podrubriks": [
                     {
-                        "title":"Ремонт квартир",
+                        "title": "Ремонт квартир",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "105"
                     },
                     {
-                        "title":"Реставрация ванн",
+                        "title": "Реставрация ванн",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "6"
                     },
                     {
-                        "title":"Сантехники",
+                        "title": "Сантехники",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "47"
                     },
                     {
-                        "title":"Электрики",
+                        "title": "Электрики",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "39"
                     }
@@ -202,22 +202,22 @@
                 "isNewCol": true,
                 "podrubriks": [
                     {
-                        "title":"Ремонт квартир",
+                        "title": "Ремонт квартир",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "105"
                     },
                     {
-                        "title":"Реставрация ванн",
+                        "title": "Реставрация ванн",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "6"
                     },
                     {
-                        "title":"Сантехники",
+                        "title": "Сантехники",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "47"
                     },
                     {
-                        "title":"Электрики",
+                        "title": "Электрики",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "39"
                     }
@@ -229,22 +229,22 @@
                 "color": "#009344",
                 "podrubriks": [
                     {
-                        "title":"Ремонт квартир",
+                        "title": "Ремонт квартир",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "105"
                     },
                     {
-                        "title":"Реставрация ванн",
+                        "title": "Реставрация ванн",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "6"
                     },
                     {
-                        "title":"Сантехники",
+                        "title": "Сантехники",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "47"
                     },
                     {
-                        "title":"Электрики",
+                        "title": "Электрики",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "39"
                     }
@@ -256,22 +256,22 @@
                 "color": "#009344",
                 "podrubriks": [
                     {
-                        "title":"Ремонт квартир",
+                        "title": "Ремонт квартир",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "105"
                     },
                     {
-                        "title":"Реставрация ванн",
+                        "title": "Реставрация ванн",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "6"
                     },
                     {
-                        "title":"Сантехники",
+                        "title": "Сантехники",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "47"
                     },
                     {
-                        "title":"Электрики",
+                        "title": "Электрики",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "39"
                     }
@@ -283,22 +283,22 @@
                 "color": "#009344",
                 "podrubriks": [
                     {
-                        "title":"Ремонт квартир",
+                        "title": "Ремонт квартир",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "105"
                     },
                     {
-                        "title":"Реставрация ванн",
+                        "title": "Реставрация ванн",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "6"
                     },
                     {
-                        "title":"Сантехники",
+                        "title": "Сантехники",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "47"
                     },
                     {
-                        "title":"Электрики",
+                        "title": "Электрики",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "39"
                     }
@@ -310,22 +310,22 @@
                 "color": "#f7931e",
                 "podrubriks": [
                     {
-                        "title":"Ремонт квартир",
+                        "title": "Ремонт квартир",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "105"
                     },
                     {
-                        "title":"Реставрация ванн",
+                        "title": "Реставрация ванн",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "6"
                     },
                     {
-                        "title":"Сантехники",
+                        "title": "Сантехники",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "47"
                     },
                     {
-                        "title":"Электрики",
+                        "title": "Электрики",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "39"
                     }
@@ -337,22 +337,22 @@
                 "color": "#f7931e",
                 "podrubriks": [
                     {
-                        "title":"Ремонт квартир",
+                        "title": "Ремонт квартир",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "105"
                     },
                     {
-                        "title":"Реставрация ванн",
+                        "title": "Реставрация ванн",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "6"
                     },
                     {
-                        "title":"Сантехники",
+                        "title": "Сантехники",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "47"
                     },
                     {
-                        "title":"Электрики",
+                        "title": "Электрики",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "39"
                     }
@@ -364,22 +364,22 @@
                 "color": "#8dc53e",
                 "podrubriks": [
                     {
-                        "title":"Ремонт квартир",
+                        "title": "Ремонт квартир",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "105"
                     },
                     {
-                        "title":"Реставрация ванн",
+                        "title": "Реставрация ванн",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "6"
                     },
                     {
-                        "title":"Сантехники",
+                        "title": "Сантехники",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "47"
                     },
                     {
-                        "title":"Электрики",
+                        "title": "Электрики",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "39"
                     }
@@ -391,22 +391,22 @@
                 "color": "#8dc53e",
                 "podrubriks": [
                     {
-                        "title":"Ремонт квартир",
+                        "title": "Ремонт квартир",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "105"
                     },
                     {
-                        "title":"Реставрация ванн",
+                        "title": "Реставрация ванн",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "6"
                     },
                     {
-                        "title":"Сантехники",
+                        "title": "Сантехники",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "47"
                     },
                     {
-                        "title":"Электрики",
+                        "title": "Электрики",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "39"
                     }
@@ -419,22 +419,22 @@
                 "isNewCol": true,
                 "podrubriks": [
                     {
-                        "title":"Ремонт квартир",
+                        "title": "Ремонт квартир",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "105"
                     },
                     {
-                        "title":"Реставрация ванн",
+                        "title": "Реставрация ванн",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "6"
                     },
                     {
-                        "title":"Сантехники",
+                        "title": "Сантехники",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "47"
                     },
                     {
-                        "title":"Электрики",
+                        "title": "Электрики",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "39"
                     }
@@ -446,22 +446,22 @@
                 "color": "#00a79d",
                 "podrubriks": [
                     {
-                        "title":"Ремонт квартир",
+                        "title": "Ремонт квартир",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "105"
                     },
                     {
-                        "title":"Реставрация ванн",
+                        "title": "Реставрация ванн",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "6"
                     },
                     {
-                        "title":"Сантехники",
+                        "title": "Сантехники",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "47"
                     },
                     {
-                        "title":"Электрики",
+                        "title": "Электрики",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "39"
                     }
@@ -473,22 +473,22 @@
                 "color": "#00a79d",
                 "podrubriks": [
                     {
-                        "title":"Ремонт квартир",
+                        "title": "Ремонт квартир",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "105"
                     },
                     {
-                        "title":"Реставрация ванн",
+                        "title": "Реставрация ванн",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "6"
                     },
                     {
-                        "title":"Сантехники",
+                        "title": "Сантехники",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "47"
                     },
                     {
-                        "title":"Электрики",
+                        "title": "Электрики",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "39"
                     }
@@ -500,22 +500,22 @@
                 "color": "#7e3e97",
                 "podrubriks": [
                     {
-                        "title":"Ремонт квартир",
+                        "title": "Ремонт квартир",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "105"
                     },
                     {
-                        "title":"Реставрация ванн",
+                        "title": "Реставрация ванн",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "6"
                     },
                     {
-                        "title":"Сантехники",
+                        "title": "Сантехники",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "47"
                     },
                     {
-                        "title":"Электрики",
+                        "title": "Электрики",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "39"
                     }
@@ -527,22 +527,22 @@
                 "color": "#9e1f62",
                 "podrubriks": [
                     {
-                        "title":"Ремонт квартир",
+                        "title": "Ремонт квартир",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "105"
                     },
                     {
-                        "title":"Реставрация ванн",
+                        "title": "Реставрация ванн",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "6"
                     },
                     {
-                        "title":"Сантехники",
+                        "title": "Сантехники",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "47"
                     },
                     {
-                        "title":"Электрики",
+                        "title": "Электрики",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "39"
                     }
@@ -554,22 +554,22 @@
                 "color": "#7e3e97",
                 "podrubriks": [
                     {
-                        "title":"Ремонт квартир",
+                        "title": "Ремонт квартир",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "105"
                     },
                     {
-                        "title":"Реставрация ванн",
+                        "title": "Реставрация ванн",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "6"
                     },
                     {
-                        "title":"Сантехники",
+                        "title": "Сантехники",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "47"
                     },
                     {
-                        "title":"Электрики",
+                        "title": "Электрики",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "39"
                     }
@@ -581,27 +581,31 @@
                 "color": "#6395A7",
                 "podrubriks": [
                     {
-                        "title":"Ремонт квартир",
+                        "title": "Ремонт квартир",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "105"
                     },
                     {
-                        "title":"Реставрация ванн",
+                        "title": "Реставрация ванн",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "6"
                     },
                     {
-                        "title":"Сантехники",
+                        "title": "Сантехники",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "47"
                     },
                     {
-                        "title":"Электрики",
+                        "title": "Электрики",
                         "url": "/master_rubrika/rubrika.html",
                         "count": "39"
                     }
                 ]
             }
-        ]
+        ],
+        "catalogs": {
+            "is-main-page": false,
+            "catalogs": "readyBlocksData.block_main_catalogs_inner"
+        }
     }
 }

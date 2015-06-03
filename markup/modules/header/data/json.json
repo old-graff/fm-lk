@@ -1,9 +1,10 @@
 {
     "block_header": {
+        "logo-url": "/main/main.html",
         "visitor": "12 456 посещений",
         "menu": [
             {
-                "url": "http://facemaster.ru/site/allrubriks",
+                "url": "/master_rubrikator/master_rubrikator.html",
                 "title": "КАТАЛОГ УСЛУГ"
             },
             {
@@ -11,7 +12,7 @@
                 "title": "ЗАКАЗАТЬ УСЛУГУ"
             },
             {
-                "url": "http://facemaster.ru/site/reg",
+                "url": "/reg-master/reg-master.html",
                 "title": "СТАТЬ МАСТЕРОМ"
             }
         ],

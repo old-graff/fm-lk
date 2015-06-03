@@ -1,0 +1,26 @@
+{
+    "block_main_catalogs_inner": {
+        "catalogs": [
+            {
+                "url": "/404",
+                "title": "Поиск по скидке",
+                "icon": "gift"
+            },
+            {
+                "url": "/404",
+                "title": "Поиск по видео",
+                "icon": "video"
+            },
+            {
+                "url": "/404",
+                "title": "Секреты Мастеров",
+                "icon": "gift"
+            },
+            {
+                "url": "/404",
+                "title": "Каталог фирм",
+                "icon": "gift"
+            }
+        ]
+    }
+}

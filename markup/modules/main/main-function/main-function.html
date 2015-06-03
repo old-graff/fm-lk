@@ -12,7 +12,7 @@
         </a>
     </div>
     <div block="call-back">
-        <a elem="inner"  href="{{url.order}}">
+        <a elem="inner"  href="{{url.callback}}">
             <div elem="inner-rel">
                 <span elem="icon"></span>
                 <p elem="title">Закажи услугу </p>
@@ -24,18 +24,10 @@
     <div block="catalogs">
         <div elem="inner">
             <div elem="services">
-                <a href="" elem="services-link">Весь каталог услуг</a>
+                <a href="{{url.catalog}}" elem="services-link">Весь каталог услуг</a>
             </div>
             <div elem="dop">
-                <ul block="catalogs-dop">
-                    {{#each catalogs}}
-                    <li elem="item">
-                        <a href="{{url}}" elem="item-link">
-                            <span class="catalogs-dop__icon catalogs-dop__icon_{{icon}}"></span>{{{title}}}
-                        </a>
-                    </li>
-                    {{/each}}
-                </ul>
+                {{> main/catalogs-dop/catalogs-dop catalogs}}
             </div>
         </div>
     </div>
