@@ -42,7 +42,8 @@ scssFilesToConcatinate.push(
     './markup/' + tarsConfig.fs.staticFolderName + '/scss/common.scss',
     './markup/' + tarsConfig.fs.staticFolderName + '/scss/plugins/**/*.scss',
     './markup/' + tarsConfig.fs.staticFolderName + '/scss/plugins/**/*.css',
-    './markup/modules/**/*.scss'
+    './markup/modules/**/*.scss',
+    './markup/pages/**/*.scss'
 );
 
 /**
