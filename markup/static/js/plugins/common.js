@@ -9,7 +9,7 @@ $('a.js-scrollto[href^=#]').each(function() {
     });
 });
 
-// запрос на валидацию формы
+// Р·Р°РїСЂРѕСЃ РЅР° РІР°Р»РёРґР°С†РёСЋ С„РѕСЂРјС‹
 function sendForm(url, method, form_id, successHandler) {
     jQuery.ajax({
         url: url,
@@ -30,7 +30,7 @@ function sendForm(url, method, form_id, successHandler) {
         },
         error: function (response) {
             $('#' + form_id + ' .error-summary').remove();
-            $('#' + form_id).prepend('<div class="error-summary format">Ошибка при отправке формы, попробуйте еще раз.</div>');
+            $('#' + form_id).prepend('<div class="error-summary format">РћС€РёР±РєР° РїСЂРё РѕС‚РїСЂР°РІРєРµ С„РѕСЂРјС‹, РїРѕРїСЂРѕР±СѓР№С‚Рµ РµС‰Рµ СЂР°Р·.</div>');
         },
         cache: false
     });
