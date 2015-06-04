@@ -7,26 +7,31 @@
 
     <div elem="section">
         {{#if is-sort}}
-        <p>Отсортировать:</p>
+        <div block="sort-by">
+            <p elem="title">Отсортировать:</p>
 
-        <form action="{{url}}" method="{{method}}">
-            <div block="labeled-input">
-                <input type="radio" name="sort-by[name]">
-                <label>по фамилии по алфавиту</label>
-            </div>
-            <div block="labeled-input">
-                <input type="radio" name="sort-by[recommendation]">
-                <label>по количеству рекомендаций</label>
-            </div>
-        </form>
+            <form action="{{sort-by.url}}" method="{{sort-by.method}}">
+                <div block="labeled-input">
+                    <input type="radio" name="sort-by[name]" id="sort-by-name">
+                    <label for="sort-by-name">по фамилии по алфавиту</label>
+                </div>
+                <div block="labeled-input">
+                    <input type="radio" name="sort-by[recommendation]" id="sort-by-recommendation">
+                    <label for="sort-by-recommendation">по количеству рекомендаций</label>
+                </div>
+            </form>
+        </div>
         {{/if}}
-        <p>Отфильтровать:</p>
-        {{#each}}
-        <a elem="tag" href="">
-
-        </a>
-        {{/each}}
-
+        {{#if is-filter}}
+        <div block="filter-by">
+            <p elem="title">Отфильтровать:</p>
+            {{> filter/tags/tags tags-free}}
+            {{#each tags-group}}
+            <p elem="title">{{title}}</p>
+            {{> filter/tags/tags list}}
+            {{/each}}
+        </div>
+        {{/if}}
         {{/each}}
     </div>
 </div>
