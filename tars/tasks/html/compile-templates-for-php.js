@@ -22,12 +22,14 @@ module.exports = function(buildOptions) {
 
     function iterator(array, data, callback) {
         var item, i = 0;
-        for (i in array) {
-            item = array[i];
-            if (Object.prototype.toString.call(item) === '[object Object]') {
+        var hashKeys = Object.keys(array);
+        for (var i = 0, l = hashKeys.length; i < l; ++i) {
+            // hash[ hashKeys[i] ]
+            item = array[ hashKeys[i] ];
+            if (Object.prototype.toString.call(item) === '[object Object]' || Object.prototype.toString.call(item) === '[object Array]') {
                 iterator(item, data, callback);
             } else {
-                array[i] = callback(item, data);
+                array[ hashKeys[i] ] = callback(item, data);
             }
         }
         return array;
