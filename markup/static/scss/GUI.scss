@@ -80,6 +80,12 @@ a:active {
 @mixin icon_size_xsmall {
     @include icon_size(18px);
 }
+@mixin icon_size_xxsmall {
+    @include icon_size(12px);
+}
+@mixin icon_size_xxxsmall {
+    @include icon_size(8px);
+}
 
 %icon {
     //base scale 64x64
@@ -154,7 +160,13 @@ a:active {
     &_size_xsmall {
         @include icon_size_xsmall;
     }
-
+    &_size_xxsmall {
+        @include icon_size_xxsmall;
+    }
+    &_size_xxxsmall {
+        @include icon_size_xxxsmall;
+    }
+    
     &_block {
         display: block;
     }
