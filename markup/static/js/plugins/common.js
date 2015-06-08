@@ -9,28 +9,54 @@ $('a.js-scrollto[href^=#]').each(function() {
     });
 });
 
+//// запрос на валидацию формы
+//function sendForm(url, method, form_id, successHandler) {
+//    jQuery.ajax({
+//        url: url,
+//        type: method,
+//        dataType: 'json',
+//        data: jQuery('#' + form_id).serialize(),
+//        success: function (response) {
+//            if (response.success) {
+//                successHandler(response);
+//            } else {
+//                $('#' + form_id + ' .error-summary').remove();
+//                $('#' + form_id).prepend('<div class="error-summary format">' + response.errorSummary + '</div>');
+//                $('#' + form_id + ' .error').removeClass('.error');
+//                for (var k in response.fields) {
+//                    $('[name="' + response.object + '[' + k + ']"]').addClass('error');
+//                }
+//            }
+//        },
+//        error: function (response) {
+//            $('#' + form_id + ' .error-summary').remove();
+//            $('#' + form_id).prepend('<div class="error-summary format">Ошибка при отправке формы, попробуйте еще раз.</div>');
+//        },
+//        cache: false
+//    });
+//};
 // запрос на валидацию формы
-function sendForm(url, method, form_id, successHandler) {
+function sendForm(form_DOM, successHandler) {
     jQuery.ajax({
-        url: url,
-        type: method,
+        url: form_DOM.attr('action'),
+        type: form_DOM.attr('method'),
         dataType: 'json',
-        data: jQuery('#' + form_id).serialize(),
+        data: form_DOM.serialize(),
         success: function (response) {
             if (response.success) {
                 successHandler(response);
             } else {
-                $('#' + form_id + ' .error-summary').remove();
-                $('#' + form_id).prepend('<div class="error-summary format">' + response.errorSummary + '</div>');
-                $('#' + form_id + ' .error').removeClass('.error');
+                form_DOM.find('.error-summary').remove();
+                form_DOM.prepend('<div class="error-summary format">' + response.errorSummary + '</div>');
+                form_DOM.find('.error').removeClass('.error');
                 for (var k in response.fields) {
-                    $('[name="' + response.object + '[' + k + ']"]').addClass('error');
+                    form_DOM.find('[name="' + response.object + '[' + k + ']"]').addClass('error');
                 }
             }
         },
         error: function (response) {
-            $('#' + form_id + ' .error-summary').remove();
-            $('#' + form_id).prepend('<div class="error-summary format">Ошибка при отправке формы, попробуйте еще раз.</div>');
+            form_DOM.find('.error-summary').remove();
+            form_DOM.prepend('<div class="error-summary format">Ошибка при отправке формы, попробуйте еще раз.</div>');
         },
         cache: false
     });

@@ -1,5 +1,5 @@
 $('#recovery-password-form').submit(function () {
-    sendForm($(this).attr('action'), $(this).attr('method'), $(this).attr('id'),
+    sendForm($(this)/*.attr('action'), $(this).attr('method'), $(this).attr('id'),*/,
         function (response) {
             $('#recovery-password-form').html('<p class="recovery-password-block__success-msg">Пароль выслан на указанный телефон и Email</p>');
         });

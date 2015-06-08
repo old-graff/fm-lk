@@ -13,25 +13,25 @@
     </head>
 
     <body class="page">
-        {{> header/header page_regMaster.header}}
-
+        {{> header/header page_regmaster.header}}
         
-        {{> reg-master/about/about}}
+        {{> reg-master/about/header}}
         <div id="form1">
-            {{> reg-master/form/form}}
+            {{> reg-master/form/form page_regmaster.form}}
         </div>
-        {{> reg-master/why-we/why-we}}
+        {{> reg-master/about/about}}
+        {{> reg-master/why-we/why-we page_regmaster.why-we}}
         {{> reg-master/price/price}}
         <div id="form2">
-            {{> reg-master/form/form}}
+            {{> reg-master/form/form page_regmaster.form}}
         </div>
         {{> reg-master/more-page/more-page}}
         {{> reg-master/faq/faq}}
         <div id="form3">
-            {{> reg-master/form/form}}
+            {{> reg-master/form/form page_regmaster.form}}
         </div>
 
 
-        {{> footer/footer page_regMaster.footer}}
+        {{> footer/footer page_regmaster.footer}}
     </body>
 </html>
