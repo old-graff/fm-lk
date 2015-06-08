@@ -1,0 +1,21 @@
+.inner-top {
+    @extend .row;
+    padding-bottom: 28px;
+    &__search {
+        @extend .col-lg-9;
+    }
+    &__callback {
+        @extend .col-lg-3;
+    }
+}
+
+.inner-content {
+    @extend .row;
+    &__left-side {
+        @extend .col-lg-3;
+    }
+
+    &__right-side {
+        @extend .col-lg-9;
+    }
+}

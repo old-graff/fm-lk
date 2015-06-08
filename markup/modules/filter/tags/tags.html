@@ -1,8 +1,8 @@
 {{#each tags}}
 {{#if is-active}}
-<span>
+<span elem="tag-active">
     {{title}}
-    <a href="{{url-back}}">
+    <a block="close" href="{{url-back}}">
         <i elem="icon" mod="close"></i>
     </a>
 </span>

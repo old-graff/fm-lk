@@ -13,22 +13,28 @@
 </head>
 
 <body class="page">
-{{> banner/banner_top/banner_top}}
+{{> banner/banner_top/banner_top page_master_rubrika.banner_top}}
 {{> header/header page_master_rubrika.header}}
 {{> breadcrumps/breadcrumps page_master_rubrika.breadcrumps}}
 
 <div block="container">
-    <div block="row">
+    <div block="inner-top">
         <h1 block="h1" mod="style">{{page_master_rubrika.name}}</h1>
-        {{> search/search page_master_rubrika.search}}
-        {{> callback/callback}}
-    </div>
-    <div block="row">
-        <div elem="left-side">
-            {{> filter/filter}}
-            {{> banner/banner_side/banner_side}}
+
+        <div elem="search">
+            {{> search/search page_master_rubrika.search}}
         </div>
-        <div elem="content">
+        <div elem="callback">
+            {{> callback/callback}}
+        </div>
+    </div>
+    <div block="inner-content">
+        <div elem="left-side">
+            {{> filter/filter page_master_rubrika.filter}}
+            {{> banner/banner_side/banner_side page_master_rubrika.banner_side}}
+        </div>
+        <div elem="right-side">
+            {{> master_recommended/master_recommended page_master_rubrika.master_recommended}}
             {{> master_list/master_list}}
         </div>
     </div>

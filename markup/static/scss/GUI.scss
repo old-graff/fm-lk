@@ -1,11 +1,20 @@
 // GUI stylies of the project
 // For example, styles of the links, buttons and so on.
 
-a        {color:#808285; text-decoration: underline}
-a:hover  {color:#005b8d; text-decoration: none}
-a:active {color:#005b8d; text-decoration: none}
+a {
+    color: #808285;
+    text-decoration: underline
+}
 
+a:hover {
+    color: #005b8d;
+    text-decoration: none
+}
 
+a:active {
+    color: #005b8d;
+    text-decoration: none
+}
 
 /* углы */
 .corner {
@@ -220,6 +229,23 @@ a:active {color:#005b8d; text-decoration: none}
     }
 }
 
+.filter-radio {
+    position: relative;
+    padding-bottom: 3px;
+
+    &__input {
+        position: absolute;
+        left: 0;
+        top: 0.50em; // Величина сдвига подобрана для line-height: 1.2
+        margin: -4px 0 0;
+        outline: none;
+    }
+
+    &__label {
+        margin-left: 18px;
+    }
+}
+
 .error-summary {
     padding: 10px;
     margin-bottom: 10px;
@@ -278,7 +304,7 @@ a:active {color:#005b8d; text-decoration: none}
     &_uppercase {
         text-transform: uppercase;
     }
-    &-accent{
+    &-accent {
         @extend .btn;
         @extend .btn_size_medium;
         @extend .btn_color_orange;
@@ -286,3 +312,11 @@ a:active {color:#005b8d; text-decoration: none}
     }
 }
 
+.close {
+    &__icon{
+        @extend %icon;
+        @extend %icon_inline;
+        @extend %icon_size_xsmall;
+        @extend %icon_vk_white;
+    }
+}

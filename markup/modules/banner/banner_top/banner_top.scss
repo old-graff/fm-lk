@@ -1,0 +1,16 @@
+.manner {
+    &_top {
+        padding-bottom: 10px;
+        background-color: #ffffff;
+        text-align: center;
+        @include to(lg){
+            display: none;
+        }
+    }
+    &_750 {
+        display: none;
+        @include at(md){
+            display: block;
+        }
+    }
+}

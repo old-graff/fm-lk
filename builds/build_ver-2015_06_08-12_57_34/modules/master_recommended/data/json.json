@@ -1,0 +1,37 @@
+{
+    "block_master_recommended": {
+        "is-recommended-masters": true,
+        "url-arrow-left": "404",
+        "url-arrow-right": "404",
+        "recommended-master": [
+            {
+                "master-url": "404",
+                "src": "%=staticPrefix=%/img/assets/master_recommended/3720.jpg",
+                "alt": "Князев А.Ю.",
+                "master-name": "Князев А.Ю.",
+                "recommendation-number": "27 человек"
+            },
+            {
+                "master-url": "404",
+                "src": "%=staticPrefix=%/img/assets/master_recommended/4617.jpg",
+                "alt": "Хальзов А.",
+                "master-name": "Хальзов А.",
+                "recommendation-number": "6 человек"
+            },
+            {
+                "master-url": "404",
+                "src": "%=staticPrefix=%/img/assets/master_recommended/7428.jpg",
+                "alt": "Булгаков В.А.",
+                "master-name": "Булгаков В.А.",
+                "recommendation-number": "5 человек"
+            },
+            {
+                "master-url": "404",
+                "src": "%=staticPrefix=%/img/assets/master_recommended/2274.jpg",
+                "alt": "Арсланов И.Р.",
+                "master-name": "Арсланов И.Р.",
+                "recommendation-number": "4 человека"
+            }
+        ]
+    }
+}

@@ -1,44 +1,52 @@
 {
     "page_master_rubrika": {
         "head": {
-            "title": "Промышленный альпинизм в Тольятти - FaceMaster.ru. Специалисты Тольятти"
+            "title": "РЎС‚СЂРѕРёС‚РµР»СЊСЃС‚РІРѕ РІ РўРѕР»СЊСЏС‚С‚Рё - FaceMaster.ru."
         },
         "header": "readyBlocksData.block_header",
         "footer": "readyBlocksData.block_footer",
         "breadcrumps": {
             "links": [
                 {
-                    "title": "Каталог услуг",
+                    "title": "РљР°С‚Р°Р»РѕРі СѓСЃР»СѓРі",
                     "url": "/master_rubrikator/master_rubrikator.html"
                 },
                 {
-                    "title": "Строительство",
+                    "title": "РЎС‚СЂРѕРёС‚РµР»СЊСЃС‚РІРѕ",
                     "url": "404",
                     "links": [
                         {
-                            "title": "Бани",
+                            "title": "Р‘Р°РЅРё",
                             "url": "/master_rubrika/master_rubrika.html"
                         },
                         {
-                            "title": "Бассейны",
+                            "title": "Р‘Р°СЃСЃРµР№РЅС‹",
                             "url": "/master_rubrika/master_rubrika.html"
                         },
                         {
-                            "title": "Печи и камины",
+                            "title": "РџРµС‡Рё Рё РєР°РјРёРЅС‹",
                             "url": "master_rubrika/master_rubrika.html"
                         },
                         {
-                            "title": "Проектирование",
+                            "title": "РџСЂРѕРµРєС‚РёСЂРѕРІР°РЅРёРµ",
                             "url": "master_rubrika/master_rubrika.html"
                         }
                     ]
                 },
                 {
-                    "title": "Промышленный альпинизм"
+                    "title": "РЎС‚СЂРѕРёС‚РµР»СЊСЃС‚РІРѕ"
                 }
             ]
         },
-        "search": "redyBlockData.block_search",
-        "name": "Промышленный альпинизм"
+        "search": {
+            "url": "404",
+            "method": "get",
+            "modificator": "inner"
+        },
+        "name": "РЎС‚СЂРѕРёС‚РµР»СЊСЃС‚РІРѕ",
+        "filter": "readyBlocksData.block_filter",
+        "banner_side": "readyBlocksData.block_banner_side",
+        "banner_top": "readyBlocksData.block_banner_top",
+        "master_recommended": "readyBlocksData.block_master_recommended"
     }
 }
