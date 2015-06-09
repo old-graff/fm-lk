@@ -1,0 +1,33 @@
+<!doctype html>
+<!--[if IE 7]>
+<html class="ie7 lt-ie10 lt-ie9 lt-ie8 no-js" lang="ru"><![endif]-->
+<!--[if IE 8]>
+<html class="ie8 lt-ie10 lt-ie9 no-js" lang="ru"><![endif]-->
+<!--[if IE 9 ]>
+<html class="ie9 lt-ie10 no-js" lang="ru"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="no-js" lang="ru"><!--<![endif]-->
+
+    <head>
+        {{> head/head page_oht_recommendation.head}}
+    </head>
+
+    <body class="page">
+        {{> header/header page_oht_recommendation.header}}
+        {{> breadcrumps/breadcrumps page_oht_recommendation.breadcrumps}}
+
+        <div block="container">
+            <div class="row">
+                <div block="page_oht_recommendation">
+                    <h1 block="h1" mod="style">Мастера о сайте</h1>
+                    <div elem="list">
+                        {{> other/recommendation/recommendation page_oht_recommendation.recommendation}}     
+                        {{> _common/paginator/paginator page_oht_recommendation.paginator}}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{> footer/footer page_oht_recommendation.footer}}
+    </body>
+</html>
