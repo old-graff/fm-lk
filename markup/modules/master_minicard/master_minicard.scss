@@ -1,0 +1,96 @@
+.master_minicard {
+    @extend .bg_grey;
+    height: 298px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+
+    .master_minicard {
+        &__left-column {
+            @extend .col-md-3;
+            padding-right: 0;
+        }
+        &__right-column {
+            @extend .col-md-9;
+            padding-left: 20px;
+        }
+    }
+}
+
+.master_photo-and-contacts {
+    &__photo {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+    &__phone {
+        font-size: 0.68em;
+        margin-bottom: 10px;
+        @extend .btn;
+        @extend .btn_size_xmedium;
+        @extend .btn_color_black;
+        @extend .btn_uppercase;
+
+    }
+    &__to-page {
+        font-size: 0.68em;
+        @extend .btn;
+        @extend .btn_size_xmedium;
+        @extend .btn_color_pink;
+        @extend .btn_uppercase;
+    }
+    &__icon {
+        position: relative;
+        top: 2px;
+        @extend %icon;
+        @extend %icon_inline;
+        @extend %icon_size_xxsmall;
+        @extend %icon_strelka;
+    }
+}
+
+.master_name-and-spec {
+    &_half {
+        @extend .col-md-7
+    }
+    &_wide {
+        @extend .col-md-12
+    }
+    &__name {
+        font-weight: bold;
+        @include font-tuning(18, 20);
+    }
+    &__spec {
+        font-weight: bold;
+        @include font-tuning(14, 18);
+    }
+}
+
+.master_services {
+    @include font-tuning(13, 14);
+    &_half {
+        @extend .col-md-7;
+    }
+    &_wide {
+        @extend .col-md-11;
+    }
+}
+
+.master_company {
+    @extend .col-md-5;
+    float:right;
+}
+
+.master_presentation {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding-left: 0px;
+}
+
+.master_have-content-widget {
+    margin-right: 25px;
+    background-color: #ffffff;
+    width: 180px;
+    height: 180px;
+}
