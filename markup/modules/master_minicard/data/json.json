@@ -1,6 +1,6 @@
 {
     "block_master_minicard": {
-        "is-free": true,
-        "master_minicard": "readyBlocksData.block_master_minicard_free"
+        "is-free": false,
+        "master_minicard": "readyBlocksData.block_master_minicard_premium"
     }
 }

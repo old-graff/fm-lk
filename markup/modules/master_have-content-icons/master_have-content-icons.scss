@@ -1,0 +1,35 @@
+.master_have-content-icons {
+    &_vertical {
+        width: 45px;
+        float: right;
+        margin-right: -20px;
+    }
+}
+
+.master_content-icon {
+    &_gift {
+        .master_content-icon {
+            &__link {
+                display: block;
+                width: 45px;
+                height: 45px;
+
+            }
+            &__icon {
+                margin: 0 auto;
+                @extend %icon;
+                @extend %icon_block;
+                @extend %icon_size_xsmall;
+                @extend %icon_video;
+                @include vertical-align;
+            }
+        }
+    }
+    &.active {
+        .master_content-icon {
+            &__link {
+                background-color: #ffffff;
+            }
+        }
+    }
+}

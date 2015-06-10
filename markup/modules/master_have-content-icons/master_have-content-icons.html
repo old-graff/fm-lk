@@ -1,0 +1,17 @@
+<div block="master_have-content-icons" class="master_have-content-icons_{{modificator}}">
+    <ul elem="list">
+        {{#each have-content-icons}}
+        <li block="master_content-icon"
+            class="master_content-icon_{{content-type}} {{#if is-active}}active{{/if}} {{#if is-exist}}exist{{/if}}"
+            data-toggle="{{content-type}}">
+            {{#if url}}
+            <a elem="link" href="{{url}}">
+                <i elem="icon"></i>
+            </a>
+            {{else}}
+            <i elem="icon"></i>
+            {{/if}}
+        </li>
+        {{/each}}
+    </ul>
+</div>

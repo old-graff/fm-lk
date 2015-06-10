@@ -284,23 +284,25 @@ a:active {
 .btn {
     width: 100%;
     border: none;
-    font-weight: bold;
+    font-weight: normal;
     cursor: pointer;
     text-decoration: none;
     display: block;
+    text-align: center;
     &_color_black {
         color: #fff;
         background-color: $color-bg-black-light;
         &:hover {
-            background-color: $color-pink;
+            background-color: lighten($color-bg-black-light, 5%);
             color: #fff;
         }
     }
+
     &_color_pink {
         color: #fff;
         background-color: $color-pink;
         &:hover {
-            background-color: $color-bg-black-light;
+            background-color: darken($color-pink, 5%);
             color: #fff;
         }
     }
@@ -327,6 +329,10 @@ a:active {
     &_size_medium {
         height: 40px;
         line-height: 40px;
+    }
+    &_size_xmedium {
+        height: 32px;
+        line-height: 32px;
     }
     &_uppercase {
         text-transform: uppercase;
