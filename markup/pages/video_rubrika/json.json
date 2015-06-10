@@ -1,21 +1,21 @@
 {
-    "page_secret_rubrika": {
+    "page_video_rubrika": {
         "head": {
-            "title": "Секреты Мастеров. FaceMaster.ru."
+            "title": "Видео Мастеров. FaceMaster.ru."
         },
         "header": "readyBlocksData.block_header",
         "footer": "readyBlocksData.block_footer",
         "breadcrumps": {
             "links": [
                 {
-                    "title": "Секреты Мастеров"
+                    "title": "Видео Мастеров"
                 }
             ]
         },
-        "title": "СЕКРЕТЫ МАСТЕРОВ",
-        "secret": {
+        "title": "Видео Мастеров",
+        "video": {
             "list": "readyBlocksData.block_secret_list",
-            "rubrikator": "readyBlocksData.block_one_level_rubrikator" 
+            "rubrikator": "readyBlocksData.block_secret_rubrikator"
         },
         "paginator": "readyBlocksData.block_paginator"
     }
