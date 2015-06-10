@@ -1,33 +1,3 @@
-<<<<<<< HEAD
-  $ok_white: 0px 0px 64px 64px 64px 1792px './test.svg' 'ok_white';
-  $add-page: 0px -64px 64px 64px 64px 1792px './test.svg' 'add-page';
-  $case: 0px -128px 64px 64px 64px 1792px './test.svg' 'case';
-  $catalog: 0px -192px 64px 64px 64px 1792px './test.svg' 'catalog';
-  $dialog: 0px -256px 64px 64px 64px 1792px './test.svg' 'dialog';
-  $dialog_white: 0px -320px 64px 64px 64px 1792px './test.svg' 'dialog_white';
-  $fb_white: 0px -384px 64px 64px 64px 1792px './test.svg' 'fb_white';
-  $gift: 0px -448px 64px 64px 64px 1792px './test.svg' 'gift';
-  $gift_white: 0px -512px 64px 64px 64px 1792px './test.svg' 'gift_white';
-  $like: 0px -576px 64px 64px 64px 1792px './test.svg' 'like';
-  $main-in-sun: 0px -640px 64px 64px 64px 1792px './test.svg' 'main-in-sun';
-  $main-in-sun_white: 0px -704px 64px 64px 64px 1792px './test.svg' 'main-in-sun_white';
-  $medal: 0px -768px 64px 64px 64px 1792px './test.svg' 'medal';
-  $mini-page: 0px -832px 64px 64px 64px 1792px './test.svg' 'mini-page';
-  $arrow_orange: 0px -896px 64px 64px 64px 1792px './test.svg' 'arrow_orange';
-  $page: 0px -960px 64px 64px 64px 1792px './test.svg' 'page';
-  $people: 0px -1024px 64px 64px 64px 1792px './test.svg' 'people';
-  $picture: 0px -1088px 64px 64px 64px 1792px './test.svg' 'picture';
-  $picture_white: 0px -1152px 64px 64px 64px 1792px './test.svg' 'picture_white';
-  $qwestion: 0px -1216px 64px 64px 64px 1792px './test.svg' 'qwestion';
-  $search: 0px -1280px 64px 64px 64px 1792px './test.svg' 'search';
-  $star-in-sun: 0px -1344px 64px 64px 64px 1792px './test.svg' 'star-in-sun';
-  $star: 0px -1408px 64px 64px 64px 1792px './test.svg' 'star';
-  $strelka: 0px -1472px 64px 64px 64px 1792px './test.svg' 'strelka';
-  $tw_white: 0px -1536px 64px 64px 64px 1792px './test.svg' 'tw_white';
-  $video: 0px -1600px 64px 64px 64px 1792px './test.svg' 'video';
-  $video_white: 0px -1664px 64px 64px 64px 1792px './test.svg' 'video_white';
-  $vk_white: 0px -1728px 64px 64px 64px 1792px './test.svg' 'vk_white';
-=======
   $logo: 0px 0px 329px 237px 329px 1453px './test.svg' 'logo';
   $ok_white: 0px -237px 64px 64px 329px 1453px './test.svg' 'ok_white';
   $dialog: 0px -301px 64px 64px 329px 1453px './test.svg' 'dialog';
@@ -48,7 +18,6 @@
   $video: 0px -1261px 64px 64px 329px 1453px './test.svg' 'video';
   $video_white: 0px -1325px 64px 64px 329px 1453px './test.svg' 'video_white';
   $vk_white: 0px -1389px 64px 64px 329px 1453px './test.svg' 'vk_white';
->>>>>>> 5c846727c0178b66ad3057ed32612a3d68e648dc
 
 @mixin svg-sprite-position($svg-sprite) {
   $svg-sprite-offset-x: nth($svg-sprite, 1);
