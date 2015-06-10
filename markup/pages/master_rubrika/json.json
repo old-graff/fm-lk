@@ -47,6 +47,7 @@
         "filter": "readyBlocksData.block_filter",
         "banner_side": "readyBlocksData.block_banner_side",
         "banner_top": "readyBlocksData.block_banner_top",
-        "master_recommended": "readyBlocksData.block_master_recommended"
+        "master_recommended": "readyBlocksData.block_master_recommended",
+        "master-list": "readyBlocksData.block_master_list"
     }
 }

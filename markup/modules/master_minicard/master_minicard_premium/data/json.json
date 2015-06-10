@@ -1,5 +1,29 @@
 {
     "block_master_minicard_premium": {
 
+        "master-photo": {
+            "src": "%=staticPrefix=%img/assets/master_minicard/6461.jpg",
+            "alt": "alt"
+        },
+        "master-phone": "+7 960 835 06 46",
+        "master-page-url": "404",
+        "master-name": "Хархавкина Евгения",
+        "specialisation": "Продажа домов под ключ",
+        "company":{
+            "logo": "%=staticPrefix=%img/assets/master_minicard/1022.png",
+            "name": ""
+        },
+        "service-list": [
+            "Проектирование, производство и строительство домов, продажа участков",
+            "Дачные дома, загородные дома, дома под ключ, дома и коттеджи."
+        ],
+        "have-content-icons": "readyBlocksData.block_master_have_content_icons",
+        "have-content": {
+            "gift":{
+                "title": "1000 рублей",
+                "desc": "Скидка 1000 рублей на бананы"
+            }
+        }
+
     }
 }

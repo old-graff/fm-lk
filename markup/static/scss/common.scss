@@ -28,7 +28,8 @@ html, body {
     ul li {
         position: relative;
         padding-left: 17px;
-        padding-right: 20px
+        padding-right: 20px;
+        margin-bottom: 10px;
     }
     ul li:before {
         content: "—";
