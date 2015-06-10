@@ -1,0 +1,23 @@
+.callback {
+    display: block;
+    height: 60px;
+    padding: 10px;
+    background-color: #eed200;
+    font-weight: bold;
+    text-decoration: none;
+    color: $color-text-dark;
+    @include font-tuning(14, 21);
+    @include cf;
+    &:hover {
+        background-color: lighten(#eed200, 10%);
+        color: $color-text-dark;
+    }
+    &__icon{
+        @extend %icon_block;
+        @extend %icon_size_big;
+        @extend %icon;
+        @extend %icon_people;
+        float: left;
+        margin-right: 10px;
+    }
+}

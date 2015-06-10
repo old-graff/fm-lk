@@ -1,0 +1,15 @@
+{{#if modificator}}
+<div block="search" class="search_{{modificator}}">
+    {{else}}
+    <div block="search">
+        {{/if}}
+        <form elem="form" action="{{url}}" method="{{method}}">
+            <div elem="title"><span elem="icon-search"></span></div>
+            <div elem="field">
+                <input type="text" name="search" elem="field-input" mix="block:input-text">
+            </div>
+            <div elem="button">
+                <button type="submit" elem="button-submit">найди услугу</button>
+            </div>
+        </form>
+    </div>

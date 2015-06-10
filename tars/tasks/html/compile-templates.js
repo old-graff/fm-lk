@@ -11,87 +11,123 @@ var handlebars = require('gulp-compile-handlebars');
 var through2 = require('through2');
 
 var handlebarsOptions = {
-        batch: ['./markup/modules'],
-        helpers: require('../../helpers/handlebars-helpers')
-    };
+    batch: ['./markup/modules'],
+    helpers: require('../../helpers/handlebars-helpers')
+};
 
 /**
  * Handlebars compilation of pages templates.
  * Templates with _ prefix won't be compiled
  * @param  {Object} buildOptions
  */
-module.exports = function (buildOptions) {
+module.exports = function(buildOptions) {
 
-    function concatModulesData() {
-        var dataEntry,
-            readyModulesData;
-
+    function iterator(array, data, callback) {
+        var item, i = 0;
+        var hashKeys = Object.keys(array);
+        for (var i = 0, l = hashKeys.length; i < l; ++i) {
+            // hash[ hashKeys[i] ]
+            item = array[ hashKeys[i] ];
+            if (Object.prototype.toString.call(item) === '[object Object]' || Object.prototype.toString.call(item) === '[object Array]') {
+                iterator(item, data, callback);
+            } else {
+                array[ hashKeys[i] ] = callback(item, data);
+            }
+        }
+        return array;
+    }
+    function callback(item, data) {
+        var readyBlocksData = data;
+        if (Object.prototype.toString.call(item) !== '[object Boolean]' && (item.indexOf('readyBlocksData.') + 1)) {
+            eval('var m = ' + item + ';');
+            return m;
+        } else
+            return item;
+    }
+    function downLevelObject(array) {
+        var rezult = {};
+        for (var item in array) {
+            var p = array[item];
+            for (i in p)
+                rezult[i] = p[i];
+        }
+        return rezult;
+    }
+    function readJSON(path) {
+        var dataEntry, rezult;
         try {
-            dataEntry = fs.readFileSync('./dev/temp/modulesData.js', 'utf8');
+            dataEntry = fs.readFileSync(path, 'utf8');
         } catch (er) {
             dataEntry = false;
         }
 
         if (dataEntry) {
-            eval('readyModulesData = {' + dataEntry + '}');
+            rezult = JSON.parse(dataEntry);
         } else {
-            readyModulesData = '{}';
+            rezult = '{}';
         }
+        return rezult;
+    }
+    function concatModulesData() {
+        var readyBlocksData, readyPagesData, json = {};
+        readyBlocksData = readJSON('./dev/temp/blockData.json');
+        readyPagesData = readJSON('./dev/temp/pageData.json');
 
-        return readyModulesData;
+        readyBlocksData = iterator(readyBlocksData, downLevelObject(readyBlocksData), callback);
+        json = iterator(readyPagesData, downLevelObject(readyBlocksData), callback);
+        return downLevelObject(json);
     }
 
     var patterns = [];
-
     if (!gutil.env.ie8) {
         patterns.push(
-            {
-                match: '<link href="%=staticPrefix=%/css/main_ie8%=hash=%%=min=%.css" rel="stylesheet" type="text/css">',
-                replacement: ''
-            }
+                {
+                    match: '<link href="%=staticPrefix=%/css/main_ie8%=hash=%%=min=%.css" rel="stylesheet" type="text/css">',
+                    replacement: ''
+                }
         );
     }
 
     if (gutil.env.min || gutil.env.release) {
         patterns.push(
-            {
-                match: '%=min=%',
-                replacement: '.min'
-            }
+                {
+                    match: '%=min=%',
+                    replacement: '.min'
+                }
         );
     } else {
         patterns.push(
-            {
-                match: '%=min=%',
-                replacement: ''
-            }
+                {
+                    match: '%=min=%',
+                    replacement: ''
+                }
         );
     }
 
     if (gutil.env.release) {
         patterns.push(
-            {
-                match: '%=hash=%',
-                replacement: buildOptions.hash
-            }
+                {
+                    match: '%=hash=%',
+                    replacement: buildOptions.hash
+                }
         );
     } else {
         patterns.push(
-            {
-                match: '%=hash=%',
-                replacement: ''
-            }
+                {
+                    match: '%=hash=%',
+                    replacement: ''
+                }
         );
     }
 
     patterns.push(
-        {
-            match: '%=staticPrefix=%',
-            replacement: tarsConfig.staticPrefix
-        }
+            {
+                match: '%=staticPrefix=%',
+                replacement: tarsConfig.staticPrefix
+            }
     );
 
-    return gulp.task('html:compile-templates', function (cb) {
+    return gulp.task('html:compile-templates', function(cb) {
         var modulesData, error;
 
         try {
@@ -100,36 +136,35 @@ module.exports = function (buildOptions) {
             error = er;
             modulesData = false;
         }
-
         return gulp.src(['./markup/pages/**/*.html', '!./markup/pages/**/_*.html'])
-            .pipe(
+                .pipe(
                 modulesData
-                    ? handlebars(modulesData, handlebarsOptions)
-                    : through2.obj(
-                        function () {
-                            console.log(gutil.colors.red('An error occurred with data-files!'));
-                            this.emit('error', error);
-                        }
-                    )
-            )
-            .on('error', notify.onError(function (error) {
-                return '\nAn error occurred while compiling handlebars.\nLook in the console for details.\n' + error;
-            }))
-            .on('error', function () {
-                this.emit('end');
-            })
-            .pipe(replace({
-                patterns: patterns,
-                usePrefix: false
-            }))
-            .on('error', notify.onError(function (error) {
-                return '\nAn error occurred while replacing placeholdres.\nLook in the console for details.\n' + error;
-            }))
-            .pipe(beml())
-            .pipe(gulp.dest('./dev/'))
-            .pipe(browserSync.reload({ stream: true }))
-            .pipe(
+                ? handlebars(modulesData, handlebarsOptions)
+                : through2.obj(
+                function() {
+                    console.log(gutil.colors.red('An error occurred with data-files!'));
+                    this.emit('error', error);
+                }
+        )
+                )
+                .on('error', notify.onError(function(error) {
+            return '\nAn error occurred while compiling handlebars.\nLook in the console for details.\n' + error;
+        }))
+                .on('error', function() {
+            this.emit('end');
+        })
+                .pipe(replace({
+            patterns: patterns,
+            usePrefix: false
+        }))
+                .on('error', notify.onError(function(error) {
+            return '\nAn error occurred while replacing placeholdres.\nLook in the console for details.\n' + error;
+        }))
+                .pipe(beml())
+                .pipe(gulp.dest('./dev/'))
+                .pipe(browserSync.reload({stream: true}))
+                .pipe(
                 notifier('Templates\'ve been compiled')
-            );
+                );
     });
 };

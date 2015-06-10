@@ -1,0 +1,9 @@
+{{#if is-main-page}}
+<ul block="catalogs-dop" mod="page_main">
+    {{> main/catalogs-dop/inner/inner catalogs}}
+</ul>
+{{else}}
+<ul block="catalogs-dop"  mod="page_rubrikator">
+    {{> main/catalogs-dop/inner/inner catalogs}}
+</ul>
+{{/if}}

@@ -1,0 +1,14 @@
+{{#each tags}}
+{{#if is-active}}
+<span elem="tag-active">
+    {{title}}
+    <a block="close" href="{{url-back}}">
+        <i elem="icon" mod="close"></i>
+    </a>
+</span>
+{{else}}
+<a elem="tag" href="{{url}}">
+    {{title}}
+</a>
+{{/if}}
+{{/each}}

@@ -1,26 +1,26 @@
 <footer block="footer">
     <div class="container">
         <div class="row">
-            <div elem="coordinator">Координатор сайта: (8482) 74-44-19</div>
+            <div elem="coordinator">Координатор сайта: {{phone}}</div>
 
             <div elem="copyright">
                 <p elem="copyright-who">© FaceMaster — Фейсмастер</p>
-                <p elem="copyright-text">При полном или частичном воспроизведении информации активная ссылка на Фейсмастер обязательна.</p>
+                <p elem="copyright-text">При полном или частичном воспроизведении информации 
+                    активная ссылка на Фейсмастер обязательна.</p>
             </div>
 
 
             <div elem="links">
-                <a href="/site/oferta" elem="links-a">Оферта</a>&nbsp;
-                <a href="/flaglinks" elem="links-a">Обратная ссылка</a> <br>
-                <a href="/site/contact" elem="links-a">Контакты</a>&nbsp;
-                <a href="/site/svyaz" elem="links-a">Обратная связь</a>
+                {{#each links}}
+                <a href="{{url}}" elem="links-a">{{{title}}}</a>&nbsp;
+                {{/each}}
             </div>
 
 
             <div elem="counters">
-                {{> footer/counters}}
+                <!--{ { > footer/counters } }-->
             </div>
-            <script src="/%=staticPrefix=%js/main%=hash=%%=min=%.js"></script>
+            <script src="%=staticPrefix=%js/main%=hash=%%=min=%.js"></script>
         </div>
     </div>
 </footer>

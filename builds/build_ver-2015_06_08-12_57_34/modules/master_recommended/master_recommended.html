@@ -1,0 +1,33 @@
+{{#if is-recommended-masters}}
+<div class="master_recommended">
+    <h2 class="master_recommended__title">
+        Этих<br>
+        Мастеров<br>
+        рекомендуют
+    </h2>
+
+    <div class="master_recommended-arrows">
+        <a href="{{url-arrow-left}}">
+            <i class="master_recommended-arrows__arrow-left"></i>
+        </a>
+    </div>
+    {{#each recommended-master}}
+    <a class="master_recommended__master" href="{{master-url}}">
+        <img class="master_recommended__master-photo" src="{{src}}" alt="{{alt}}">
+
+        <p class="master_recommended__master-name">
+            {{master-name}}
+        </p>
+
+        <p class="master_recommended__master-recommendations">
+            {{recommendation-number}}
+        </p>
+    </a>
+    {{/each}}
+    <div class="master_recommended-arrows">
+        <a href="{{url-arrow-right}}">
+            <i class="master_recommended-arrows__arrow-right"></i>
+        </a>
+    </div>
+</div>
+{{/if}}

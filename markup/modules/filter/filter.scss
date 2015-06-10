@@ -1,0 +1,77 @@
+.filter {
+    padding-bottom: 20px;
+    &__title {
+        display: block;
+        height: 42px;
+        background-color: $color-bg-grey-medium;
+        color: #ffffff;
+        text-decoration: none;
+        @include font-tuning(12, 42);
+        padding: 0 10px 0 15px;
+        &:hover {
+            background-color: darken($color-bg-grey-medium, 5%);
+            color: #ffffff;
+        }
+        &_masters {
+            background-color: $color-green;
+            &:hover {
+                background-color: darken($color-green, 5%);
+            }
+            .filter {
+                &__icon {
+                    @extend %icon_people;
+                }
+            }
+        }
+    }
+    &__icon {
+        @extend %icon;
+        @extend %icon_block;
+        @extend %icon_size_small;
+        @include vertical-align;
+        float: left;
+        margin-right: 10px;
+        color: #ffffff;
+    }
+    &__arrow-icon {
+        @extend %icon;
+        @extend %icon_block;
+        @extend %icon_size_xsmall;
+        @extend %icon_strelka;
+        @include vertical-align;
+        float: right;
+    }
+    &__section {
+        padding: 10px;
+        @include font-tuning(12, 15);
+    }
+}
+
+.sort-by {
+    margin-bottom: 10px;
+    &__title {
+        font-weight: bold;
+    }
+    &__form {
+        padding-top: 5px;
+    }
+}
+
+.filter-by {
+    &__title {
+        font-weight: bold;
+        padding: 5px 0;
+    }
+    &__tag {
+        display: block;
+        width: 100%;
+        padding-bottom: 3px;
+    }
+    &__tag-active {
+        display: inline-block;
+        color: #ffffff;
+        background-color: $color-bg-grey-dark;
+        padding: 5px 10px;
+    }
+
+}

@@ -146,6 +146,7 @@ var tarsConfig = {
      * @type {Boolean}
      */
     minifyHtml: false,
+    beml: true,
 
     /**
      * Beginning of path for static files
@@ -154,7 +155,8 @@ var tarsConfig = {
      * Will be replaced to '/static/img/logo.png'
      * @type {String}
      */
-    staticPrefix: 'static/',
+    staticPrefix: '/static/',
+    staticPrefixForPhp: '/templates/static/',
 
     /**
      * Beginning of path for static files for using in css

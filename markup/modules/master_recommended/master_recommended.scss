@@ -1,0 +1,54 @@
+.master_recommended {
+    @extend .bg_grey;
+    background-image: url("%=staticPrefixForCss=%/assets/master_recommended/recommendBg.png");
+    background-position: 90px 19px;
+    background-repeat: no-repeat;
+    height: 125px;
+    padding: 6px 15px 0 200px;
+    position: relative;
+    @include cf;
+    &__title {
+        position: absolute;
+        color: $color-orange;
+        left: 12px;
+        top: 15px;
+        text-transform: uppercase;
+        @include font-tuning(18, 23);
+    }
+    &__master {
+        display: block;
+        float: left;
+        width: 110px;
+        text-align: center;
+        text-decoration: none;
+
+        &-photo {
+            width: 80px;
+        }
+        &-name, &-recommendations {
+            text-decoration: none;
+            color: $color-text;
+            @include font-tuning(11, 15);
+
+        }
+        &-recommendations {
+            font-weight: bold;
+        }
+    }
+    &-arrows {
+        float: left;
+        padding: 45px 5px;
+        &__arrow-left {
+            @extend %icon;
+            @extend %icon_block;
+            @extend %icon_size_xsmall;
+            @extend %icon_strelka;
+        }
+        &__arrow-right {
+            @extend %icon;
+            @extend %icon_block;
+            @extend %icon_size_xsmall;
+            @extend %icon_strelka;
+        }
+    }
+}

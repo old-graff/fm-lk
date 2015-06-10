@@ -1,22 +1,60 @@
 // Common styles of the project
-*,:before, :after{
+*, :before, :after {
     box-sizing: border-box;
 }
+
 html, body {
     height: 100%;
     font-family: 'PT Sans Caption', sans-serif;
-    background-color:$color-bg;
+    background-color: $color-bg;
     color: $color-text;
 }
-h1,.h1   {font-size: 25px; /*ie8*/ font-size: 1.5625rem; font-weight: normal;}
-p    {line-height:1.3em}
 
-a        {color:#808285; text-decoration: underline}
-a:hover  {color:#005b8d; text-decoration: none}
-a:active {color:#005b8d; text-decoration: none}
+.bg {
+    &_grey {
+        background: $color-bg-grey-light;
+    }
+    &_orange {
+        background: $color-orange;
+    }
+}
+
+.format {
+    ul, ol {
+        line-height: 1.3em;
+        margin-bottom: 14px;
+        margin-top: 14px
+    }
+    ul li {
+        position: relative;
+        padding-left: 17px;
+        padding-right: 20px
+    }
+    ul li:before {
+        content: "—";
+        position: absolute;
+        left: 0px;
+    }
+}
+
+h1, .h1 {
+    font-size: 25px; /*ie8*/
+    font-size: 1.5625rem;
+    font-weight: normal;
+}
+
+.h1_style {
+    text-transform: uppercase;
+    color: $color-orange;
+    font-weight: bold
+}
+
+p {
+    line-height: 1.3em
+}
 
 .page {
-    
+
 }
 
 .page__wrapper {
@@ -33,11 +71,9 @@ a:active {color:#005b8d; text-decoration: none}
     width: 40px;
 }
 
-
 //
 // Grid system
 // --------------------------------------------------
-
 
 // Container widths
 //
@@ -60,7 +96,6 @@ a:active {color:#005b8d; text-decoration: none}
     }
 }
 
-
 // Fluid container
 //
 // Utilizes the mixin meant for fixed width containers, but without any defined
@@ -70,7 +105,6 @@ a:active {color:#005b8d; text-decoration: none}
     @include container-fixed;
 }
 
-
 // Row
 //
 // Rows contain and clear the floats of your columns.
@@ -79,13 +113,11 @@ a:active {color:#005b8d; text-decoration: none}
     @include make-row;
 }
 
-
 // Columns
 //
 // Common styles for small and large grid columns
 
 @include make-grid-columns;
-
 
 // Extra small grid
 //
@@ -93,7 +125,6 @@ a:active {color:#005b8d; text-decoration: none}
 // smartphones.
 
 @include make-grid(xs);
-
 
 // Small grid
 //
@@ -104,7 +135,6 @@ a:active {color:#005b8d; text-decoration: none}
     @include make-grid(sm);
 }
 
-
 // Medium grid
 //
 // Columns, offsets, pushes, and pulls for the desktop device range.
@@ -112,7 +142,6 @@ a:active {color:#005b8d; text-decoration: none}
 @media (min-width: $screen-md-min) {
     @include make-grid(md);
 }
-
 
 // Large grid
 //
@@ -127,7 +156,7 @@ a:active {color:#005b8d; text-decoration: none}
         text-align: center;
         font-weight: bold;
         color: $color-orange;
-        @include at(lg){
+        @include at(lg) {
             @include font-tuning(35, 42);
         }
         @include at(md) {
@@ -141,17 +170,18 @@ a:active {color:#005b8d; text-decoration: none}
         }
     }
 }
+
 .sub-title {
-    @include at(lg){
-        @include font-tuning(25,46);
+    @include at(lg) {
+        @include font-tuning(25, 46);
     }
     @include at(md) {
-        @include font-tuning(20,25);
+        @include font-tuning(20, 25);
     }
     @include at(sm) {
-        @include font-tuning(17,23);
+        @include font-tuning(17, 23);
     }
     @include at(xs) {
-        @include font-tuning(15,20);
+        @include font-tuning(15, 20);
     }
 }

@@ -55,6 +55,7 @@
 
     .form {
         &__cont {
+            min-height: 305px;
             position: relative;
             background-color: $color-yellow;
             padding: 25px;

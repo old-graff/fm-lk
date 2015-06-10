@@ -1,0 +1,6 @@
+{
+    "block_main_catalogs": {
+        "is-main-page": true,
+        "catalogs": "readyBlocksData.block_main_catalogs_inner"
+    }
+}

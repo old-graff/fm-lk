@@ -1,0 +1,35 @@
+{
+    "page_company_rubrika": {
+        "head": {
+            "title": "Медицинские центры. FaceMaster.ru."
+        },
+        "header": "readyBlocksData.block_header",
+        "footer": "readyBlocksData.block_footer",
+        "breadcrumps": {
+            "links": [
+                {
+                    "title": "Каталог компаний",
+                    "url": "/company_rubrikator/company_rubrikator.html"
+                },
+                {
+                    "title": "Медицина",
+                    "url": "/company_rubrikator/company_rubrikator.html",
+                    "links": [
+                        {
+                            "title": "Врачи",
+                            "url": "/company_rubrika/company_rubrika.html"
+                        },
+                        {
+                            "title": "Врачи",
+                            "url": "/company_rubrika/company_rubrika.html"
+                        }
+                    ]
+                },
+                {
+                    "title": "Медицинские центры"
+                }
+            ]
+        },
+        "company_list": "readyBlocksData.block_company_list"
+    }
+}

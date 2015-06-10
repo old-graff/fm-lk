@@ -1,0 +1,22 @@
+{
+    "page_secret_rubrika": {
+        "head": {
+            "title": "Секреты Мастеров. FaceMaster.ru."
+        },
+        "header": "readyBlocksData.block_header",
+        "footer": "readyBlocksData.block_footer",
+        "breadcrumps": {
+            "links": [
+                {
+                    "title": "Секреты Мастеров"
+                }
+            ]
+        },
+        "title": "СЕКРЕТЫ МАСТЕРОВ",
+        "secret": {
+            "list": "readyBlocksData.block_secret_list",
+            "rubrikator": "readyBlocksData.block_secret_rubrikator"
+        },
+        "paginator": "readyBlocksData.block_paginator"
+    }
+}

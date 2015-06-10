@@ -1,10 +1,36 @@
 .main-page{
-    padding: 20px 0;
+    padding-top: 20px;
 }
-.main-function{
-    background-color: $color-blue;
-    @extend .col-md-9;
+.main-function {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    @extend .col-lg-9;
+    @extend .col-md-8;
+    &__inner{
+        @extend .row;
+        background-color: $color-blue-light;
+        padding-bottom:10px;
+    }
+    @include at(xs){
+        padding-right: 10px;
+        padding-left: 10px;
+    }
 }
 .dop-function{
-    @extend .col-md-3;
+    
+    @extend .col-lg-3;
+    @extend .col-md-4;
+    @extend .col-ms-12;
+    @include from(md){
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    @include from(sm){
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    &__inner {
+        @extend .row;
+    }
 }

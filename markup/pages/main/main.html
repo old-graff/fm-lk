@@ -10,7 +10,6 @@
 
     <head>
         {{> head/head page_main.head}}
-
     </head>
 
     <body class="page">
@@ -19,14 +18,14 @@
         <div block="main-page" mix="block:container">
             <div block="row">
                 <div block="main-function">
-                     {{> main/main-function/main-function}}
+                     {{> main/main-function/main-function page_main.mainFunction}}
                 </div>
                 <div block="dop-function">
-                     {{> main/dop-function/dop-function}}
+                     {{> main/dop-function/dop-function page_main.dopFunction}}
                 </div>
             </div>
         </div>
 
-        {{> footer/footer}}
+        {{> footer/footer page_main.footer}}
     </body>
 </html>

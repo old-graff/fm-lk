@@ -8,18 +8,24 @@ var watcherLog = require('../../helpers/watcher-log');
  * @param  {Object} watchOptions
  */
 module.exports = function (watchOptions) {
-    return chokidar.watch('markup/modules/**/*.' + watchOptions.cssPreprocExtension, {
-        ignored: [
-            'markup/modules/**/ie8.' + watchOptions.cssPreprocExtension
+    return chokidar.watch(
+        [
+            'markup/modules/**/*.' + watchOptions.cssPreprocExtension,
+            'markup/pages/**/*.' + watchOptions.cssPreprocExtension
         ],
-        persistent: true,
-        ignoreInitial: true
-    }).on('all', function (event, path) {
-        watcherLog(event, path);
-        gulp.start('css:compile-css');
-
-        if (gutil.env.ie8) {
-            gulp.start('css:compile-css-for-ie8');
+        {
+            ignored: [
+                'markup/modules/**/ie8.' + watchOptions.cssPreprocExtension
+            ],
+            persistent: true,
+            ignoreInitial: true
         }
-    });
+    ).on('all', function (event, path) {
+            watcherLog(event, path);
+            gulp.start('css:compile-css');
+
+            if (gutil.env.ie8) {
+                gulp.start('css:compile-css-for-ie8');
+            }
+        });
 };

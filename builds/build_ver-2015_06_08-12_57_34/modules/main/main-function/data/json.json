@@ -1,0 +1,13 @@
+{
+    "block_main_mainFunction": {
+        "countMaster": "1175 Мастеров",
+        "url": {
+            "findMaster": "/master_rubrikator/master_rubrikator.html",
+            "callback": "/404",
+            "catalog": "/master_rubrikator/master_rubrikator.html"
+        },
+        "catalogs": "readyBlocksData.block_main_catalogs"
+    }
+}
+
+

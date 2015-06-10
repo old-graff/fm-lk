@@ -1,0 +1,101 @@
+{
+    "page_main": {
+        "head": {
+            "title": "FaceMaster.ru. Специалисты Тольятти"
+        },
+        "header": {
+            "visitor": "12 456 посещений",
+            "menu": [{
+                "url": "http://facemaster.ru/site/allrubriks",
+                "title": "КАТАЛОГ УСЛУГ"
+            }, {
+                "url": "http://facemaster.ru/site/javascript:void(0)",
+                "title": "ЗАКАЗАТЬ УСЛУГУ"
+            }, {
+                "url": "http://facemaster.ru/site/reg",
+                "title": "СТАТЬ МАСТЕРОМ"
+            }],
+            "auth": false,
+            "authData": {
+                "name": "Администратор С.Н.",
+                "homeUrl": "http://facemaster.ru/home",
+                "menuUser": [{
+                    "url": "http://facemaster.ru/office",
+                    "title": "Офис"
+                }, {
+                    "url": "http://facemaster.ru/auth/logout",
+                    "title": "Выход"
+                }]
+            },
+            "authUrl": "http://facemaster.ru/auth",
+            "social": {
+                "list": [{
+                    "url": "http://vk.com/fm_mf",
+                    "mod": "vk"
+                }, {
+                    "url": "http://www.facebook.com/face.mast",
+                    "mod": "fb"
+                }, {
+                    "url": "http://www.odnoklassniki.ru/facemaster",
+                    "mod": "ok"
+                }, {
+                    "url": "http://twitter.com/FacemasterRu",
+                    "mod": "tw"
+                }]
+            }
+        },
+        "dopFunction": {
+            "menuMaster": [{
+                "url": "/reg-master/reg-master.html",
+                "title": "Стать Мастером",
+                "icon": true
+            }, {
+                "url": "/404",
+                "title": "Мастера о сайте"
+            }],
+            "menuAbout": [{
+                "url": "/404",
+                "title": "Новости"
+            }, {
+                "url": "/404",
+                "title": "Вакансии"
+            }],
+            "menuBayda": [{
+                "url": "/404",
+                "title": "Конкурсы газеты Презент"
+            }, {
+                "url": "/404",
+                "title": "Маршрутки Тольятти с 01.01.2015"
+            }, {
+                "url": "/404",
+                "title": "Дачные перевозки"
+            }, {
+                "empty": true
+            }]
+        },
+        "mainFunction": {
+            "countMaster": "1175 Мастеров",
+            "url": {
+                "findMaster": "/404",
+                "order": "/404"
+            },
+            "catalogs": [{
+                "url": "/404",
+                "title": "Поиск по скидке",
+                "icon": "gift"
+            }, {
+                "url": "/404",
+                "title": "Поиск по видео",
+                "icon": "video"
+            }, {
+                "url": "/404",
+                "title": "Секреты Мастеров",
+                "icon": "gift"
+            }, {
+                "url": "/404",
+                "title": "Каталог фирм",
+                "icon": "gift"
+            }]
+        }
+    }
+}

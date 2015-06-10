@@ -5,7 +5,10 @@ $font-size: 16px;
 
 $base-icon-size: 64px;
 // Colors ======================================================================
-$color-text:             #6d6e71;
+$color-text:             #5C5A59;
+$color-text-dark:        #58595b;
+$color-text-blue:        #1c75bc;
+$color-text-red:         #ED686E;
 $color-bg:               #f0f3fa;
 $color-bg-grey-light:    #e6e7e8;
 $color-bg-grey-xmedium:  #d3d5d6;
@@ -14,10 +17,17 @@ $color-bg-grey-dark:     #949599;
 $color-bg-black-light:   #59595c;
 
 $color-orange:           #EF850D;
-$color-yellow:           #eed214;
+$color-yellow:           #efd200;
+$color-yellow-deep:      #f7941e;
 $color-red:              #ef4036;
 $color-pink:             #ed686f;
-$color-blue:             #aae4f7;
+$color-blue-light:       #aae4f7;
+$color-blue:             #5dc8ed;
+$color-green-light:      #a0e094;
+$color-green:            #8dc63f;
+$color-green-deep:       #009444;
+
+
 
 //== Media queries breakpoints
 //
