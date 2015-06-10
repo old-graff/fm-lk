@@ -42,3 +42,11 @@
     @include svg-sprite-position-percent($svg-sprite);
     @include svg-sprite-size($svg-sprite, $koef);
 }
+
+%icon {
+{{#sprites}}
+        &_{{fileName}} {
+            @include svg-sprite-position-percent(${{fileName}});
+        }
+{{/sprites}}
+}

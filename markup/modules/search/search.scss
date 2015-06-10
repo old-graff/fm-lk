@@ -52,7 +52,7 @@
         @extend %icon;
         @extend %icon_block;
         @extend %icon_size_big;
-        @extend %icon_people;
+        @extend %icon_search;
     }
     @include at(sm) {
         &__title, &__field, &__button {

@@ -6,41 +6,7 @@
             <div class="row">
                 {{#each company-list}}
                 <div elem="card">
-                    <div block="company_card">
-                        <p elem="name">{{name}}</p>
-                        <div class="row">
-                            <div elem="logo-wr">
-                                <img src="{{logo.src}}" alt="{{logo.alt}}" elem="logo">
-                            </div>
-                            <div elem="info">
-                                <p elem="count_masters">{{count.masters}}</p>
-                                <p elem="count_likes">{{count.likes}}</p>
-                                <div elem="icons">
-                                    {{#if icons.icon_photo}}
-                                    <a href="{{icons.icon_photo.url}}" elem="icon-link">
-                                        <div elem="icon" mod="photo,have"></div>
-                                    </a>
-                                    {{else}}
-                                    <div elem="icon" mod="photo"></div>
-                                    {{/if}}
-                                    {{#if icons.icon_video}}
-                                    <a href="{{icons.icon_video.url}}" elem="icon-link">
-                                        <div elem="icon" mod="video,have"></div>
-                                    </a>
-                                    {{else}}
-                                    <div elem="icon" mod="video"></div>
-                                    {{/if}}
-                                    {{#if icons.icon_sale}}
-                                    <a href="{{icons.icon_sale.url}}" elem="icon-link">
-                                        <div elem="icon" mod="sale,have"></div>
-                                    </a>
-                                    {{else}}
-                                    <div elem="icon" mod="sale"></div>
-                                    {{/if}}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    {{> company_minicard/company_minicard this}}
                 </div>
                 {{/each}}
             </div>

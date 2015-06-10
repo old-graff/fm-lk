@@ -109,6 +109,15 @@
             @include font-tuning(15,30);
         }
     }
+    &__icon{
+        float: left;
+        margin-left: 30px;
+        margin-top: -20px;
+        @extend %icon;
+        @extend %icon_block;
+        @extend %icon_man-in-sun_white;
+        @include icon_size_xxxbig;
+    }
 }
 .call-back{
     padding-left:5px;

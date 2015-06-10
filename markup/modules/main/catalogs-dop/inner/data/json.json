@@ -14,12 +14,12 @@
             {
                 "url": "/secret_rubrika/secret_rubrika.html",
                 "title": "Секреты Мастеров",
-                "icon": "gift"
+                "icon": "qwestion"
             },
             {
                 "url": "/company_rubrikator/company_rubrikator.html",
                 "title": "Каталог фирм",
-                "icon": "gift"
+                "icon": "case" 
             }
         ]
     }
