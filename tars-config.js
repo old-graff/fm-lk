@@ -126,7 +126,7 @@ var tarsConfig = {
          * Choose the page to open in browser at first opening
          * @type {String}
          */
-        startUrl: '/index.html',
+        startUrl: '/main/main.html',
 
         /**
          * If you don't need to see notification in browser, switch to false

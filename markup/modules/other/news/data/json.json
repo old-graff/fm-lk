@@ -1,6 +1,6 @@
 {
     "block_oth_news": {
-        "secrets": [
+        "news": [
             {
                 "src": "%=staticPrefix=%img/assets/other/3780.jpg",
                 "title": "Как рассчитать бюджет ремонта квартиры",

@@ -60,6 +60,9 @@ a:active {
     $koef: strip-unit($size)/strip-unit($base-icon-size);
     @include svg-sprite-size($people, $koef);
 }
+@mixin icon_size_xxxbig {
+    @include icon_size(128px);
+}
 
 @mixin icon_size_xbig {
     @include icon_size(64px);
@@ -90,6 +93,9 @@ a:active {
 %icon {
     //base scale 64x64
     @include bg-svg-image($people); //переделать \!/!
+    /*&_search {
+        @include svg-sprite-position-percent($search);
+    }
     &_add-page {
         @include svg-sprite-position-percent($add-page);
     }
@@ -102,6 +108,9 @@ a:active {
     &_picture_white {
         @include svg-sprite-position-percent($picture_white);
     }
+    &_man-in-sun_white{
+        @include svg-sprite-position-percent($man-in-sun_white);
+}
     &_medal {
         @include svg-sprite-position-percent($medal);
     }
@@ -129,6 +138,12 @@ a:active {
     &_gift_white {
         @include svg-sprite-position-percent($gift_white);
     }
+    &_qwestion {
+        @include svg-sprite-position-percent($qwestion);
+    }
+    &_case{
+        @include svg-sprite-position-percent($case);
+    }
     &_strelka {
         @include svg-sprite-position-percent($strelka);
     }
@@ -143,7 +158,7 @@ a:active {
     }
     &_fb_white {
         @include svg-sprite-position-percent($fb_white);
-    }
+    }*/
 
     &_size_xbig {
         @include icon_size_xbig;

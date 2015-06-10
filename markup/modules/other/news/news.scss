@@ -1,4 +1,5 @@
-.secret{
+
+.news{
     @extend .bg_grey;
     padding: 10px;
     margin: 20px 0;
@@ -12,22 +13,46 @@
         @extend .row;
     }
     &__img-wr{
+        @extend .col-lg-3;
         @extend .col-sm-4;
     }
     &__content {
+        @extend .col-lg-6;
         @extend .col-sm-8;
-        padding-bottom: 40px;
+        padding-bottom: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        @include at(lg){
+            border-right: 1px solid $color-bg-grey-dark;
+        }
         @include from(sm){
-            min-height: 222px;
+            min-height: 205px;
+        }
+    }
+    &__autor{
+        padding-top: 10px;
+        padding-left: 20px;
+        @extend .col-lg-3;
+        @include font-tuning(12,16);
+        min-height: 222px;
+        @include to(lg){
+            display:none;
         }
     }
     &__img{
-        width:100%
+        width:100%;
+        display: block;
+        @include at(xs){
+            display:none;
+        } 
     }
     &__title{
         font-weight:bold;
-        padding: 10px 0;
+        padding: 0 0 10px 0;
         @include font-tuning(18,21);
+        @include at(xs){
+            @include font-tuning(13,17);
+        } 
     }
     &__intro{
         @include font-tuning(12,14);
@@ -35,20 +60,20 @@
             @include font-tuning(14,17);
         }
         @include at(xs){
-            display:none;
+            //display:none;
         }
     }
     &__date{
         position: absolute;
-        bottom: 10px;
+        bottom: 0px;
         @include at(xs){
             @include font-tuning(12,12);
         }
     }
     &__more{
         position: absolute;
-        bottom: 10px;
-        right: 10px;
+        bottom: 0px;
+        right: 20px;
         color: $color-text-red;
         text-transform: uppercase;
         padding-right: 20px;
@@ -64,6 +89,6 @@
         @extend %icon;
         @extend %icon_block;
         @extend %icon_size_xxsmall;
-        @extend %icon_strelka_red;
+        @extend %icon_strelka;
     }
 }

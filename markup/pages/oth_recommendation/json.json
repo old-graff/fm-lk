@@ -1,18 +1,18 @@
 {
-    "page_oht_news": {
+    "page_oht_recommendation": {
         "head": {
-            "title": "Новости - FaceMaster.ru. Специалисты Тольятти"
+            "title": "Мастера о сайте - FaceMaster.ru. Специалисты Тольятти"
         },
         "header": "readyBlocksData.block_header",
         "footer": "readyBlocksData.block_footer",
         "breadcrumps": {
             "links": [
                 {
-                    "title": "Новости"
+                    "title": "Мастера о сайте"
                 }
             ]
         },
-        "news": "readyBlocksData.block_oth_news", 
+        "recommendation": "readyBlocksData.block_oth_recommendation", 
         "paginator": "readyBlocksData.block_paginator"
     }
 }

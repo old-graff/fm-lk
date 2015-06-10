@@ -20,6 +20,12 @@
         &_video{
             @extend %icon_video;
         }
+        &_qwestion{
+            @extend %icon_qwestion;
+        }
+        &_case{
+            @extend %icon_case;
+        }
         
     }
     @include at(lg){
