@@ -1,0 +1,31 @@
+{
+    "block_master_have_content_icons": {
+        "modificator": "vertical",
+        "have-content-icons": [
+            {
+                "content-type": "gift",
+                "url": "404",
+                "is-active": true,
+                "is-exist": true
+            },
+            {
+                "content-type": "gift",
+                "url": "404",
+                "is-active": false,
+                "is-exist": true
+            },
+            {
+                "content-type": "gift",
+                "url": "404",
+                "is-active": false,
+                "is-exist": true
+            },
+            {
+                "content-type": "gift",
+                "url": "404",
+                "is-active": false,
+                "is-exist": true
+            }
+        ]
+    }
+}

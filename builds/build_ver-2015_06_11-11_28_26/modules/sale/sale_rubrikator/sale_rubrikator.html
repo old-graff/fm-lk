@@ -1,0 +1,24 @@
+{{#each sale_rubrika_list}}
+<div class="sale_rubrika">
+    <div class="sale_rubrika__title" style="background-color: {{color}}">
+        <p class="sale_rubrika__title-count">{{count}}</p>
+        <p class="sale_rubrika__title-name">{{name}}</p>
+    </div>
+    <div class="sale_rubrika__content">
+        <div class="sale_rubrika__list">
+            <div class="sale_list">
+                {{#each sale-list}}
+                <div class="sale_list__sale">
+                    {{> sale/sale/sale this}}
+                </div>
+                {{/each}}
+            </div>
+        </div>
+        <div class="sale_rubrika__rubrikator">
+            <div class="sale_rubrikator">
+                {{> rubrikator/one-level-rubrikator/one-level-rubrikator podrubriks}}
+            </div>
+        </div>
+    </div>
+</div>
+{{/each}}

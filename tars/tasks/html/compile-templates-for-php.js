@@ -144,7 +144,7 @@ module.exports = function(buildOptions) {
         /** modules **/
         gulp.src([
             './markup/modules/**/*.html',
-            './markup/modules/main/**/*.html'
+            './markup/modules/**/**/*.html'
         ])
                 .pipe(replace({
             patterns: patterns,

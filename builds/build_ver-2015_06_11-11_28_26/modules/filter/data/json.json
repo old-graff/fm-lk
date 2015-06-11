@@ -1,0 +1,33 @@
+{
+    "block_filter": {
+        "filter-section": [
+            {
+                "url": "404",
+                "section-name": "masters",
+                "title": "Мастера",
+                "is-sort": true,
+                "sort-by": {
+                    "url": "/master_rubrika/master_rubrika.html",
+                    "method": "get"
+                },
+                "is-filter": true,
+                "tags-free": "readyBlocksData.block_filter_tags",
+                "tags-group": [
+                    {
+                        "title": "Дома дачи:",
+                        "list": "readyBlocksData.block_filter_tags"
+                    },
+                    {
+                        "title": "Кровля:",
+                        "list": "readyBlocksData.block_filter_tags"
+                    }
+                ]
+            },
+            {
+                "url": "404",
+                "icon": "",
+                "title": "Видео Мастеров"
+            }
+        ]
+    }
+}

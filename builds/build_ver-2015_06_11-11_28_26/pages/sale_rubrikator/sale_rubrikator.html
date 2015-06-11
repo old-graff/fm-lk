@@ -1,0 +1,32 @@
+<!doctype html>
+<!--[if IE 7]>
+<html class="ie7 lt-ie10 lt-ie9 lt-ie8 no-js" lang="ru"><![endif]-->
+<!--[if IE 8]>
+<html class="ie8 lt-ie10 lt-ie9 no-js" lang="ru"><![endif]-->
+<!--[if IE 9 ]>
+<html class="ie9 lt-ie10 no-js" lang="ru"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="no-js" lang="ru"><!--<![endif]-->
+
+    <head>
+        {{> head/head page_sale_rubrikator.head}}
+    </head>
+
+    <body class="page">
+        {{> header/header page_sale_rubrikator.header}}
+        {{> breadcrumps/breadcrumps page_sale_rubrikator.breadcrumps}}
+
+        <div class="container">
+            <div class="page_sale_rubrikator">
+                <h1 class="h1 h1_style">{{page_sale_rubrikator.title}}</h1>
+                <div class="row">
+                    <div class="page_sale_rubrikator__list">
+                        {{> sale/sale_rubrikator/sale_rubrikator page_sale_rubrikator.sale}}    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{> footer/footer page_video_rubrika.footer}}
+    </body>
+</html>

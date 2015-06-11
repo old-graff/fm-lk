@@ -1,4 +1,4 @@
-.secret_rubrikator{
+.one_level_rubrikator{
     @extend .bg_grey;
     padding: 10px;
     @include font-tuning(13,16);
@@ -25,5 +25,23 @@
         @extend %icon_block;
         @extend %icon_size_xxxsmall;
         @extend %icon_strelka;
+    }
+    &__count{
+        font-size: 11px;
+    }
+    &__inner{
+        &-list{
+            margin-top: 5px;
+            margin-bottom: 10px;
+            margin-left: 12px;
+            @include pxrem(font-size, 12px);
+            @include pxrem(line-height, 16px);
+        }
+        &-link{
+            @extend .one_level_rubrikator__link;
+        }
+        &-count{
+            @extend .one_level_rubrikator__count;
+        }
     }
 }

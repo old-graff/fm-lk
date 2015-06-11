@@ -12,11 +12,13 @@
         </div>
         <div class="row">
             <div elem="autor">
-                <a href="{{master.url}}">
-                    <img src="{{master.photo}}" alt="{{master.name}}" elem="master-photo">
+                {{#with master}}
+                <a href="{{url}}">
+                    <img elem="master-photo" src="{{photo}}" alt="{{name}}">
                 </a>
                 <p>Видео добавил Мастер: </p>  
-                <a href="{{master.url}}">{{master.name}}</a>
+                <a href="{{url}}">{{name}}</a>
+                {{/with}}
             </div>
             <div elem="dop">
                 <p elem="rubrika"><strong>Рубрика:</strong> {{rubrika}}</p>
