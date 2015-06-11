@@ -1,19 +1,23 @@
 .master_minicard {
     @extend .bg_grey;
-    height: 298px;
     padding: 20px;
     position: relative;
     overflow: hidden;
 
-    .master_minicard {
-        &__left-column {
-            @extend .col-md-3;
-            padding-right: 0;
-        }
-        &__right-column {
-            @extend .col-md-9;
-            padding-left: 20px;
-        }
+    &_free {
+        height: 256px;
+    }
+    &_premium {
+        height: 298px;
+    }
+
+    &__left-column {
+        @extend .col-md-3;
+        padding-right: 0;
+    }
+    &__right-column {
+        @extend .col-md-9;
+        padding-left: 20px;
     }
 }
 
@@ -45,7 +49,7 @@
         @extend %icon;
         @extend %icon_inline;
         @extend %icon_size_xxsmall;
-        @extend %icon_strelka;
+        @extend %icon_strelka_white;
     }
 }
 
@@ -78,7 +82,16 @@
 
 .master_company {
     @extend .col-md-5;
-    float:right;
+    float: right;
+    &__logo {
+        float: left;
+        margin-right: 10px;
+    }
+    &__name {
+        height: 70px;
+        overflow: hidden;
+        @include font-tuning(13, 17);
+    }
 }
 
 .master_presentation {
@@ -93,4 +106,41 @@
     background-color: #ffffff;
     width: 180px;
     height: 180px;
+    padding: 5px;
+
+    &__desc {
+        padding-top: 10px;
+        @include font-tuning(10, 14);
+    }
+
+    &__main {
+        height: 83px;
+        color: #FFFFFF;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        &:after {
+            content: '';
+            display: inline-block;
+            vertical-align: middle;
+            height: 100%;
+            width: 0px;
+        }
+    }
+
+    &_gift {
+        .master_have-content-widget {
+            &__main {
+                background-color: $color-orange;
+                .title {
+                    display: inline-block;
+                    vertical-align: middle;
+                    @include font-tuning(14, 16);
+                }
+            }
+            &__desc {
+                text-align: center;
+            }
+        }
+    }
 }

@@ -28,9 +28,9 @@
 
                 {{#if company}}
                 <div block="master_company">
-                        <img src="{{company.logo}}" alt="{{company.name}}">
+                        <img elem="logo" src="{{company.logo}}" alt="{{company.name}}">
 
-                        <p>
+                        <p elem="name">
                             {{company.name}}
                         </p>
                 </div>
@@ -56,9 +56,9 @@
         {{> master_have-content-icons/master_have-content-icons have-content-icons}}
         {{#with have-content}}
         {{#if gift}}
-        <div block="master_have-content-widget">
+        <div block="master_have-content-widget" mod="gift">
             <div elem="main">
-                <p>{{{gift.title}}}</p>
+                <p class="title">{{{gift.title}}}</p>
             </div>
             <p elem="desc">
                 {{{gift.desc}}}
@@ -68,9 +68,8 @@
         {{#if photo}}
         <div block="master_have-content-widget">
             <div elem="main">
-                <p>У Мастера:</p>
-
-                <p>{{{photo.count}}}</p>
+                <p class="title">У Мастера:</p>
+                <p class="count">{{{photo.count}}}</p>
             </div>
             <p elem="desc">
                 {{{photo.desc}}}

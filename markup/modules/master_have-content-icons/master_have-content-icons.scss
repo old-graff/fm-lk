@@ -7,21 +7,71 @@
 }
 
 .master_content-icon {
+    &__link {
+        display: block;
+        width: 45px;
+        height: 45px;
+    }
+    &__icon {
+        margin: 0 auto;
+        @extend %icon;
+        @extend %icon_block;
+        @extend %icon_size_xsmall;
+        @include vertical-align;
+    }
     &_gift {
         .master_content-icon {
-            &__link {
-                display: block;
-                width: 45px;
-                height: 45px;
-
-            }
             &__icon {
-                margin: 0 auto;
-                @extend %icon;
-                @extend %icon_block;
-                @extend %icon_size_xsmall;
-                @extend %icon_video;
-                @include vertical-align;
+                @extend %icon_gift_grey_light;
+            }
+        }
+        &.exist {
+            .master_content-icon {
+                &__icon {
+                    @extend %icon_gift_orange;
+                }
+            }
+        }
+    }
+    &_photo {
+        .master_content-icon {
+            &__icon {
+                @extend %icon_picture_grey_light;
+            }
+        }
+        &.exist {
+            .master_content-icon {
+                &__icon {
+                    @extend %icon_picture_purpur;
+                }
+            }
+        }
+    }
+    &_video {
+        .master_content-icon {
+            &__icon {
+                @extend %icon_video_grey_light;
+            }
+        }
+        &.exist {
+            .master_content-icon {
+                &__icon {
+                    @extend %icon_video_green;
+                }
+            }
+        }
+    }
+    &_comments {
+        .master_content-icon {
+            &__icon {
+                @extend %icon_dialog_grey_light;
+            }
+        }
+        &.exist {
+            .master_content-icon {
+                &__icon {
+                    @extend %icon_dialog_madgenta;
+                }
             }
         }
     }

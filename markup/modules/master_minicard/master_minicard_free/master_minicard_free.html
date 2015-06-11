@@ -1,2 +1,28 @@
-<div block="master_minicard_free">
+<div block="master_minicard" mod="free">
+    <div class="row">
+        <div elem="left-column">
+            <div block="master_photo-and-contacts">
+                <img elem="photo" src="{{master-photo.src}}" alt="{{master-photo.alt}}">
+                <a elem="phone" href="{{master-phone}}">Показать телефон</a>
+            </div>
+        </div>
+        <div elem="right-column">
+            <div class="row">
+                <div block="master_name-and-spec" mod="wide">
+                    <p elem="name">
+                        {{master-name}}
+                    </p>
+                </div>
+                <div block="master_services" mod="wide" class="format">
+                    <ul elem="service-list">
+                        {{#each service-list}}
+                        <li elem="service">
+                            {{this}}
+                        </li>
+                        {{/each}}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

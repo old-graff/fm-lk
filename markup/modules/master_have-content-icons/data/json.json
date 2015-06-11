@@ -9,19 +9,19 @@
                 "is-exist": true
             },
             {
-                "content-type": "gift",
+                "content-type": "photo",
                 "url": "404",
                 "is-active": false,
                 "is-exist": true
             },
             {
-                "content-type": "gift",
+                "content-type": "video",
                 "url": "404",
                 "is-active": false,
-                "is-exist": true
+                "is-exist": false
             },
             {
-                "content-type": "gift",
+                "content-type": "comments",
                 "url": "404",
                 "is-active": false,
                 "is-exist": true

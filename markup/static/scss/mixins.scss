@@ -1,10 +1,10 @@
 // Convert px to em
-@function pxtoem($target, $context){
+@function pxtoem($target, $context) {
     @return ($target / $context) + 0em;
 }
 
 // Convert em to px
-@function emtopx($target, $context){
+@function emtopx($target, $context) {
     @return ($target * $context) + 0px;
 }
 
@@ -262,7 +262,7 @@
 
 // --- Inline-block
 // -----------------------------
-@mixin inline-block ($haslayout : true){
+@mixin inline-block($haslayout : true) {
     display: inline-block;
     vertical-align: middle;
 }
@@ -290,7 +290,7 @@
 
 // --- Selection
 // -----------------------------
-$prefixes: ('-webkit-','-moz-', '');
+$prefixes: ('-webkit-', '-moz-', '');
 @mixin selection($color, $background) {
     @each $prefix in $prefixes {
         ::#{$prefix}selection {
@@ -303,7 +303,7 @@ $prefixes: ('-webkit-','-moz-', '');
 
 // --- Position
 // -----------------------------
-@mixin position ($position: relative, $coordinates: 0 0 0 0) {
+@mixin position($position: relative, $coordinates: 0 0 0 0) {
     @if type-of($position) == list {
         $coordinates: $position;
         $position: relative;
@@ -315,30 +315,25 @@ $prefixes: ('-webkit-','-moz-', '');
     position: $position;
     @if $top == auto {
         top: $top;
-    }
-    @else if not(unitless($top)) {
+    } @else if not(unitless($top)) {
         top: $top;
     }
     @if $right == auto {
         right: $right;
-    }
-    @else if not(unitless($right)) {
+    } @else if not(unitless($right)) {
         right: $right;
     }
     @if $bottom == auto {
         bottom: $bottom;
-    }
-    @else if not(unitless($bottom)) {
+    } @else if not(unitless($bottom)) {
         bottom: $bottom;
     }
     @if $left == auto {
         left: $left;
-    }
-    @else if not(unitless($left)) {
+    } @else if not(unitless($left)) {
         left: $left;
     }
 }
-
 
 // --- Vertical align
 // -----------------------------
@@ -350,10 +345,9 @@ $prefixes: ('-webkit-','-moz-', '');
     transform: translateY(-50%);
 }
 
-
 // --- Rem units with fallback
 // -----------------------------
-@mixin pxrem ($property, $values...) {
+@mixin pxrem($property, $values...) {
     $max: length($values);
     $px-values: '';
     $rem-values: '';
@@ -386,11 +380,10 @@ $prefixes: ('-webkit-','-moz-', '');
     #{$property}: $rem-values;
 }
 
-
 // --- fonts tuning
 // -----------------------------
 @mixin font-tuning($px-font-size, $px-line-height) {
-    font-size: pxtoem($px-font-size,strip-unit($font-size));
-    line-height: pxtoem($px-line-height,strip-unit($px-font-size));
+    font-size: pxtoem($px-font-size, strip-unit($font-size));
+    line-height: pxtoem($px-line-height, strip-unit($px-font-size));
 }
 
