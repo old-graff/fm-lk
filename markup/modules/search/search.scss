@@ -7,6 +7,7 @@
         @extend .col-lg-1;
         @extend .col-md-2;
         @extend .col-sm-1;
+        padding-right: 5px;
     }
     &__field {
         padding-right: 5px;
@@ -51,8 +52,9 @@
         @include vertical-align;
         @extend %icon;
         @extend %icon_block;
-        @extend %icon_size_big;
         @extend %icon_search;
+        @include icon_size(35px);
+        float: right;
     }
     @include at(sm) {
         &__title, &__field, &__button {

@@ -5,7 +5,10 @@
     &__item{
         margin: 5px 0;
         &_active{
-            color: $color-text-red;                    
+            color: $color-text-red;   
+            .one_level_rubrikator__icon{
+                 @extend %icon_strelka_red;
+            }
         }
     }
     &__link{

@@ -10,15 +10,24 @@
                 },
                 "count": {
                     "masters": "4 Мастера",
-                    "likes": "1082"                    
+                    "likes": "1082"
                 },
-                "icons": {
-                    "icon_photo": {
-                        "url": "404"
-                    },
-                    "icon_video": {
-                        "url": "404"
-                    }
+                "icons": { 
+                    "modificator": "gorizontal",
+                    "have-content-icons": [
+                        {
+                            "content-type": "gift",
+                            "is-exist": true
+                        },
+                        {
+                            "content-type": "photo",
+                            "is-exist": true
+                        },
+                        {
+                            "content-type": "video",
+                            "is-exist": true
+                        } 
+                    ]
                 }
             },
             {
@@ -29,14 +38,26 @@
                 },
                 "count": {
                     "masters": "1 Мастер",
-                    "likes": "26"                    
+                    "likes": "26"
                 },
-                "icons": {
-                    "icon_photo": {
-                        "url": "404"
-                    }
+                "icons": { 
+                    "modificator": "gorizontal",
+                    "have-content-icons": [
+                        {
+                            "content-type": "gift",
+                            "is-exist": false
+                        },
+                        {
+                            "content-type": "photo",
+                            "is-exist": true
+                        },
+                        {
+                            "content-type": "video",
+                            "is-exist": true 
+                        } 
+                    ]
                 }
-            }, 
+            },
             {
                 "name": "МЦ Вита",
                 "logo": {
@@ -45,15 +66,24 @@
                 },
                 "count": {
                     "masters": "1 Мастер",
-                    "likes": "26"                    
+                    "likes": "26"
                 },
-                "icons": {
-                    "icon_photo": {
-                        "url": "404"
-                    },
-                    "icon_video": {
-                        "url": "404"
-                    }
+                "icons": { 
+                    "modificator": "gorizontal",
+                    "have-content-icons": [
+                        {
+                            "content-type": "gift",
+                            "is-exist": false
+                        },
+                        {
+                            "content-type": "photo",
+                            "is-exist": true
+                        },
+                        {
+                            "content-type": "video",
+                            "is-exist": false 
+                        } 
+                    ]
                 }
             },
             {
@@ -64,7 +94,24 @@
                 },
                 "count": {
                     "masters": "1 Мастер",
-                    "likes": "3"                    
+                    "likes": "3"
+                },
+                "icons": { 
+                    "modificator": "gorizontal",
+                    "have-content-icons": [
+                        {
+                            "content-type": "gift",
+                            "is-exist": false
+                        },
+                        {
+                            "content-type": "photo",
+                            "is-exist": false
+                        },
+                        {
+                            "content-type": "video",
+                            "is-exist": false  
+                        } 
+                    ]
                 }
             }
         ]
