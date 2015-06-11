@@ -1,0 +1,6 @@
+{
+    "block_regmaster_form":{
+        "url": "/reg-master/success.json",
+        "method": "get"
+    }
+}

@@ -1,15 +1,45 @@
-<div block="secret_rubrikator">
+<div block="one_level_rubrikator">
     <ul>
         {{#each rubrikator}}
-        {{#if is-active}}
-        <li elem="item" mod="active">
-            <span elem="link"><i elem="icon"></i>{{title}}</span>
+        <li class="one_level_rubrikator__item{{#if is-active}} one_level_rubrikator__item_active{{/if}}">
+            {{#if is-active}}
+            <p elem="link">
+                {{else}}
+                <a href="{{url}}" elem="link">
+                    {{/if}}
+                    <i elem="icon"></i>{{title}} 
+                    {{#if count}}<span elem="count">&nbsp;&nbsp;{{count}}</span>{{/if}}
+                    {{#if is-active}}
+            </p>
+            {{else}}
+            </a>
+            {{/if}}
+
+            {{#if inner-list}}
+            <ul elem="inner-list">
+                {{#each inner-list}}
+
+                <li class="one_level_rubrikator__inner-list-item{{#if is-active}} one_level_rubrikator__inner-list-item_active{{/if}}">
+                    {{#if is-active}}
+                    <p elem="inner-link">
+                        {{else}}
+                        <a href="{{url}}" elem="inner-link">
+                            {{/if}}
+
+                            {{title}} 
+                            {{#if count}}<span elem="inner-count">&nbsp;&nbsp;{{count}}</span>{{/if}}
+
+                            {{#if is-active}}
+                    </p>
+                    {{else}}
+                    </a>
+                    {{/if}}
+                </li>
+                {{/each}}
+            </ul>
+            {{/if}}
+
         </li>
-        {{else}}
-        <li elem="item">
-            <a href="{{url}}" elem="link"><i elem="icon"></i>{{title}}</a>
-        </li>
-        {{/if}}
         {{/each}}
     </ul>
 </div>

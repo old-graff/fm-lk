@@ -1,0 +1,96 @@
+.video{
+    @extend .news;
+    &__img-wr{
+        @extend .col-sm-6;
+        @extend .col-xs-12;
+        padding-bottom: 10px;
+        &:after{
+            content: ' ';
+            display: block;
+            width: 70px;
+            height: 70px;
+            position: absolute;
+            top: 50%;
+            right: 50%;
+            transform: translate(50%, -50%);
+            border-left: 70px solid #fff;
+            border-top: 35px solid transparent;
+            border-bottom: 35px solid transparent;
+            opacity: 0.8;
+        }
+        &:hover{
+            &:after{
+                border-left-color: $color-orange;
+            }
+        }
+    }
+    &__img{
+        width:100%;
+    }
+    &__content {
+        @extend .col-sm-6;
+        @extend .col-xs-12;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        @include at(xs){
+            margin-top:0px;
+            position: relative;
+            &:after{
+                content: ' ';
+                width: 230px;
+                height: 1px;
+                display: block;
+                bottom: -10px;
+                position: absolute;
+                margin-bottom:10px;
+                border-bottom:1px solid $color-bg-grey-dark;
+            }
+        }
+    }
+    
+    &__intro{
+        @extend .news__intro;
+        max-height: 100px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        
+        @include at(xs){
+            margin-bottom:10px;
+        }
+    }
+    &__title{
+        @extend .news__title;
+        @include to(lg){
+            @include font-tuning(14,17);
+        }
+        padding-bottom: 0;
+        margin-bottom: 10px;
+        max-height: 63px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    &__master-photo{
+        width:50px; 
+        float: left;
+        margin-right:10px;
+    }
+    &__autor{
+        @extend .col-sm-6;
+        @extend .col-xs-12;
+        @include font-tuning(12,16);
+        @include at(lg){
+            padding-right: 60px;
+        }
+    }
+    &__dop{
+        @extend .col-sm-6;
+        @extend .col-xs-12;
+        @include font-tuning(12,16);
+        @include at(xs){
+            padding-top:5px;
+        }
+    }
+    &__rubrika{
+        padding-bottom: 3px;
+    }
+}
