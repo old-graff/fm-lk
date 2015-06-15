@@ -1,0 +1,6 @@
+.page_sale_rubrikator{
+    @extend .col-xs-12;
+    @include at(xs){
+        padding: 0;
+    }
+}

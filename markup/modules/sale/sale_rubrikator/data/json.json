@@ -1,0 +1,78 @@
+{
+    "block_sale_rubrikator": {
+        "sale_rubrika_list": [
+            {
+                "name": "Ремонт, строительство, интерьер",
+                "color": "#35b45b", 
+                "count": "60",
+                "url": "/sale_rubrika/sale_rubrika.html",
+                "sale-list": [
+                    "readyBlocksData.block_sale_sale",
+                    "readyBlocksData.block_sale_sale",
+                    "readyBlocksData.block_sale_sale",
+                    "readyBlocksData.block_sale_sale" 
+                ],
+                "podrubriks": { 
+                    "rubrikator": [
+                        {
+                            "url": "/sale_rubrika/sale_rubrika.html",
+                            "title": "Строительство",
+                            "count": "5"
+                        },
+                        {
+                            "url": "/secret_rubrika/secret_rubrika.html",
+                            "title": "Интерьер",
+                            "count": "11"
+                        },
+                        {
+                            "url": "/secret_rubrika/secret_rubrika.html",
+                            "title": "Ремонт квартир, домов",
+                            "count": "36"
+                        },
+                        {
+                            "url": "/secret_rubrika/secret_rubrika.html",
+                            "title": "Окна, двери, потолки, балконы",
+                            "count": "8"
+                        }
+                    ]
+                }
+            },
+            {
+                "name": "Здоровье, красота, мода",
+                "color": "#b80000", 
+                "count": "18",
+                "url": "/sale_rubrika/sale_rubrika.html",
+                "sale-list": [
+                    "readyBlocksData.block_sale_sale",
+                    "readyBlocksData.block_sale_sale",
+                    "readyBlocksData.block_sale_sale",
+                    "readyBlocksData.block_sale_sale" 
+                ],
+                "podrubriks": { 
+                    "rubrikator": [
+                        {
+                            "url": "/sale_rubrika/sale_rubrika.html",
+                            "title": "Оздровительные услуги",
+                            "count": "5"
+                        },
+                        {
+                            "url": "/secret_rubrika/secret_rubrika.html",
+                            "title": "Красота",
+                            "count": "11"
+                        },
+                        {
+                            "url": "/secret_rubrika/secret_rubrika.html",
+                            "title": "Одежда и обувь",
+                            "count": "36"
+                        },
+                        {
+                            "url": "/secret_rubrika/secret_rubrika.html",
+                            "title": "Врачи",
+                            "count": "8" 
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
