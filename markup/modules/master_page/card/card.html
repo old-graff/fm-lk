@@ -1,0 +1,27 @@
+<div block="master_page_card">
+    <div elem="photo">
+
+    </div>
+    <div elem="info">
+        <div elem="fio">
+            {{fio}}
+        </div>
+        {{#if spec}}
+        <div elem="spec">
+            {{spec}}
+        </div>
+        {{/if}}
+
+        {{#if company}}
+        <div elem="company">
+            {{company}}
+        </div>
+        {{/if}}
+        
+        <div block="master_number">
+            <p elem="text">личный номер Мастера</p>
+            <div elem="number">№7280</div>
+            <a elem="link" href="{{url-printCard}}">распечатать визитку</a>
+        </div>
+    </div>
+</div>
