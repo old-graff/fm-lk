@@ -69,9 +69,18 @@
     }
     &__tag-active {
         display: inline-block;
+        position: relative;
         color: #ffffff;
         background-color: $color-bg-grey-dark;
-        padding: 5px 10px;
+        padding: 5px 30px 5px 10px;
+        margin: 5px 0;
+        line-height: 16px;
+    }
+    &__close{
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
     }
 
 }

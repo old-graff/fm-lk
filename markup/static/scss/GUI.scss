@@ -279,10 +279,11 @@ a:active {
 }
 
 .close {
+    display: block;
     &__icon{
         @extend %icon;
-        @extend %icon_inline;
-        @extend %icon_size_xsmall;
-        @extend %icon_vk_white;
+        @extend %icon_block;
+        @extend %icon_size_xxxsmall;
+        @extend %icon_close_white;
     }
 }

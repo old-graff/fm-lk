@@ -2,9 +2,11 @@
 {{#if is-active}}
 <span elem="tag-active">
     {{title}}
-    <a block="close" href="{{url-back}}">
-        <i elem="icon" mod="close"></i>
-    </a>
+    <div elem="close">
+        <a block="close" href="{{url-back}}">
+            <i elem="icon" mod="close"></i>
+        </a>
+    </div>
 </span>
 {{else}}
 <a elem="tag" href="{{url}}">
