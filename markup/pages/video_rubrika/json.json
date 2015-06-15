@@ -1,21 +1,21 @@
 {
     "page_video_rubrika": {
         "head": {
-            "title": "Видео Мастеров. FaceMaster.ru."
+            "title": "Каталог видео Мастеров. FaceMaster.ru."
         },
         "header": "readyBlocksData.block_header",
         "footer": "readyBlocksData.block_footer",
         "breadcrumps": {
             "links": [
                 {
-                    "title": "Видео Мастеров"
+                    "title": "Каталог видео Мастеров"
                 }
             ]
         },
-        "title": "Видео Мастеров",
+        "title": "Каталог видео Мастеров",
         "video": {
-            "list": "readyBlocksData.block_secret_list",
-            "rubrikator": "readyBlocksData.block_secret_rubrikator"
+            "list": "readyBlocksData.block_video_list",
+            "rubrikator": "readyBlocksData.block_one_level_rubrikator"
         },
         "paginator": "readyBlocksData.block_paginator"
     }

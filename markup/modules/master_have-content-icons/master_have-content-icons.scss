@@ -4,6 +4,17 @@
         float: right;
         margin-right: -20px;
     }
+    &_gorizontal{
+        @include cf;
+        .master_content-icon {
+            width: 32px;
+            height: 32px;
+            float: left; 
+            &.exist{
+                //background:#fff;
+            }
+        }
+    }
 }
 
 .master_content-icon {

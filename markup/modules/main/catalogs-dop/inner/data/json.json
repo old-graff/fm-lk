@@ -2,12 +2,12 @@
     "block_main_catalogs_inner": {
         "catalogs": [
             {
-                "url": "/404",
+                "url": "/sale_rubrikator/sale_rubrikator.html",
                 "title": "Поиск по скидке",
                 "icon": "gift"
             },
             {
-                "url": "/404",
+                "url": "/video_rubrika/video_rubrika.html",  
                 "title": "Поиск по видео",
                 "icon": "video"
             },

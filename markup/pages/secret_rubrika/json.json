@@ -1,18 +1,18 @@
 {
     "page_secret_rubrika": {
         "head": {
-            "title": "Секреты Мастеров. FaceMaster.ru."
+            "title": "Каталог секретов Мастеров. FaceMaster.ru."
         },
         "header": "readyBlocksData.block_header",
         "footer": "readyBlocksData.block_footer",
         "breadcrumps": {
             "links": [
                 {
-                    "title": "Секреты Мастеров"
+                    "title": "Каталог секретов Мастеров"
                 }
             ]
         },
-        "title": "СЕКРЕТЫ МАСТЕРОВ",
+        "title": "Каталог секретов Мастеров",
         "secret": {
             "list": "readyBlocksData.block_secret_list",
             "rubrikator": "readyBlocksData.block_one_level_rubrikator" 

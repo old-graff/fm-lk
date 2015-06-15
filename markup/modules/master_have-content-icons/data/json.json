@@ -5,13 +5,13 @@
             {
                 "content-type": "gift",
                 "url": "404",
-                "is-active": true,
+                "is-active": false,
                 "is-exist": true
             },
             {
                 "content-type": "photo",
                 "url": "404",
-                "is-active": false,
+                "is-active": true,
                 "is-exist": true
             },
             {
