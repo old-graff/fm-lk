@@ -27,13 +27,9 @@
                     ],
                     "have-content-icons": "readyBlocksData.block_master_have_content_icons",
                     "have-content": {
-                        "gift": {
-                            "title": "-1000 рублей",
-                            "desc": "Скидка 1000 рублей на бананы"
-                        },
                         "photo": {
-                            "title": "-1000 рублей",
-                            "desc": "Скидка 1000 рублей на бананы"
+                            "count": "25 фотографий",
+                            "desc": ""
                         }
                     }
                 }
