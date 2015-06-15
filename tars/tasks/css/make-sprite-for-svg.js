@@ -17,6 +17,8 @@ module.exports = function (buildOptions) {
             return gulp.src('./dev/' + tarsConfig.fs.staticFolderName + '/' + tarsConfig.fs.imagesFolderName + '/minified-svg/*.svg')
                 .pipe(svgspritesheet({
                     cssPathSvg: '',
+                    positioning: 'packed',
+                    padding: 3,
                     templateSrc: './markup/' + tarsConfig.fs.staticFolderName + '/scss/sprite-generator-templates/scss.svg-sprite.mustache',
                     templateDest: './markup/' + tarsConfig.fs.staticFolderName + '/scss/sprites-scss/svg-sprite.scss'
                 }))
