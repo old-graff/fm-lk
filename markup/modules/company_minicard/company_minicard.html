@@ -1,35 +1,34 @@
-<div block="company_minicard">
+<a href="{{url}}" block="company_minicard">
     <p elem="name">{{name}}</p>
     <div class="row">
         <div elem="logo-wr">
-            <img src="{{logo.src}}" alt="{{logo.alt}}" elem="logo">
+            {{#with logo}}
+            <img src="{{src}}" alt="{{alt}}" elem="logo">
+            {{/with}}
         </div>
         <div elem="info">
             <p elem="count_masters">{{count.masters}}</p>
             <p elem="count_likes"><i elem="icon" mod="likes"></i> {{count.likes}}</p>
             <div elem="icons">
+                {{> master_have-content-icons/master_have-content-icons icons}}
+            </div>
+            <!--<div elem="icons">
                 {{#if icons.icon_photo}}
-                <a href="{{icons.icon_photo.url}}" elem="icon-link">
-                    <div elem="icon" mod="photo,have"></div>
-                </a>
+                <div elem="icon" mod="photo,have"></div>
                 {{else}}
                 <div elem="icon" mod="photo"></div>
                 {{/if}}
                 {{#if icons.icon_video}}
-                <a href="{{icons.icon_video.url}}" elem="icon-link">
-                    <div elem="icon" mod="video,have"></div>
-                </a>
+                <div elem="icon" mod="video,have"></div>
                 {{else}}
                 <div elem="icon" mod="video"></div>
                 {{/if}}
                 {{#if icons.icon_sale}}
-                <a href="{{icons.icon_sale.url}}" elem="icon-link">
-                    <div elem="icon" mod="sale,have"></div>
-                </a>
+                <div elem="icon" mod="sale,have"></div>
                 {{else}}
                 <div elem="icon" mod="sale"></div>
                 {{/if}}
-            </div>
+            </div>-->
         </div>
     </div>
-</div>
+</a>
