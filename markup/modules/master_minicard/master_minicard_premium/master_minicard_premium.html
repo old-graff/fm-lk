@@ -80,9 +80,12 @@
                 {{/if}}
                 {{#if video}}
                 <div block="master_have-content-widget" mod="video">
-                    <div elem="main">
-                        <img src="{{{video.preview}}}">
-                    </div>
+                    <a href="{{{video.url}}}">
+                        <div elem="main">
+                            <img src="{{{video.preview}}}">
+                        </div>
+                    </a>
+
                     <p elem="desc">
                         {{{video.desc}}}
                     </p>
@@ -91,11 +94,10 @@
                 {{#if comments}}
                 <div block="master_have-content-widget" mod="comments">
                     <div elem="main">
-                        <p>У Мастера:</p>
-
-                        <p>{{{comments.recommendations}}}</p>
-
-                        <p>{{{comments.comments}}}</p>
+                        <p class="title">У Мастера:<br>
+                            <span class="count">{{{comments.recommendations}}}</span><br>
+                            <span class="count">{{{comments.comments}}}</span>
+                        </p>
                     </div>
                     <p elem="desc">
                         {{{comments.desc}}}

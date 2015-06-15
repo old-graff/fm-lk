@@ -11,19 +11,19 @@
             {
                 "content-type": "photo",
                 "url": "404",
-                "is-active": true,
+                "is-active": false,
                 "is-exist": true
             },
             {
                 "content-type": "video",
                 "url": "404",
                 "is-active": false,
-                "is-exist": false
+                "is-exist": true
             },
             {
                 "content-type": "comments",
                 "url": "404",
-                "is-active": false,
+                "is-active": true,
                 "is-exist": true
             }
         ]

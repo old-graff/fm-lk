@@ -27,9 +27,10 @@
                     ],
                     "have-content-icons": "readyBlocksData.block_master_have_content_icons",
                     "have-content": {
-                        "photo": {
-                            "count": "25 фотографий",
-                            "desc": ""
+                        "comments": {
+                            "recommendations": "5 рекомендаций",
+                            "comments": "10 отзывов",
+                            "desc": "ванная объедененная с перепланировкой"
                         }
                     }
                 }

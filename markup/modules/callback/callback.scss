@@ -14,9 +14,9 @@
     }
     &__icon{
         @extend %icon_block;
-        @extend %icon_size_big;
         @extend %icon;
-        @extend %icon_people;
+        @extend %icon_star-in-sun;
+        @include icon_size(42px);
         float: left;
         margin-right: 10px;
     }
