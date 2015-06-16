@@ -11,19 +11,23 @@
             <i elem="arrow-left"></i>
         </a>
     </div>
-    {{#each recommended-master}}
-    <a href="{{master-url}}" elem="master">
-        <img elem="master-photo" src="{{src}}" alt="{{alt}}">
+    <div elem="wraper">
+        <div elem="wraper_inner">
+            {{#each recommended-master}}
+            <a href="{{master-url}}" elem="master">
+                <img elem="master-photo" src="{{src}}" alt="{{alt}}">
 
-        <p elem="master-name">
-            {{master-name}}
-        </p>
+                <p elem="master-name">
+                    {{master-name}}
+                </p>
 
-        <p elem="master-recommendations">
-            {{recommendation-number}}
-        </p>
-    </a>
-    {{/each}}
+                <p elem="master-recommendations">
+                    {{recommendation-number}}
+                </p>
+            </a>
+            {{/each}}
+        </div>
+    </div>
     <div block="master_recommended-arrows">
         <a href="{{url-arrow-right}}">
             <i elem="arrow-right"></i>

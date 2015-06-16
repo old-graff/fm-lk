@@ -3,7 +3,9 @@
         <div elem="left-column">
             <div block="master_photo-and-contacts">
                 <img elem="photo" src="{{master-photo.src}}" alt="{{master-photo.alt}}">
-                <a elem="phone" href="{{master-phone}}">Показать телефон</a>
+
+                {{> _common/phone-btn/phone-btn phone-btn}}
+
                 <a elem="to-page" href="{{master-page-url}}">На страницу мастера<i elem="icon"></i></a>
             </div>
         </div>
@@ -41,7 +43,7 @@
                         {{else}}
                         <div block="master_services" mod="wide" class="format">
                             {{/if}}
-                            <ul elem="service-list">
+                            <ul elem="service-list" mix="block:js-services-cut">
                                 {{#each service-list}}
                                 <li elem="service">
                                     {{this}}

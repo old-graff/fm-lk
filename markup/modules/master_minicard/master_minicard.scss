@@ -27,15 +27,7 @@
         display: block;
         margin-bottom: 20px;
     }
-    &__phone {
-        font-size: 0.68em;
-        margin-bottom: 10px;
-        @extend .btn;
-        @extend .btn_size_xmedium;
-        @extend .btn_color_black;
-        @extend .btn_uppercase;
 
-    }
     &__to-page {
         font-size: 0.68em;
         @extend .btn;
@@ -102,12 +94,16 @@
 }
 
 .master_have-content-widget {
-    //display: none;
+    display: none;
     margin-right: 25px;
     background-color: #ffffff;
     width: 180px;
     height: 180px;
     padding: 5px;
+
+    &.active {
+        display: block;
+    }
 
     &__desc {
         padding-top: 10px;
@@ -153,7 +149,7 @@
                     vertical-align: middle;
                     @include font-tuning(14, 16);
                 }
-                .count{
+                .count {
                     font-weight: bold;
                 }
             }
@@ -167,7 +163,7 @@
             &__main {
                 overflow: hidden;
                 position: relative;
-                &:after{
+                &:after {
                     content: ' ';
                     display: block;
                     width: 50px;
@@ -181,8 +177,8 @@
                     border-bottom: 25px solid transparent;
                     opacity: 0.8;
                 }
-                &:hover{
-                    &:after{
+                &:hover {
+                    &:after {
                         border-left-color: $color-orange;
                     }
                 }
@@ -204,7 +200,7 @@
                     vertical-align: middle;
                     @include font-tuning(14, 16);
                 }
-                .count{
+                .count {
                     font-weight: bold;
                 }
             }
