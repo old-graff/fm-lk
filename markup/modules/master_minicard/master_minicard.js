@@ -5,6 +5,7 @@ function servicesCut() {
         }
     });
 };
+//@todo Доработать функцию обрезки услуг, для использования максимума свободного пространства
 servicesCut();
 $('.js-content-icon-switch.active')
     .parents('.master_presentation')
