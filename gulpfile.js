@@ -300,7 +300,7 @@ gulp.task('svg-actions', function (cb) {
 
 gulp.task('compile-templates-with-data-reloading', function (cb) {
     runSequence(
-        'html:concat-modules-data',
+        'html:concat-data',
         'html:compile-templates',
     cb);
 });

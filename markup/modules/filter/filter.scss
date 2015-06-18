@@ -1,33 +1,99 @@
 .filter {
     padding-bottom: 20px;
+}
+
+.filter-section {
     &__title {
         display: block;
         height: 42px;
-        background-color: $color-bg-grey-medium;
-        color: #ffffff;
+        background-color: $color-bg-grey-xmedium;
+        color: $color-text-dark;
         text-decoration: none;
         @include font-tuning(12, 42);
         padding: 0 10px 0 15px;
         &:hover {
-            background-color: darken($color-bg-grey-medium, 5%);
-            color: #ffffff;
+            background-color: darken($color-bg-grey-xmedium, 5%);
+            color: $color-text-dark;
         }
         &_masters {
-            background-color: $color-green;
-            &:hover {
-                background-color: darken($color-green, 5%);
-            }
-            .filter {
+            .filter-section {
                 &__icon {
                     @extend %icon_people;
                 }
+            }
+            &.active {
+                background-color: $color-green;
+                color: #FFFFFF;
+                &:hover {
+                    background-color: darken($color-green, 5%);
+                }
+                .filter-section__icon {
+                    @extend %icon_fb_white;
+                }
+            }
+        }
+        &_video {
+            .filter-section {
+                &__icon {
+                    @extend %icon_video;
+                }
+            }
+            &.active {
+                background-color: $color-purpur;
+                color: #FFFFFF;
+                &:hover {
+                    background-color: darken($color-purpur, 5%);
+                }
+                .filter-section__icon {
+                    @extend %icon_video_white;
+                }
+            }
+        }
+        &_sales {
+            .filter-section {
+                &__icon {
+                    @extend %icon_gift;
+                }
+            }
+            &.active {
+                background-color: $color-orange;
+                color: #FFFFFF;
+                &:hover {
+                    background-color: darken($color-orange, 5%);
+                }
+                .filter-section__icon {
+                    @extend %icon_gift_white;
+                }
+            }
+        }
+        &_secrets {
+            .filter-section {
+                &__icon {
+                    @extend %icon_qwestion;
+                }
+            }
+            &.active {
+                background-color: $color-blue-dark;
+                color: #FFFFFF;
+                &:hover {
+                    background-color: darken($color-blue-dark, 5%);
+                }
+                .filter-section__icon {
+                    @extend %icon_qwestion_white;
+                }
+            }
+        }
+
+        &.active {
+            .filter-section__arrow-icon {
+                @extend %icon_strelka_white;
             }
         }
     }
     &__icon {
         @extend %icon;
         @extend %icon_block;
-        @extend %icon_size_small;
+        @extend %icon_size_xsmall;
         @include vertical-align;
         float: left;
         margin-right: 10px;
@@ -36,15 +102,19 @@
     &__arrow-icon {
         @extend %icon;
         @extend %icon_block;
-        @extend %icon_size_xsmall;
+        @extend %icon_size_xxsmall;
         @extend %icon_strelka;
         @include vertical-align;
         float: right;
+        &.down {
+            transform: rotate(90deg) translateX(-50%);
+        }
     }
     &__section {
         padding: 10px;
         @include font-tuning(12, 15);
     }
+
 }
 
 .sort-by {
@@ -76,7 +146,7 @@
         margin: 5px 0;
         line-height: 16px;
     }
-    &__close{
+    &__close {
         position: absolute;
         right: 10px;
         top: 50%;
