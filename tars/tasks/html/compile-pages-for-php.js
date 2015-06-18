@@ -5,11 +5,7 @@ var beml = require('gulp-beml');
 var tarsConfig = require('../../../tars-config');
 var replace = require('gulp-replace-task');
 var notifier = require('../../helpers/notifier');
-var readJson = require('../../helpers/read-json');
-var browserSync = require('browser-sync');
 var fs = require('fs');
-var handlebars = require('gulp-compile-handlebars');
-var through2 = require('through2');
 
 var handlebarsOptions = {
     batch: ['./markup/modules'],
@@ -22,6 +18,7 @@ var handlebarsOptions = {
  * @param  {Object} buildOptions
  */
 module.exports = function (buildOptions) {
+
 
     var patterns = [];
     if (!gutil.env.ie8) {
@@ -68,30 +65,16 @@ module.exports = function (buildOptions) {
     patterns.push(
         {
             match: '%=staticPrefix=%',
-            replacement: tarsConfig.staticPrefix
+            replacement: tarsConfig.staticPrefixForPhp
         }
     );
 
-    return gulp.task('html:compile-templates', function (cb) {
-        var modulesData = readJson('./dev/temp/data.json');
+    return gulp.task('html:compile-pages-for-php', function (cb) {
 
-        return gulp.src(['./markup/pages/**/*.html', '!./markup/pages/**/_*.html'])
-            .pipe(
-            modulesData
-                ? handlebars(modulesData, handlebarsOptions)
-                : through2.obj(
-                function () {
-                    console.log(gutil.colors.red('An error occurred with data-files!'));
-                    this.emit('error', error);
-                }
-            )
-        )
-            .on('error', notify.onError(function (error) {
-                return '\nAn error occurred while compiling handlebars.\nLook in the console for details.\n' + error;
-            }))
-            .on('error', function () {
-                this.emit('end');
-            })
+        return gulp.src([
+            './markup/pages/**/*.html',
+            '!./markup/pages/**/_*.html',
+        ])
             .pipe(replace({
                 patterns: patterns,
                 usePrefix: false
@@ -100,10 +83,12 @@ module.exports = function (buildOptions) {
                 return '\nAn error occurred while replacing placeholdres.\nLook in the console for details.\n' + error;
             }))
             .pipe(beml())
-            .pipe(gulp.dest('./dev/'))
-            .pipe(browserSync.reload({stream: true}))
+            .on('error', notify.onError(function (error) {
+                return '\nAn error occurred while beml html-files.\nLook in the console for details.\n' + error;
+            }))
+            .pipe(gulp.dest('./dev/pages/'))
             .pipe(
-            notifier('Templates\'ve been compiled')
+            notifier('Templates pages\'ve been compiled')
         );
     });
 };

@@ -3,9 +3,11 @@
     padding-bottom: 28px;
     &__search {
         @extend .col-lg-9;
+        @extend .col-md-8;
     }
     &__callback {
         @extend .col-lg-3;
+        @extend .col-md-4;
     }
 }
 
@@ -13,9 +15,11 @@
     @extend .row;
     &__left-side {
         @extend .col-lg-3;
+        @extend .col-md-12;
     }
 
     &__right-side {
         @extend .col-lg-9;
+        @extend .col-md-12;
     }
 }

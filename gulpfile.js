@@ -158,7 +158,7 @@ gulp.task('build-dev', function (cb) {
         ],
         [
             'css:compile-css', 'css:compile-css-for-ie8',
-            'html:concat-modules-data',
+            'html:concat-data',
             'js:move-separate', 'js:processing'
         ],
         [
@@ -180,11 +180,11 @@ gulp.task('build-dev-php', function (cb) {
         ],
         [
             'css:compile-css', 'css:compile-css-for-ie8',
-            'html:concat-modules-data',
+            'html:concat-data-for-php',
             'js:move-separate', 'js:processing'
         ],
         [
-            'html:compile-templates-for-php',
+            'html:compile-pages-for-php','html:compile-modules-for-php',
             'other:move-misc-files', 'other:move-fonts', 'other:move-assets',
             'images:move-content-img', 'images:move-plugins-img', 'images:move-general-img'
         ],

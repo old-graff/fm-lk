@@ -6,21 +6,22 @@ var notifier = require('../../helpers/notifier');
 var tarsConfig = require('../../../tars-config');
 
 /**
- * conact data for modules to one file
+ * conact data for pages to one file
  * @param  {object} buildOptions
  */
+
 module.exports = function (buildOptions) {
 
-    return gulp.task('html:concat-modules-data', function (cb) {
+    return gulp.task('html:concat-pages-data', function (cb) {
 
-        return gulp.src(['./markup/modules/**/data/json.json'])
-            .pipe(concat_json('blockData.json'))
+        return gulp.src(['./markup/pages/**/json.json'])
+            .pipe(concat_json('pageData.json', { newLine: ',\n\n' }))
             .on('error', notify.onError(function (error) {
-                return '\nAn error occurred while concating block\'s data.\nLook in the console for details.\n' + error;
+                return '\nAn error occurred while concating page\'s data.\nLook in the console for details.\n' + error;
             }))
             .pipe(gulp.dest('./dev/temp/'))
             .pipe(
-            notifier('Data for blocks ready')
+            notifier('Data for pages ready')
         );
     });
 };
