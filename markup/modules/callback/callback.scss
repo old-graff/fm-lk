@@ -8,16 +8,23 @@
     color: $color-text-dark;
     @include font-tuning(14, 21);
     @include cf;
+    @include at(xs) {
+        height: 40px;
+        overflow: hidden;
+    }
     &:hover {
         background-color: lighten(#eed200, 10%);
         color: $color-text-dark;
     }
-    &__icon{
+    &__icon {
         @extend %icon_block;
         @extend %icon;
         @extend %icon_star-in-sun;
         @include icon_size(42px);
         float: left;
         margin-right: 10px;
+        @include at(xs) {
+            display: none;
+        }
     }
 }

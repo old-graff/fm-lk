@@ -36,7 +36,7 @@ $('a.js-scrollto[href^=#]').each(function() {
 //    });
 //};
 // запрос на валидацию формы
-function sendForm(form_DOM, successHandler) {
+function sendForm(form_DOM, successHandler, errorHandler) {
     jQuery.ajax({
         url: form_DOM.attr('action'),
         type: form_DOM.attr('method'),
@@ -51,6 +51,9 @@ function sendForm(form_DOM, successHandler) {
                 form_DOM.find('.error').removeClass('.error');
                 for (var k in response.fields) {
                     form_DOM.find('[name="' + response.object + '[' + k + ']"]').addClass('error');
+                }
+                if(errorHandler){
+                    errorHandler(response);
                 }
             }
         },

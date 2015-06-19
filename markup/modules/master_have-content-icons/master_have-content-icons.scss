@@ -90,6 +90,9 @@
         .master_content-icon {
             &__link {
                 background-color: #ffffff;
+                @include to(md){
+                    background-color: transparent;
+                }
             }
         }
     }

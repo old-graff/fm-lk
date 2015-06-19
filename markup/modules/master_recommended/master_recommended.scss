@@ -98,4 +98,7 @@
             @extend %icon_strelka;
         }
     }
+    @include to(md){
+        display: none;
+    }
 }

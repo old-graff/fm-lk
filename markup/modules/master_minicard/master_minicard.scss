@@ -6,27 +6,55 @@
 
     &_free {
         height: 256px;
+        @include at(xs) {
+            height: auto;
+        }
     }
     &_premium {
         height: 298px;
+        @include at(xs) {
+            height: auto;
+        }
     }
 
     &__left-column {
         @extend .col-md-3;
+        @extend .col-sm-5;
+        @extend .col-xs-12;
         padding-right: 0;
+        @include at(xs){
+            position: static;
+        }
     }
     &__right-column {
         @extend .col-md-9;
+        @extend .col-sm-7;
+        @extend .col-xs-12;
         padding-left: 20px;
+        @include at(xs){
+            padding-bottom: 80px;
+        }
     }
 }
 
 .master_photo-and-contacts {
+    &__contact-wrap {
+        @include at(xs){
+            position: absolute;
+            z-index: 2;
+            bottom: 20px;
+            width: 190px;
+            left: 20px;
+        }
+    }
     &__photo {
         width: 100%;
         display: block;
         position: relative;
         margin-bottom: 20px;
+        @include at(xs) {
+            width: 160px;
+        }
     }
 
     &__to-page {
@@ -44,7 +72,11 @@
         @extend %icon_size_xxsmall;
         @extend %icon_strelka_white;
     }
-    &__likes{
+    &__photo-wrap {
+        position: relative;
+    }
+
+    &__likes {
         position: absolute;
         display: block;
         width: 57px;
@@ -53,14 +85,14 @@
         background-color: $color-bg-grey-medium;
         color: #FFFFFF;
         text-decoration: none;
-        top: 130px;
-        left: 10px;
+        top: 120px;
+        left: 0;
         @include font-tuning(14, 23);
         &:hover {
             color: #FFFFFF;
         }
     }
-    &__icon-like{
+    &__icon-like {
         @extend %icon;
         @extend %icon_inline;
         @extend %icon_size_xxsmall;
@@ -90,9 +122,11 @@
     @include font-tuning(13, 14);
     &_half {
         @extend .col-md-7;
+        @extend .col-sm-10;
     }
     &_wide {
         @extend .col-md-11;
+        @extend .col-sm-10;
     }
 }
 
@@ -108,6 +142,9 @@
         overflow: hidden;
         @include font-tuning(13, 17);
     }
+    @include to(md) {
+        display: none;
+    }
 }
 
 .master_presentation {
@@ -115,6 +152,10 @@
     bottom: 20px;
     right: 20px;
     padding-left: 0px;
+    @include at(xs) {
+        top: 15px;
+        bottom: auto;
+    }
 }
 
 .master_have-content-widget {
@@ -124,6 +165,9 @@
     width: 180px;
     height: 180px;
     padding: 5px;
+    @include to(md) {
+        display: none !important;
+    }
 
     &.active {
         display: block;

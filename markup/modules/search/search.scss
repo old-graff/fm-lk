@@ -54,7 +54,7 @@
         @extend %icon_block;
         @extend %icon_search;
         @include icon_size(35px);
-        float: right;
+        margin: 0 auto;
     }
     @include at(sm) {
         &__title, &__field, &__button {
@@ -91,16 +91,45 @@
     }
     &_inner {
         background-color: #5DC8ED;
+
         .search {
             &__title, &__field, &__button {
                 height: 60px;
+                @include at(xs) {
+                    height: 40px;
+                }
             }
             &__button {
                 &-submit {
                     background-color: #8ed8f2;
-                    &:hover {
-                        background-color: lighten(#8ed8f2, 10%)
+                    @include at(xs){
+                        background-color: transparent;
+
                     }
+                    &:hover {
+                        background-color: lighten(#8ed8f2, 10%);
+                        @include at(xs){
+                            background-color: transparent;
+                        }
+                    }
+
+                }
+            }
+            &__title {
+                @include at(sm) {
+                    display: none;
+                }
+                @include at(md) {
+                    @extend .col-md-2;
+                }
+            }
+            &__field {
+                @include at(sm) {
+                    @extend .col-sm-9;
+                    padding-right: 0;
+                }
+                @include at(md) {
+                    @extend .col-md-7;
                 }
             }
         }

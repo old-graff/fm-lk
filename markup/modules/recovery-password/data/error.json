@@ -1,6 +1,7 @@
 {
     "success": false,
     "object": "recovery-password",
+    "capcha_url": "/static/img/assets/recovery-password/captcha_new.png",
     "fields": {
         "login": "Поле обязательно для заполнения",
         "code": "Поле обязательно для заполнения"
