@@ -1,0 +1,9 @@
+.master_page_sale{
+    &__list{
+        @extend .row;
+    }
+    &__sale{
+        @extend .col-sm-6;
+        @extend .col-xs-12;
+    }
+}

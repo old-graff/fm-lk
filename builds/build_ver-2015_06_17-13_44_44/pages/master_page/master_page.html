@@ -1,0 +1,62 @@
+<!doctype html>
+<!--[if IE 7]>
+<html class="ie7 lt-ie10 lt-ie9 lt-ie8 no-js" lang="ru"><![endif]-->
+<!--[if IE 8]>
+<html class="ie8 lt-ie10 lt-ie9 no-js" lang="ru"><![endif]-->
+<!--[if IE 9 ]>
+<html class="ie9 lt-ie10 no-js" lang="ru"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="no-js" lang="ru"><!--<![endif]-->
+    {{#with page_master_page}}
+    <head>
+        {{> head/head head}}
+    </head>
+
+    <body class="page_master_page">
+        {{> header/header header}}
+        <div class="container">
+            <div class="row">
+                <div class="page_master_page__breadcrumps">
+                    {{> breadcrumps/breadcrumps breadcrumps}}
+                </div>
+                <div class="page_master_page__header">
+                    <h1 class="h1 h1_style">Страница Мастера</h1>
+                </div>  
+                <div class="page_master_page__navigate">
+                    {{> master_page/navigation/navigation navigation}}
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            {{#with master}}
+            <div class="row">
+                <div class="page_master_page__card">
+                    {{> master_page/card/card card}}
+                </div>
+                <div class="page_master_page__contacts">
+                    {{> master_page/contacts/contacts contacts}}
+                </div>
+            </div>
+            <div class="row">
+                <div class="page_master_page__menu">
+                    {{> master_page/menu/menu menu}}
+                </div>
+                <div class="page_master_page__main-info">
+                    {{> master_page/services/services}}
+                    {{> master_page/work/work}}
+                    <!-- { { > master_page/sale/sale}}
+                    { { > master_page/about/about}}
+                    { { > master_page/secret/secret}}
+                    { { > master_page/photo/photo}}
+                    { { > master_page/video/video}} -->
+                    {{> master_page/links/links}}
+                    {{> master_page/recommend/recommend}}
+                </div>
+            </div>
+            {{/with}}
+        </div>
+
+        {{> footer/footer footer}}
+    </body>
+    {{/with}}
+</html>

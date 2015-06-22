@@ -1,0 +1,31 @@
+<div block="master_page_work">
+    <div elem="header" mix="block:h2">Режим и условия работы</div>
+    <table block="work-week">
+        <tr elem="tr">
+            {{#each week}}
+            {{#if is-active}}
+            <td elem="td" mod="active">
+                {{day}}
+            </td>
+            {{else}}
+            <td elem="td">
+                {{day}}
+            </td>
+            {{/if}}
+            {{/each}}
+        </tr>
+        <tr elem="tr">
+            {{#each week}}
+            <td>{{time-start}}<br>{{time-end}}</td>
+            {{/each}}            
+        </tr>
+    </table>
+    {{#each info}}
+    <p elem="info">
+        {{#if header}}
+        <strong>{{header}}</strong>
+        {{/if}}
+        {{text}}
+    </p>
+    {{/each}}
+</div>

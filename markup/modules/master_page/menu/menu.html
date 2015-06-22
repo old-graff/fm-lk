@@ -1,0 +1,17 @@
+<div block="master_page_menu">
+    <ul elem="list">
+        {{#each list}}
+        <li elem="item">
+            {{#if exist}}
+            {{#if active}}
+            <a elem="link" mod="active" href="#{{position}}">{{name}}</a>
+            {{else}}
+            <a elem="link" href="#{{position}}">{{name}}</a>
+            {{/if}} 
+            {{else}}
+            <span elem="not-exist">{{name}}</span>
+            {{/if}}
+        </li>
+        {{/each}}
+    </ul>
+</div>

@@ -1,0 +1,67 @@
+<div class="master_contact">
+    <div class="master_contact__hide-contact">
+        <i class="master_contact__icon-phone"></i>
+        <p class="master_contact__psevdo-phone">+7 (***) ***-**-**</p>
+        <button class="master_contact__button">Показать контакты</button>
+    </div>
+    <div class="master_contact__show-contact">
+        <div class="master_contact__contact">
+            <i class="master_contact__contact-icon master_contact__contact-icon_phone"></i>
+            <p class="master_contact__contact-text">
+                {{#if phone}}
+                {{phone}}
+                {{else}}
+                не указан
+                {{/if}}
+            </p>
+        </div>
+        {{#if phone-work}}
+        <div class="master_contact__contact">
+            <i class="master_contact__contact-icon master_contact__contact-icon_phone-work"></i>
+            <p class="master_contact__contact-text">
+                {{phone-work}}
+            </p>
+        </div>
+        {{/if}}
+        <div class="master_contact__contact">
+            <i class="master_contact__contact-icon master_contact__contact-icon_email"></i>
+            {{#if phone}}
+            <a class="master_contact__contact-text" href="mailto:{{email}}">{{email}}</a>
+            {{else}}
+            <p class="master_contact__contact-text">не указан</p>
+            {{/if}}
+
+        </div>
+        <div class="master_contact__contact">
+            <i class="master_contact__contact-icon master_contact__contact-icon_skype"></i>
+            <p class="master_contact__contact-text">
+                {{#if skype}}
+                {{skype}}
+                {{else}}
+                не указан
+                {{/if}}
+            </p>
+        </div>
+        <div class="master_contact__contact">
+            <i class="master_contact__contact-icon master_contact__contact-icon_icq"></i>
+            <p class="master_contact__contact-text">
+                {{#if icq}}
+                {{icq}}
+                {{else}}
+                не указан
+                {{/if}}
+            </p>
+        </div>
+        <div class="master_contact__contact">
+            <i class="master_contact__contact-icon master_contact__contact-icon_adress"></i>
+
+            {{#if adress}}
+            <p class="master_contact__contact-text">{{adress}} <a href="{{url-adress}}">на карте</a></p>
+            {{else}}
+            <p class="master_contact__contact-text">не указан</p>
+            {{/if}}
+
+        </div>
+    </div>
+    <a href="{{url-zakaz}}">заказать звонок</a>
+</div>

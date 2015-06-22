@@ -1,0 +1,161 @@
+{
+    "page_master_page": {
+        "head": {
+            "title": "Шевчик Егор Владимирович - FaceMaster.ru."
+        },
+        "header": {
+            "logo-url": "/main/main.html",
+            "visitor": "12 456 посещений",
+            "menu": [{
+                "url": "/master_rubrikator/master_rubrikator.html",
+                "title": "КАТАЛОГ УСЛУГ"
+            }, {
+                "url": "http://facemaster.ru/site/javascript:void(0)",
+                "title": "ЗАКАЗАТЬ УСЛУГУ"
+            }, {
+                "url": "/reg-master/reg-master.html",
+                "title": "СТАТЬ МАСТЕРОМ"
+            }],
+            "auth": false,
+            "authData": {
+                "name": "Администратор С.Н.",
+                "homeUrl": "http://facemaster.ru/home",
+                "menuUser": [{
+                    "url": "http://facemaster.ru/office",
+                    "title": "Офис"
+                }, {
+                    "url": "http://facemaster.ru/auth/logout",
+                    "title": "Выход"
+                }]
+            },
+            "authUrl": "http://facemaster.ru/auth",
+            "social": {
+                "list": [{
+                    "url": "http://vk.com/fm_mf",
+                    "mod": "vk"
+                }, {
+                    "url": "http://www.facebook.com/face.mast",
+                    "mod": "fb"
+                }, {
+                    "url": "http://www.odnoklassniki.ru/facemaster",
+                    "mod": "ok"
+                }, {
+                    "url": "http://twitter.com/FacemasterRu",
+                    "mod": "tw"
+                }]
+            }
+        },
+        "footer": {
+            "phone": "(8482) 74-44-19",
+            "links": [{
+                "url": "/oth_oferta/oferta.html",
+                "title": "Оферта"
+            }, {
+                "url": "/404",
+                "title": "Обратная ссылка"
+            }, {
+                "url": "/oth_contact/contact.html",
+                "title": "Контакты"
+            }, {
+                "url": "/oth_feedback/feedback.html",
+                "title": "Обратная связь"
+            }]
+        },
+        "breadcrumps": {
+            "links": [{
+                "title": "Каталог услуг",
+                "url": "/master_rubrikator/master_rubrikator.html"
+            }, {
+                "title": "Строительство",
+                "url": "404",
+                "links": [{
+                    "title": "Бани",
+                    "url": "/master_rubrika/master_rubrika.html"
+                }, {
+                    "title": "Бассейны",
+                    "url": "/master_rubrika/master_rubrika.html"
+                }, {
+                    "title": "Печи и камины",
+                    "url": "/master_rubrika/master_rubrika.html"
+                }, {
+                    "title": "Проектирование",
+                    "url": "/master_rubrika/master_rubrika.html"
+                }]
+            }, {
+                "title": "Строительство",
+                "url": "/master_rubrika/master_rubrika.html"
+            }, {
+                "title": "Шевчик Егор Владимирович"
+            }]
+        },
+        "navigation": {
+            "prev": {
+                "url": "/master_page/master_page.html",
+                "name": "Кузменко Владимир Петрович",
+                "src": ""
+            },
+            "next": {
+                "url": "/master_page/master_page.html",
+                "name": "Кузменко Владимир Петрович",
+                "src": ""
+            }
+        },
+        "master": {
+            "card": {
+                "src": "%=staticPrefix=%img/assets/master_page/5616.jpg",
+                "fio": "Камельчукова Оксана Васильевна",
+                "spec": "Аквагрим,мехенди,тату хной,роспись по ткани(акрил,батик),ремесленные работы",
+                "company": "ЗАО ФиаБанк",
+                "number": "5616",
+                "url-printCard": "404"
+            },
+            "contacts": {
+                "phone": "+7 876 862-16-13",
+                "email": "gosha-ttt-ashfhfg@mail.ru",
+                "adress": "Ботаническая 38",
+                "url-zakaz": "404",
+                "url-adress": "404"
+            },
+            "menu": {
+                "list": [{
+                    "position": "servicesPosition",
+                    "name": "Услуги",
+                    "exist": true,
+                    "active": true
+                }, {
+                    "position": "workPosition",
+                    "name": "Условия работы",
+                    "exist": true
+                }, {
+                    "position": "salePosition",
+                    "name": "Скидки и подарки",
+                    "exist": false
+                }, {
+                    "position": "aboutPosition",
+                    "name": "О себе",
+                    "exist": true
+                }, {
+                    "position": "secretPosition",
+                    "name": "Полезно почитать",
+                    "exist": true
+                }, {
+                    "position": "photoPosition",
+                    "name": "Фото",
+                    "exist": true
+                }, {
+                    "position": "videoPosition",
+                    "name": "Видео",
+                    "exist": false
+                }, {
+                    "position": "linkPosition",
+                    "name": "Ссылки",
+                    "exist": true
+                }, {
+                    "position": "recommendPosition",
+                    "name": "Отзывы и рекомендации",
+                    "exist": true
+                }]
+            }
+        }
+    }
+}

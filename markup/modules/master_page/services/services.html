@@ -1,0 +1,18 @@
+<div block="master_page_services">
+    <div elem="header" mix="block:h2">Услуги</div>
+    <ul elem="list">
+        {{#each list}}
+        {{#if is-separator}}
+    </ul>
+    <ul elem="list">
+        {{/if}}
+        {{#if link}}        
+        <li elem="list-item" mod="link">
+            <a elem="list-link" href="{{link}}">{{name}}</a>
+        </li>
+        {{else}}
+        <li elem="list-item">{{name}}</li>
+        {{/if}}
+        {{/each}}
+    </ul>
+</div>

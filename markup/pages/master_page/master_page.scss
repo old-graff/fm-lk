@@ -1,0 +1,37 @@
+.page_master_page{
+    &__breadcrumps{
+        @extend .col-xs-12;
+    }
+    &__header{
+        @extend .col-lg-9;
+        @extend .col-md-8;
+        @extend .col-sm-7;
+        @extend .col-xs-12;
+    }
+    &__navigate{
+        @extend .col-lg-3;
+        @extend .col-md-4;
+        @extend .col-sm-5;
+        @extend .col-xs-12;
+    }
+    
+    &__card{
+        @extend .col-lg-9;
+        @extend .col-md-8;
+        @extend .col-xs-12;
+    }
+    &__contacts{
+        @extend .col-lg-3;
+        @extend .col-md-4;
+        @extend .col-xs-12;
+    }
+    
+    &__menu{
+        @extend .col-lg-3;
+        @extend .col-md-4;
+    }
+    &__main-info{
+        @extend .col-lg-9;
+        @extend .col-md-8;
+    }
+}

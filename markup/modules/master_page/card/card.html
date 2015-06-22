@@ -1,6 +1,6 @@
 <div block="master_page_card">
     <div elem="photo">
-
+        <img src="{{src}}" alt="{{fio}}">
     </div>
     <div elem="info">
         <div elem="fio">
@@ -17,10 +17,10 @@
             {{company}}
         </div>
         {{/if}}
-        
+
         <div block="master_number">
             <p elem="text">личный номер Мастера</p>
-            <div elem="number">№7280</div>
+            <div elem="number">№{{number}}</div>
             <a elem="link" href="{{url-printCard}}">распечатать визитку</a>
         </div>
     </div>

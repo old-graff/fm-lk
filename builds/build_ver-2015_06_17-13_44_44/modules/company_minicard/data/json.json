@@ -1,0 +1,39 @@
+{
+    "block_company_minicard": {
+        "name": "Центр семейного благополучия Мера",
+        "url": "/company_page/company_page.html",
+        "logo": {
+            "src": "%=staticPrefix=%img/assets/company_list/logo-1.jpg",
+            "alt": "Центр семейного благополучия Мера"
+        },
+        "count": {
+            "masters": "4 Мастера",
+            "likes": "1082"
+        },
+        "icons": { 
+            "modificator": "gorizontal",
+            "have-content-icons": [
+                {
+                    "content-type": "gift",
+                    "is-active": true,
+                    "is-exist": true
+                },
+                {
+                    "content-type": "gift",
+                    "is-active": false,
+                    "is-exist": true
+                },
+                {
+                    "content-type": "gift",
+                    "is-active": false,
+                    "is-exist": true
+                },
+                {
+                    "content-type": "gift",
+                    "is-active": false,
+                    "is-exist": true
+                }
+            ]
+        }
+    }
+}
