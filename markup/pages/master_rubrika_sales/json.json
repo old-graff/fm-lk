@@ -1,7 +1,7 @@
 {
-    "page_master_rubrika_company": {
+    "page_master_rubrika_sale": {
         "head": {
-            "title": "Строительство в Тольятти. Компании. - FaceMaster.ru."
+            "title": "Строительство в Тольятти. Скидки. - FaceMaster.ru."
         },
         "header": "readyBlocksData.block_header",
         "footer": "readyBlocksData.block_footer",
@@ -60,17 +60,7 @@
                 {
                     "url": "/master_rubrika_sales/master_rubrika_sales.html",
                     "section-name": "sales",
-                    "title": "Скидки Мастеров"
-                },
-                {
-                    "url": "/master_rubrika_secret/master_rubrika_secret.html",
-                    "section-name": "secrets",
-                    "title": "Секреты Мастеров"
-                },
-                {
-                    "url": "/master_rubrika_company/master_rubrika_company.html",
-                    "section-name": "company",
-                    "title": "Компании",
+                    "title": "Скидки Мастеров",
                     "open-section": {
                         "is-sort": false,
                         "is-filter": true,
@@ -82,17 +72,51 @@
                             }
                         ]
                     }
+                },
+                {
+                    "url": "/master_rubrika_secret/master_rubrika_secret.html",
+                    "section-name": "secrets",
+                    "title": "Секреты Мастеров"
+                },
+                {
+                    "url": "/master_rubrika_company/master_rubrika_company.html",
+                    "section-name": "company",
+                    "title": "Компании"
                 }
             ]
         },
         "banner_side": "readyBlocksData.block_banner_side",
         "banner_top": "readyBlocksData.block_banner_top",
-        "company": {
+        "sale": {
             "list": [
-                "readyBlocksData.block_company_minicard",
-                "readyBlocksData.block_company_minicard",
-                "readyBlocksData.block_company_minicard",
-                "readyBlocksData.block_company_minicard"
+                {
+                    "modificator": "vert",
+                    "url": "404",
+                    "title": "ПОДАРОК",
+                    "pic": "%=staticPrefix=%img/assets/sale/52f16e1697817.jpg",
+                    "text": "При заказе балкона под ключ-жалюзи в подарок и много лыбок"
+                },
+                {
+                    "modificator": "vert",
+                    "url": "404",
+                    "title": "ПОДАРОК",
+                    "pic": "%=staticPrefix=%img/assets/sale/52f16e1697817.jpg",
+                    "text": "При заказе балкона под ключ-жалюзи в подарок и много лыбок"
+                },
+                {
+                    "modificator": "vert",
+                    "url": "404",
+                    "title": "Скидка 10%",
+                    "pic": "%=staticPrefix=%img/assets/sale/52f16e1697817.jpg",
+                    "text": "При заказе балкона aksjd hfakjsdfh akjsdhf akjhdf ajshsadf kjasdf ajkshfd ajsdhf ajskdhff kajhsdfkajhs dfkjahs dkjfhaksjd hf под ключ-жалюзи в подарок и много лыбок"
+                },
+                {
+                    "modificator": "vert",
+                    "url": "404",
+                    "title": "ПОДАРОК",
+                    "pic": "%=staticPrefix=%img/assets/sale/52f16e1697817.jpg",
+                    "text": "При заказе балкона под ключ-жалюзи в подарок и много лыбок"
+                }
             ]
         },
         "paginator": "readyBlocksData.block_paginator"

@@ -1,7 +1,7 @@
 {
-    "page_master_rubrika_company": {
+    "page_master_rubrika_secret": {
         "head": {
-            "title": "Строительство в Тольятти. Компании. - FaceMaster.ru."
+            "title": "Строительство в Тольятти. Секреты. - FaceMaster.ru."
         },
         "header": "readyBlocksData.block_header",
         "footer": "readyBlocksData.block_footer",
@@ -65,12 +65,7 @@
                 {
                     "url": "/master_rubrika_secret/master_rubrika_secret.html",
                     "section-name": "secrets",
-                    "title": "Секреты Мастеров"
-                },
-                {
-                    "url": "/master_rubrika_company/master_rubrika_company.html",
-                    "section-name": "company",
-                    "title": "Компании",
+                    "title": "Секреты Мастеров",
                     "open-section": {
                         "is-sort": false,
                         "is-filter": true,
@@ -82,17 +77,50 @@
                             }
                         ]
                     }
+                },
+                {
+                    "url": "/master_rubrika_company/master_rubrika_company.html",
+                    "section-name": "company",
+                    "title": "Компании"
                 }
             ]
         },
         "banner_side": "readyBlocksData.block_banner_side",
         "banner_top": "readyBlocksData.block_banner_top",
-        "company": {
+        "secret": {
             "list": [
-                "readyBlocksData.block_company_minicard",
-                "readyBlocksData.block_company_minicard",
-                "readyBlocksData.block_company_minicard",
-                "readyBlocksData.block_company_minicard"
+                {
+                    "modificator": "vertical",
+                    "all-link": true,
+                    "src": "%=staticPrefix=%img/assets/secret/3705.jpg",
+                    "title": "Как рассчитать бюджет ремонта квартиры",
+                    "avtor": "Бабылкина Ирина Чуразмазовна",
+                    "url": "404"
+                },
+                {
+                    "modificator": "vertical",
+                    "all-link": true,
+                    "src": "%=staticPrefix=%img/assets/secret/3705.jpg",
+                    "title": "В этой заметке отражены основные пункты, о которых важно знать родственникам и друзьям. Тем людям, которые хотят помочь близкому, попавшему в беду по причине злоупотребления алкоголем.",
+                    "avtor": "Бабылкина Ирина Чуразмазовна",
+                    "url": "404"
+                },
+                {
+                    "modificator": "vertical",
+                    "all-link": true,
+                    "src": "%=staticPrefix=%img/assets/secret/3705.jpg",
+                    "title": "Как рассчитать бюджет ремонта квартиры",
+                    "avtor": "Бабылкина Ирина Чуразмазовна",
+                    "url": "404"
+                },
+                {
+                    "modificator": "vertical",
+                    "all-link": true,
+                    "src": "%=staticPrefix=%img/assets/secret/3705.jpg",
+                    "title": "Как рассчитать бюджет ремонта квартиры",
+                    "avtor": "Бабылкина Ирина Чуразмазовна",
+                    "url": "404"
+                }
             ]
         },
         "paginator": "readyBlocksData.block_paginator"

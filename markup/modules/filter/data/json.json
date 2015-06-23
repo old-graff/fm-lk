@@ -26,17 +26,17 @@
                 }
             },
             {
-                "url": "404",
+                "url": "/master_rubrika_video/master_rubrika_video.html",
                 "section-name": "video",
                 "title": "Видео Мастеров"
             },
             {
-                "url": "404",
+                "url": "/master_rubrika_sales/master_rubrika_sales.html",
                 "section-name": "sales",
                 "title": "Скидки Мастеров"
             },
             {
-                "url": "404",
+                "url": "/master_rubrika_secret/master_rubrika_secret.html",
                 "section-name": "secrets",
                 "title": "Секреты Мастеров"
             }

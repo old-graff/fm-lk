@@ -7,7 +7,7 @@
 <html class="ie9 lt-ie10 no-js" lang="ru"><![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!-->
 <html class="no-js" lang="ru"><!--<![endif]-->
-    {{#with page_master_rubrika_company}}
+    {{#with page_master_rubrika_sale}}
     <head>
         {{> head/head head}}
     </head>
@@ -37,7 +37,7 @@
                     {{> banner/banner_side/banner_side banner_side}}
                 </div>
                 <div elem="right-side">
-                    {{> _common/list_col-3/list_col-3_company company}} 
+                    {{> _common/list_col-3/list_col-3_sale sale}} 
                     {{> _common/paginator/paginator paginator}}  
                 </div>
             </div>
@@ -46,7 +46,7 @@
             </div>
         </div>
 
-        {{> footer/footer page_master_rubrika.footer}}
+        {{> footer/footer footer}}
     </body>
     {{/with}}
 </html>

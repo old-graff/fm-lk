@@ -1,4 +1,30 @@
 .sale{    
+    &_vert{
+        padding-bottom: 10px;
+        @extend .bg_grey;
+        &:hover{
+            background-color: $color-bg-grey-xmedium;
+            .sale__title{
+                background-color: darken($color-orange, 3);
+            }
+        }
+        .sale{             
+            &__pic{            
+                padding:10px 10px 0 10px;
+            }
+            &__img{                
+                width: 100%;
+            }
+            &__text{        
+                padding:10px 10px 0 10px;        
+                height: 90px;
+                overflow: hidden;
+                text-overflow: ellipsis; 
+                padding-top:10px;
+                @include font-tuning(13,16);
+            }
+        }
+    }
     &_vertical{
         margin-bottom: 20px;
         .sale{
