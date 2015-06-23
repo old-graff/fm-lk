@@ -83,6 +83,23 @@
                 }
             }
         }
+        &_company {
+            .filter-section {
+                &__icon {
+                    @extend %icon_case;
+                }
+            }
+            &.active {
+                background-color: $color-brown;
+                color: #FFFFFF;
+                &:hover {
+                    background-color: darken($color-brown, 5%);
+                }
+                .filter-section__icon {
+                    @extend %icon_case_white;
+                }
+            }
+        }
 
         &.active {
             .filter-section__arrow-icon {

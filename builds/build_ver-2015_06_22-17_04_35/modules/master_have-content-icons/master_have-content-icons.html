@@ -1,0 +1,15 @@
+<div class="master_have-content-icons_{{modificator}} master_have-content-icons">
+    <ul class="master_have-content-icons__list">
+        {{#each have-content-icons}}
+        <li class="master_content-icon_{{content-type}} {{#if is-active}}active{{/if}} {{#if is-exist}}exist{{/if}} {{#if ../switch}}js-content-icon-switch{{/if}} master_content-icon" data-toggle="{{content-type}}">
+            {{#if url}}
+            <a class="master_content-icon__link" href="{{url}}">
+                <i class="master_content-icon__icon"></i>
+            </a>
+            {{else}}
+            <i class="master_content-icon__icon"></i>
+            {{/if}}
+        </li>
+        {{/each}}
+    </ul>
+</div>

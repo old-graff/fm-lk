@@ -1,0 +1,98 @@
+{
+    "block_company_list": {
+        "name-rubrika": "Медицинские центры",
+        "company-list": [{
+            "name": "Центр семейного благополучия Мера",
+            "logo": {
+                "src": "%=staticPrefix=%img/assets/company_list/logo-1.jpg",
+                "alt": "Центр семейного благополучия Мера"
+            },
+            "count": {
+                "masters": "4 Мастера",
+                "likes": "1082"
+            },
+            "icons": {
+                "modificator": "gorizontal",
+                "have-content-icons": [{
+                    "content-type": "gift",
+                    "is-exist": true
+                }, {
+                    "content-type": "photo",
+                    "is-exist": true
+                }, {
+                    "content-type": "video",
+                    "is-exist": true
+                }]
+            }
+        }, {
+            "name": "Центр клинической наркологии",
+            "logo": {
+                "src": "%=staticPrefix=%img/assets/company_list/logo-2.jpg",
+                "alt": "Центр клинической наркологии"
+            },
+            "count": {
+                "masters": "1 Мастер",
+                "likes": "26"
+            },
+            "icons": {
+                "modificator": "gorizontal",
+                "have-content-icons": [{
+                    "content-type": "gift",
+                    "is-exist": false
+                }, {
+                    "content-type": "photo",
+                    "is-exist": true
+                }, {
+                    "content-type": "video",
+                    "is-exist": true
+                }]
+            }
+        }, {
+            "name": "МЦ Вита",
+            "logo": {
+                "src": "%=staticPrefix=%img/assets/company_list/logo-3.jpg",
+                "alt": "МЦ Вита"
+            },
+            "count": {
+                "masters": "1 Мастер",
+                "likes": "26"
+            },
+            "icons": {
+                "modificator": "gorizontal",
+                "have-content-icons": [{
+                    "content-type": "gift",
+                    "is-exist": false
+                }, {
+                    "content-type": "photo",
+                    "is-exist": true
+                }, {
+                    "content-type": "video",
+                    "is-exist": false
+                }]
+            }
+        }, {
+            "name": "МЦ Невролог",
+            "logo": {
+                "src": "%=staticPrefix=%img/assets/company_list/logo-4.jpg",
+                "alt": "МЦ Невролог"
+            },
+            "count": {
+                "masters": "1 Мастер",
+                "likes": "3"
+            },
+            "icons": {
+                "modificator": "gorizontal",
+                "have-content-icons": [{
+                    "content-type": "gift",
+                    "is-exist": false
+                }, {
+                    "content-type": "photo",
+                    "is-exist": false
+                }, {
+                    "content-type": "video",
+                    "is-exist": false
+                }]
+            }
+        }]
+    }
+}

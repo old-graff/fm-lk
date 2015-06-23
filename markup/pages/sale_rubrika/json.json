@@ -82,7 +82,6 @@
                         }
                     ]
 
-        },
-        "paginator": "readyBlocksData.block_paginator"
+        }
     }
 }

@@ -1,0 +1,15 @@
+{
+    "block_master_page_video": {
+        "video-list": [
+            {
+                "url": "404",
+                "pic": "%=staticPrefix=%img/assets/sale/52f16e1697817.jpg"
+            },
+            {
+                "url": "404",
+                "pic": "%=staticPrefix=%img/assets/sale/52f16e1697817.jpg"
+            }
+
+        ]
+    }
+}

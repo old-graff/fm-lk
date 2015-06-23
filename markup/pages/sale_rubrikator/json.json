@@ -13,7 +13,6 @@
             ]
         },
         "title": "Каталог скидок и подарков", 
-        "sale":  "readyBlocksData.block_sale_rubrikator",
-        "paginator": "readyBlocksData.block_paginator"
+        "sale":  "readyBlocksData.block_sale_rubrikator"
     }
 }

@@ -1,0 +1,36 @@
+<!doctype html>
+<!--[if IE 7]>
+<html class="ie7 lt-ie10 lt-ie9 lt-ie8 no-js" lang="ru"><![endif]-->
+<!--[if IE 8]>
+<html class="ie8 lt-ie10 lt-ie9 no-js" lang="ru"><![endif]-->
+<!--[if IE 9 ]>
+<html class="ie9 lt-ie10 no-js" lang="ru"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="no-js" lang="ru"><!--<![endif]-->
+
+    <head>
+        {{> head/head page_video_rubrika.head}}
+    </head>
+
+    <body class="page">
+        {{> header/header page_video_rubrika.header}}
+        {{> breadcrumps/breadcrumps page_video_rubrika.breadcrumps}}
+
+        <div class="container">
+            <div class="page_secret_rubrika">
+                <h1 class="h1 h1_style">{{page_video_rubrika.title}}</h1>
+                <div class="row">
+                    <div class="page_secret_rubrika__list">
+                        {{> video/video-list/video-list page_video_rubrika.video.list}}     
+                        {{> _common/paginator/paginator page_video_rubrika.paginator}}
+                    </div>
+                    <div class="page_secret_rubrika__rubrikator">
+                        {{> rubrikator/one-level-rubrikator/one-level-rubrikator page_video_rubrika.video.rubrikator}}     
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{> footer/footer page_video_rubrika.footer}}
+    </body>
+</html>

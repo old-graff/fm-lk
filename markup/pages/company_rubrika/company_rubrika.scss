@@ -1,0 +1,10 @@
+.company-rubrika-page{
+    @extend .col-xs-12;
+    @include at(xs){
+        padding: 0;
+    }
+    &__company-list{
+        @extend .col-lg-9;
+        @extend .col-xs-12;
+    }
+}
