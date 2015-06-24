@@ -151,17 +151,26 @@
 .master_company {
     @extend .col-md-5;
     float: right;
+    height: 70px;
     &__logo {
         float: left;
         margin-right: 10px;
     }
     &__name {
-        height: 70px;
         overflow: hidden;
         @include font-tuning(13, 17);
+        @include vertical-align();
     }
     @include to(md) {
         display: none;
+    }
+
+    // modificators
+    &_master-page{
+        float: left;
+        @include to(lg) {
+            display: none;
+        }
     }
 }
 

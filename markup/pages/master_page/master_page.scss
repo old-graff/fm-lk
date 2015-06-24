@@ -19,6 +19,7 @@
         @extend .col-lg-9;
         @extend .col-md-8;
         @extend .col-xs-12;
+        padding-bottom: 20px;
     }
     &__contacts{
         @extend .col-lg-3;

@@ -1,12 +1,14 @@
 <div block="master_contact">
-    <div elem="hide-contact">
+    <div elem="hide-contact" mix="block:js-contacts-show">
         <i elem="icon-phone"></i>
+
         <p elem="psevdo-phone">+7 (***) ***-**-**</p>
         <button elem="button">Показать контакты</button>
     </div>
-    <div elem="show-contact">
+    <div elem="show-contact" mix="block:js-contacts-content">
         <div elem="contact">
             <i elem="contact-icon" mod="phone"></i>
+
             <p elem="contact-text">
                 {{#if phone}}
                 {{phone}}
@@ -18,6 +20,7 @@
         {{#if phone-work}}
         <div elem="contact">
             <i elem="contact-icon" mod="phone-work"></i>
+
             <p elem="contact-text">
                 {{phone-work}}
             </p>
@@ -26,7 +29,10 @@
         <div elem="contact">
             <i elem="contact-icon" mod="email"></i>
             {{#if phone}}
-            <a href="mailto:{{email}}" elem="contact-text">{{email}}</a>
+            <p elem="contact-text">
+                <a href="mailto:{{email}}">{{email}}</a>
+            </p>
+
             {{else}}
             <p elem="contact-text">не указан</p>
             {{/if}}
@@ -34,6 +40,7 @@
         </div>
         <div elem="contact">
             <i elem="contact-icon" mod="skype"></i>
+
             <p elem="contact-text">
                 {{#if skype}}
                 {{skype}}
@@ -44,6 +51,7 @@
         </div>
         <div elem="contact">
             <i elem="contact-icon" mod="icq"></i>
+
             <p elem="contact-text">
                 {{#if icq}}
                 {{icq}}
@@ -63,5 +71,5 @@
 
         </div>
     </div>
-    <a href="{{url-zakaz}}">заказать звонок</a>
+    <a href="{{url-zakaz}}" elem="backcall">заказать звонок</a>
 </div>

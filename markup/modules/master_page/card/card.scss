@@ -1,4 +1,4 @@
-.master_page_card{
+.master_page_card {
     background-color: $color-bg-grey-light;
     height: 225px;
     overflow: hidden;
@@ -7,12 +7,12 @@
         height: 225px;
         width: 225px;
         float: left;
-        img{
+        img {
             width: 100%;
             overflow: hidden;
         }
     }
-    &__info{
+    &__info {
         margin-left: 225px;
         padding: 20px;
         height: 100%;
@@ -22,9 +22,16 @@
         margin-bottom: 10px;
         font-weight: bold;
         @include font-tuning(29, 33);
+        @include to(lg) {
+            @include font-tuning(26, 30);
+        }
     }
     &__spec {
+        word-break: break-all;
         @include font-tuning(18, 20);
+        @include to(lg) {
+            @include font-tuning(15, 17);
+        }
     }
     &__info-bottom {
         position: absolute;
@@ -34,15 +41,16 @@
         right: 0;
         @include cf;
     }
-    &__company{
+    &__company {
         float: left;
     }
 
 }
+
 .master_number {
     float: right;
     width: 110px;
-    &__text{
+    &__text {
         margin-bottom: 5px;
         color: $color-orange;
         @include font-tuning(9, 9);
@@ -56,14 +64,17 @@
         font-weight: bold;
         @include font-tuning(22, 32)
     }
-    &__link{
+    &__link {
         text-decoration: none;
         @include font-tuning(9, 9);
-        span{
+        span {
             text-decoration: underline;
         }
         &:after {
             content: ' →';
         }
+    }
+    @include to(lg) {
+        display: none;
     }
 }

@@ -1,0 +1,75 @@
+.master_contact {
+    background-color: $color-bg-grey-light;
+    height: 225px;
+    padding: 10px;
+    text-align: center;
+    &__hide-contact {
+        padding-top: 18px;
+        height: 186px;
+        text-align: center;
+        cursor: pointer;
+    }
+    &__icon-phone {
+        @extend %icon;
+        @extend %icon_inline;
+        @extend %icon_size_xbig;
+        @extend %icon_man-in-sun_white;
+
+    }
+    &__psevdo-phone {
+        margin: 20px 0;
+        @include font-tuning(20, 20);
+
+    }
+    &__button {
+        @extend .btn;
+        @extend .btn_color_black;
+        @extend .btn_size_medium;
+        @include font-tuning(11, 40);
+        text-transform: uppercase;
+    }
+    &__backcall {
+        color: $color-orange;
+        @include font-tuning(11, 11);
+    }
+    &__show-contact {
+        display: none;
+        padding: 10px;
+        height: 186px;
+        text-align: left;
+        overflow: hidden;
+
+    }
+    &__contact {
+        margin-bottom: 5px;
+        @include font-tuning(13, 13);
+        @include cf;
+    }
+    &__contact-icon {
+        @extend %icon;
+        @extend %icon_block;
+        @extend %icon_size_xsmall;
+        float: left;
+        &_phone {
+            @extend %icon_gift;
+        }
+        &_phone-work {
+            @extend %icon_gift;
+        }
+        &_email {
+            @extend %icon_gift;
+        }
+        &_skype {
+            @extend %icon_gift;
+        }
+        &_icq {
+            @extend %icon_gift;
+        }
+        &_adress {
+            @extend %icon_gift;
+        }
+    }
+    &__contact-text{
+        margin-left: 30px;
+    }
+}
