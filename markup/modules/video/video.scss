@@ -1,0 +1,27 @@
+.video{
+    &__img-wr{
+        position: relative;
+        &:after{
+            content: ' ';
+            display: block;
+            width: 70px;
+            height: 70px;
+            position: absolute;
+            top: 50%;
+            right: 50%;
+            transform: translate(50%, -50%);
+            border-left: 70px solid #fff;
+            border-top: 35px solid transparent;
+            border-bottom: 35px solid transparent;
+            opacity: 0.8;
+        }
+        &:hover{
+            &:after{
+                border-left-color: $color-orange;
+            }
+        }
+    }
+    &__img{
+        width:100%;
+    }
+}
