@@ -1,0 +1,51 @@
+{
+    "page_master_rubrika_video": {
+        "head": {
+            "title": "Строительство в Тольятти - FaceMaster.ru"
+        },
+        "header": "readyBlocksData.block_header",
+        "footer": "readyBlocksData.block_footer",
+        "breadcrumps": {
+            "links": [
+                {
+                    "title": "Каталог услуг",
+                    "url": "/master_rubrikator/master_rubrikator.html"
+                },
+                {
+                    "title": "Строительство",
+                    "url": "404",
+                    "links": [
+                        {
+                            "title": "Бани",
+                            "url": "/master_rubrika/master_rubrika.html"
+                        },
+                        {
+                            "title": "Бассейны",
+                            "url": "/master_rubrika/master_rubrika.html"
+                        },
+                        {
+                            "title": "Печи и камины",
+                            "url": "master_rubrika/master_rubrika.html"
+                        },
+                        {
+                            "title": "Проектирование",
+                            "url": "master_rubrika/master_rubrika.html"
+                        }
+                    ]
+                },
+                {
+                    "title": "Строительство"
+                }
+            ]
+        },
+        "search": {
+            "url": "404",
+            "method": "get",
+            "modificator": "inner"
+        },
+        "name": "Строительство",
+        "filter": "readyBlocksData.block_filter",
+        "banner_side": "readyBlocksData.block_banner_side",
+        "banner_top": "readyBlocksData.block_banner_top"
+    }
+}

@@ -2,8 +2,13 @@
     <div class="row">
         <div elem="left-column">
             <div block="master_photo-and-contacts">
-                <img elem="photo" src="{{master-photo.src}}" alt="{{master-photo.alt}}">
-                {{> _common/phone-btn/phone-btn phone-btn}}
+                <div elem="photo-wrap">
+                    <img elem="photo" src="{{master-photo.src}}" alt="{{master-photo.alt}}">
+                </div>
+                <div elem="contact-wrap">
+                    {{> _common/phone-btn/phone-btn phone-btn}}
+                    <a elem="show-services" href="#" mix="block:js-services-toggle">Показать услуги</a>
+                </div>
             </div>
         </div>
         <div elem="right-column">

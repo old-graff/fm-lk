@@ -22,7 +22,7 @@
         @extend .col-sm-5;
         @extend .col-xs-12;
         padding-right: 0;
-        @include at(xs){
+        @include at(xs) {
             position: static;
         }
     }
@@ -31,7 +31,7 @@
         @extend .col-sm-7;
         @extend .col-xs-12;
         padding-left: 20px;
-        @include at(xs){
+        @include at(xs) {
             padding-bottom: 80px;
         }
     }
@@ -39,7 +39,7 @@
 
 .master_photo-and-contacts {
     &__contact-wrap {
-        @include at(xs){
+        @include at(xs) {
             position: absolute;
             z-index: 2;
             bottom: 20px;
@@ -63,7 +63,22 @@
         @extend .btn_size_xmedium;
         @extend .btn_color_pink;
         @extend .btn_uppercase;
+        @include at(xs) {
+            display: none;
+        }
     }
+    &__show-services {
+        font-size: 0.68em;
+        display: none;
+        @extend .btn;
+        @extend .btn_size_xmedium;
+        @extend .btn_color_pink;
+        @extend .btn_uppercase;
+        @include at(xs) {
+            display: block;
+        }
+    }
+
     &__icon {
         position: relative;
         top: 2px;
@@ -120,6 +135,9 @@
 
 .master_services {
     @include font-tuning(13, 14);
+    @include at(xs) {
+        display: none;
+    }
     &_half {
         @extend .col-md-7;
         @extend .col-sm-10;

@@ -18,3 +18,12 @@ $('.js-content-icon-switch.exist').mouseenter(function () {
         .end().find('.master_have-content-widget_' + current).addClass('active');
     $(this).addClass('active');
 });
+
+$('.js-services-toggle').click(function () {
+    $(this).hide();
+    $(this).parents('.master_minicard').find('.master_services').slideDown();
+    if ($(this).parent().find('.master_photo-and-contacts__to-page')) {
+        $(this).parent().find('.master_photo-and-contacts__to-page').css('display', 'block');
+    }
+    return false;
+});
