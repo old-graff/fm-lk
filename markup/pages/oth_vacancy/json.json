@@ -1,0 +1,17 @@
+{
+    "page_oht_vacancy": {
+        "head": {
+            "title": "Наши вакансии - FaceMaster.ru. Специалисты Тольятти"
+        },
+        "header": "readyBlocksData.block_header",
+        "footer": "readyBlocksData.block_footer",
+        "breadcrumps": {
+            "links": [
+                {
+                    "title": "Наши вакансии"
+                }
+            ]
+        },
+        "vacancy": "readyBlocksData.block_oth_vacancy"
+    }
+}
