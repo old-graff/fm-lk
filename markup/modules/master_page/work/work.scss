@@ -1,0 +1,45 @@
+.master_page_work {
+    padding-bottom: 20px;
+    &__time-table {
+        margin: 10px 0;
+        @extend .col-md-7;
+    }
+}
+
+.work-week {
+    width: 100%;
+    background-color: $color-bg-grey-light;
+    border-top: 3px solid $color-bg-grey-dark;
+    text-align: center;
+    &__thead {
+        border-bottom: 1px solid $color-bg-grey-medium;
+    }
+
+    &__tbody-td {
+        height: 30px;
+        width: 30px;
+        vertical-align: middle;
+        border-right: 1px solid $color-bg-grey-dark;
+        @include font-tuning(11, 11);
+        &:last-child {
+            border-right: none;
+        }
+    }
+    &__thead-td {
+        @extend .work-week__tbody-td;
+        height: 26px;
+        font-weight: bold;
+        text-transform: uppercase;
+        position: relative;
+        &_active:after {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 0;
+            border: 3px solid transparent;
+            border-top: 3px solid $color-bg-grey-dark;
+            transform: translateX(-50%);
+        }
+    }
+
+}

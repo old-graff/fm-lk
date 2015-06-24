@@ -1,0 +1,25 @@
+.master_page_services {
+    padding-bottom: 10px;
+    &__services {
+        @extend .format;
+        @extend .row;
+    }
+    &__list {
+        @extend .col-md-6;
+    }
+    &__other-services {
+        @extend .format;
+        @extend .row;
+    }
+    &__other-services-title {
+        font-weight: bold;
+        @extend .col-md-12;
+        @include font-tuning(16, 20);
+    }
+    &__other-services-list {
+        @extend .col-md-6;
+    }
+    &__list-link {
+        color: #000000;
+    }
+}

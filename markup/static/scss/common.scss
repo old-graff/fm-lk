@@ -49,6 +49,14 @@ h1, .h1 {
     color: $color-orange;
     font-weight: bold
 }
+h2, .h2{
+    font-size: 22px; /*ie8*/
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: $color-text;
+    text-transform: uppercase;
+    @include font-tuning(22, 26);
+}
 
 p {
     line-height: 1.3em

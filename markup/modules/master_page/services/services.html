@@ -1,18 +1,26 @@
 <div block="master_page_services">
     <div elem="header" mix="block:h2">Услуги</div>
-    <ul elem="list">
-        {{#each list}}
-        {{#if is-separator}}
-    </ul>
-    <ul elem="list">
-        {{/if}}
-        {{#if link}}        
-        <li elem="list-item" mod="link">
-            <a elem="list-link" href="{{link}}">{{name}}</a>
-        </li>
-        {{else}}
-        <li elem="list-item">{{name}}</li>
-        {{/if}}
-        {{/each}}
-    </ul>
+    <div elem="services">
+        <ul elem="list">
+            {{#each list}}
+            {{#if is-separator}}
+        </ul>
+        <ul elem="list">
+            {{/if}}
+            <li elem="list-item">{{name}}</li>
+            {{/each}}
+        </ul>
+    </div>
+    {{#if list-rubriks}}
+    {{#each list-rubriks}}
+    <div elem="other-services">
+        <p elem="other-services-title">Услуги Мастера в других рубриках</p>
+        <ul elem="other-services-list">
+            <li elem="list-item" mod="link">
+                <a elem="list-link" href="{{link}}">{{name}}</a>
+            </li>
+        </ul>
+    </div>
+    {{/each}}
+    {{/if}}
 </div>
