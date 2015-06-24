@@ -44,8 +44,78 @@
             "modificator": "inner"
         },
         "name": "Строительство",
-        "filter": "readyBlocksData.block_filter",
+        "filter": {
+            "filter-section": [
+                {
+                    "url": "/master_rubrika/master_rubrika.html",
+                    "section-name": "masters",
+                    "title": "Мастера"
+
+                },
+                {
+                    "url": "/master_rubrika_video/master_rubrika_video.html",
+                    "section-name": "video",
+                    "title": "Видео Мастеров",
+                    "open-section": {
+                        "is-sort": false,
+                        "is-filter": true,
+                        "tags-free": "readyBlocksData.block_filter_tags",
+                        "tags-group": [
+                            {
+                                "title": "Дома дачи:",
+                                "list": "readyBlocksData.block_filter_tags"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "url": "/master_rubrika_sales/master_rubrika_sales.html",
+                    "section-name": "sales",
+                    "title": "Скидки Мастеров"
+
+                },
+                {
+                    "url": "/master_rubrika_secret/master_rubrika_secret.html",
+                    "section-name": "secrets",
+                    "title": "Секреты Мастеров"
+                },
+                {
+                    "url": "/master_rubrika_company/master_rubrika_company.html",
+                    "section-name": "company",
+                    "title": "Компании"
+                }
+            ]
+        },
         "banner_side": "readyBlocksData.block_banner_side",
-        "banner_top": "readyBlocksData.block_banner_top"
+        "banner_top": "readyBlocksData.block_banner_top",
+        "video": {
+            "list": [
+                {
+                    "src": "%=staticPrefix=%img/assets/video/7098.jpg",
+                    "title": "Как рассчитать бюджет ремонта квартиры",
+                    "avtor": "Бабылкина Ирина Чуразмазовна",
+                    "url": "404"
+                },
+                {
+                    "src": "%=staticPrefix=%img/assets/video/7098.jpg",
+                    "title": "В этой заметке отражены основные пункты, о которых важно знать родственникам и друзьям. Тем людям, которые хотят помочь близкому, попавшему в беду по причине злоупотребления алкоголем.",
+                    "avtor": "Бабылкина Ирина Чуразмазовна",
+                    "url": "404"
+                },
+                {
+                    "src": "%=staticPrefix=%img/assets/video/7098.jpg",
+                    "title": "Как рассчитать бюджет ремонта квартиры",
+                    "avtor": "Бабылкина Ирина Чуразмазовна",
+                    "url": "404"
+                },
+                {
+                    "src": "%=staticPrefix=%img/assets/video/7098.jpg",
+                    "title": "Как рассчитать бюджет ремонта квартиры",
+                    "avtor": "Бабылкина Ирина Чуразмазовна",
+                    "url": "404"
+                }
+            ]
+        },
+        "paginator": "readyBlocksData.block_paginator"
     }
 }

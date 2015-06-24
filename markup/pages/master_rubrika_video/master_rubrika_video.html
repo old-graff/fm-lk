@@ -8,42 +8,45 @@
 <!--[if (gt IE 9)|!(IE)]><!-->
 <html class="no-js" lang="ru"><!--<![endif]-->
 
-{{#with page_master_rubrika_video}}
-<head>
-    {{> head/head head}}
-</head>
+    {{#with page_master_rubrika_video}}
+    <head>
+        {{> head/head head}}
+    </head>
 
-<body class="page">
-{{> banner/banner_top/banner_top banner_top}}
-{{> header/header header}}
-{{> breadcrumps/breadcrumps breadcrumps}}
+    <body class="page">
+        {{> banner/banner_top/banner_top banner_top}}
+        {{> header/header header}}
 
-<div block="container">
-    <div block="inner-top">
-        <h1 block="h1" mod="style">{{name}}</h1>
+        <div block="container">
+            <div class="row">
+            {{> breadcrumps/breadcrumps breadcrumps}}
+            </div>
+            <div block="inner-top">
+                <h1 block="h1" mod="style">{{name}}</h1>
 
-        <div elem="search">
-            {{> search/search search}}
+                <div elem="search">
+                    {{> search/search search}}
+                </div>
+                <div elem="callback">
+                    {{> callback/callback}}
+                </div>
+            </div>
+            <div block="inner-content">
+                <div elem="left-side">
+                    {{> filter/filter filter}}
+                    {{> banner/banner_side/banner_side banner_side}}
+                </div>
+                <div elem="right-side">
+                    {{> _common/list_col-3/list_col-3_video video}}
+                    {{> _common/paginator/paginator paginator}}  
+                </div>
+            </div>
+            <div block="row">
+                {{> seo-text/seo-text}}
+            </div>
         </div>
-        <div elem="callback">
-            {{> callback/callback}}
-        </div>
-    </div>
-    <div block="inner-content">
-        <div elem="left-side">
-            {{> filter/filter filter}}
-            {{> banner/banner_side/banner_side banner_side}}
-        </div>
-        <div elem="right-side">
-            {{> _common/list_col-3/list_col-3_video video}}
-        </div>
-    </div>
-    <div block="row">
-        {{> seo-text/seo-text}}
-    </div>
-</div>
 
-{{> footer/footer footer}}
-</body>
-{{/with}}
+        {{> footer/footer footer}}
+    </body>
+    {{/with}}
 </html>

@@ -1,0 +1,26 @@
+<div block="video" mod="gorizontal">
+    <div class="row">
+        <div elem="img-wr">
+            <img src="{{src}}" alt="{{title}}" elem="img">
+        </div>
+        <div elem="content">
+            <p elem="title">{{title}}</p>
+            <p elem="intro">{{intro}}</p>
+        </div>
+    </div>
+    <div class="row">
+        <div elem="autor">
+            {{#with master}}
+            <a href="{{url}}">
+                <img elem="master-photo" src="{{photo}}" alt="{{name}}">
+            </a>
+            <p>Видео добавил Мастер: </p>
+            <a href="{{url}}">{{name}}</a>
+            {{/with}}
+        </div>
+        <div elem="dop">
+            <p elem="rubrika"><strong>Рубрика:</strong> {{rubrika}}</p>
+            <p elem="date">{{date}}</p>
+        </div>
+    </div>
+</div>

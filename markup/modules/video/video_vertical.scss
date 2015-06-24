@@ -1,0 +1,26 @@
+.video_vertical{
+    display: block;
+    text-decoration:none;
+    @extend .bg_grey;
+    .video{
+        &__img-wr{
+            height: 127px;
+            width:100%;
+            overflow: hidden;
+            background: #000;
+        }
+        &__title,&__avtor{
+            padding: 10px;
+        }
+        &__title{
+            height:70px;
+            overflow: hidden;
+        }
+        &__avtor{
+            @include font-tuning(12,16);
+            @include at(lg){
+                padding-right: 60px;
+            }
+        }
+    }
+}
