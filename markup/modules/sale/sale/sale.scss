@@ -1,81 +1,81 @@
-.sale{    
-    &_vert{
+.sale {
+    &_vert {
         padding-bottom: 10px;
         @extend .bg_grey;
-        &:hover{
+        &:hover {
             background-color: $color-bg-grey-xmedium;
-            .sale__title{
+            .sale__title {
                 background-color: darken($color-orange, 3);
             }
         }
-        .sale{             
-            &__pic{            
-                padding:10px 10px 0 10px;
+        .sale {
+            &__pic {
+                padding: 10px 10px 0 10px;
             }
-            &__img{                
+            &__img {
                 width: 100%;
             }
-            &__text{        
-                padding:10px 10px 0 10px;        
+            &__text {
+                padding: 10px 10px 0 10px;
                 height: 90px;
                 overflow: hidden;
-                text-overflow: ellipsis; 
-                padding-top:10px;
-                @include font-tuning(13,16);
+                text-overflow: ellipsis;
+                padding-top: 10px;
+                @include font-tuning(13, 16);
             }
         }
     }
-    &_vertical{
+    &_vertical {
         margin-bottom: 20px;
-        .sale{
-            &__link{
-                height:219px;
-                overflow:hidden;
+        .sale {
+            &__link {
+                height: 219px;
+                overflow: hidden;
                 display: block;
-                &:hover{
-                    .sale__text{
+                &:hover {
+                    .sale__text {
                         height: auto;
                         overflow: auto;
                     }
-                    .sale__title{
+                    .sale__title {
                         background-color: darken($color-orange, 3);
                     }
                 }
-                @include at(md){
+                @include at(md) {
                     height: 215px;
                 }
-                @include at(sm){
+                @include at(sm) {
                     height: 195px;
                 }
-                @include at(xs){
+                @include at(xs) {
                     height: auto;
                 }
             }
-            &__pic{
+            &__pic {
                 background-color: #fff;
-                @include at(xs){
+                @include at(xs) {
                     display: none;
                 }
             }
-            &__img{
+            &__img {
                 width: 100%;
             }
-            &__text{
+            &__text {
                 position: absolute;
                 bottom: 20px;
                 background-color: #fff;
                 padding: 3px 3px;
                 height: 53px;
-                overflow:hidden;
+                overflow: hidden;
                 width: 159px;
-                @include at(md){
+                @include at(md) {
                     width: 157px;
                 }
-                @include at(sm){
+                @include at(sm) {
                     height: 60px;
                     width: 134px;
                 }
-                @include at(xs){
+                @include at(xs) {
                     height: auto;
                     width: auto;
                     position: static;
@@ -83,23 +83,30 @@
             }
         }
     }
-    
-    &__link{
+    &_gorizontal {
+        .sale {
+            &__pic {
+                width: 100px;
+            }
+        }
+    }
+
+    &__link {
         text-decoration: none;
     }
-    &__title{
+    &__title {
         background-color: $color-orange;
         color: #fff;
         text-transform: uppercase;
         font-weight: bold;
         padding: 10px;
-        text-align: center; 
+        text-align: center;
     }
-    
-    &__text{
-        @include font-tuning(13,16);
-        @include at(sm){
-            @include font-tuning(11,12);
+
+    &__text {
+        @include font-tuning(13, 16);
+        @include at(sm) {
+            @include font-tuning(11, 12);
         }
     }
 }

@@ -1,7 +1,12 @@
 <div block="master_page_about">
     <div elem="header" mix="block:h2">О себе</div>
-    {{#each info}}
-    <p><strong>{{header}}</strong></p>
-    <p elem="info">{{{text}}}</p>
-    {{/each}}
+    <div class="row">
+    <div elem="content" mix="block:format">
+        {{#each info}}
+        <p><strong>{{header}}</strong></p>
+
+        <p elem="info">{{{text}}}</p>
+        {{/each}}
+    </div>
+    </div>
 </div>
