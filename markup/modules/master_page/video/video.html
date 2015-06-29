@@ -3,11 +3,7 @@
     <div elem="list">
         {{#each video-list}}
         <div elem="video">
-            <a href="{{url}}" block="video-widget">
-                <div elem="img">
-                    <img src="{{pic}}" alt="{{title}}">
-                </div>
-            </a>
+            {{> video/video_vertical this}}
         </div>
         {{/each}}
     </div>

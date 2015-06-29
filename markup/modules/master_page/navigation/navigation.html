@@ -2,8 +2,8 @@
     <div elem="prev">
         {{#with prev}}
         <a href="{{url}}">
-            <span elem="icon" mod="prev"></span>
-            <span elem="text">Пред.</span>
+            <i elem="icon" mod="prev"></i>
+            <p elem="text">Пред.</p>
             <img elem="src" alt="{{name}}" src="{{src}}">
         </a>
         {{/with}}
@@ -11,9 +11,9 @@
     <div elem="next">
         {{#with next}}
         <a href="{{url}}">
-            <span elem="icon" mod="prev"></span>
-            <span elem="text">Пред.</span>
             <img elem="src" alt="{{name}}" src="{{src}}">
+            <p elem="text">След.</p>
+            <i elem="icon" mod="prev"></i>
         </a>
         {{/with}}
     </div>

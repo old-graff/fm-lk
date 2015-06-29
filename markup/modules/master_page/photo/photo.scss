@@ -1,0 +1,12 @@
+.master_page_photo{
+    &__albums_list {
+        margin-top: 10px;
+        @extend .row;
+    }
+    &__albums_item{
+        @extend .col-md-3;
+    }
+    &__album_preview{
+        width: 100%;
+    }
+}

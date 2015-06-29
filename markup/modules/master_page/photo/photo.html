@@ -1,0 +1,30 @@
+<div block="master_page_photo">
+    <div elem="header" mix="block:h2">Фото</div>
+    <div elem="albums_list">
+        {{#each album-list}}
+        <div elem="albums_item" data-id="{{album.id}}">
+            <img elem="album_preview" src="{{album.src}}" alt="{{album.name}}">
+            <p elem="album_name">{{album.name}}</p>
+        </div>
+        {{/each}}
+    </div>
+        {{#each album-list}}
+    <div elem="album_content" id="{{album.id}}">
+        <div elem="photo-preview"></div>
+        <div elem="photo-list">
+            {{#if album-list.photos}}
+            {{#each album-list.photos}}
+            <div elem="photo-list-item">
+                <img src="{{photos.src}}" alt="{{photos.name}}">
+                <p>{{photos.name}}</p>
+            </div>
+            {{/each}}
+            {{else}}
+            <div elem="preloader">
+                Прелоадер
+            </div>
+            {{/if}}
+        </div>
+    </div>
+    {{/each}}
+</div>

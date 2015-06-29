@@ -3,12 +3,12 @@
         "prev": {
             "url": "/master_page/master_page.html",
             "name": "Кузменко Владимир Петрович",
-            "src": ""
+            "src": "%=staticPrefix=%img/assets/master_page/5616.jpg"
         },
         "next": {
             "url": "/master_page/master_page.html",
             "name": "Кузменко Владимир Петрович",
-            "src": ""
+            "src": "%=staticPrefix=%img/assets/master_page/5616.jpg"
         }
     }
 }

@@ -52,6 +52,7 @@
             "sale": "readyBlocksData.block_master_page_sale",
             "about": "readyBlocksData.block_master_page_about",
             "secret": "readyBlocksData.block_master_page_secret",
+            "photo": "readyBlocksData.block_master_page_photo",
             "video": "readyBlocksData.block_master_page_video",
             "links": "readyBlocksData.block_master_page_links",
             "recommend": "readyBlocksData.block_master_page_recommend"

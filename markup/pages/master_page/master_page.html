@@ -7,55 +7,55 @@
 <html class="ie9 lt-ie10 no-js" lang="ru"><![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!-->
 <html class="no-js" lang="ru"><!--<![endif]-->
-    {{#with page_master_page}}
-    <head>
-        {{> head/head head}}
-    </head>
+{{#with page_master_page}}
+<head>
+    {{> head/head head}}
+</head>
 
-    <body block="page_master_page" mix="page">
-        {{> header/header header}}
-        <div class="container">
-            <div class="row">
-                <div elem="breadcrumps">
-                    {{> breadcrumps/breadcrumps breadcrumps}}
-                </div>
-                <div elem="header">
-                    <h1 block="h1" mod="style">Страница Мастера</h1>
-                </div>  
-                <div elem="navigate">
-                    {{> master_page/navigation/navigation navigation}}
-                </div>
-            </div>
+<body block="page_master_page" mix="page">
+{{> header/header header}}
+<div class="container">
+    <div class="row">
+        <div elem="breadcrumps">
+            {{> breadcrumps/breadcrumps breadcrumps}}
         </div>
-        <div class="container">
-            {{#with master}}
-            <div class="row">
-                <div elem="card">
-                    {{> master_page/card/card card}}
-                </div>
-                <div elem="contacts">
-                    {{> master_page/contacts/contacts contacts}}
-                </div>
-            </div>
-            <div class="row">
-                <div elem="menu">
-                    {{> master_page/menu/menu menu}}
-                </div>
-                <div elem="main-info">
-                    {{> master_page/services/services services}}
-                    {{> master_page/work/work work}}
-                    {{> master_page/sale/sale sale}}
-                    {{> master_page/about/about about}}
-                    {{> master_page/secret/secret secret}}
-                    <!-- { { > master_page/photo/photo}} -->
-                    {{> master_page/video/video video}}
-                    {{> master_page/links/links links}}
-                    {{> master_page/recommend/recommend recommend}}
-                </div>
-            </div>
-            {{/with}}
+        <div elem="header">
+            <h1 block="h1" mod="style">Страница Мастера</h1>
         </div>
-        {{> footer/footer footer}}
-    </body>
+        <div elem="navigate">
+            {{> master_page/navigation/navigation navigation}}
+        </div>
+    </div>
+</div>
+<div class="container">
+    {{#with master}}
+    <div class="row">
+        <div elem="card">
+            {{> master_page/card/card card}}
+        </div>
+        <div elem="contacts">
+            {{> master_page/contacts/contacts contacts}}
+        </div>
+    </div>
+    <div class="row">
+        <div elem="menu">
+            {{> master_page/menu/menu menu}}
+        </div>
+        <div elem="main-info">
+            {{> master_page/services/services services}}
+            {{> master_page/work/work work}}
+            {{> master_page/sale/sale sale}}
+            {{> master_page/about/about about}}
+            {{> master_page/secret/secret secret}}
+            {{> master_page/photo/photo photo}}
+            {{> master_page/video/video video}}
+            {{> master_page/links/links links}}
+            {{> master_page/recommend/recommend recommend}}
+        </div>
+    </div>
     {{/with}}
+</div>
+{{> footer/footer footer}}
+</body>
+{{/with}}
 </html>
