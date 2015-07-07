@@ -1,12 +1,114 @@
-.master_page_photo{
+.master_page_photo {
+    padding-bottom: 20px;
     &__albums_list {
-        margin-top: 10px;
         @extend .row;
     }
-    &__albums_item{
+    &__albums_item {
         @extend .col-md-3;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        cursor: pointer;
+        &.active {
+            background-color: $color-bg-grey-light;
+        }
     }
-    &__album_preview{
+    &__album_preview {
         width: 100%;
+    }
+    &__album_content {
+        display: none;
+        padding: 10px;
+        background-color: $color-bg-grey-light;
+        @extend .col-md-12;
+    }
+    &__photo-preview {
+        width: 100%;
+        @include cf;
+    }
+    &__photo-list {
+        @extend .row;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        .master_page_photo__photo-desc{
+            display: none;
+        }
+    }
+    &__photo-list-item {
+        @extend .col-md-2;
+        overflow: hidden;
+        img {
+            max-width: 100%;
+            max-height: 505px;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    &__photo-desc {
+        padding: 10px 0;
+        height: 60px;
+        @include font-tuning(14, 16);
+    }
+    &__photo-list-wrap {
+        height: 80px;
+        overflow: hidden;
+        img {
+            @include vertical-align;
+        }
+
+    }
+    &__preloader {
+        height: 200px;
+        img{
+            display: block;
+            margin: 0 auto;
+            @include vertical-align;
+        }
+    }
+
+}
+
+.js-photo-slider {
+    .slick-center {
+        .master_page_photo__photo-list-wrap:after {
+            content: '';
+            display: block;
+            @include position(absolute, 0px 10px 0px 10px);
+
+            box-shadow: inset 0 0 0 4px $color-orange;
+        }
+    }
+
+}
+
+.js-photo-view, .js-album-slider {
+    .icon {
+        @extend %icon;
+        @extend %icon_block;
+        @extend %icon_size_small;
+        @extend %icon_strelka;
+        @include vertical-align;
+        margin: 0 auto;
+
+    }
+    .slick-prev, .slick-next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: 30px;
+        height: 30px;
+        transform: translateY(-50%);
+        display: block;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.5);
+        box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+    }
+    .slick-next {
+        right: 0;
+    }
+    .slick-prev {
+        transform: rotate(180deg) translateY(50%);
+    }
+    .slick-disabled{
+        opacity: 0.3;
     }
 }
