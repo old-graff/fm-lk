@@ -22,7 +22,7 @@ $('.js-photo-slider').slick({
 $('.js-photo-album').click(function () {
     var photo = $('.master_page_photo');
     var id = $(this).attr('data-id');
-    //проверка есть ли в блоке уже фотки ??
+    //todo проверка есть ли в блоке уже фотки ??
     //если есть не нужно грузить их заново
     jQuery.ajax({
         url: photo.attr('data-url'),
