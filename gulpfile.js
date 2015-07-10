@@ -169,7 +169,6 @@ gulp.task('build-dev', function (cb) {
         cb
     );
 });
-
 gulp.task('build-dev-php', function (cb) {
     runSequence(
         'service:builder-start-screen',
@@ -201,6 +200,7 @@ gulp.task('build-php', function () {
         [
             'js:compress', 'css:compress-css'
         ],
+        'service:stable-version',
         'service:zip-build',
         function () {
             console.log(gutil.colors.black.bold('\n------------------------------------------------------------'));

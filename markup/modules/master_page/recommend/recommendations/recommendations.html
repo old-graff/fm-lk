@@ -1,0 +1,19 @@
+<div block="recommendations">
+    {{#if total}}
+    <p elem="total">
+        <span elem="total-text">{{total.text}}</span>
+        <a elem="total-count" href="#">{{total.count}}</a>
+    </p>
+    <div elem="list">
+        {{#each recommendations}}
+        <div elem="item">
+            <a href="{{url}}"><img src="{{src}}"></a>
+        </div>
+        {{/each}}
+    </div>
+    {{/if}}
+    <div elem="buttons-block">
+        <p elem="buttons-block-title">Порекомендуйте мастера:</p>
+        <div></div>
+    </div>
+</div>

@@ -1,0 +1,24 @@
+.recommendations {
+    padding: 10px 0;
+    &__total {
+        font-weight: bold;
+        @include font-tuning(16, 18);
+    }
+    &__list {
+        padding: 20px 0;
+        height: 110px;
+        overflow: hidden;
+        @include cf;
+    }
+    &__item {
+        width: 70px;
+        height: 70px;
+        float: left;
+        margin-right: 10px;
+        overflow: hidden;
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}

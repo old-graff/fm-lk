@@ -1,8 +1,10 @@
-<div block="master_list">
+<div block="master_list" data-url="{{load-url}}" data-method="{{method}}">
     {{#each master_list}}
     <div elem="item">
         {{> master_minicard/master_minicard this}}
     </div>
     {{/each}}
-
+    <div elem="preloader">
+        <img src="/static/img/general/preloader.gif">
+    </div>
 </div>

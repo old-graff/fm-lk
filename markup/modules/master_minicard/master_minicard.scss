@@ -39,6 +39,7 @@
 
 .master_photo-and-contacts {
     &__contact-wrap {
+        position: relative;
         @include at(xs) {
             position: absolute;
             z-index: 2;
