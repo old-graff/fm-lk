@@ -18,7 +18,7 @@
         height: 100%;
         position: relative;
     }
-    &__fio {
+    &__name {
         margin-bottom: 10px;
         font-weight: bold;
         @include font-tuning(29, 33);
@@ -43,6 +43,13 @@
     }
     &__company {
         float: left;
+    }
+    &_company {
+        .master_page_card{
+            &__name{
+                @include vertical-align;
+            }
+        }
     }
 
 }

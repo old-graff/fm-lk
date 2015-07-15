@@ -1,7 +1,7 @@
 {
     "block_master_page_card": {
         "src": "%=staticPrefix=%img/assets/master_page/5616.jpg",
-        "fio": "Камельчукова Оксана Васильевна",
+        "name": "Камельчукова Оксана Васильевна",
         "spec": "Аквагрим,мехенди,тату хной,роспись по ткани(акрил,батик),ремесленные работы",
         "company": {
             "logo": "%=staticPrefix=%img/assets/master_minicard/1022.png",

@@ -1,0 +1,21 @@
+.map {
+    &_company {
+        height: 225px;
+        background-color: $color-bg-grey-light;
+        position: relative;
+        .map{
+            &__map{
+                width: 100%;
+                height: 225px;
+            }
+            &__text {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                padding: 5px;
+                background-color: $color-bg-grey-light;
+            }
+        }
+    }
+}

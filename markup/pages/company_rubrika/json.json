@@ -34,6 +34,7 @@
         "company": {
             "list": [
                 {
+                    "url": "/company_page/company_page.html",
                     "name": "Центр семейного благополучия Мера",
                     "logo": {
                         "src": "%=staticPrefix=%img/assets/company_minicard/logo-1.jpg",
@@ -62,6 +63,7 @@
                     }
                 },
                 {
+                    "url": "/company_page/company_page.html",
                     "name": "Центр клинической наркологии",
                     "logo": {
                         "src": "%=staticPrefix=%img/assets/company_minicard/logo-2.jpg",
@@ -90,6 +92,7 @@
                     }
                 },
                 {
+                    "url": "/company_page/company_page.html",
                     "name": "МЦ Вита",
                     "logo": {
                         "src": "%=staticPrefix=%img/assets/company_minicard/logo-3.jpg",
@@ -118,6 +121,7 @@
                     }
                 },
                 {
+                    "url": "/company_page/company_page.html",
                     "name": "МЦ Невролог",
                     "logo": {
                         "src": "%=staticPrefix=%img/assets/company_minicard/logo-4.jpg",

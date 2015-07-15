@@ -20,7 +20,7 @@
             {{> breadcrumps/breadcrumps breadcrumps}}
         </div>
         <div elem="header">
-            <h1 block="h1" mod="style">Страница Мастера</h1>
+            <h1 block="h1" mod="style">Страница компании</h1>
         </div>
         <div elem="navigate">
             {{> master_page/navigation/navigation navigation}}
@@ -31,10 +31,10 @@
     {{#with company}}
     <div class="row">
         <div elem="card">
-            {{> master_page/card/card card}}
+            {{> card/card_company card}}
         </div>
         <div elem="contacts">
-            {{> master_page/contacts/contacts contacts}}
+            {{> map/map_company map}}
         </div>
     </div>
     <div class="row">
@@ -42,15 +42,9 @@
             {{> master_page/menu/menu menu}}
         </div>
         <div elem="main-info">
-            {{> master_page/services/services services}}
+            {{> master_list/master_list_company master_list}}
+            {{> about/about_company about}}
             {{> master_page/work/work work}}
-            {{> master_page/sale/sale sale}}
-            {{> master_page/about/about about}}
-            {{> master_page/secret/secret secret}}
-            {{> master_page/photo/photo photo}}
-            {{> master_page/video/video video}}
-            {{> master_page/links/links links}}
-            {{> master_page/recommend/recommend recommend}}
         </div>
     </div>
     {{/with}}
