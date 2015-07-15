@@ -1,0 +1,26 @@
+{
+    "page_404": {
+        "head": {
+            "title": "404: Страница не найдена - FaceMaster.ru."
+        },
+        "header": "readyBlocksData.block_header",
+        "footer": "readyBlocksData.block_footer",
+        "breadcrumps": {
+            "links": [
+                {
+                    "title": "Главная",
+                    "url": "/main/main.html"
+                },
+                {
+                    "title": "404: Страница не найдена"
+                }
+            ]
+        },
+        "error": "readyBlocksData.block_error",
+        "search": {
+            "url": "404",
+            "method": "get",
+            "modificator": "inner"
+        }
+    }
+}

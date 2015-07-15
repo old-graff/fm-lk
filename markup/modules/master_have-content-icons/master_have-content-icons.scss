@@ -4,13 +4,13 @@
         float: right;
         margin-right: -20px;
     }
-    &_gorizontal{
+    &_gorizontal {
         @include cf;
         .master_content-icon {
             width: 32px;
             height: 32px;
-            float: left; 
-            &.exist{
+            float: left;
+            &.exist {
                 //background:#fff;
             }
         }
@@ -43,6 +43,7 @@
                 }
             }
         }
+
     }
     &_photo {
         .master_content-icon {
@@ -90,7 +91,7 @@
         .master_content-icon {
             &__link {
                 background-color: #ffffff;
-                @include to(md){
+                @include to(md) {
                     background-color: transparent;
                 }
             }

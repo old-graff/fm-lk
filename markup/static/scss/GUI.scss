@@ -287,3 +287,11 @@ a:active {
         @extend %icon_close_white;
     }
 }
+
+.tooltip {
+    padding: 10px;
+    background-color: $color-blue-light;
+    color: #3786A1;
+    @include font-tuning(12, 14);
+
+}

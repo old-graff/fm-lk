@@ -1,0 +1,15 @@
+{{#if comments}}
+<div block="review">
+    <p elem="title">Мои отзывы</p>
+    {{#each comments}}
+        <div elem="item">
+            <div elem="header">
+                <span elem="name">{{author}}</span>&nbsp;|&nbsp;{{date}}&nbsp;|&nbsp;{{time}}
+            </div>
+            <p elem="text">
+                {{text}}
+            </p>
+        </div>
+    {{/each}}
+</div>
+{{/if}}

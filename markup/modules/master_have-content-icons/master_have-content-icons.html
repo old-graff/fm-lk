@@ -3,7 +3,7 @@
         {{#each have-content-icons}}
         <li block="master_content-icon"
             class="master_content-icon_{{content-type}} {{#if is-active}}active{{/if}} {{#if is-exist}}exist{{/if}} {{#if ../switch}}js-content-icon-switch{{/if}}"
-            data-toggle="{{content-type}}">
+            data-toggle="{{content-type}}" data-nameLink="{{hint}}">
             {{#if url}}
             <a elem="link" href="{{url}}">
                 <i elem="icon"></i>

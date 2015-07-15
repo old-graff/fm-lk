@@ -124,12 +124,11 @@
                 }
             }
             &__field {
+                @extend .col-sm-9;
+                @extend .col-md-7;
+                @extend .col-lg-8;
                 @include at(sm) {
-                    @extend .col-sm-9;
                     padding-right: 0;
-                }
-                @include at(md) {
-                    @extend .col-md-7;
                 }
             }
         }

@@ -1,0 +1,13 @@
+.page_404 {
+    &__msg{
+        @extend .col-md-8;
+        @extend .col-md-offset-2;
+        @extend .col-sm-12;
+
+    }
+    &__action {
+        @extend .col-md-8;
+        @extend .col-md-offset-2;
+    }
+
+}

@@ -15,15 +15,18 @@
             "have-content-icons": [
                 {
                     "content-type": "gift",
-                    "is-exist": false
+                    "is-exist": false,
+                    "hint": "У мастера есть скидки"
                 },
                 {
                     "content-type": "photo",
-                    "is-exist": true
+                    "is-exist": true,
+                    "hint": "У мастера есть фотографии"
                 },
                 {
                     "content-type": "video",
-                    "is-exist": true
+                    "is-exist": true,
+                    "hint": "У мастера есть видео"
                 }
             ]
         }
