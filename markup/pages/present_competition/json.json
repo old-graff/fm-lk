@@ -1,0 +1,21 @@
+{
+    "page_present_competition": {
+        "head": {
+            "title": "Конкурсы газеты \"Презент\" - FaceMaster.ru. Специалисты Тольятти"
+        },
+        "header": "readyBlocksData.block_header",
+        "footer": "readyBlocksData.block_footer",
+        "breadcrumps": {
+            "links": [
+                {
+                    "title": "Главная",
+                    "url": "/main/main.html"
+                },
+                {
+                    "title": "Конкурсы газеты \"Презент\""
+                }
+            ]
+        },
+        "competition_list": "readyBlocksData.block_present_competition"
+    }
+}

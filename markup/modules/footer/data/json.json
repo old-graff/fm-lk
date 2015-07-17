@@ -3,15 +3,15 @@
         "phone" : "(8482) 74-44-19",
         "links": [
             {
-                "url": "/oth_oferta/oferta.html",
+                "url": "/oth_oferta/oth_oferta.html",
                 "title": "Оферта" 
             },
             {
-                "url": "/oth_contact/contact.html",
+                "url": "/oth_contact/oth_contact.html",
                 "title": "Контакты"
             },
             {
-                "url": "/oth_feedback/feedback.html",
+                "url": "/oth_feedback/oth_feedback.html",
                 "title": "Обратная связь"
             }
         ]
