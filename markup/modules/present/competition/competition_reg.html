@@ -1,0 +1,31 @@
+<div block="present_competition_reg">
+    <div class="row">
+        <h2 elem="title">{{title}}</h2>
+
+        <p elem="description">
+            {{description}}
+        </p>
+    </div>
+    <div class="row">
+        <div elem="registration">
+            <p elem="reg-title">Заявка на участие</p>
+
+            <div elem="reg-form">
+                <form method="{{registration.method}}" action="{{registration.action}}">
+                    <div block="labled-input">
+                        <label elem="label">ФИО</label>
+                        <input elem="input" type="text" placeholder="Иванов Сергей Иванович">
+                    </div>
+                    <div block="labled-input">
+                        <label elem="label">Email</label>
+                        <input elem="input" type="text" placeholder="somename@domain.ru">
+                    </div>
+                    <div block="labled-input">
+                        <label elem="label">Телефон</label>
+                        <input elem="input" type="text" placeholder="+7 988 321 32 12">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
