@@ -1,0 +1,34 @@
+
+<div>
+    {{> search/search}}
+    <div class="or">или</div>
+    <div class="find-master">
+        <a class="find-master__inner" href="{{url.findMaster}}">
+            <div class="find-master__inner-rel">
+                <span class="find-master__icon"></span>
+                <p class="find-master__title">Выбери Мастера</p>
+                <span class="find-master__btn">У нас {{countMaster}}</span>
+            </div>
+        </a>
+    </div>
+    <div class="call-back">
+        <a class="call-back__inner" href="{{url.callback}}">
+            <div class="call-back__inner-rel">
+                <span class="call-back__icon"></span>
+                <p class="call-back__title">Закажи услугу </p>
+                <p class="call-back__text">Мы бесплатно отправим вашу заявку всем подходящим Мастерам</p>
+                <span class="call-back__btn">Создать заявку</span>
+            </div>
+        </a>
+    </div>
+    <div class="catalogs">
+        <div class="catalogs__inner">
+            <div class="catalogs__services">
+                <a class="catalogs__services-link" href="{{url.catalog}}">Весь каталог услуг</a>
+            </div>
+            <div class="catalogs__dop">
+                {{> main/catalogs-dop/catalogs-dop catalogs}}
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,42 @@
+{
+    "block_master_page_menu": {
+        "list": [{
+            "position": "servicesPosition",
+            "name": "Услуги",
+            "exist": true,
+            "active": true
+        }, {
+            "position": "workPosition",
+            "name": "Условия работы",
+            "exist": true
+        }, {
+            "position": "salePosition",
+            "name": "Скидки и подарки",
+            "exist": false
+        }, {
+            "position": "aboutPosition",
+            "name": "О себе",
+            "exist": true
+        }, {
+            "position": "secretPosition",
+            "name": "Полезно почитать",
+            "exist": true
+        }, {
+            "position": "photoPosition",
+            "name": "Фото",
+            "exist": true
+        }, {
+            "position": "videoPosition",
+            "name": "Видео",
+            "exist": false
+        }, {
+            "position": "linkPosition",
+            "name": "Ссылки",
+            "exist": true
+        }, {
+            "position": "recommendPosition",
+            "name": "Отзывы и рекомендации",
+            "exist": true
+        }]
+    }
+}
