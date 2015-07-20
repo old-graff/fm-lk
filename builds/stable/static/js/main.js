@@ -502,6 +502,9 @@ $('.form__form').submit(function () {
     return false;
 });
 
+$('.more-page__item').click(function () {
+    $(this).toggleClass('more-page__item_uncollapse');
+});
 //$(document).ready(function(){
     //$('#tab').easyResponsiveTabs();
     $('#horizontalTab').easyResponsiveTabs({
@@ -517,9 +520,6 @@ $('.form__form').submit(function () {
          }*/
     });
 //});
-$('.more-page__item').click(function () {
-    $(this).toggleClass('more-page__item_uncollapse');
-});
 $('.js-rubrika-list').click(function () {
     $(this).parent().find('.rubrika-list__list').toggle();
 });

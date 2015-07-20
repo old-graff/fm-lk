@@ -1,0 +1,82 @@
+.present_competition_list {
+    @extend .col-xs-12;
+    &__item {
+        @extend .col-xs-12;
+        padding-bottom: 20px;
+    }
+}
+
+.present_competition_item {
+    display: block;
+    height: 280px;
+    padding: 20px;
+    background-color: $color-bg-grey-light;
+    text-decoration: none;
+    overflow: hidden;
+    &:hover {
+        color: inherit;
+        box-shadow: rgba(0, 0, 0, .3) 0px 0px 5px 0px;
+    }
+    &__left-column {
+        @extend .col-md-8;
+    }
+    &__right-column {
+        @extend .col-md-4;
+        height: 225px;
+        overflow: hidden;
+        @include to(md) {
+            display: none;
+        }
+    }
+    &__decor {
+        @extend .col-md-3;
+        padding: 0 5px 10px;
+    }
+    &__image-wrap {
+        height: 65px;
+        width: 65px;
+        text-align: center;
+        margin: 0 auto;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    &__title {
+        padding-bottom: 10px;
+        color: $color-text-dark;
+        text-transform: uppercase;
+        font-weight: bold;
+        @include font-tuning(22, 22);
+    }
+    &__status {
+        font-size: 15px;
+        line-height: 15px;
+        text-transform: none;
+        font-weight: normal;
+        &_record {
+            color: $color-green-deep;
+        }
+        &_voting {
+            color: $color-blue-dark;
+        }
+        &_close {
+            color: $color-red;
+        }
+    }
+    &__members {
+        padding-bottom: 20px;
+        color: $color-bg-grey-medium;
+        @include font-tuning(14, 14);
+    }
+    &__description {
+        height: 130px;
+        padding-bottom: 10px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    &__record-date {
+        color: $color-green-deep;
+    }
+    &__voting-date {
+        color: $color-blue-dark;
+    }
+}

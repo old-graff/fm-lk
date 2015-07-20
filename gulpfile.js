@@ -2,6 +2,7 @@
 var os = require('os');
 var gulp = require('gulp');
 var gutil = require('gulp-util');
+var del = require('del');
 var runSequence = require('run-sequence');
 var browserSync = require('browser-sync');
 
@@ -9,7 +10,7 @@ var browserSync = require('browser-sync');
 var useLiveReload = gutil.env.lr || false,
     useTunnelToWeb = gutil.env.tunnel || false,
 
-    // Configs
+// Configs
     tarsConfig = require('./tars-config'),
     browserSyncConfig = tarsConfig.browserSyncConfig,
 
@@ -162,7 +163,7 @@ gulp.task('build-dev', function (cb) {
             'js:move-separate', 'js:processing'
         ],
         [
-            'html:compile-templates', 
+            'html:compile-templates',
             'other:move-misc-files', 'other:move-fonts', 'other:move-assets',
             'images:move-content-img', 'images:move-plugins-img', 'images:move-general-img'
         ],
@@ -183,7 +184,7 @@ gulp.task('build-dev-php', function (cb) {
             'js:move-separate', 'js:processing'
         ],
         [
-            'html:compile-pages-for-php','html:compile-modules-for-php',
+            'html:compile-pages-for-php', 'html:compile-modules-for-php',
             'other:move-misc-files', 'other:move-fonts', 'other:move-assets',
             'images:move-content-img', 'images:move-plugins-img', 'images:move-general-img'
         ],
@@ -191,6 +192,7 @@ gulp.task('build-dev-php', function (cb) {
     );
 });
 gulp.task('build-php', function () {
+    del(tarsConfig.buildPath + '/stable', function(){});
     runSequence(
         'build-dev-php',
         [
@@ -207,7 +209,8 @@ gulp.task('build-php', function () {
             gutil.log(gutil.colors.green('✔'), gutil.colors.green.bold('Release version have been created successfully!'));
             console.log(gutil.colors.black.bold('------------------------------------------------------------\n'));
         }
-    );
+    )
+    ;
 });
 
 
@@ -302,7 +305,7 @@ gulp.task('compile-templates-with-data-reloading', function (cb) {
     runSequence(
         'html:concat-data',
         'html:compile-templates',
-    cb);
+        cb);
 });
 
 /*********************/

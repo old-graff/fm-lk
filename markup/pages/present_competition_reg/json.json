@@ -16,6 +16,6 @@
                 }
             ]
         },
-        "competition_reg": "readyBlocksData.block_present_competition"
+        "competition_reg": "readyBlocksData.block_present_competition_reg"
     }
 }
