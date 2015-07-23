@@ -7,7 +7,7 @@
 <html class="ie9 lt-ie10 no-js" lang="ru"><![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!-->
 <html class="no-js" lang="ru"><!--<![endif]-->
-{{#with page_present_competition_reg}}
+{{#with page_present_competition_list}}
 <head>
     {{> head/head head}}
 </head>
@@ -19,7 +19,9 @@
         {{> breadcrumps/breadcrumps breadcrumps}}
     </div>
     <h1 block="h1" mod="style">Конкурсы газеты "Презент"</h1>
-    {{> present/competition_reg/competition_reg competition_reg}}
+    <div block="row">
+        {{> present/competition_list/competition_list competition_list}}
+    </div>
 </div>
 
 {{> footer/footer footer}}

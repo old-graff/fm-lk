@@ -1,0 +1,24 @@
+<div block="present_competition_member">
+    <p elem="title">
+        Участник №{{id}}
+    </p>
+
+
+    <a elem="photo" href="#{{id}}" mix="block:js-present-competition-work">
+        <img src="{{photos.[0].[src]}}" alt="{{photos.[0].[name]}}">
+    </a>
+
+    <div elem="button" data-id="{{id}}">
+        <p elem="score" mix="block:js-present-competition-score">
+            {{score}}
+        </p>
+        <a block="btn" mod="size_medium, color_orange" mix="block:js-present-competition-vote" href="{{url}}">
+            Голосовать
+        </a>
+    </div>
+    <div id="{{id}}" elem="all-photos">
+            {{#each photos}}
+                <img src="{{src}}" alt="{{name}}" class="js-present-competition-work-photo">
+            {{/each}}
+    </div>
+</div>

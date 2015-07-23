@@ -1,5 +1,5 @@
 {
-    "page_present_competition": {
+    "page_present_competition_list": {
         "head": {
             "title": "Конкурсы газеты \"Презент\" - FaceMaster.ru. Специалисты Тольятти"
         },
@@ -12,14 +12,10 @@
                     "url": "/main/main.html"
                 },
                 {
-                    "title": "Конкурсы газеты \"Презент\"",
-                    "url": "/present_competition_list/present_competition_list.html"
-                },
-                {
-                    "title": "Знай наших"
+                    "title": "Конкурсы газеты \"Презент\""
                 }
             ]
         },
-        "competition": "readyBlocksData.block_present_competition"
+        "competition_list": "readyBlocksData.block_present_competition_list"
     }
 }

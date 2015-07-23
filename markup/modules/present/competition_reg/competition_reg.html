@@ -8,24 +8,70 @@
     </div>
     <div class="row">
         <div elem="registration">
-            <p elem="reg-title">Заявка на участие</p>
+            <p elem="subtitle" mod="accent">Заявка на участие</p>
 
             <div elem="reg-form">
                 <form method="{{registration.method}}" action="{{registration.action}}">
                     <div block="labeled-input">
-                        <label elem="label">ФИО</label>
-                        <input elem="input" type="text" placeholder="Иванов Сергей Иванович">
+                        <div elem="label">
+                            <label block="label">ФИО</label>
+                        </div>
+                        <div elem="input">
+                            <input block="input-text" type="text" placeholder="Иванов Сергей Иванович">
+                        </div>
                     </div>
                     <div block="labeled-input">
-                        <label elem="label">Email</label>
-                        <input elem="input" type="text" placeholder="somename@domain.ru">
+                        <div elem="label">
+                            <label block="label">Email</label>
+                        </div>
+                        <div elem="input">
+                            <input block="input-text" type="text" placeholder="somename@domain.ru">
+                        </div>
                     </div>
                     <div block="labeled-input">
-                        <label elem="label">Телефон</label>
-                        <input elem="input" type="text" placeholder="+7 988 321 32 12">
+                        <div elem="label">
+                            <label block="label">Телефон</label>
+                        </div>
+                        <div elem="input">
+                            <input block="input-text" type="text" placeholder="+7 988 321 32 12">
+                        </div>
+                    </div>
+                    <div elem="work-desc">
+                        <div block="labeled-input">
+                            <div elem="label">
+                                <label block="label"><p elem="text">Название работы</p></label>
+                            </div>
+                            <div elem="input">
+                                <input block="input-text" type="text">
+                            </div>
+                        </div>
+                        <div block="labeled-input">
+                            <div elem="label">
+                                <label block="label"><p elem="text">Описание работы</p></label>
+                            </div>
+                            <div elem="input">
+                                <textarea block="textarea"></textarea>
+                            </div>
+                        </div>
+                        <div block="labeled-input">
+                            <div elem="label">
+                                <label block="label"><p elem="text">Фотографии работы</p></label>
+                            </div>
+                            <div elem="input">
+                                <input type="file" multiple accept="image/*">
+                            </div>
+                        </div>
+                    </div>
+                    <div block="labeled-input">
+                        <div elem="submit">
+                            <input block="btn-accent" type="submit" value="Отправить">
+                        </div>
                     </div>
                 </form>
             </div>
+        </div>
+        <div elem="members">
+            <p elem="subtitle">Работы участников конкурса</p>
         </div>
     </div>
 </div>
