@@ -1,3 +1,20 @@
+.dop-function{
+
+    @extend .col-lg-3;
+    @extend .col-md-4;
+    @extend .col-ms-12;
+    @include from(md){
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    @include from(sm){
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    &__inner {
+        @extend .row;
+    }
+}
 .become-master, .about-company, .bayda {
     padding-bottom:10px;
     @extend .col-md-12;

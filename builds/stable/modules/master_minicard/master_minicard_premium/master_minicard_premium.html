@@ -31,86 +31,94 @@
                             {{specialisation}}
                         </p>
                         {{/if}}
+                        {{#if company}}
                     </div>
-
-                    {{#if company}}
-                    <div class="master_company">
-                        <img class="master_company__logo" src="{{company.logo}}" alt="{{company.name}}">
-
-                        <p class="master_company__name">
-                            {{company.name}}
-                        </p>
-                    </div>
-                    {{/if}}
-
-                    {{#if have-content}}
-                    <div class="format master_services master_services_half">
-                        {{else}}
-                        <div class="format master_services master_services_wide">
-                            {{/if}}
-                            <ul class="master_services__service-list js-services-cut">
-                                {{#each service-list}}
-                                <li class="master_services__service">
-                                    {{this}}
-                                </li>
-                                {{/each}}
-                            </ul>
-                        </div>
-                    </div>
+                    {{else}}
                 </div>
+                {{/if}}
+
+                {{#if company}}
+                <div class="master_company">
+                    <img class="master_company__logo" src="{{company.logo}}" alt="{{company.name}}">
+
+                    <p class="master_company__name">
+                        {{company.name}}
+                    </p>
+                </div>
+                {{/if}}
+
+                {{#if have-content}}
+                <div class="format master_services master_services_half">
+                    {{else}}
+                    <div class="format master_services master_services_wide">
+                        {{/if}}
+                        <ul class="master_services__service-list js-services-cut">
+                            {{#each service-list}}
+                            <li class="master_services__service">
+                                {{{this}}}
+                            </li>
+                            {{/each}}
+                        </ul>
+                        {{#if have-content}}
+                    </div>
+                    {{else}}
+                </div>
+                {{/if}}
             </div>
-            <div class="master_presentation">
-                {{> master_have-content-icons/master_have-content-icons have-content-icons}}
-                {{#with have-content}}
-                {{#if gift}}
-                <div class="master_have-content-widget master_have-content-widget_gift">
-                    <div class="master_have-content-widget__main">
-                        <p class="title">{{{gift.title}}}</p>
-                    </div>
-                    <p class="master_have-content-widget__desc">
-                        {{{gift.desc}}}
-                    </p>
-                </div>
-                {{/if}}
-                {{#if photo}}
-                <div class="master_have-content-widget master_have-content-widget_photo">
-                    <div class="master_have-content-widget__main">
-                        <p class="title">
-                            У Мастера:<br>
-                            <span class="count">{{{photo.count}}}</span>
-                        </p>
-                    </div>
-                    <p class="master_have-content-widget__desc">
-                        {{{photo.desc}}}
-                    </p>
-                </div>
-                {{/if}}
-                {{#if video}}
-                <div class="master_have-content-widget master_have-content-widget_video">
-                    <a href="{{{video.url}}}">
-                        <div class="master_have-content-widget__main">
-                            <img src="{{{video.preview}}}">
-                        </div>
-                    </a>
-
-                    <p class="master_have-content-widget__desc">
-                        {{{video.desc}}}
-                    </p>
-                </div>
-                {{/if}}
-                {{#if comments}}
-                <div class="master_have-content-widget master_have-content-widget_comments">
-                    <div class="master_have-content-widget__main">
-                        <p class="title">У Мастера:<br>
-                            <span class="count">{{{comments.recommendations}}}</span><br>
-                            <span class="count">{{{comments.comments}}}</span>
-                        </p>
-                    </div>
-                    <p class="master_have-content-widget__desc">
-                        {{{comments.desc}}}
-                    </p>
-                </div>
-                {{/if}}
-                {{/with}}
+        </div>
+    </div>
+    <div class="master_presentation">
+        {{> master_have-content-icons/master_have-content-icons have-content-icons}}
+        {{#with have-content}}
+        {{#if gift}}
+        <div class="master_have-content-widget master_have-content-widget_gift">
+            <div class="master_have-content-widget__main">
+                <p class="title">{{{gift.title}}}</p>
             </div>
-        </div></div></div>
+            <p class="master_have-content-widget__desc">
+                {{{gift.desc}}}
+            </p>
+        </div>
+        {{/if}}
+        {{#if photo}}
+        <div class="master_have-content-widget master_have-content-widget_photo">
+            <div class="master_have-content-widget__main">
+                <p class="title">
+                    У Мастера:<br>
+                    <span class="count">{{{photo.count}}}</span>
+                </p>
+            </div>
+            <p class="master_have-content-widget__desc">
+                {{{photo.desc}}}
+            </p>
+        </div>
+        {{/if}}
+        {{#if video}}
+        <div class="master_have-content-widget master_have-content-widget_video">
+            <a href="{{{video.url}}}">
+                <div class="master_have-content-widget__main">
+                    <img src="{{{video.preview}}}">
+                </div>
+            </a>
+
+            <p class="master_have-content-widget__desc">
+                {{{video.desc}}}
+            </p>
+        </div>
+        {{/if}}
+        {{#if comments}}
+        <div class="master_have-content-widget master_have-content-widget_comments">
+            <div class="master_have-content-widget__main">
+                <p class="title">У Мастера:<br>
+                    <span class="count">{{{comments.recommendations}}}</span><br>
+                    <span class="count">{{{comments.comments}}}</span>
+                </p>
+            </div>
+            <p class="master_have-content-widget__desc">
+                {{{comments.desc}}}
+            </p>
+        </div>
+        {{/if}}
+        {{/with}}
+    </div>
+</div>

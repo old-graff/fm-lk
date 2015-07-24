@@ -1,15 +1,15 @@
 {{#each tags}}
 {{#if is-active}}
-<span>
+<span class="filter-by__tag-active">
     {{title}}
-    <div>
+    <div class="filter-by__close">
         <a class="close" href="{{url-back}}">
             <i class="close__icon close__icon_close"></i>
         </a>
     </div>
 </span>
 {{else}}
-<a href="{{url}}">
+<a class="filter-by__tag" href="{{url}}">
     {{title}}
 </a>
 {{/if}}

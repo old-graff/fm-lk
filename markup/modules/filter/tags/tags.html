@@ -1,6 +1,6 @@
 {{#each tags}}
 {{#if is-active}}
-<span elem="tag-active">
+<span block="filter-by" elem="tag-active">
     {{title}}
     <div elem="close">
         <a block="close" href="{{url-back}}">
@@ -9,7 +9,7 @@
     </div>
 </span>
 {{else}}
-<a elem="tag" href="{{url}}">
+<a block="filter-by" elem="tag" href="{{url}}">
     {{title}}
 </a>
 {{/if}}

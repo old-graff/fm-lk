@@ -8,24 +8,20 @@
 <!--[if (gt IE 9)|!(IE)]><!-->
 <html class="no-js" lang="ru"><!--<![endif]-->
 
-    <head>
-        {{> head/head page_main.head}}
-    </head>
+<head>
+    {{> head/head page_main.head}}
+</head>
 
-    <body class="page">
-        {{> header/header page_main.header}}
+<body class="page">
+{{> header/header page_main.header}}
 
-        <div block="main-page" mix="block:container">
-            <div block="row">
-                <div block="main-function">
-                     {{> main/main-function/main-function page_main.mainFunction}}
-                </div>
-                <div block="dop-function">
-                     {{> main/dop-function/dop-function page_main.dopFunction}}
-                </div>
-            </div>
-        </div>
+<div block="main-page" mix="block:container">
+    <div block="row">
+        {{> main/main-function/main-function page_main.mainFunction}}
+        {{> main/dop-function/dop-function page_main.dopFunction}}
+    </div>
+</div>
 
-        {{> footer/footer page_main.footer}}
-    </body>
+{{> footer/footer page_main.footer}}
+</body>
 </html>

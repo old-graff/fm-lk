@@ -20,10 +20,15 @@
                     </p>
                 </div>
                 <div class="format master_services master_services_wide">
-                    <ul class="master_services__service-list">
+                    <ul class="master_services__service-list js-services-cut">
+                        {{#if search-note}}
+                            <div class="search-note">
+                                {{search-note}}
+                            </div>
+                        {{/if}}
                         {{#each service-list}}
                         <li class="master_services__service">
-                            {{this}}
+                            {{{this}}}
                         </li>
                         {{/each}}
                     </ul>

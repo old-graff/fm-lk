@@ -1,0 +1,24 @@
+<div block="search_filter">
+    <div elem="header">
+        <p elem="name">
+            Найдено мастеров
+        </p>
+
+        <p elem="count">
+            {{total}}
+        </p>
+    </div>
+    <div elem="content">
+        {{#each details}}
+        <a elem="detail" href="{{url}}">
+            <p elem="name">
+                {{name}}
+            </p>
+
+            <p elem="count">
+                {{count}}
+            </p>
+        </a>
+        {{/each}}
+    </div>
+</div>

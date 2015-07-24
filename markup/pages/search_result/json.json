@@ -1,0 +1,29 @@
+{
+    "page_search_result": {
+        "head": {
+            "title": "Результаты поиска - FaceMaster.ru."
+        },
+        "header": "readyBlocksData.block_header",
+        "footer": "readyBlocksData.block_footer",
+        "breadcrumps": {
+            "links": [
+                {
+                    "title": "Результаты поиска"
+                }
+            ]
+        },
+        "search": {
+            "url": "404",
+            "method": "get",
+            "modificator": "inner"
+        },
+        "name": "Результаты поиска",
+        "search_filter": "readyBlocksData.block_search_filter",
+        "results": [
+            "readyBlocksData.block_master_minicard",
+            "readyBlocksData.block_master_minicard",
+            "readyBlocksData.block_master_minicard"
+        ],
+        "banner_side": "readyBlocksData.block_banner_side"
+    }
+}
