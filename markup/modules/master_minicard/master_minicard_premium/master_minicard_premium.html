@@ -53,6 +53,12 @@
                     <div block="master_services" mod="wide" class="format">
                         {{/if}}
                         <ul elem="service-list" mix="block:js-services-cut">
+                            {{#if search-note}}
+                            <div block="search-note">
+                                <strong>Текст найден на странице Мастера:</strong>
+                                {{{search-note}}}
+                            </div>
+                            {{/if}}
                             {{#each service-list}}
                             <li elem="service">
                                 {{{this}}}

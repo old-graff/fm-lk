@@ -1,12 +1,13 @@
 <div block="filter">
     {{#each filter-section}}
     <div block="filter-section">
-        <a class="filter-section__title filter-section__title_{{section-name}} {{#if open-section}}active{{/if}}"  href="{{url}}" mix="block:js-filter-toggle-btn">
+        <a class="filter-section__title filter-section__title_{{section-name}} {{#if open-section}}active{{/if}}"
+           href="{{url}}" mix="block:js-filter-toggle-btn">
             <i elem="icon"></i>
             {{title}}
             <i elem="arrow-icon {{#if open-section}}down{{/if}}"></i>
         </a>
-
+        {{#if open-section}}
         {{#with open-section}}
         <div elem="section" mix="block:js-filter-toggle-section">
             {{#if is-sort}}
@@ -38,6 +39,7 @@
             {{/if}}
         </div>
         {{/with}}
+        {{/if}}
     </div>
     {{/each}}
 </div>
