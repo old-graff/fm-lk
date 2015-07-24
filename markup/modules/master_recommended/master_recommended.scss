@@ -32,7 +32,7 @@
     &__master {
         display: block;
         float: left;
-        width: 110px;
+        width: 120px;
         text-align: center;
         text-decoration: none;
 
@@ -44,6 +44,10 @@
             color: $color-text;
             @include font-tuning(11, 15);
 
+        }
+        &-name {
+            height: 17px;
+            overflow: hidden;
         }
         &-recommendations {
             font-weight: bold;

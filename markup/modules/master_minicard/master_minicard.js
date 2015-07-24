@@ -4,7 +4,7 @@ function servicesCut() {
             $(this).find('li').last().remove();
         }
     });
-};
+}
 //@todo Доработать функцию обрезки услуг, для использования максимума свободного пространства
 servicesCut();
 $('.js-content-icon-switch.active')

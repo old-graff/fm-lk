@@ -251,7 +251,7 @@ a:active {
         color: #fff;
         background-color: $color-orange;
         &:hover {
-            background-color: darken($color-orange, 10%);
+            background-color: lighten($color-orange, 5%);
             color: #fff;
         }
     }

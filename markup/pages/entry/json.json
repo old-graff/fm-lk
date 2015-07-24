@@ -1,0 +1,21 @@
+{
+    "page_entry": {
+        "head": {
+            "title": "Вход/Регистрация. FaceMaster.ru."
+        },
+        "header": "readyBlocksData.block_header",
+        "footer": "readyBlocksData.block_footer",
+        "breadcrumps": {
+            "links": [
+                {
+                    "title": "Главная",
+                    "url": "/main/main.html"
+                },
+                {
+                    "title": "Вход/Регистрация"
+                }
+            ]
+        },
+        "entry": "readyBlocksData.block_entry"
+    }
+}
