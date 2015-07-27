@@ -3,10 +3,10 @@
         {{#with entry}}
         <form method="{{method}}" action="{{url}}">
             <div elem="input">
-                <input block="input-text" type="text" placeholder="e-mail или телефон">
+                <input block="input-text" type="text" placeholder="e-mail или телефон" name="loginForm[login]">
             </div>
             <div elem="input">
-                <input block="input-text" type="password" placeholder="пароль">
+                <input block="input-text" type="password" placeholder="пароль" name="loginForm[password]">
 
                 <div elem="remember">
                     <div block="filter-radio">
@@ -30,13 +30,13 @@
         {{#with registration}}
         <form method="{{method}}" action="{{url}}">
             <div elem="input">
-                <input block="input-text" type="email" placeholder="e-mail">
+                <input block="input-text" type="email" placeholder="e-mail" name="regForm[login]">
             </div>
             <div elem="input">
-                <input block="input-text" type="text" placeholder="Имя Фамилия">
+                <input block="input-text" type="text" placeholder="Имя Фамилия" name="regForm[name]">
             </div>
             <div elem="input">
-                <input block="input-text" type="password" placeholder="пароль">
+                <input block="input-text" type="password" placeholder="пароль" name="regForm[password]">
             </div>
             <div block="capcha"  mod="registration">
                 <div elem="code-img">
@@ -47,10 +47,13 @@
                 </div>
             </div>
             <div elem="input">
-                <input block="input-text" type="text" placeholder="код с картинки" name="recovery-password[code]">
+                <input block="input-text" type="text" placeholder="код с картинки" name="regForm[code]">
             </div>
             <div elem="button">
                 <input block="btn-accent" type="submit" value="зарегистрироваться">
+            </div>
+            <div elem="actions">
+                <a elem="entry" href="#" id="entry-link">Войти</a>
             </div>
         </form>
         {{/with}}
