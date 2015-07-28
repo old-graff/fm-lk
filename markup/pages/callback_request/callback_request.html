@@ -1,0 +1,37 @@
+<!doctype html>
+<!--[if IE 7]>
+<html class="ie7 lt-ie10 lt-ie9 lt-ie8 no-js" lang="ru"><![endif]-->
+<!--[if IE 8]>
+<html class="ie8 lt-ie10 lt-ie9 no-js" lang="ru"><![endif]-->
+<!--[if IE 9 ]>
+<html class="ie9 lt-ie10 no-js" lang="ru"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="no-js" lang="ru"><!--<![endif]-->
+{{#with page_callback_request}}
+<head>
+    {{> head/head head}}
+</head>
+
+<body block="page_callback_request">
+{{> header/header header}}
+<div class="container">
+    <div class="row">
+        <div elem="breadcrumps">
+            {{> breadcrumps/breadcrumps breadcrumps}}
+        </div>
+        <div elem="header">
+            <h1 block="h1" mod="style">Заявка мастеру</h1>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div elem="form">
+            {{> callback_request/callback_request callback_request}}
+        </div>
+    </div>
+</div>
+{{> footer/footer footer}}
+</body>
+{{/with}}
+</html>

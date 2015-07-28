@@ -1,0 +1,8 @@
+.page_callback_request {
+    &__header {
+        @extend .col-xs-12;
+    }
+    &__form {
+        @extend .col-md-6;
+    }
+}
