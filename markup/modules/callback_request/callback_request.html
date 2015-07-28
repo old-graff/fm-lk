@@ -1,10 +1,29 @@
 <div block="callback_request">
-    <p elem="intro">
-        Я хочу (отремонтировать, организовать, установить, доставить)
-    </p>
     <form method="{{method}}" action="{{url}}">
-        <textarea block="textarea">
+        <p elem="intro">
+            Опишите вашу задачу
+        </p>
 
-        </textarea>
+        <div elem="input">
+            <textarea block="textarea"
+                      placeholder="Я хочу (отремонтировать, организовать, установить, доставить)" name="callbackRequestForm[text]"></textarea>
+        </div>
+        <p elem="intro">
+            Оставьте ваши контакты
+        </p>
+
+        <div elem="input">
+            <input block="input-text" type="text" placeholder="Ваше имя" name="callbackRequestForm[name]">
+        </div>
+        <div elem="input">
+            <input block="input-text" type="text" placeholder="Ваш телефон" name="callbackRequestForm[phone]">
+        </div>
+        <div elem="input">
+            <input block="input-text" type="text" placeholder="Ваш email" name="callbackRequestForm[email]">
+        </div>
+        <div elem="submit">
+            <input block="btn-accent" type="submit" value="отправить заявку">
+        </div>
+
     </form>
 </div>

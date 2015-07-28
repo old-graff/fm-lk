@@ -6,7 +6,6 @@
             {{title}}
             <i class="filter-section__arrow-icon {{#if open-section}}down{{/if}}"></i>
         </a>
-
         {{#with open-section}}
         <div class="filter-section__section js-filter-toggle-section">
             {{#if is-sort}}
@@ -36,6 +35,8 @@
             </div>
             {{/if}}
         </div>
+        {{else}}
+        точно ничего
         {{/with}}
     </div>
     {{/each}}

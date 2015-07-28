@@ -1,5 +1,14 @@
 .callback_request {
+    background-color: $color-bg-grey-light;
+    padding: 10px;
     &__intro {
-
+        padding-bottom: 10px;
+        @include font-tuning(18, 18);
+    }
+    &__input {
+        padding-bottom: 20px;
+    }
+    &__submit {
+        width: 200px;
     }
 }

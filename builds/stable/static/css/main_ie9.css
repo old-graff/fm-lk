@@ -585,7 +585,7 @@ a:active {
     color: #fff;
     background-color: #EF850D; }
     .btn_color_orange:hover, .btn-accent:hover, .comment__btn:hover {
-      background-color: #bf6a0a;
+      background-color: #f39122;
       color: #fff; }
   .btn_size_big, .form_reg-master .form__btn, .btn_reg-plus {
     height: 50px;
@@ -721,13 +721,13 @@ p {
   .lt-ie8 .row, .lt-ie8 .labeled-input, .lt-ie8 .catalogs-dop_page_main, .lt-ie8 .dop-function__inner, .lt-ie8 .main-function__inner, .lt-ie8 .catalogs__inner, .lt-ie8 .master_page_photo__albums_list, .lt-ie8 .master_page_photo__photo-list, .lt-ie8 .master_page_sale__list, .lt-ie8 .master_page_secret__list, .lt-ie8 .master_page_services__services, .lt-ie8 .master_page_services__other-services, .lt-ie8 .master_page_video__list, .lt-ie8 .news__inner, .lt-ie8 .recommendation__inner, .lt-ie8 .more-page__item, .lt-ie8 .ofers-block, .lt-ie8 .ofers-block-plus, .lt-ie8 .ofers-block-plus-dop, .lt-ie8 .sale_rubrika__content, .lt-ie8 .sale_list, .lt-ie8 .capcha, .lt-ie8 .secret_gorizontal .secret__inner, .secret_gorizontal .lt-ie8 .secret__inner, .lt-ie8 .inner-top, .lt-ie8 .inner-content {
     zoom: 1; }
 
-.col-xs-1, .col-sm-1, .search__title, .col-md-1, .col-lg-1, .search__title, .col-xs-2, .col-sm-2, .col-md-2, .master_page_photo__photo-list-item, .footer__counters, .header__left-col, .search__title, .search_inner .search__title, .col-lg-2, .catalogs__services, .header__login, .header__social, .search__button, .col-xs-3, .ofers-block-plus-dop__item, .col-sm-3, .recommendation__img-wr, .footer__counters, .header__left-col, .search__button, .col-md-3, .master_page_photo__albums_item, .present_competition__member, .present_competition_item__decor, .sale_rubrika__rubrikator, .header__login, .header__social, .master_minicard__left-column, .capcha__reload-link, .page_search_result__left-column, .col-lg-3, .catalogs-dop_page_main .catalogs-dop__item, .dop-function, .news__img-wr, .news__autor, .master-rubrikator-page__dop, .sale_list__sale, .footer__links, .page_master_page__navigate, .page_master_page__contacts, .page_master_page__menu, .inner-top__callback, .inner-content__left-side, .page_secret_rubrika__rubrikator, .col-xs-4, .col-sm-4, .catalogs-dop_page_main .catalogs-dop__item, .become-master, .about-company, .bayda, .news__img-wr, .sale_list__sale, .header__login, .secret_gorizontal .secret__img-wr, .col-md-4, .labeled-input__label, .labeled-input__submit, .dop-function, .master_page_recommend__social-links, .present_competition_item__right-column, .present_competition_reg__members, .about-list-item, .ofers-block__item, .our-plus, .rubriks-column, .list_col-3__item, .footer__links, .page_master_page__navigate, .page_master_page__contacts, .page_master_page__menu, .inner-top__callback, .page_secret_rubrika__rubrikator, .col-lg-4, .call-back, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .col-xs-5, .col-sm-5, .description-tarif__part-2, .header__title, .master_minicard__left-column, .page_master_page__navigate, .col-md-5, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .master_company, .capcha__code-img, .col-lg-5, .more-page__pic, .more-page__text, .col-xs-6, .ofers-block-plus__item, .company_minicard__logo-wr, .company_minicard__info, .inner-top__search, .inner-top__callback, .col-sm-6, .find-master, .call-back, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .rubriks-column, .list_col-3__item, .video_gorizontal .video__img-wr, .video_gorizontal .video__content, .video_gorizontal .video__autor, .video_gorizontal .video__dop, .inner-top__search, .inner-top__callback, .col-md-6, .master_page_services__list, .master_page_services__other-services-list, .faq__block, .form_reg-master .form__row_half, .more-page__pic, .more-page__text, .ofers-block-plus__item, .footer__copyright, .col-lg-6, .feedback-block, .news__content, .present_competition_reg__registration, .present_competition_reg__members, .recovery-password-block, .col-xs-7, .col-sm-7, .description-tarif__part-1, .master_minicard__right-column, .page_master_page__header, .col-md-7, .master_page_work__time-table, .header__title, .header__menu, .master_name-and-spec_half, .master_services_half, .search__field, .search_inner .search__field, .col-lg-7, .footer__copyright, .col-xs-8, .col-sm-8, .news__content, .search__field, .secret_gorizontal .secret__content, .col-md-8, .labeled-input__input, .main-function, .master_page_recommend__comment, .feedback-block, .present_competition_item__left-column, .present_competition_reg__registration, .recovery-password-block, .page_404__msg, .page_404__action, .page_master_page__header, .page_master_page__card, .page_master_page__main-info, .inner-top__search, .page_secret_rubrika__list, .col-lg-8, .find-master, .header__title, .header__menu, .search_inner .search__field, .col-xs-9, .col-sm-9, .recommendation__content, .footer__links, .search_inner .search__field, .col-md-9, .sale_rubrika__list, .master_minicard__right-column, .page_search_result__result, .col-lg-9, .main-function, .master-rubrikator-page__rubriks-columns, .search__field, .page_master_page__header, .page_master_page__card, .page_master_page__main-info, .company-rubrika-page__company-list, .inner-top__search, .inner-content__right-side, .page_secret_rubrika__list, .col-xs-10, .col-sm-10, .master_services_half, .master_services_wide, .col-md-10, .col-lg-10, .catalogs__dop, .about, .landing-header, .col-xs-11, .col-sm-11, .col-md-11, .master_services_wide, .col-lg-11, .col-xs-12, .catalogs, .catalogs__services, .catalogs__dop, .master_page_links__list, .master_page_recommend__review, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .contact-page, .feedback-page, .oferta-page, .vacancy-page, .vacancy-one-page, .present_competition_list, .present_competition_list__item, .present_competition_reg__title, .present_competition_reg__description, .present_competition_reg__registration, .present_competition_reg__members, .about-list-item, .faq, .more-page, .ofers-block-plus__item_single, .why-we, .master-rubrikator-page, .master-rubrikator-page__rubriks-columns, .rubriks-column, .sale_rubrika__paginator, .list_col-3__item, .master_page_about__content, .breadcrumbs, .footer__coordinator, .footer__copyright, .master_minicard__left-column, .master_minicard__right-column, .recovery-password-page, .video_gorizontal .video__img-wr, .video_gorizontal .video__content, .video_gorizontal .video__autor, .video_gorizontal .video__dop, .page_master_page__breadcrumps, .page_master_page__header, .page_master_page__navigate, .page_master_page__card, .page_master_page__contacts, .company-rubrika-page, .company-rubrika-page__company-list, .page_oth_news, .page_oht_recommendation, .page_search_result__search, .page_search_result__result-item, .page_sale_rubrikator, .col-sm-12, .ofers-block-plus__item, .ofers-block-plus__item_single, .description-tarif__part-3, .sale_rubrika__list, .header__menu, .page_404__msg, .col-md-12, .become-master, .about-company, .bayda, .master_page_photo__album_content, .master_page_recommend__recommendations, .master_page_recommend__title, .master_page_services__other-services-title, .landing-header, .ofers-block-plus__item_single, .description-tarif__part-1, .description-tarif__part-2, .master_name-and-spec_wide, .inner-content__left-side, .inner-content__right-side, .col-lg-12 {
+.col-xs-1, .col-sm-1, .search__title, .col-md-1, .col-lg-1, .search__title, .col-xs-2, .col-sm-2, .col-md-2, .master_page_photo__photo-list-item, .footer__counters, .header__left-col, .search__title, .search_inner .search__title, .col-lg-2, .catalogs__services, .header__login, .header__social, .search__button, .col-xs-3, .ofers-block-plus-dop__item, .col-sm-3, .recommendation__img-wr, .footer__counters, .header__left-col, .search__button, .col-md-3, .master_page_photo__albums_item, .present_competition__member, .present_competition_item__decor, .sale_rubrika__rubrikator, .header__login, .header__social, .master_minicard__left-column, .capcha__reload-link, .page_search_result__left-column, .col-lg-3, .catalogs-dop_page_main .catalogs-dop__item, .dop-function, .news__img-wr, .news__autor, .master-rubrikator-page__dop, .sale_list__sale, .footer__links, .page_master_page__navigate, .page_master_page__contacts, .page_master_page__menu, .inner-top__callback, .inner-content__left-side, .page_secret_rubrika__rubrikator, .col-xs-4, .col-sm-4, .catalogs-dop_page_main .catalogs-dop__item, .become-master, .about-company, .bayda, .news__img-wr, .sale_list__sale, .header__login, .secret_gorizontal .secret__img-wr, .col-md-4, .labeled-input__label, .labeled-input__submit, .dop-function, .master_page_recommend__social-links, .present_competition_item__right-column, .present_competition_reg__members, .about-list-item, .our-plus, .ofers-block__item, .rubriks-column, .list_col-3__item, .footer__links, .page_master_page__navigate, .page_master_page__contacts, .page_master_page__menu, .inner-top__callback, .page_secret_rubrika__rubrikator, .col-lg-4, .call-back, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .page_entry__form, .col-xs-5, .col-sm-5, .description-tarif__part-2, .header__title, .master_minicard__left-column, .page_master_page__navigate, .col-md-5, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .master_company, .capcha__code-img, .col-lg-5, .more-page__pic, .more-page__text, .col-xs-6, .ofers-block-plus__item, .company_minicard__logo-wr, .company_minicard__info, .inner-top__search, .inner-top__callback, .col-sm-6, .find-master, .call-back, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .rubriks-column, .list_col-3__item, .video_gorizontal .video__img-wr, .video_gorizontal .video__content, .video_gorizontal .video__autor, .video_gorizontal .video__dop, .inner-top__search, .inner-top__callback, .col-md-6, .master_page_services__list, .master_page_services__other-services-list, .faq__block, .form_reg-master .form__row_half, .more-page__pic, .more-page__text, .ofers-block-plus__item, .footer__copyright, .capcha_registration .capcha__code-img, .capcha_registration .capcha__reload-link, .page_callback_request__form, .col-lg-6, .feedback-block, .news__content, .present_competition_reg__registration, .present_competition_reg__members, .recovery-password-block, .col-xs-7, .col-sm-7, .description-tarif__part-1, .master_minicard__right-column, .page_master_page__header, .col-md-7, .master_page_work__time-table, .header__title, .header__menu, .master_name-and-spec_half, .master_services_half, .search__field, .search_inner .search__field, .col-lg-7, .footer__copyright, .col-xs-8, .col-sm-8, .news__content, .search__field, .secret_gorizontal .secret__content, .col-md-8, .labeled-input__input, .main-function, .master_page_recommend__comment, .feedback-block, .present_competition_item__left-column, .present_competition_reg__registration, .recovery-password-block, .page_404__msg, .page_404__action, .page_master_page__header, .page_master_page__card, .page_master_page__main-info, .inner-top__search, .page_secret_rubrika__list, .col-lg-8, .find-master, .header__title, .header__menu, .search_inner .search__field, .col-xs-9, .col-sm-9, .recommendation__content, .footer__links, .search_inner .search__field, .col-md-9, .sale_rubrika__list, .master_minicard__right-column, .page_search_result__result, .col-lg-9, .main-function, .master-rubrikator-page__rubriks-columns, .search__field, .page_master_page__header, .page_master_page__card, .page_master_page__main-info, .company-rubrika-page__company-list, .inner-top__search, .inner-content__right-side, .page_secret_rubrika__list, .col-xs-10, .col-sm-10, .master_services_half, .master_services_wide, .col-md-10, .col-lg-10, .catalogs__dop, .about, .landing-header, .col-xs-11, .col-sm-11, .col-md-11, .master_services_wide, .col-lg-11, .col-xs-12, .catalogs, .catalogs__services, .catalogs__dop, .master_page_links__list, .master_page_recommend__review, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .contact-page, .feedback-page, .oferta-page, .vacancy-page, .vacancy-one-page, .present_competition_list, .present_competition_list__item, .present_competition_reg__title, .present_competition_reg__description, .present_competition_reg__registration, .present_competition_reg__members, .about-list-item, .faq, .more-page, .why-we, .ofers-block-plus__item_single, .master-rubrikator-page, .master-rubrikator-page__rubriks-columns, .rubriks-column, .sale_rubrika__paginator, .list_col-3__item, .master_page_about__content, .breadcrumbs, .footer__coordinator, .footer__copyright, .master_minicard__left-column, .master_minicard__right-column, .recovery-password-page, .video_gorizontal .video__img-wr, .video_gorizontal .video__content, .video_gorizontal .video__autor, .video_gorizontal .video__dop, .page_callback_request__header, .page_master_page__breadcrumps, .page_master_page__header, .page_master_page__navigate, .page_master_page__card, .page_master_page__contacts, .company-rubrika-page, .company-rubrika-page__company-list, .page_oth_news, .page_oht_recommendation, .page_sale_rubrikator, .page_search_result__search, .page_search_result__result-item, .col-sm-12, .ofers-block-plus__item, .ofers-block-plus__item_single, .description-tarif__part-3, .sale_rubrika__list, .header__menu, .page_404__msg, .col-md-12, .become-master, .about-company, .bayda, .master_page_photo__album_content, .master_page_recommend__recommendations, .master_page_recommend__title, .master_page_services__other-services-title, .landing-header, .ofers-block-plus__item_single, .description-tarif__part-1, .description-tarif__part-2, .master_name-and-spec_wide, .inner-content__left-side, .inner-content__right-side, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 10px;
   padding-right: 10px; }
 
-.col-xs-1, .col-xs-2, .col-xs-3, .ofers-block-plus-dop__item, .col-xs-4, .col-xs-5, .col-xs-6, .ofers-block-plus__item, .company_minicard__logo-wr, .company_minicard__info, .inner-top__search, .inner-top__callback, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .catalogs, .catalogs__services, .catalogs__dop, .master_page_links__list, .master_page_recommend__review, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .contact-page, .feedback-page, .oferta-page, .vacancy-page, .vacancy-one-page, .present_competition_list, .present_competition_list__item, .present_competition_reg__title, .present_competition_reg__description, .present_competition_reg__registration, .present_competition_reg__members, .about-list-item, .faq, .more-page, .ofers-block-plus__item_single, .why-we, .master-rubrikator-page, .master-rubrikator-page__rubriks-columns, .rubriks-column, .sale_rubrika__paginator, .list_col-3__item, .master_page_about__content, .breadcrumbs, .footer__coordinator, .footer__copyright, .master_minicard__left-column, .master_minicard__right-column, .recovery-password-page, .video_gorizontal .video__img-wr, .video_gorizontal .video__content, .video_gorizontal .video__autor, .video_gorizontal .video__dop, .page_master_page__breadcrumps, .page_master_page__header, .page_master_page__navigate, .page_master_page__card, .page_master_page__contacts, .company-rubrika-page, .company-rubrika-page__company-list, .page_oth_news, .page_oht_recommendation, .page_search_result__search, .page_search_result__result-item, .page_sale_rubrikator {
+.col-xs-1, .col-xs-2, .col-xs-3, .ofers-block-plus-dop__item, .col-xs-4, .col-xs-5, .col-xs-6, .ofers-block-plus__item, .company_minicard__logo-wr, .company_minicard__info, .inner-top__search, .inner-top__callback, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .catalogs, .catalogs__services, .catalogs__dop, .master_page_links__list, .master_page_recommend__review, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .contact-page, .feedback-page, .oferta-page, .vacancy-page, .vacancy-one-page, .present_competition_list, .present_competition_list__item, .present_competition_reg__title, .present_competition_reg__description, .present_competition_reg__registration, .present_competition_reg__members, .about-list-item, .faq, .more-page, .why-we, .ofers-block-plus__item_single, .master-rubrikator-page, .master-rubrikator-page__rubriks-columns, .rubriks-column, .sale_rubrika__paginator, .list_col-3__item, .master_page_about__content, .breadcrumbs, .footer__coordinator, .footer__copyright, .master_minicard__left-column, .master_minicard__right-column, .recovery-password-page, .video_gorizontal .video__img-wr, .video_gorizontal .video__content, .video_gorizontal .video__autor, .video_gorizontal .video__dop, .page_callback_request__header, .page_master_page__breadcrumps, .page_master_page__header, .page_master_page__navigate, .page_master_page__card, .page_master_page__contacts, .company-rubrika-page, .company-rubrika-page__company-list, .page_oth_news, .page_oht_recommendation, .page_sale_rubrikator, .page_search_result__search, .page_search_result__result-item {
   float: left; }
 
 .col-xs-1 {
@@ -763,7 +763,7 @@ p {
 .col-xs-11 {
   width: 91.66667%; }
 
-.col-xs-12, .catalogs, .catalogs__services, .catalogs__dop, .master_page_links__list, .master_page_recommend__review, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .contact-page, .feedback-page, .oferta-page, .vacancy-page, .vacancy-one-page, .present_competition_list, .present_competition_list__item, .present_competition_reg__title, .present_competition_reg__description, .present_competition_reg__registration, .present_competition_reg__members, .about-list-item, .faq, .more-page, .ofers-block-plus__item_single, .why-we, .master-rubrikator-page, .master-rubrikator-page__rubriks-columns, .rubriks-column, .sale_rubrika__paginator, .list_col-3__item, .master_page_about__content, .breadcrumbs, .footer__coordinator, .footer__copyright, .master_minicard__left-column, .master_minicard__right-column, .recovery-password-page, .video_gorizontal .video__img-wr, .video_gorizontal .video__content, .video_gorizontal .video__autor, .video_gorizontal .video__dop, .page_master_page__breadcrumps, .page_master_page__header, .page_master_page__navigate, .page_master_page__card, .page_master_page__contacts, .company-rubrika-page, .company-rubrika-page__company-list, .page_oth_news, .page_oht_recommendation, .page_search_result__search, .page_search_result__result-item, .page_sale_rubrikator {
+.col-xs-12, .catalogs, .catalogs__services, .catalogs__dop, .master_page_links__list, .master_page_recommend__review, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .contact-page, .feedback-page, .oferta-page, .vacancy-page, .vacancy-one-page, .present_competition_list, .present_competition_list__item, .present_competition_reg__title, .present_competition_reg__description, .present_competition_reg__registration, .present_competition_reg__members, .about-list-item, .faq, .more-page, .why-we, .ofers-block-plus__item_single, .master-rubrikator-page, .master-rubrikator-page__rubriks-columns, .rubriks-column, .sale_rubrika__paginator, .list_col-3__item, .master_page_about__content, .breadcrumbs, .footer__coordinator, .footer__copyright, .master_minicard__left-column, .master_minicard__right-column, .recovery-password-page, .video_gorizontal .video__img-wr, .video_gorizontal .video__content, .video_gorizontal .video__autor, .video_gorizontal .video__dop, .page_callback_request__header, .page_master_page__breadcrumps, .page_master_page__header, .page_master_page__navigate, .page_master_page__card, .page_master_page__contacts, .company-rubrika-page, .company-rubrika-page__company-list, .page_oth_news, .page_oht_recommendation, .page_sale_rubrikator, .page_search_result__search, .page_search_result__result-item {
   width: 100%; }
 
 .col-xs-pull-0 {
@@ -990,7 +990,7 @@ p {
     margin-left: 100%; } }
 
 @media (min-width: 750px) {
-  .col-md-1, .col-md-2, .master_page_photo__photo-list-item, .footer__counters, .header__left-col, .search__title, .search_inner .search__title, .col-md-3, .master_page_photo__albums_item, .present_competition__member, .present_competition_item__decor, .sale_rubrika__rubrikator, .header__login, .header__social, .master_minicard__left-column, .capcha__reload-link, .page_search_result__left-column, .col-md-4, .labeled-input__label, .labeled-input__submit, .dop-function, .master_page_recommend__social-links, .present_competition_item__right-column, .present_competition_reg__members, .about-list-item, .ofers-block__item, .our-plus, .rubriks-column, .list_col-3__item, .footer__links, .page_master_page__navigate, .page_master_page__contacts, .page_master_page__menu, .inner-top__callback, .page_secret_rubrika__rubrikator, .col-md-5, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .master_company, .capcha__code-img, .col-md-6, .master_page_services__list, .master_page_services__other-services-list, .faq__block, .form_reg-master .form__row_half, .more-page__pic, .more-page__text, .ofers-block-plus__item, .footer__copyright, .col-md-7, .master_page_work__time-table, .header__title, .header__menu, .master_name-and-spec_half, .master_services_half, .search__field, .search_inner .search__field, .col-md-8, .labeled-input__input, .main-function, .master_page_recommend__comment, .feedback-block, .present_competition_item__left-column, .present_competition_reg__registration, .recovery-password-block, .page_404__msg, .page_404__action, .page_master_page__header, .page_master_page__card, .page_master_page__main-info, .inner-top__search, .page_secret_rubrika__list, .col-md-9, .sale_rubrika__list, .master_minicard__right-column, .page_search_result__result, .col-md-10, .col-md-11, .master_services_wide, .col-md-12, .become-master, .about-company, .bayda, .master_page_photo__album_content, .master_page_recommend__recommendations, .master_page_recommend__title, .master_page_services__other-services-title, .landing-header, .ofers-block-plus__item_single, .description-tarif__part-1, .description-tarif__part-2, .master_name-and-spec_wide, .inner-content__left-side, .inner-content__right-side {
+  .col-md-1, .col-md-2, .master_page_photo__photo-list-item, .footer__counters, .header__left-col, .search__title, .search_inner .search__title, .col-md-3, .master_page_photo__albums_item, .present_competition__member, .present_competition_item__decor, .sale_rubrika__rubrikator, .header__login, .header__social, .master_minicard__left-column, .capcha__reload-link, .page_search_result__left-column, .col-md-4, .labeled-input__label, .labeled-input__submit, .dop-function, .master_page_recommend__social-links, .present_competition_item__right-column, .present_competition_reg__members, .about-list-item, .our-plus, .ofers-block__item, .rubriks-column, .list_col-3__item, .footer__links, .page_master_page__navigate, .page_master_page__contacts, .page_master_page__menu, .inner-top__callback, .page_secret_rubrika__rubrikator, .col-md-5, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .master_company, .capcha__code-img, .col-md-6, .master_page_services__list, .master_page_services__other-services-list, .faq__block, .form_reg-master .form__row_half, .more-page__pic, .more-page__text, .ofers-block-plus__item, .footer__copyright, .capcha_registration .capcha__code-img, .capcha_registration .capcha__reload-link, .page_callback_request__form, .col-md-7, .master_page_work__time-table, .header__title, .header__menu, .master_name-and-spec_half, .master_services_half, .search__field, .search_inner .search__field, .col-md-8, .labeled-input__input, .main-function, .master_page_recommend__comment, .feedback-block, .present_competition_item__left-column, .present_competition_reg__registration, .recovery-password-block, .page_404__msg, .page_404__action, .page_master_page__header, .page_master_page__card, .page_master_page__main-info, .inner-top__search, .page_secret_rubrika__list, .col-md-9, .sale_rubrika__list, .master_minicard__right-column, .page_search_result__result, .col-md-10, .col-md-11, .master_services_wide, .col-md-12, .become-master, .about-company, .bayda, .master_page_photo__album_content, .master_page_recommend__recommendations, .master_page_recommend__title, .master_page_services__other-services-title, .landing-header, .ofers-block-plus__item_single, .description-tarif__part-1, .description-tarif__part-2, .master_name-and-spec_wide, .inner-content__left-side, .inner-content__right-side {
     float: left; }
   .col-md-1 {
     width: 8.33333%; }
@@ -998,11 +998,11 @@ p {
     width: 16.66667%; }
   .col-md-3, .master_page_photo__albums_item, .present_competition__member, .present_competition_item__decor, .sale_rubrika__rubrikator, .header__login, .header__social, .master_minicard__left-column, .capcha__reload-link, .page_search_result__left-column {
     width: 25%; }
-  .col-md-4, .labeled-input__label, .labeled-input__submit, .dop-function, .master_page_recommend__social-links, .present_competition_item__right-column, .present_competition_reg__members, .about-list-item, .ofers-block__item, .our-plus, .rubriks-column, .list_col-3__item, .footer__links, .page_master_page__navigate, .page_master_page__contacts, .page_master_page__menu, .inner-top__callback, .page_secret_rubrika__rubrikator {
+  .col-md-4, .labeled-input__label, .labeled-input__submit, .dop-function, .master_page_recommend__social-links, .present_competition_item__right-column, .present_competition_reg__members, .about-list-item, .our-plus, .ofers-block__item, .rubriks-column, .list_col-3__item, .footer__links, .page_master_page__navigate, .page_master_page__contacts, .page_master_page__menu, .inner-top__callback, .page_secret_rubrika__rubrikator {
     width: 33.33333%; }
   .col-md-5, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .master_company, .capcha__code-img {
     width: 41.66667%; }
-  .col-md-6, .master_page_services__list, .master_page_services__other-services-list, .faq__block, .form_reg-master .form__row_half, .more-page__pic, .more-page__text, .ofers-block-plus__item, .footer__copyright {
+  .col-md-6, .master_page_services__list, .master_page_services__other-services-list, .faq__block, .form_reg-master .form__row_half, .more-page__pic, .more-page__text, .ofers-block-plus__item, .footer__copyright, .capcha_registration .capcha__code-img, .capcha_registration .capcha__reload-link, .page_callback_request__form {
     width: 50%; }
   .col-md-7, .master_page_work__time-table, .header__title, .header__menu, .master_name-and-spec_half, .master_services_half, .search__field, .search_inner .search__field {
     width: 58.33333%; }
@@ -1068,7 +1068,7 @@ p {
     left: 91.66667%; }
   .col-md-push-12 {
     left: 100%; }
-  .col-md-offset-0, .more-page__pic {
+  .col-md-offset-0, .more-page__pic, .capcha_registration .capcha__code-img {
     margin-left: 0%; }
   .col-md-offset-1 {
     margin-left: 8.33333%; }
@@ -1096,7 +1096,7 @@ p {
     margin-left: 100%; } }
 
 @media (min-width: 1000px) {
-  .col-lg-1, .search__title, .col-lg-2, .catalogs__services, .header__login, .header__social, .search__button, .col-lg-3, .catalogs-dop_page_main .catalogs-dop__item, .dop-function, .news__img-wr, .news__autor, .master-rubrikator-page__dop, .sale_list__sale, .footer__links, .page_master_page__navigate, .page_master_page__contacts, .page_master_page__menu, .inner-top__callback, .inner-content__left-side, .page_secret_rubrika__rubrikator, .col-lg-4, .call-back, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .col-lg-5, .more-page__pic, .more-page__text, .col-lg-6, .feedback-block, .news__content, .present_competition_reg__registration, .present_competition_reg__members, .recovery-password-block, .col-lg-7, .footer__copyright, .col-lg-8, .find-master, .header__title, .header__menu, .search_inner .search__field, .col-lg-9, .main-function, .master-rubrikator-page__rubriks-columns, .search__field, .page_master_page__header, .page_master_page__card, .page_master_page__main-info, .company-rubrika-page__company-list, .inner-top__search, .inner-content__right-side, .page_secret_rubrika__list, .col-lg-10, .catalogs__dop, .about, .landing-header, .col-lg-11, .col-lg-12 {
+  .col-lg-1, .search__title, .col-lg-2, .catalogs__services, .header__login, .header__social, .search__button, .col-lg-3, .catalogs-dop_page_main .catalogs-dop__item, .dop-function, .news__img-wr, .news__autor, .master-rubrikator-page__dop, .sale_list__sale, .footer__links, .page_master_page__navigate, .page_master_page__contacts, .page_master_page__menu, .inner-top__callback, .inner-content__left-side, .page_secret_rubrika__rubrikator, .col-lg-4, .call-back, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .page_entry__form, .col-lg-5, .more-page__pic, .more-page__text, .col-lg-6, .feedback-block, .news__content, .present_competition_reg__registration, .present_competition_reg__members, .recovery-password-block, .col-lg-7, .footer__copyright, .col-lg-8, .find-master, .header__title, .header__menu, .search_inner .search__field, .col-lg-9, .main-function, .master-rubrikator-page__rubriks-columns, .search__field, .page_master_page__header, .page_master_page__card, .page_master_page__main-info, .company-rubrika-page__company-list, .inner-top__search, .inner-content__right-side, .page_secret_rubrika__list, .col-lg-10, .catalogs__dop, .about, .landing-header, .col-lg-11, .col-lg-12 {
     float: left; }
   .col-lg-1, .search__title {
     width: 8.33333%; }
@@ -1104,7 +1104,7 @@ p {
     width: 16.66667%; }
   .col-lg-3, .catalogs-dop_page_main .catalogs-dop__item, .dop-function, .news__img-wr, .news__autor, .master-rubrikator-page__dop, .sale_list__sale, .footer__links, .page_master_page__navigate, .page_master_page__contacts, .page_master_page__menu, .inner-top__callback, .inner-content__left-side, .page_secret_rubrika__rubrikator {
     width: 25%; }
-  .col-lg-4, .call-back, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video {
+  .col-lg-4, .call-back, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .page_entry__form {
     width: 33.33333%; }
   .col-lg-5, .more-page__pic, .more-page__text {
     width: 41.66667%; }
@@ -3028,6 +3028,77 @@ p {
           font-size: 1.125em;
           line-height: 1.27778em; } }
 
+.why-we-wr {
+  z-index: 8; }
+  @media  (max-width: 749px) {
+    .why-we-wr {
+      background: none; } }
+
+.why-we {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  .why-we__list {
+    padding-top: 45px; }
+  @media  (max-width: 749px) {
+    .why-we {
+      background-color: #e6e7e8; } }
+  @media  (min-width: 250px) and (max-width: 499px) {
+    .why-we {
+      padding-top: 20px;
+      padding-bottom: 20px; }
+      .why-we__list {
+        padding-top: 10px; } }
+
+@media  (min-width: 500px) {
+  .our-plus:after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    height: 33px;
+    width: 185px;
+    bottom: 0;
+    right: 50%;
+    box-shadow: 0px -8px 8px -8px rgba(0, 0, 0, 0.4);
+    -webkit-transform: translate(50%);
+        -ms-transform: translate(50%);
+            transform: translate(50%); }
+  .our-plus__round {
+    padding-top: 55px;
+    color: #efd200;
+    text-align: center;
+    width: 165px;
+    height: 165px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #424143; } }
+@media  (min-width: 250px) and (max-width: 499px) {
+  .our-plus {
+    padding-top: 15px;
+    padding-bottom: 15px; }
+    .our-plus:before, .our-plus:after {
+      display: table;
+      content: ""; }
+    .our-plus:after {
+      clear: both; }
+    .lt-ie8 .our-plus {
+      zoom: 1; } }
+.our-plus__title {
+  font-weight: bold;
+  font-size: 2.5625em;
+  line-height: 1em; }
+  @media  (min-width: 250px) and (max-width: 499px) {
+    .our-plus__title {
+      float: left;
+      width: 145px;
+      font-size: 2.375em;
+      line-height: 1em; } }
+.our-plus__text {
+  font-size: 0.75em;
+  line-height: 1.25em; }
+  @media  (min-width: 250px) and (max-width: 499px) {
+    .our-plus__text {
+      padding-top: 5px; } }
+
 .price-wr {
   position: relative;
   z-index: 10; }
@@ -3374,77 +3445,6 @@ h2.resp-accordion {
     border: 1px solid #d3d5d6;
     border-top: none;
     display: none; } }
-
-.why-we-wr {
-  z-index: 8; }
-  @media  (max-width: 749px) {
-    .why-we-wr {
-      background: none; } }
-
-.why-we {
-  padding-top: 50px;
-  padding-bottom: 50px; }
-  .why-we__list {
-    padding-top: 45px; }
-  @media  (max-width: 749px) {
-    .why-we {
-      background-color: #e6e7e8; } }
-  @media  (min-width: 250px) and (max-width: 499px) {
-    .why-we {
-      padding-top: 20px;
-      padding-bottom: 20px; }
-      .why-we__list {
-        padding-top: 10px; } }
-
-@media  (min-width: 500px) {
-  .our-plus:after {
-    content: ' ';
-    display: block;
-    position: absolute;
-    height: 33px;
-    width: 185px;
-    bottom: 0;
-    right: 50%;
-    box-shadow: 0px -8px 8px -8px rgba(0, 0, 0, 0.4);
-    -webkit-transform: translate(50%);
-        -ms-transform: translate(50%);
-            transform: translate(50%); }
-  .our-plus__round {
-    padding-top: 55px;
-    color: #efd200;
-    text-align: center;
-    width: 165px;
-    height: 165px;
-    margin: 0 auto;
-    border-radius: 50%;
-    background-color: #424143; } }
-@media  (min-width: 250px) and (max-width: 499px) {
-  .our-plus {
-    padding-top: 15px;
-    padding-bottom: 15px; }
-    .our-plus:before, .our-plus:after {
-      display: table;
-      content: ""; }
-    .our-plus:after {
-      clear: both; }
-    .lt-ie8 .our-plus {
-      zoom: 1; } }
-.our-plus__title {
-  font-weight: bold;
-  font-size: 2.5625em;
-  line-height: 1em; }
-  @media  (min-width: 250px) and (max-width: 499px) {
-    .our-plus__title {
-      float: left;
-      width: 145px;
-      font-size: 2.375em;
-      line-height: 1em; } }
-.our-plus__text {
-  font-size: 0.75em;
-  line-height: 1.25em; }
-  @media  (min-width: 250px) and (max-width: 499px) {
-    .our-plus__text {
-      padding-top: 5px; } }
 
 .one_level_rubrikator {
   padding: 10px;
@@ -4007,6 +4007,18 @@ h2.resp-accordion {
       .callback__icon {
         display: none; } }
 
+.callback_request {
+  background-color: #e6e7e8;
+  padding: 10px; }
+  .callback_request__intro {
+    padding-bottom: 10px;
+    font-size: 1.125em;
+    line-height: 1em; }
+  .callback_request__input {
+    padding-bottom: 20px; }
+  .callback_request__submit {
+    width: 200px; }
+
 .master_page_card {
   background-color: #e6e7e8;
   height: 225px;
@@ -4145,6 +4157,32 @@ h2.resp-accordion {
   .company_minicard__icon_likes {
     position: relative;
     bottom: -2px; }
+
+.entry {
+  background-color: #e6e7e8;
+  padding: 20px; }
+  .entry__input {
+    padding-bottom: 10px; }
+  .entry__remember {
+    padding-top: 5px; }
+  .entry__button {
+    padding-bottom: 20px; }
+  .entry__actions {
+    text-align: center; }
+    .entry__actions:before, .entry__actions:after {
+      display: table;
+      content: ""; }
+    .entry__actions:after {
+      clear: both; }
+    .lt-ie8 .entry__actions {
+      zoom: 1; }
+  .entry__registration {
+    float: left; }
+  .entry__recovery {
+    float: right; }
+
+#registration-form {
+  display: none; }
 
 .filter {
   padding-bottom: 20px; }
@@ -4732,7 +4770,7 @@ h2.resp-accordion {
   .master_recommended__master {
     display: block;
     float: left;
-    width: 110px;
+    width: 120px;
     text-align: center;
     text-decoration: none; }
     .master_recommended__master-photo {
@@ -4742,6 +4780,9 @@ h2.resp-accordion {
       color: #5C5A59;
       font-size: 0.6875em;
       line-height: 1.36364em; }
+    .master_recommended__master-name {
+      height: 17px;
+      overflow: hidden; }
     .master_recommended__master-recommendations {
       font-weight: bold; }
   .master_recommended .slick-prev {
@@ -4790,6 +4831,11 @@ h2.resp-accordion {
   .capcha__reload-link {
     font-size: 0.8125em;
     line-height: 1.23077em; }
+  .capcha_registration {
+    padding-bottom: 10px; }
+    .capcha_registration .capcha__reload-link {
+      font-size: 0.8125em;
+      line-height: 1.23077em; }
 
 .search:before, .search:after {
   display: table;
@@ -4898,6 +4944,13 @@ h2.resp-accordion {
   @media  (min-width: 500px) and (max-width: 749px) {
     .search_inner .search__field {
       padding-right: 0; } }
+
+.search-note {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #aae4f7;
+  color: #1c75bc;
+  border: 1px solid #1c75bc; }
 
 .secret {
   padding: 10px; }
@@ -5094,6 +5147,9 @@ h2.resp-accordion {
   .company-rubrika-page {
     padding: 0; } }
 
+.page_entry {
+  padding-top: 30px; }
+
 .page_master_page__card {
   padding-bottom: 20px; }
 
@@ -5104,6 +5160,10 @@ h2.resp-accordion {
   .page_oth_news, .page_oht_recommendation {
     padding: 0; } }
 
+@media  (min-width: 250px) and (max-width: 499px) {
+  .page_sale_rubrikator {
+    padding: 0; } }
+
 .page_search_result__search {
   padding-bottom: 20px; }
 .page_search_result__filter {
@@ -5112,10 +5172,6 @@ h2.resp-accordion {
   padding-bottom: 20px; }
 .page_search_result__result-item {
   padding-bottom: 20px; }
-
-@media  (min-width: 250px) and (max-width: 499px) {
-  .page_sale_rubrikator {
-    padding: 0; } }
 
 @media  (min-width: 250px) and (max-width: 499px) {
   .page_secret_rubrika {

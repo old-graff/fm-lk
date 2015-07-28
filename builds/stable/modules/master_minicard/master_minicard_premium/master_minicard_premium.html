@@ -53,6 +53,12 @@
                     <div class="format master_services master_services_wide">
                         {{/if}}
                         <ul class="master_services__service-list js-services-cut">
+                            {{#if search-note}}
+                            <div class="search-note">
+                                <strong>Текст найден на странице Мастера:</strong>
+                                {{{search-note}}}
+                            </div>
+                            {{/if}}
                             {{#each service-list}}
                             <li class="master_services__service">
                                 {{{this}}}
@@ -69,6 +75,7 @@
     </div>
     <div class="master_presentation">
         {{> master_have-content-icons/master_have-content-icons have-content-icons}}
+
         {{#with have-content}}
         {{#if gift}}
         <div class="master_have-content-widget master_have-content-widget_gift">
