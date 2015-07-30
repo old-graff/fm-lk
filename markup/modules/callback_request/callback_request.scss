@@ -12,3 +12,12 @@
         width: 200px;
     }
 }
+
+.callback_popup {
+    background-color: $color-bg-grey-light;
+    padding: 20px;
+    display: none;
+    &__input {
+        padding-bottom: 20px;
+    }
+}
