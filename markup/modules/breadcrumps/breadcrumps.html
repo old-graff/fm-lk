@@ -3,7 +3,10 @@
     {{#each links}}
     <span elem="icon"></span>
     {{#if url}}
-    <a href="{{url}}" elem="level" mod="link" <!--{{#if links}}class="js-parent-rub"{{/if}}--> >{{title}}</a>
+    {{#if links}}<a href="{{url}}" elem="level" mod="link" mix="block:js-parent-rub">{{title}}</a>
+    {{else}}
+    <a href="{{url}}" elem="level" mod="link">{{title}}</a>
+    {{/if}}
     {{else}}
     <span elem="level">{{title}}</span>
     {{/if}}

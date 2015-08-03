@@ -2508,6 +2508,61 @@ p {
 .vacancy-one-page__text {
   margin-bottom: 20px; }
 
+.present_competition_member {
+  padding: 10px 10px 20px; }
+  .present_competition_member__title {
+    padding-bottom: 10px;
+    color: #949599;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase; }
+  .present_competition_member__photo {
+    display: block;
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    position: relative; }
+    .present_competition_member__photo:hover:before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      z-index: 2;
+      background-color: rgba(0, 0, 0, 0.5); }
+    .present_competition_member__photo:hover:after {
+      content: 'смотреть описание';
+      display: block;
+      position: absolute;
+      z-index: 3;
+      text-align: center;
+      color: #EF850D;
+      font-weight: bold;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%); }
+    .present_competition_member__photo img {
+      width: 100%;
+      position: relative;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%); }
+  .present_competition_member__score {
+    display: none;
+    font-weight: bold;
+    color: #EF850D;
+    text-align: center;
+    font-size: 1.5625em;
+    line-height: 1.6em; }
+  .present_competition_member__all-photos {
+    display: none;
+    width: 100%; }
+
 .present_competition_list__item {
   padding-bottom: 20px; }
 
@@ -2568,61 +2623,6 @@ p {
     color: #009444; }
   .present_competition_item__voting-date {
     color: #00A79D; }
-
-.present_competition_member {
-  padding: 10px 10px 20px; }
-  .present_competition_member__title {
-    padding-bottom: 10px;
-    color: #949599;
-    text-align: center;
-    font-weight: bold;
-    text-transform: uppercase; }
-  .present_competition_member__photo {
-    display: block;
-    height: 200px;
-    overflow: hidden;
-    margin-bottom: 10px;
-    position: relative; }
-    .present_competition_member__photo:hover:before {
-      content: '';
-      display: block;
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
-      z-index: 2;
-      background-color: rgba(0, 0, 0, 0.5); }
-    .present_competition_member__photo:hover:after {
-      content: 'смотреть описание';
-      display: block;
-      position: absolute;
-      z-index: 3;
-      text-align: center;
-      color: #EF850D;
-      font-weight: bold;
-      top: 50%;
-      left: 50%;
-      -webkit-transform: translate(-50%, -50%);
-          -ms-transform: translate(-50%, -50%);
-              transform: translate(-50%, -50%); }
-    .present_competition_member__photo img {
-      width: 100%;
-      position: relative;
-      top: 50%;
-      -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-      transform: translateY(-50%); }
-  .present_competition_member__score {
-    display: none;
-    font-weight: bold;
-    color: #EF850D;
-    text-align: center;
-    font-size: 1.5625em;
-    line-height: 1.6em; }
-  .present_competition_member__all-photos {
-    display: none;
-    width: 100%; }
 
 .present_competition_reg__title {
   padding-bottom: 20px; }

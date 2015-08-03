@@ -3,7 +3,10 @@
     {{#each links}}
     <span class="breadcrumbs__icon"></span>
     {{#if url}}
-    <a class="breadcrumbs__level breadcrumbs__level_link" href="{{url}}" <!--{{#if="" links}}class="js-parent-rub" {{="" if}}--=""> >{{title}}</a>
+    {{#if links}}<a class="breadcrumbs__level breadcrumbs__level_link js-parent-rub" href="{{url}}">{{title}}</a>
+    {{else}}
+    <a class="breadcrumbs__level breadcrumbs__level_link" href="{{url}}">{{title}}</a>
+    {{/if}}
     {{else}}
     <span class="breadcrumbs__level">{{title}}</span>
     {{/if}}
