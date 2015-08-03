@@ -1,0 +1,8 @@
+.seo-text {
+    background-color: $color-bg-grey-light;
+    padding: 20px;
+    &__text{
+        color: $color-bg-grey-dark;
+        @include font-tuning(15, 19);
+    }
+}

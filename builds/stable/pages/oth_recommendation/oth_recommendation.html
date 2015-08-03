@@ -8,26 +8,26 @@
 <!--[if (gt IE 9)|!(IE)]><!-->
 <html class="no-js" lang="ru"><!--<![endif]-->
 
-    <head>
-        {{> head/head page_oht_recommendation.head}}
-    </head>
+<head>
+    {{> head/head page_oht_recommendation.head}}
+</head>
 
-    <body class="page">
-        {{> header/header page_oht_recommendation.header}}
+<body class="page">
+{{> header/header page_oht_recommendation.header}}
+<div class="container">
+    <div class="row">
         {{> breadcrumps/breadcrumps page_oht_recommendation.breadcrumps}}
+        <div class="page_oht_recommendation">
+            <h1 class="h1 h1_style">Мастера о сайте</h1>
 
-        <div class="container">
-            <div class="row">
-                <div class="page_oht_recommendation">
-                    <h1 class="h1 h1_style">Мастера о сайте</h1>
-                    <div class="page_oht_recommendation__list">
-                        {{> other/recommendation/recommendation page_oht_recommendation.recommendation}}     
-                        {{> _common/paginator/paginator page_oht_recommendation.paginator}}
-                    </div>
-                </div>
+            <div class="page_oht_recommendation__list">
+                {{> other/recommendation/recommendation page_oht_recommendation.recommendation}}
+                {{> _common/paginator/paginator page_oht_recommendation.paginator}}
             </div>
         </div>
+    </div>
+</div>
 
-        {{> footer/footer page_oht_recommendation.footer}}
-    </body>
+{{> footer/footer page_oht_recommendation.footer}}
+</body>
 </html>

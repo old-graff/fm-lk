@@ -13,6 +13,9 @@
         @extend .col-sm-6;
         @extend .col-xs-6;
     }
+    &__title {
+        @extend .col-xs-12;
+    }
 }
 
 .inner-content {

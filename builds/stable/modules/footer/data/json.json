@@ -10,6 +10,10 @@
         }, {
             "url": "/oth_feedback/oth_feedback.html",
             "title": "Обратная связь"
-        }]
+        }],
+        "counters": {
+            "type": "гость",
+            "login": "гость"
+        }
     }
 }

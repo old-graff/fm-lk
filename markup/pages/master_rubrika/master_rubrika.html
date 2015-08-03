@@ -15,11 +15,15 @@
 <body class="page">
 {{> banner/banner_top/banner_top page_master_rubrika.banner_top}}
 {{> header/header page_master_rubrika.header}}
-{{> breadcrumps/breadcrumps page_master_rubrika.breadcrumps}}
 
 <div block="container">
+    <div class="row">
+        {{> breadcrumps/breadcrumps page_master_rubrika.breadcrumps}}
+    </div>
     <div block="inner-top">
-        <h1 block="h1" mod="style">{{page_master_rubrika.name}}</h1>
+        <div elem="title">
+            <h1 block="h1" mod="style">{{page_master_rubrika.name}}</h1>
+        </div>
 
         <div elem="search">
             {{> search/search page_master_rubrika.search}}
@@ -39,7 +43,7 @@
         </div>
     </div>
     <div block="row">
-        {{> seo-text/seo-text}}
+        {{> seo-text/seo-text page_master_rubrika.seotext}}
     </div>
 </div>
 

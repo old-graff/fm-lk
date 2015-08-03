@@ -13,7 +13,7 @@
         @extend %icon;
         @extend %icon_inline;
         @extend %icon_size_xbig;
-        @extend %icon_man-in-sun_white;
+        @extend %icon_phone;
 
     }
     &__psevdo-phone {
@@ -51,22 +51,22 @@
         @extend %icon_size_xsmall;
         float: left;
         &_phone {
-            @extend %icon_gift;
+            @extend %icon_phone;
         }
         &_phone-work {
-            @extend %icon_gift;
+            @extend %icon_phone;
         }
         &_email {
-            @extend %icon_gift;
+            @extend %icon_email;
         }
         &_skype {
-            @extend %icon_gift;
+            @extend %icon_skype;
         }
         &_icq {
-            @extend %icon_gift;
+            @extend %icon_icq;
         }
         &_adress {
-            @extend %icon_gift;
+            @extend %icon_placemark;
         }
     }
     &__contact-text{

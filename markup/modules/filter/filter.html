@@ -7,6 +7,7 @@
             {{title}}
             <i elem="arrow-icon {{#if open-section}}down{{/if}}"></i>
         </a>
+        {{#if open-section}}
         {{#with open-section}}
         <div elem="section" mix="block:js-filter-toggle-section">
             {{#if is-sort}}
@@ -37,9 +38,8 @@
             </div>
             {{/if}}
         </div>
-        {{else}}
-        точно ничего
         {{/with}}
+        {{/if}}
     </div>
     {{/each}}
 </div>

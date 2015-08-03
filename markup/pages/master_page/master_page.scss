@@ -1,7 +1,4 @@
 .page_master_page{
-    &__breadcrumps{
-        @extend .col-xs-12;
-    }
     &__header{
         @extend .col-lg-9;
         @extend .col-md-8;

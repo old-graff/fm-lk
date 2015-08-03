@@ -318,81 +318,97 @@ ol, ul, li {
   padding: 0; }
 
 .close__icon, .tip__close {
-  background-position: 13.19703% 54.4843%; }
+  background-position: 11.73554% 47.36842%; }
 .master_page_links__icon_ok {
-  background-position: 25.60297% 54.36242%; }
-.about-list-item__icon_add-page {
-  background-position: 62.15213% 0.67114%; }
-.catalogs-dop__icon_case, .filter-section__title_company .filter-section__icon {
-  background-position: 62.15213% 15.65996%; }
-.ofers-block-plus-dop__icon_dialog_white {
-  background-position: 62.15213% 30.64877%; }
-.master_content-icon_comments .master_content-icon__icon {
-  background-position: 62.15213% 45.63758%; }
-.master_content-icon_comments.exist .master_content-icon__icon {
-  background-position: 0.55659% 69.35123%; }
-.filter-section__title_masters.active .filter-section__icon, .social-icon_fb {
-  background-position: 25.41744% 69.35123%; }
-.catalogs-dop__icon_gift, .master_contact__contact-icon_phone, .master_contact__contact-icon_phone-work, .master_contact__contact-icon_email, .master_contact__contact-icon_skype, .master_contact__contact-icon_icq, .master_contact__contact-icon_adress, .ofers-block-plus-dop__icon_gift_white, .filter-section__title_sales .filter-section__icon {
-  background-position: 37.84787% 69.35123%; }
-.master_content-icon_gift .master_content-icon__icon {
-  background-position: 50.27829% 69.35123%; }
-.master_content-icon_gift.exist .master_content-icon__icon {
-  background-position: 74.58256% 0.67114%; }
-.filter-section__title_sales.active .filter-section__icon {
-  background-position: 74.58256% 15.65996%; }
-.company_minicard__icon_likes {
-  background-position: 74.58256% 30.64877%; }
-.master_photo-and-contacts__icon-like {
-  background-position: 74.58256% 45.63758%; }
+  background-position: 22.77228% 47.27626%; }
 .filter-section__title_company.active .filter-section__icon {
-  background-position: 74.58256% 60.6264%; }
-.find-master__icon, .master_contact__icon-phone {
-  background-position: 0.55659% 84.34004%; }
+  background-position: 33.82838% 47.27626%; }
+.about-list-item__icon_add-page {
+  background-position: 55.28053% 13.61868%; }
+.ofers-block-plus-dop__icon_dialog_white {
+  background-position: 55.28053% 39.68872%; }
+.master_content-icon_comments .master_content-icon__icon {
+  background-position: 0.49505% 60.31128%; }
+.master_content-icon_comments.exist .master_content-icon__icon {
+  background-position: 11.55116% 60.31128%; }
+.master_contact__contact-icon_email {
+  background-position: 33.66337% 60.31128%; }
+.social-icon_fb {
+  background-position: 44.71947% 60.31128%; }
+.catalogs-dop__icon_gift, .ofers-block-plus-dop__icon_gift_white, .filter-section__title_sales .filter-section__icon {
+  background-position: 66.33663% 0.58366%; }
+.master_content-icon_gift .master_content-icon__icon {
+  background-position: 66.33663% 13.61868%; }
+.master_content-icon_gift.exist .master_content-icon__icon {
+  background-position: 66.33663% 26.6537%; }
+.filter-section__title_sales.active .filter-section__icon {
+  background-position: 66.33663% 39.68872%; }
+.master_contact__contact-icon_icq {
+  background-position: 66.33663% 52.72374%; }
+.company_minicard__icon_likes {
+  background-position: 0.49505% 73.3463%; }
+.master_photo-and-contacts__icon-like {
+  background-position: 11.55116% 73.3463%; }
+.catalogs-dop__icon_case, .filter-section__title_company .filter-section__icon {
+  background-position: 22.60726% 73.3463%; }
+.find-master__icon {
+  background-position: 33.66337% 73.3463%; }
+.become-master__icon, .about-company__icon, .bayda__icon, .filter-section__title_masters .filter-section__icon {
+  background-position: 44.71947% 73.3463%; }
+.filter-section__title_masters.active .filter-section__icon {
+  background-position: 55.77558% 73.3463%; }
 .ofers-block-medals__icon {
-  background-position: 12.98701% 84.34004%; }
+  background-position: 77.39274% 0.58366%; }
 .master_page_links__icon_site, .ofers-block-plus__icon_mini-page {
-  background-position: 25.41744% 84.34004%; }
+  background-position: 77.39274% 13.61868%; }
+.breadcrumbs__icon {
+  background-position: 77.39274% 26.6537%; }
 .social-icon_ok {
-  background-position: 50.27829% 84.34004%; }
+  background-position: 77.39274% 39.68872%; }
 .ofers-block-plus__icon_page {
-  background-position: 62.70872% 84.34004%; }
-.become-master__icon, .about-company__icon, .bayda__icon, .about-list-item__icon_people, .filter-section__title_masters .filter-section__icon {
-  background-position: 87.01299% 0.67114%; }
+  background-position: 77.39274% 52.72374%; }
+.about-list-item__icon_people {
+  background-position: 77.39274% 65.75875%; }
+.master_contact__icon-phone, .master_contact__contact-icon_phone, .master_contact__contact-icon_phone-work {
+  background-position: 0.49505% 86.38132%; }
 .about-list-item__icon_picture, .ofers-block-plus-dop__icon_picture_white {
-  background-position: 87.01299% 15.65996%; }
+  background-position: 11.55116% 86.38132%; }
 .master_content-icon_photo .master_content-icon__icon {
-  background-position: 87.01299% 30.64877%; }
+  background-position: 22.60726% 86.38132%; }
 .master_content-icon_photo.exist .master_content-icon__icon {
-  background-position: 87.01299% 45.63758%; }
+  background-position: 33.66337% 86.38132%; }
+.master_contact__contact-icon_adress {
+  background-position: 55.77558% 86.38132%; }
 .catalogs-dop__icon_qwestion, .filter-section__title_secrets .filter-section__icon {
-  background-position: 87.01299% 75.61521%; }
+  background-position: 66.83168% 86.38132%; }
 .filter-section__title_secrets.active .filter-section__icon {
-  background-position: 0.55659% 99.32886%; }
+  background-position: 88.44884% 0.58366%; }
 .search__icon-search {
-  background-position: 12.98701% 99.32886%; }
-.callback__icon {
-  background-position: 25.41744% 99.32886%; }
-.master_navigation__icon, .js-photo-view .icon, .js-album-slider .icon, .faq__item-title:after, .more-page__text-title:after, .resp-arrow, .one_level_rubrikator__icon, .rubrika-list_tool-collapsed .rubrika-list__icon, .filter-section__arrow-icon, .master_recommended .slick-prev .icon, .master_recommended .slick-next .icon, .master_recommended-arrows__arrow-left, .master_recommended-arrows__arrow-right {
-  background-position: 50.27829% 99.32886%; }
+  background-position: 88.44884% 13.61868%; }
+.master_contact__contact-icon_skype {
+  background-position: 88.44884% 26.6537%; }
+.call-back__icon, .callback__icon {
+  background-position: 88.44884% 39.68872%; }
+.master_navigation__icon, .js-photo-view .icon, .js-album-slider .icon, .faq__item-title:after, .more-page__text-title:after, .resp-arrow, .one_level_rubrikator__icon, .rubrika-list_tool-collapsed .rubrika-list__icon, .totop-btn__icon, .filter-section__arrow-icon, .master_recommended .slick-prev .icon, .master_recommended .slick-next .icon, .master_recommended-arrows__arrow-left, .master_recommended-arrows__arrow-right {
+  background-position: 88.44884% 78.79377%; }
 .news__icon, .one_level_rubrikator__item_active .one_level_rubrikator__icon, .sale_rubrika__icon, .secret_gorizontal .secret__icon {
-  background-position: 62.70872% 99.32886%; }
+  background-position: 0.49505% 99.41634%; }
 .filter-section__title.active .filter-section__arrow-icon, .master_photo-and-contacts__icon {
-  background-position: 75.13915% 99.32886%; }
+  background-position: 11.55116% 99.41634%; }
 .social-icon_tw {
-  background-position: 99.44341% 0.67114%; }
+  background-position: 22.60726% 99.41634%; }
 .catalogs-dop__icon_video, .ofers-block-plus-dop__icon_video_white, .filter-section__title_video .filter-section__icon {
-  background-position: 99.44341% 15.65996%; }
+  background-position: 33.66337% 99.41634%; }
 .master_content-icon_video.exist .master_content-icon__icon {
-  background-position: 99.44341% 30.64877%; }
+  background-position: 44.71947% 99.41634%; }
 .master_content-icon_video .master_content-icon__icon {
-  background-position: 99.44341% 45.63758%; }
+  background-position: 55.77558% 99.41634%; }
 .filter-section__title_video.active .filter-section__icon {
-  background-position: 99.44341% 60.6264%; }
+  background-position: 66.83168% 99.41634%; }
 .master_page_links__icon_vk {
-  background-position: 99.44341% 75.61521%; }
+  background-position: 77.88779% 99.41634%; }
 .social-icon_vk {
-  background-position: 99.44341% 90.60403%; }
+  background-position: 99.50495% 0.58366%; }
 
 /* Your custom fonts here */
 /* Example
@@ -465,36 +481,36 @@ a:active {
 
 /* углы конец */
 /* иконки */
-.close__icon, .catalogs-dop__icon, .become-master__icon, .about-company__icon, .bayda__icon, .find-master__icon, .master_contact__icon-phone, .master_contact__contact-icon, .master_page_links__icon, .master_navigation__icon, .js-photo-view .icon, .js-album-slider .icon, .news__icon, .about-list-item__icon, .faq__item-title:after, .more-page__text-title:after, .ofers-block-plus__icon, .ofers-block-plus-dop__icon, .ofers-block-medals__icon, .resp-arrow, .one_level_rubrikator__icon, .rubrika-list_tool-collapsed .rubrika-list__icon, .sale_rubrika__icon, .tip__close, .callback__icon, .company_minicard__icon_likes, .filter-section__icon, .filter-section__arrow-icon, .master_content-icon__icon, .master_photo-and-contacts__icon, .master_photo-and-contacts__icon-like, .master_recommended .slick-prev .icon, .master_recommended .slick-next .icon, .master_recommended-arrows__arrow-left, .master_recommended-arrows__arrow-right, .search__icon-search, .secret_gorizontal .secret__icon, .social-icon {
+.close__icon, .catalogs-dop__icon, .become-master__icon, .about-company__icon, .bayda__icon, .find-master__icon, .call-back__icon, .master_contact__icon-phone, .master_contact__contact-icon, .master_page_links__icon, .master_navigation__icon, .js-photo-view .icon, .js-album-slider .icon, .news__icon, .about-list-item__icon, .faq__item-title:after, .more-page__text-title:after, .ofers-block-plus__icon, .ofers-block-plus-dop__icon, .ofers-block-medals__icon, .resp-arrow, .one_level_rubrikator__icon, .rubrika-list_tool-collapsed .rubrika-list__icon, .sale_rubrika__icon, .tip__close, .totop-btn__icon, .breadcrumbs__icon, .callback__icon, .company_minicard__icon_likes, .filter-section__icon, .filter-section__arrow-icon, .master_content-icon__icon, .master_photo-and-contacts__icon, .master_photo-and-contacts__icon-like, .master_recommended .slick-prev .icon, .master_recommended .slick-next .icon, .master_recommended-arrows__arrow-left, .master_recommended-arrows__arrow-right, .search__icon-search, .secret_gorizontal .secret__icon, .social-icon {
   background-image: url('../img/svg-sprite/sprite.svg');
   background-repeat: no-repeat; }
-  .master_contact__icon-phone, .ofers-block-plus__icon {
+  .call-back__icon, .master_contact__icon-phone, .ofers-block-plus__icon {
     width: 64px;
     height: 64px;
-    background-size: 603px auto; }
+    background-size: 670px auto; }
   .about-list-item__icon, .ofers-block-medals__icon {
     width: 48px;
     height: 48px;
-    background-size: 452.25px auto; }
+    background-size: 502.5px auto; }
   .become-master__icon, .about-company__icon, .bayda__icon, .js-photo-view .icon, .js-album-slider .icon, .faq__item-title:after, .more-page__text-title:after, .ofers-block-plus-dop__icon, .rubrika-list_tool-collapsed .rubrika-list__icon {
     width: 24px;
     height: 24px;
-    background-size: 226.125px auto; }
-  .master_contact__contact-icon, .master_page_links__icon, .master_navigation__icon, .resp-arrow, .sale_rubrika__icon, .filter-section__icon, .master_content-icon__icon, .master_recommended .slick-prev .icon, .master_recommended .slick-next .icon, .master_recommended-arrows__arrow-left, .master_recommended-arrows__arrow-right, .social-icon {
+    background-size: 251.25px auto; }
+  .master_contact__contact-icon, .master_page_links__icon, .master_navigation__icon, .resp-arrow, .sale_rubrika__icon, .totop-btn__icon, .filter-section__icon, .master_content-icon__icon, .master_recommended .slick-prev .icon, .master_recommended .slick-next .icon, .master_recommended-arrows__arrow-left, .master_recommended-arrows__arrow-right, .social-icon {
     width: 18px;
     height: 18px;
-    background-size: 169.59375px auto; }
+    background-size: 188.4375px auto; }
   .news__icon, .company_minicard__icon_likes, .filter-section__arrow-icon, .master_photo-and-contacts__icon, .master_photo-and-contacts__icon-like, .secret_gorizontal .secret__icon {
     width: 12px;
     height: 12px;
-    background-size: 113.0625px auto; }
-  .close__icon, .one_level_rubrikator__icon, .tip__close {
+    background-size: 125.625px auto; }
+  .close__icon, .one_level_rubrikator__icon, .tip__close, .breadcrumbs__icon {
     width: 8px;
     height: 8px;
-    background-size: 75.375px auto; }
-  .close__icon, .catalogs-dop__icon, .become-master__icon, .about-company__icon, .bayda__icon, .find-master__icon, .master_contact__contact-icon, .master_navigation__icon, .js-photo-view .icon, .js-album-slider .icon, .news__icon, .about-list-item__icon, .faq__item-title:after, .more-page__text-title:after, .ofers-block-plus__icon, .ofers-block-plus-dop__icon, .resp-arrow, .one_level_rubrikator__icon, .rubrika-list_tool-collapsed .rubrika-list__icon, .tip__close, .callback__icon, .filter-section__icon, .filter-section__arrow-icon, .master_content-icon__icon, .master_recommended .slick-prev .icon, .master_recommended .slick-next .icon, .master_recommended-arrows__arrow-left, .master_recommended-arrows__arrow-right, .search__icon-search, .secret_gorizontal .secret__icon, .social-icon {
+    background-size: 83.75px auto; }
+  .close__icon, .catalogs-dop__icon, .become-master__icon, .about-company__icon, .bayda__icon, .find-master__icon, .call-back__icon, .master_contact__contact-icon, .master_navigation__icon, .js-photo-view .icon, .js-album-slider .icon, .news__icon, .about-list-item__icon, .faq__item-title:after, .more-page__text-title:after, .ofers-block-plus__icon, .ofers-block-plus-dop__icon, .resp-arrow, .one_level_rubrikator__icon, .rubrika-list_tool-collapsed .rubrika-list__icon, .tip__close, .totop-btn__icon, .callback__icon, .filter-section__icon, .filter-section__arrow-icon, .master_content-icon__icon, .master_recommended .slick-prev .icon, .master_recommended .slick-next .icon, .master_recommended-arrows__arrow-left, .master_recommended-arrows__arrow-right, .search__icon-search, .secret_gorizontal .secret__icon, .social-icon {
     display: block; }
-  .master_contact__icon-phone, .master_page_links__icon, .ofers-block-medals__icon, .sale_rubrika__icon, .company_minicard__icon_likes, .master_photo-and-contacts__icon, .master_photo-and-contacts__icon-like {
+  .master_contact__icon-phone, .master_page_links__icon, .ofers-block-medals__icon, .sale_rubrika__icon, .breadcrumbs__icon, .company_minicard__icon_likes, .master_photo-and-contacts__icon, .master_photo-and-contacts__icon-like {
     display: inline-block; }
 
 /* иконки конец */
@@ -721,13 +737,13 @@ p {
   .lt-ie8 .row, .lt-ie8 .labeled-input, .lt-ie8 .catalogs-dop_page_main, .lt-ie8 .dop-function__inner, .lt-ie8 .main-function__inner, .lt-ie8 .catalogs__inner, .lt-ie8 .master_page_photo__albums_list, .lt-ie8 .master_page_photo__photo-list, .lt-ie8 .master_page_sale__list, .lt-ie8 .master_page_secret__list, .lt-ie8 .master_page_services__services, .lt-ie8 .master_page_services__other-services, .lt-ie8 .master_page_video__list, .lt-ie8 .news__inner, .lt-ie8 .recommendation__inner, .lt-ie8 .more-page__item, .lt-ie8 .ofers-block, .lt-ie8 .ofers-block-plus, .lt-ie8 .ofers-block-plus-dop, .lt-ie8 .sale_rubrika__content, .lt-ie8 .sale_list, .lt-ie8 .capcha, .lt-ie8 .secret_gorizontal .secret__inner, .secret_gorizontal .lt-ie8 .secret__inner, .lt-ie8 .inner-top, .lt-ie8 .inner-content {
     zoom: 1; }
 
-.col-xs-1, .col-sm-1, .search__title, .col-md-1, .col-lg-1, .search__title, .col-xs-2, .col-sm-2, .col-md-2, .master_page_photo__photo-list-item, .footer__counters, .header__left-col, .search__title, .search_inner .search__title, .col-lg-2, .catalogs__services, .header__login, .header__social, .search__button, .col-xs-3, .ofers-block-plus-dop__item, .col-sm-3, .recommendation__img-wr, .footer__counters, .header__left-col, .search__button, .col-md-3, .master_page_photo__albums_item, .present_competition__member, .present_competition_item__decor, .sale_rubrika__rubrikator, .header__login, .header__social, .master_minicard__left-column, .capcha__reload-link, .page_search_result__left-column, .col-lg-3, .catalogs-dop_page_main .catalogs-dop__item, .dop-function, .news__img-wr, .news__autor, .master-rubrikator-page__dop, .sale_list__sale, .footer__links, .page_master_page__navigate, .page_master_page__contacts, .page_master_page__menu, .inner-top__callback, .inner-content__left-side, .page_secret_rubrika__rubrikator, .col-xs-4, .col-sm-4, .catalogs-dop_page_main .catalogs-dop__item, .become-master, .about-company, .bayda, .news__img-wr, .sale_list__sale, .header__login, .secret_gorizontal .secret__img-wr, .col-md-4, .labeled-input__label, .labeled-input__submit, .dop-function, .master_page_recommend__social-links, .present_competition_item__right-column, .present_competition_reg__members, .about-list-item, .our-plus, .ofers-block__item, .rubriks-column, .list_col-3__item, .footer__links, .page_master_page__navigate, .page_master_page__contacts, .page_master_page__menu, .inner-top__callback, .page_secret_rubrika__rubrikator, .col-lg-4, .call-back, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .page_entry__form, .col-xs-5, .col-sm-5, .description-tarif__part-2, .header__title, .master_minicard__left-column, .page_master_page__navigate, .col-md-5, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .master_company, .capcha__code-img, .col-lg-5, .more-page__pic, .more-page__text, .col-xs-6, .ofers-block-plus__item, .company_minicard__logo-wr, .company_minicard__info, .inner-top__search, .inner-top__callback, .col-sm-6, .find-master, .call-back, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .rubriks-column, .list_col-3__item, .video_gorizontal .video__img-wr, .video_gorizontal .video__content, .video_gorizontal .video__autor, .video_gorizontal .video__dop, .inner-top__search, .inner-top__callback, .col-md-6, .master_page_services__list, .master_page_services__other-services-list, .faq__block, .form_reg-master .form__row_half, .more-page__pic, .more-page__text, .ofers-block-plus__item, .footer__copyright, .capcha_registration .capcha__code-img, .capcha_registration .capcha__reload-link, .page_callback_request__form, .col-lg-6, .feedback-block, .news__content, .present_competition_reg__registration, .present_competition_reg__members, .recovery-password-block, .col-xs-7, .col-sm-7, .description-tarif__part-1, .master_minicard__right-column, .page_master_page__header, .col-md-7, .master_page_work__time-table, .header__title, .header__menu, .master_name-and-spec_half, .master_services_half, .search__field, .search_inner .search__field, .col-lg-7, .footer__copyright, .col-xs-8, .col-sm-8, .news__content, .search__field, .secret_gorizontal .secret__content, .col-md-8, .labeled-input__input, .main-function, .master_page_recommend__comment, .feedback-block, .present_competition_item__left-column, .present_competition_reg__registration, .recovery-password-block, .page_404__msg, .page_404__action, .page_master_page__header, .page_master_page__card, .page_master_page__main-info, .inner-top__search, .page_secret_rubrika__list, .col-lg-8, .find-master, .header__title, .header__menu, .search_inner .search__field, .col-xs-9, .col-sm-9, .recommendation__content, .footer__links, .search_inner .search__field, .col-md-9, .sale_rubrika__list, .master_minicard__right-column, .page_search_result__result, .col-lg-9, .main-function, .master-rubrikator-page__rubriks-columns, .search__field, .page_master_page__header, .page_master_page__card, .page_master_page__main-info, .company-rubrika-page__company-list, .inner-top__search, .inner-content__right-side, .page_secret_rubrika__list, .col-xs-10, .col-sm-10, .master_services_half, .master_services_wide, .col-md-10, .col-lg-10, .catalogs__dop, .about, .landing-header, .col-xs-11, .col-sm-11, .col-md-11, .master_services_wide, .col-lg-11, .col-xs-12, .catalogs, .catalogs__services, .catalogs__dop, .master_page_links__list, .master_page_recommend__review, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .contact-page, .feedback-page, .oferta-page, .vacancy-page, .vacancy-one-page, .present_competition_list, .present_competition_list__item, .present_competition_reg__title, .present_competition_reg__description, .present_competition_reg__registration, .present_competition_reg__members, .about-list-item, .faq, .more-page, .why-we, .ofers-block-plus__item_single, .master-rubrikator-page, .master-rubrikator-page__rubriks-columns, .rubriks-column, .sale_rubrika__paginator, .list_col-3__item, .master_page_about__content, .breadcrumbs, .footer__coordinator, .footer__copyright, .master_minicard__left-column, .master_minicard__right-column, .recovery-password-page, .video_gorizontal .video__img-wr, .video_gorizontal .video__content, .video_gorizontal .video__autor, .video_gorizontal .video__dop, .page_callback_request__header, .page_master_page__breadcrumps, .page_master_page__header, .page_master_page__navigate, .page_master_page__card, .page_master_page__contacts, .company-rubrika-page, .company-rubrika-page__company-list, .page_oth_news, .page_oht_recommendation, .page_sale_rubrikator, .page_search_result__search, .page_search_result__result-item, .col-sm-12, .ofers-block-plus__item, .ofers-block-plus__item_single, .description-tarif__part-3, .sale_rubrika__list, .header__menu, .page_404__msg, .col-md-12, .become-master, .about-company, .bayda, .master_page_photo__album_content, .master_page_recommend__recommendations, .master_page_recommend__title, .master_page_services__other-services-title, .landing-header, .ofers-block-plus__item_single, .description-tarif__part-1, .description-tarif__part-2, .master_name-and-spec_wide, .inner-content__left-side, .inner-content__right-side, .col-lg-12 {
+.col-xs-1, .col-sm-1, .search__title, .col-md-1, .col-lg-1, .search__title, .col-xs-2, .col-sm-2, .col-md-2, .master_page_photo__photo-list-item, .footer__counters, .header__left-col, .search__title, .search_inner .search__title, .col-lg-2, .catalogs__services, .header__login, .header__social, .search__button, .col-xs-3, .ofers-block-plus-dop__item, .col-sm-3, .recommendation__img-wr, .footer__counters, .header__left-col, .search__button, .col-md-3, .master_page_photo__albums_item, .present_competition__member, .present_competition_item__decor, .sale_rubrika__rubrikator, .header__login, .header__social, .master_minicard__left-column, .capcha__reload-link, .page_search_result__left-column, .col-lg-3, .catalogs-dop_page_main .catalogs-dop__item, .dop-function, .news__img-wr, .news__autor, .master-rubrikator-page__dop, .sale_list__sale, .footer__links, .page_master_page__navigate, .page_master_page__contacts, .page_master_page__menu, .inner-top__callback, .inner-content__left-side, .page_secret_rubrika__rubrikator, .col-xs-4, .col-sm-4, .catalogs-dop_page_main .catalogs-dop__item, .become-master, .about-company, .bayda, .news__img-wr, .sale_list__sale, .header__login, .secret_gorizontal .secret__img-wr, .col-md-4, .labeled-input__label, .labeled-input__submit, .dop-function, .master_page_recommend__social-links, .present_competition_item__right-column, .present_competition_reg__members, .about-list-item, .ofers-block__item, .our-plus, .rubriks-column, .list_col-3__item, .footer__links, .page_master_page__navigate, .page_master_page__contacts, .page_master_page__menu, .inner-top__callback, .page_secret_rubrika__rubrikator, .col-lg-4, .call-back, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .page_entry__form, .col-xs-5, .col-sm-5, .description-tarif__part-2, .header__title, .master_minicard__left-column, .page_master_page__navigate, .col-md-5, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .master_company, .capcha__code-img, .col-lg-5, .more-page__pic, .more-page__text, .col-xs-6, .ofers-block-plus__item, .company_minicard__logo-wr, .company_minicard__info, .inner-top__search, .inner-top__callback, .col-sm-6, .find-master, .call-back, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .rubriks-column, .list_col-3__item, .video_gorizontal .video__img-wr, .video_gorizontal .video__content, .video_gorizontal .video__autor, .video_gorizontal .video__dop, .inner-top__search, .inner-top__callback, .col-md-6, .master_page_services__list, .master_page_services__other-services-list, .faq__block, .form_reg-master .form__row_half, .more-page__pic, .more-page__text, .ofers-block-plus__item, .footer__copyright, .capcha_registration .capcha__code-img, .capcha_registration .capcha__reload-link, .page_callback_request__form, .col-lg-6, .feedback-block, .news__content, .present_competition_reg__registration, .present_competition_reg__members, .recovery-password-block, .col-xs-7, .col-sm-7, .description-tarif__part-1, .master_minicard__right-column, .page_master_page__header, .col-md-7, .master_page_work__time-table, .header__title, .header__menu, .master_name-and-spec_half, .master_services_half, .search__field, .search_inner .search__field, .col-lg-7, .footer__copyright, .col-xs-8, .col-sm-8, .news__content, .search__field, .secret_gorizontal .secret__content, .col-md-8, .labeled-input__input, .main-function, .master_page_recommend__comment, .feedback-block, .present_competition_item__left-column, .present_competition_reg__registration, .recovery-password-block, .page_404__msg, .page_404__action, .page_master_page__header, .page_master_page__card, .page_master_page__main-info, .inner-top__search, .page_secret_rubrika__list, .col-lg-8, .find-master, .header__title, .header__menu, .search_inner .search__field, .col-xs-9, .col-sm-9, .recommendation__content, .footer__links, .search_inner .search__field, .col-md-9, .sale_rubrika__list, .master_minicard__right-column, .page_search_result__result, .col-lg-9, .main-function, .master-rubrikator-page__rubriks-columns, .search__field, .page_master_page__header, .page_master_page__card, .page_master_page__main-info, .company-rubrika-page__company-list, .inner-top__search, .inner-content__right-side, .page_secret_rubrika__list, .col-xs-10, .col-sm-10, .master_services_half, .master_services_wide, .col-md-10, .col-lg-10, .catalogs__dop, .about, .landing-header, .col-xs-11, .col-sm-11, .col-md-11, .master_services_wide, .col-lg-11, .col-xs-12, .catalogs, .catalogs__services, .catalogs__dop, .master_page_links__list, .master_page_recommend__review, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .contact-page, .feedback-page, .oferta-page, .vacancy-page, .vacancy-one-page, .present_competition_list, .present_competition_list__item, .present_competition_reg__title, .present_competition_reg__description, .present_competition_reg__registration, .present_competition_reg__members, .about-list-item, .faq, .more-page, .ofers-block-plus__item_single, .why-we, .master-rubrikator-page, .master-rubrikator-page__rubriks-columns, .rubriks-column, .sale_rubrika__paginator, .list_col-3__item, .master_page_about__content, .breadcrumbs, .footer__coordinator, .footer__copyright, .master_minicard__left-column, .master_minicard__right-column, .recovery-password-page, .video_gorizontal .video__img-wr, .video_gorizontal .video__content, .video_gorizontal .video__autor, .video_gorizontal .video__dop, .page_callback_request__header, .page_master_page__breadcrumps, .page_master_page__header, .page_master_page__navigate, .page_master_page__card, .page_master_page__contacts, .company-rubrika-page, .company-rubrika-page__company-list, .inner-top__title, .page_oth_news, .page_oht_recommendation, .page_sale_rubrikator, .page_search_result__search, .page_search_result__result-item, .col-sm-12, .ofers-block-plus__item, .ofers-block-plus__item_single, .description-tarif__part-3, .sale_rubrika__list, .header__menu, .page_404__msg, .col-md-12, .become-master, .about-company, .bayda, .master_page_photo__album_content, .master_page_recommend__recommendations, .master_page_recommend__title, .master_page_services__other-services-title, .landing-header, .ofers-block-plus__item_single, .description-tarif__part-1, .description-tarif__part-2, .master_name-and-spec_wide, .inner-content__left-side, .inner-content__right-side, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 10px;
   padding-right: 10px; }
 
-.col-xs-1, .col-xs-2, .col-xs-3, .ofers-block-plus-dop__item, .col-xs-4, .col-xs-5, .col-xs-6, .ofers-block-plus__item, .company_minicard__logo-wr, .company_minicard__info, .inner-top__search, .inner-top__callback, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .catalogs, .catalogs__services, .catalogs__dop, .master_page_links__list, .master_page_recommend__review, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .contact-page, .feedback-page, .oferta-page, .vacancy-page, .vacancy-one-page, .present_competition_list, .present_competition_list__item, .present_competition_reg__title, .present_competition_reg__description, .present_competition_reg__registration, .present_competition_reg__members, .about-list-item, .faq, .more-page, .why-we, .ofers-block-plus__item_single, .master-rubrikator-page, .master-rubrikator-page__rubriks-columns, .rubriks-column, .sale_rubrika__paginator, .list_col-3__item, .master_page_about__content, .breadcrumbs, .footer__coordinator, .footer__copyright, .master_minicard__left-column, .master_minicard__right-column, .recovery-password-page, .video_gorizontal .video__img-wr, .video_gorizontal .video__content, .video_gorizontal .video__autor, .video_gorizontal .video__dop, .page_callback_request__header, .page_master_page__breadcrumps, .page_master_page__header, .page_master_page__navigate, .page_master_page__card, .page_master_page__contacts, .company-rubrika-page, .company-rubrika-page__company-list, .page_oth_news, .page_oht_recommendation, .page_sale_rubrikator, .page_search_result__search, .page_search_result__result-item {
+.col-xs-1, .col-xs-2, .col-xs-3, .ofers-block-plus-dop__item, .col-xs-4, .col-xs-5, .col-xs-6, .ofers-block-plus__item, .company_minicard__logo-wr, .company_minicard__info, .inner-top__search, .inner-top__callback, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .catalogs, .catalogs__services, .catalogs__dop, .master_page_links__list, .master_page_recommend__review, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .contact-page, .feedback-page, .oferta-page, .vacancy-page, .vacancy-one-page, .present_competition_list, .present_competition_list__item, .present_competition_reg__title, .present_competition_reg__description, .present_competition_reg__registration, .present_competition_reg__members, .about-list-item, .faq, .more-page, .ofers-block-plus__item_single, .why-we, .master-rubrikator-page, .master-rubrikator-page__rubriks-columns, .rubriks-column, .sale_rubrika__paginator, .list_col-3__item, .master_page_about__content, .breadcrumbs, .footer__coordinator, .footer__copyright, .master_minicard__left-column, .master_minicard__right-column, .recovery-password-page, .video_gorizontal .video__img-wr, .video_gorizontal .video__content, .video_gorizontal .video__autor, .video_gorizontal .video__dop, .page_callback_request__header, .page_master_page__breadcrumps, .page_master_page__header, .page_master_page__navigate, .page_master_page__card, .page_master_page__contacts, .company-rubrika-page, .company-rubrika-page__company-list, .inner-top__title, .page_oth_news, .page_oht_recommendation, .page_sale_rubrikator, .page_search_result__search, .page_search_result__result-item {
   float: left; }
 
 .col-xs-1 {
@@ -763,7 +779,7 @@ p {
 .col-xs-11 {
   width: 91.66667%; }
 
-.col-xs-12, .catalogs, .catalogs__services, .catalogs__dop, .master_page_links__list, .master_page_recommend__review, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .contact-page, .feedback-page, .oferta-page, .vacancy-page, .vacancy-one-page, .present_competition_list, .present_competition_list__item, .present_competition_reg__title, .present_competition_reg__description, .present_competition_reg__registration, .present_competition_reg__members, .about-list-item, .faq, .more-page, .why-we, .ofers-block-plus__item_single, .master-rubrikator-page, .master-rubrikator-page__rubriks-columns, .rubriks-column, .sale_rubrika__paginator, .list_col-3__item, .master_page_about__content, .breadcrumbs, .footer__coordinator, .footer__copyright, .master_minicard__left-column, .master_minicard__right-column, .recovery-password-page, .video_gorizontal .video__img-wr, .video_gorizontal .video__content, .video_gorizontal .video__autor, .video_gorizontal .video__dop, .page_callback_request__header, .page_master_page__breadcrumps, .page_master_page__header, .page_master_page__navigate, .page_master_page__card, .page_master_page__contacts, .company-rubrika-page, .company-rubrika-page__company-list, .page_oth_news, .page_oht_recommendation, .page_sale_rubrikator, .page_search_result__search, .page_search_result__result-item {
+.col-xs-12, .catalogs, .catalogs__services, .catalogs__dop, .master_page_links__list, .master_page_recommend__review, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .contact-page, .feedback-page, .oferta-page, .vacancy-page, .vacancy-one-page, .present_competition_list, .present_competition_list__item, .present_competition_reg__title, .present_competition_reg__description, .present_competition_reg__registration, .present_competition_reg__members, .about-list-item, .faq, .more-page, .ofers-block-plus__item_single, .why-we, .master-rubrikator-page, .master-rubrikator-page__rubriks-columns, .rubriks-column, .sale_rubrika__paginator, .list_col-3__item, .master_page_about__content, .breadcrumbs, .footer__coordinator, .footer__copyright, .master_minicard__left-column, .master_minicard__right-column, .recovery-password-page, .video_gorizontal .video__img-wr, .video_gorizontal .video__content, .video_gorizontal .video__autor, .video_gorizontal .video__dop, .page_callback_request__header, .page_master_page__breadcrumps, .page_master_page__header, .page_master_page__navigate, .page_master_page__card, .page_master_page__contacts, .company-rubrika-page, .company-rubrika-page__company-list, .inner-top__title, .page_oth_news, .page_oht_recommendation, .page_sale_rubrikator, .page_search_result__search, .page_search_result__result-item {
   width: 100%; }
 
 .col-xs-pull-0 {
@@ -990,7 +1006,7 @@ p {
     margin-left: 100%; } }
 
 @media (min-width: 750px) {
-  .col-md-1, .col-md-2, .master_page_photo__photo-list-item, .footer__counters, .header__left-col, .search__title, .search_inner .search__title, .col-md-3, .master_page_photo__albums_item, .present_competition__member, .present_competition_item__decor, .sale_rubrika__rubrikator, .header__login, .header__social, .master_minicard__left-column, .capcha__reload-link, .page_search_result__left-column, .col-md-4, .labeled-input__label, .labeled-input__submit, .dop-function, .master_page_recommend__social-links, .present_competition_item__right-column, .present_competition_reg__members, .about-list-item, .our-plus, .ofers-block__item, .rubriks-column, .list_col-3__item, .footer__links, .page_master_page__navigate, .page_master_page__contacts, .page_master_page__menu, .inner-top__callback, .page_secret_rubrika__rubrikator, .col-md-5, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .master_company, .capcha__code-img, .col-md-6, .master_page_services__list, .master_page_services__other-services-list, .faq__block, .form_reg-master .form__row_half, .more-page__pic, .more-page__text, .ofers-block-plus__item, .footer__copyright, .capcha_registration .capcha__code-img, .capcha_registration .capcha__reload-link, .page_callback_request__form, .col-md-7, .master_page_work__time-table, .header__title, .header__menu, .master_name-and-spec_half, .master_services_half, .search__field, .search_inner .search__field, .col-md-8, .labeled-input__input, .main-function, .master_page_recommend__comment, .feedback-block, .present_competition_item__left-column, .present_competition_reg__registration, .recovery-password-block, .page_404__msg, .page_404__action, .page_master_page__header, .page_master_page__card, .page_master_page__main-info, .inner-top__search, .page_secret_rubrika__list, .col-md-9, .sale_rubrika__list, .master_minicard__right-column, .page_search_result__result, .col-md-10, .col-md-11, .master_services_wide, .col-md-12, .become-master, .about-company, .bayda, .master_page_photo__album_content, .master_page_recommend__recommendations, .master_page_recommend__title, .master_page_services__other-services-title, .landing-header, .ofers-block-plus__item_single, .description-tarif__part-1, .description-tarif__part-2, .master_name-and-spec_wide, .inner-content__left-side, .inner-content__right-side {
+  .col-md-1, .col-md-2, .master_page_photo__photo-list-item, .footer__counters, .header__left-col, .search__title, .search_inner .search__title, .col-md-3, .master_page_photo__albums_item, .present_competition__member, .present_competition_item__decor, .sale_rubrika__rubrikator, .header__login, .header__social, .master_minicard__left-column, .capcha__reload-link, .page_search_result__left-column, .col-md-4, .labeled-input__label, .labeled-input__submit, .dop-function, .master_page_recommend__social-links, .present_competition_item__right-column, .present_competition_reg__members, .about-list-item, .ofers-block__item, .our-plus, .rubriks-column, .list_col-3__item, .footer__links, .page_master_page__navigate, .page_master_page__contacts, .page_master_page__menu, .inner-top__callback, .page_secret_rubrika__rubrikator, .col-md-5, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .master_company, .capcha__code-img, .col-md-6, .master_page_services__list, .master_page_services__other-services-list, .faq__block, .form_reg-master .form__row_half, .more-page__pic, .more-page__text, .ofers-block-plus__item, .footer__copyright, .capcha_registration .capcha__code-img, .capcha_registration .capcha__reload-link, .page_callback_request__form, .col-md-7, .master_page_work__time-table, .header__title, .header__menu, .master_name-and-spec_half, .master_services_half, .search__field, .search_inner .search__field, .col-md-8, .labeled-input__input, .main-function, .master_page_recommend__comment, .feedback-block, .present_competition_item__left-column, .present_competition_reg__registration, .recovery-password-block, .page_404__msg, .page_404__action, .page_master_page__header, .page_master_page__card, .page_master_page__main-info, .inner-top__search, .page_secret_rubrika__list, .col-md-9, .sale_rubrika__list, .master_minicard__right-column, .page_search_result__result, .col-md-10, .col-md-11, .master_services_wide, .col-md-12, .become-master, .about-company, .bayda, .master_page_photo__album_content, .master_page_recommend__recommendations, .master_page_recommend__title, .master_page_services__other-services-title, .landing-header, .ofers-block-plus__item_single, .description-tarif__part-1, .description-tarif__part-2, .master_name-and-spec_wide, .inner-content__left-side, .inner-content__right-side {
     float: left; }
   .col-md-1 {
     width: 8.33333%; }
@@ -998,7 +1014,7 @@ p {
     width: 16.66667%; }
   .col-md-3, .master_page_photo__albums_item, .present_competition__member, .present_competition_item__decor, .sale_rubrika__rubrikator, .header__login, .header__social, .master_minicard__left-column, .capcha__reload-link, .page_search_result__left-column {
     width: 25%; }
-  .col-md-4, .labeled-input__label, .labeled-input__submit, .dop-function, .master_page_recommend__social-links, .present_competition_item__right-column, .present_competition_reg__members, .about-list-item, .our-plus, .ofers-block__item, .rubriks-column, .list_col-3__item, .footer__links, .page_master_page__navigate, .page_master_page__contacts, .page_master_page__menu, .inner-top__callback, .page_secret_rubrika__rubrikator {
+  .col-md-4, .labeled-input__label, .labeled-input__submit, .dop-function, .master_page_recommend__social-links, .present_competition_item__right-column, .present_competition_reg__members, .about-list-item, .ofers-block__item, .our-plus, .rubriks-column, .list_col-3__item, .footer__links, .page_master_page__navigate, .page_master_page__contacts, .page_master_page__menu, .inner-top__callback, .page_secret_rubrika__rubrikator {
     width: 33.33333%; }
   .col-md-5, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .master_company, .capcha__code-img {
     width: 41.66667%; }
@@ -1679,7 +1695,7 @@ p {
   transform: translateY(-50%);
   width: 24px;
   height: 24px;
-  background-size: 226.125px auto; }
+  background-size: 251.25px auto; }
 @media  (min-width: 1000px) {
   .catalogs-dop__item-link {
     height: 50px;
@@ -1701,7 +1717,10 @@ p {
     .catalogs-dop__icon {
       width: 18px;
       height: 18px;
-      background-size: 169.59375px auto; } }
+      background-size: 188.4375px auto; } }
+@media  (min-width: 500px) and (max-width: 749px) {
+  .catalogs-dop_page_main .catalogs-dop__item {
+    padding: 0 5px 10px; } }
 .catalogs-dop_page_main .catalogs-dop__item-link {
   border: 1px solid transparent;
   font-size: 0.75em;
@@ -1709,6 +1728,15 @@ p {
   .catalogs-dop_page_main .catalogs-dop__item-link:hover {
     border: 1px solid #5C5A59;
     color: inherit; }
+  @media  (min-width: 500px) and (max-width: 749px) {
+    .catalogs-dop_page_main .catalogs-dop__item-link {
+      padding-left: 5px; } }
+@media  (min-width: 500px) and (max-width: 749px) {
+  .catalogs-dop_page_main .catalogs-dop__icon {
+    margin-right: 5px;
+    width: 12px;
+    height: 12px;
+    background-size: 125.625px auto; } }
 @media  (min-width: 1000px) {
   .catalogs-dop_page_main .catalogs-dop__item {
     height: 75px; }
@@ -1720,6 +1748,10 @@ p {
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
       transform: translateY(-50%); } }
+@media  (min-width: 500px) and (max-width: 749px) {
+  .catalogs-dop_page_main {
+    padding-left: 5px;
+    padding-right: 5px; } }
 .catalogs-dop_page_rubrikator .catalogs-dop__item {
   height: 50px;
   font-size: 1.0625em;
@@ -1915,7 +1947,7 @@ p {
     .find-master__inner, .call-back__inner {
       padding: 25px 10px 10px 10px; }
       .find-master__inner-rel, .call-back__inner-rel {
-        height: 135px; } }
+        height: 100px; } }
 
 .find-master {
   padding-right: 5px; }
@@ -1924,6 +1956,9 @@ p {
     border-top: 5px solid #009444; }
     .find-master__inner-rel {
       padding-top: 25px; }
+      @media  (max-width: 749px) {
+        .find-master__inner-rel {
+          padding-top: 0; } }
   .find-master__title {
     text-transform: uppercase;
     color: #fff;
@@ -1938,7 +1973,9 @@ p {
         line-height: 1em; } }
     @media  (min-width: 500px) and (max-width: 749px) {
       .find-master__title {
-        padding-left: 45%;
+        margin-left: 60px;
+        padding: 0;
+        text-align: left;
         font-size: 1.375em;
         line-height: 1.09091em; } }
   .find-master__btn, .call-back__btn {
@@ -1970,7 +2007,20 @@ p {
     margin-top: -20px;
     width: 128px;
     height: 128px;
-    background-size: 1206px auto; }
+    background-size: 1340px auto; }
+    @media  (min-width: 750px) and (max-width: 999px) {
+      .find-master__icon {
+        width: 64px;
+        height: 64px;
+        background-size: 670px auto;
+        float: none;
+        margin: 0 auto; } }
+    @media  (min-width: 500px) and (max-width: 749px) {
+      .find-master__icon {
+        margin: 0;
+        width: 48px;
+        height: 48px;
+        background-size: 502.5px auto; } }
 
 .call-back {
   padding-left: 5px;
@@ -1989,7 +2039,8 @@ p {
         line-height: 1.17391em; } }
     @media  (min-width: 500px) and (max-width: 749px) {
       .call-back__title {
-        padding-left: 45%;
+        margin-left: 60px;
+        text-align: left;
         font-size: 1.375em;
         line-height: 1.09091em; } }
   .call-back__text {
@@ -1999,6 +2050,15 @@ p {
     @media  (max-width: 749px) {
       .call-back__text {
         display: none; } }
+  .call-back__icon {
+    margin: 0 auto; }
+    @media  (min-width: 500px) and (max-width: 749px) {
+      .call-back__icon {
+        margin: 0;
+        float: left;
+        width: 48px;
+        height: 48px;
+        background-size: 502.5px auto; } }
 
 .catalogs {
   padding-top: 10px; }
@@ -2616,10 +2676,10 @@ p {
     right: -14px;
     background-image: url('../img/svg-sprite/sprite.svg');
     background-repeat: no-repeat;
-    background-position: 37.84787% 84.34004%;
+    background-position: 55.28053% 26.6537%;
     width: 28px;
     height: 28px;
-    background-size: 263.8125px auto; }
+    background-size: 293.125px auto; }
     @media  (min-width: 500px) and (max-width: 749px) {
       .about-list-item:after {
         top: auto;
@@ -2679,7 +2739,7 @@ p {
       .about-list-item__icon {
         width: 32px;
         height: 32px;
-        background-size: 301.5px auto; } }
+        background-size: 335px auto; } }
   @media  (min-width: 250px) and (max-width: 499px) {
     .about-list-item {
       height: 60px; }
@@ -2694,7 +2754,7 @@ p {
       .about-list-item__icon {
         width: 24px;
         height: 24px;
-        background-size: 226.125px auto; } }
+        background-size: 251.25px auto; } }
   @media  (max-width: 749px) {
     .about-list-item {
       position: relative; }
@@ -3028,77 +3088,6 @@ p {
           font-size: 1.125em;
           line-height: 1.27778em; } }
 
-.why-we-wr {
-  z-index: 8; }
-  @media  (max-width: 749px) {
-    .why-we-wr {
-      background: none; } }
-
-.why-we {
-  padding-top: 50px;
-  padding-bottom: 50px; }
-  .why-we__list {
-    padding-top: 45px; }
-  @media  (max-width: 749px) {
-    .why-we {
-      background-color: #e6e7e8; } }
-  @media  (min-width: 250px) and (max-width: 499px) {
-    .why-we {
-      padding-top: 20px;
-      padding-bottom: 20px; }
-      .why-we__list {
-        padding-top: 10px; } }
-
-@media  (min-width: 500px) {
-  .our-plus:after {
-    content: ' ';
-    display: block;
-    position: absolute;
-    height: 33px;
-    width: 185px;
-    bottom: 0;
-    right: 50%;
-    box-shadow: 0px -8px 8px -8px rgba(0, 0, 0, 0.4);
-    -webkit-transform: translate(50%);
-        -ms-transform: translate(50%);
-            transform: translate(50%); }
-  .our-plus__round {
-    padding-top: 55px;
-    color: #efd200;
-    text-align: center;
-    width: 165px;
-    height: 165px;
-    margin: 0 auto;
-    border-radius: 50%;
-    background-color: #424143; } }
-@media  (min-width: 250px) and (max-width: 499px) {
-  .our-plus {
-    padding-top: 15px;
-    padding-bottom: 15px; }
-    .our-plus:before, .our-plus:after {
-      display: table;
-      content: ""; }
-    .our-plus:after {
-      clear: both; }
-    .lt-ie8 .our-plus {
-      zoom: 1; } }
-.our-plus__title {
-  font-weight: bold;
-  font-size: 2.5625em;
-  line-height: 1em; }
-  @media  (min-width: 250px) and (max-width: 499px) {
-    .our-plus__title {
-      float: left;
-      width: 145px;
-      font-size: 2.375em;
-      line-height: 1em; } }
-.our-plus__text {
-  font-size: 0.75em;
-  line-height: 1.25em; }
-  @media  (min-width: 250px) and (max-width: 499px) {
-    .our-plus__text {
-      padding-top: 5px; } }
-
 .price-wr {
   position: relative;
   z-index: 10; }
@@ -3250,7 +3239,7 @@ p {
           margin: 3px 3px;
           width: 18px;
           height: 18px;
-          background-size: 169.59375px auto; } }
+          background-size: 188.4375px auto; } }
 .ofers-block-medals {
   width: 200px; }
   .ofers-block-medals:before, .ofers-block-medals:after {
@@ -3445,6 +3434,77 @@ h2.resp-accordion {
     border: 1px solid #d3d5d6;
     border-top: none;
     display: none; } }
+
+.why-we-wr {
+  z-index: 8; }
+  @media  (max-width: 749px) {
+    .why-we-wr {
+      background: none; } }
+
+.why-we {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  .why-we__list {
+    padding-top: 45px; }
+  @media  (max-width: 749px) {
+    .why-we {
+      background-color: #e6e7e8; } }
+  @media  (min-width: 250px) and (max-width: 499px) {
+    .why-we {
+      padding-top: 20px;
+      padding-bottom: 20px; }
+      .why-we__list {
+        padding-top: 10px; } }
+
+@media  (min-width: 500px) {
+  .our-plus:after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    height: 33px;
+    width: 185px;
+    bottom: 0;
+    right: 50%;
+    box-shadow: 0px -8px 8px -8px rgba(0, 0, 0, 0.4);
+    -webkit-transform: translate(50%);
+        -ms-transform: translate(50%);
+            transform: translate(50%); }
+  .our-plus__round {
+    padding-top: 55px;
+    color: #efd200;
+    text-align: center;
+    width: 165px;
+    height: 165px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #424143; } }
+@media  (min-width: 250px) and (max-width: 499px) {
+  .our-plus {
+    padding-top: 15px;
+    padding-bottom: 15px; }
+    .our-plus:before, .our-plus:after {
+      display: table;
+      content: ""; }
+    .our-plus:after {
+      clear: both; }
+    .lt-ie8 .our-plus {
+      zoom: 1; } }
+.our-plus__title {
+  font-weight: bold;
+  font-size: 2.5625em;
+  line-height: 1em; }
+  @media  (min-width: 250px) and (max-width: 499px) {
+    .our-plus__title {
+      float: left;
+      width: 145px;
+      font-size: 2.375em;
+      line-height: 1em; } }
+.our-plus__text {
+  font-size: 0.75em;
+  line-height: 1.25em; }
+  @media  (min-width: 250px) and (max-width: 499px) {
+    .our-plus__text {
+      padding-top: 5px; } }
 
 .one_level_rubrikator {
   padding: 10px;
@@ -3855,6 +3915,36 @@ h2.resp-accordion {
     right: 10px;
     cursor: pointer; }
 
+.totop-btn__button {
+  display: none;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+  background-color: #FFFFFF;
+  position: fixed;
+  right: 50%;
+  bottom: 10px;
+  -webkit-transform: translateX(480px);
+      -ms-transform: translateX(480px);
+          transform: translateX(480px);
+  opacity: 0.5; }
+  .totop-btn__button:hover {
+    opacity: 1; }
+.totop-btn__text {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
+.totop-btn__holder {
+  width: 18px;
+  margin: 0 auto; }
+.totop-btn__icon {
+  -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg); }
+
 .comment__text-input {
   width: 100%;
   height: 30px;
@@ -3964,14 +4054,28 @@ h2.resp-accordion {
   margin-bottom: 10px; }
 
 .breadcrumbs {
-  padding-top: 5px;
+  padding-top: 15px;
   font-size: 0.6875em;
   line-height: 1em; }
   @media  (min-width: 250px) and (max-width: 499px) {
     .breadcrumbs {
       padding: 0; } }
   .breadcrumbs__header {
-    color: #1c75bc; }
+    color: #1c75bc;
+    font-weight: bold; }
+  .breadcrumbs__icon {
+    margin: 0 6px; }
+  .breadcrumbs__list-container {
+    display: none;
+    background-color: #f0f3fa;
+    padding: 5px 10px 10px 5px;
+    border-left: 1px solid #5C5A59;
+    position: absolute;
+    z-index: 1000;
+    line-height: 15px; }
+
+.js-parent-rub, .js-parent-rub:hover {
+  text-decoration: underline; }
 
 .callback {
   display: block;
@@ -4000,7 +4104,7 @@ h2.resp-accordion {
   .callback__icon {
     width: 42px;
     height: 42px;
-    background-size: 395.71875px auto;
+    background-size: 439.6875px auto;
     float: left;
     margin-right: 10px; }
     @media  (min-width: 250px) and (max-width: 499px) {
@@ -4018,6 +4122,13 @@ h2.resp-accordion {
     padding-bottom: 20px; }
   .callback_request__submit {
     width: 200px; }
+
+.callback_popup {
+  background-color: #e6e7e8;
+  padding: 20px;
+  display: none; }
+  .callback_popup__input {
+    padding-bottom: 20px; }
 
 .master_page_card {
   background-color: #e6e7e8;
@@ -4894,7 +5005,7 @@ h2.resp-accordion {
   transform: translateY(-50%);
   width: 35px;
   height: 35px;
-  background-size: 329.76563px auto;
+  background-size: 366.40625px auto;
   margin: 0 auto; }
 @media  (min-width: 500px) and (max-width: 749px) {
   .search__title, .search__field, .search__button {
@@ -4910,14 +5021,14 @@ h2.resp-accordion {
   .search__icon-search {
     width: 32px;
     height: 32px;
-    background-size: 301.5px auto; } }
+    background-size: 335px auto; } }
 @media  (min-width: 250px) and (max-width: 499px) {
   .search__field, .search__title {
     display: none; }
   .search__icon-search {
     width: 24px;
     height: 24px;
-    background-size: 226.125px auto; }
+    background-size: 251.25px auto; }
   .search__button {
     padding-left: 10px;
     height: 70px; } }
@@ -5016,6 +5127,14 @@ h2.resp-accordion {
     position: absolute;
     right: 0;
     bottom: 1px; }
+
+.seo-text {
+  background-color: #e6e7e8;
+  padding: 20px; }
+  .seo-text__text {
+    color: #949599;
+    font-size: 0.9375em;
+    line-height: 1.26667em; }
 
 .social {
   text-align: justify;

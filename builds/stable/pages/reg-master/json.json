@@ -28,7 +28,7 @@
                     "title": "Выход"
                 }]
             },
-            "authUrl": "http://facemaster.ru/auth",
+            "authUrl": "/entry/entry.html",
             "social": {
                 "list": [{
                     "url": "http://vk.com/fm_mf",
@@ -56,7 +56,11 @@
             }, {
                 "url": "/oth_feedback/oth_feedback.html",
                 "title": "Обратная связь"
-            }]
+            }],
+            "counters": {
+                "type": "гость",
+                "login": "гость"
+            }
         },
         "why-we": {
             "count": {

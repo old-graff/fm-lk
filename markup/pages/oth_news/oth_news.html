@@ -8,26 +8,26 @@
 <!--[if (gt IE 9)|!(IE)]><!-->
 <html class="no-js" lang="ru"><!--<![endif]-->
 
-    <head>
-        {{> head/head page_oht_news.head}}
-    </head>
+<head>
+    {{> head/head page_oht_news.head}}
+</head>
 
-    <body class="page">
-        {{> header/header page_oht_news.header}}
+<body class="page">
+{{> header/header page_oht_news.header}}
+<div block="container">
+    <div class="row">
         {{> breadcrumps/breadcrumps page_oht_news.breadcrumps}}
+        <div block="page_oth_news">
+            <h1 block="h1" mod="style">Новости</h1>
 
-        <div block="container">
-            <div class="row">
-                <div block="page_oth_news">
-                    <h1 block="h1" mod="style">Новости</h1>
-                    <div elem="list">
-                        {{> other/news/news page_oht_news.news}}     
-                        {{> _common/paginator/paginator page_oht_news.paginator}}
-                    </div>
-                </div>
+            <div elem="list">
+                {{> other/news/news page_oht_news.news}}
+                {{> _common/paginator/paginator page_oht_news.paginator}}
             </div>
         </div>
+    </div>
+</div>
 
-        {{> footer/footer page_oht_news.footer}}
-    </body>
+{{> footer/footer page_oht_news.footer}}
+</body>
 </html>

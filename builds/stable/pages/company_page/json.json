@@ -28,7 +28,7 @@
                     "title": "Выход"
                 }]
             },
-            "authUrl": "http://facemaster.ru/auth",
+            "authUrl": "/entry/entry.html",
             "social": {
                 "list": [{
                     "url": "http://vk.com/fm_mf",
@@ -56,7 +56,11 @@
             }, {
                 "url": "/oth_feedback/oth_feedback.html",
                 "title": "Обратная связь"
-            }]
+            }],
+            "counters": {
+                "type": "гость",
+                "login": "гость"
+            }
         },
         "breadcrumps": {
             "links": [{
@@ -159,6 +163,7 @@
                             "count": "142"
                         },
                         "phone-btn": {
+                            "masterID": "1605",
                             "phone": "+7 960 835 06 46",
                             "url": "404"
                         },
@@ -238,6 +243,7 @@
                             "alt": "alt"
                         },
                         "phone-btn": {
+                            "masterID": "1605",
                             "phone": "+7 960 835 06 46"
                         },
                         "tip": {
@@ -257,6 +263,7 @@
                             "alt": "alt"
                         },
                         "phone-btn": {
+                            "masterID": "1605",
                             "phone": "+7 960 835 06 46"
                         },
                         "tip": {
@@ -276,6 +283,7 @@
                             "alt": "alt"
                         },
                         "phone-btn": {
+                            "masterID": "1605",
                             "phone": "+7 960 835 06 46"
                         },
                         "tip": {
@@ -295,6 +303,7 @@
                             "alt": "alt"
                         },
                         "phone-btn": {
+                            "masterID": "1605",
                             "phone": "+7 960 835 06 46"
                         },
                         "tip": {
@@ -314,6 +323,7 @@
                             "alt": "alt"
                         },
                         "phone-btn": {
+                            "masterID": "1605",
                             "phone": "+7 960 835 06 46"
                         },
                         "tip": {
@@ -333,6 +343,7 @@
                             "alt": "alt"
                         },
                         "phone-btn": {
+                            "masterID": "1605",
                             "phone": "+7 960 835 06 46"
                         },
                         "tip": {
@@ -352,6 +363,7 @@
                             "alt": "alt"
                         },
                         "phone-btn": {
+                            "masterID": "1605",
                             "phone": "+7 960 835 06 46"
                         },
                         "tip": {

@@ -18,7 +18,7 @@
         &_masters {
             .filter-section {
                 &__icon {
-                    @extend %icon_people;
+                    @extend %icon_man;
                 }
             }
             &.active {
@@ -28,7 +28,7 @@
                     background-color: darken($color-green, 5%);
                 }
                 .filter-section__icon {
-                    @extend %icon_fb_white;
+                    @extend %icon_man_white;
                 }
             }
         }

@@ -13,7 +13,7 @@
                 },
                 {
                     "title": "Строительство",
-                    "url": "404",
+                    "url": "#",
                     "links": [
                         {
                             "title": "Бани",
@@ -48,6 +48,7 @@
         "banner_side": "readyBlocksData.block_banner_side",
         "banner_top": "readyBlocksData.block_banner_top",
         "master_recommended": "readyBlocksData.block_master_recommended",
-        "master-list": "readyBlocksData.block_master_list"
+        "master-list": "readyBlocksData.block_master_list",
+        "seotext": "readyBlocksData.block_seotext"
     }
 }

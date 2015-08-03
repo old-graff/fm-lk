@@ -31,7 +31,7 @@
                 }
             ]
         },
-        "authUrl": "http://facemaster.ru/auth",
+        "authUrl": "/entry/entry.html",
         "social": {
             "list": [
                 {

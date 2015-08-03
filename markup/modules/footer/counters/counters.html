@@ -15,12 +15,18 @@
     <!--/LiveInternet-->
 
 </script>
-<div style="display: none"><a href="http://www.liveinternet.ru/click" target="_blank"><img src="//counter.yadro.ru/hit?t14.5;r;s1366*768*24;uhttp%3A//facemaster.ru/;0.09844063082709908" alt="" title="LiveInternet: показано число просмотров за 24 часа, посетителей за 24 часа и за сегодня" border="0" width="88" height="31"></a></div>
+<div style="display: none"><a href="http://www.liveinternet.ru/click" target="_blank"><img
+        src="//counter.yadro.ru/hit?t14.5;r;s1366*768*24;uhttp%3A//facemaster.ru/;0.09844063082709908"
+        alt=""
+        title="LiveInternet: показано число просмотров за 24 часа, посетителей за 24 часа и за сегодня"
+        border="0" width="88" height="31"></a></div>
 
 <!-- Yandex.Metrika informer -->
 <div id="bigYandexCounter">
     <a href="http://metrika.yandex.ru/stat/?id=21591305&amp;from=informer" target="_blank" rel="nofollow">
-        <img src="//bs.yandex.ru/informer/21591305/3_0_F0F3FAFF_F0F3FAFF_0_pageviews" style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try {
+        <img src="//bs.yandex.ru/informer/21591305/3_0_F0F3FAFF_F0F3FAFF_0_pageviews"
+             style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика"
+             title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try {
                 Ya.Metrika.informer({i: this, id: 21591305, lang: 'ru'});
                 return false
             } catch (e) {
@@ -28,7 +34,10 @@
     </a>
 </div>
 <div id="smallYandexCounter">
-    <a href="https://metrika.yandex.ru/stat/?id=21591305&amp;from=informer" target="_blank" rel="nofollow"><img src="//bs.yandex.ru/informer/21591305/1_0_F0F3FAFF_F0F3FAFF_0_pageviews" style="width:80px; height:15px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры)" onclick="try {
+    <a href="https://metrika.yandex.ru/stat/?id=21591305&amp;from=informer" target="_blank"
+       rel="nofollow"><img src="//bs.yandex.ru/informer/21591305/1_0_F0F3FAFF_F0F3FAFF_0_pageviews"
+                           style="width:80px; height:15px; border:0;" alt="Яндекс.Метрика"
+                           title="Яндекс.Метрика: данные за сегодня (просмотры)" onclick="try {
                                             Ya.Metrika.informer({i: this, id: 21591305, lang: 'ru'});
                                             return false
                                         } catch (e) {
@@ -41,9 +50,8 @@
     (function (d, w, c) {
         (w[c] = w[c] || []).push(function () {
             var yaParams = {
-                type: 'гость',
-                login: 'гость',
-                referer: 'other'
+                type: '{{type}}',
+                login: '{{login}}'
             };
             try {
                 w.yaCounter21591305 = new Ya.Metrika({
