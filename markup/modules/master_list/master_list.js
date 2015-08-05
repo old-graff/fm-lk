@@ -21,6 +21,7 @@ if ($('.master_list').length > 0) {
                     if (!response.content) {
                         $('.master_list__preloader').before(response.content);
                         $('.master_list__preloader').hide();
+                        master_minicard_preload();
                         busy = false;
                     } else {
                         $('.master_list__preloader').hide();
