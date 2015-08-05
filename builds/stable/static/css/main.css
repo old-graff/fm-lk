@@ -737,13 +737,13 @@ p {
   .lt-ie8 .row, .lt-ie8 .labeled-input, .lt-ie8 .catalogs-dop_page_main, .lt-ie8 .dop-function__inner, .lt-ie8 .main-function__inner, .lt-ie8 .catalogs__inner, .lt-ie8 .master_page_photo__albums_list, .lt-ie8 .master_page_photo__photo-list, .lt-ie8 .master_page_sale__list, .lt-ie8 .master_page_secret__list, .lt-ie8 .master_page_services__services, .lt-ie8 .master_page_services__other-services, .lt-ie8 .master_page_video__list, .lt-ie8 .news__inner, .lt-ie8 .recommendation__inner, .lt-ie8 .more-page__item, .lt-ie8 .ofers-block, .lt-ie8 .ofers-block-plus, .lt-ie8 .ofers-block-plus-dop, .lt-ie8 .sale_rubrika__content, .lt-ie8 .sale_list, .lt-ie8 .capcha, .lt-ie8 .secret_gorizontal .secret__inner, .secret_gorizontal .lt-ie8 .secret__inner, .lt-ie8 .inner-top, .lt-ie8 .inner-content {
     zoom: 1; }
 
-.col-xs-1, .col-sm-1, .search__title, .col-md-1, .col-lg-1, .search__title, .col-xs-2, .col-sm-2, .col-md-2, .master_page_photo__photo-list-item, .footer__counters, .header__left-col, .search__title, .search_inner .search__title, .col-lg-2, .catalogs__services, .header__login, .header__social, .search__button, .col-xs-3, .ofers-block-plus-dop__item, .col-sm-3, .recommendation__img-wr, .footer__counters, .header__left-col, .search__button, .col-md-3, .master_page_photo__albums_item, .present_competition__member, .present_competition_item__decor, .sale_rubrika__rubrikator, .header__login, .header__social, .master_minicard__left-column, .capcha__reload-link, .page_search_result__left-column, .col-lg-3, .catalogs-dop_page_main .catalogs-dop__item, .dop-function, .news__img-wr, .news__autor, .master-rubrikator-page__dop, .sale_list__sale, .footer__links, .page_master_page__navigate, .page_master_page__contacts, .page_master_page__menu, .inner-top__callback, .inner-content__left-side, .page_secret_rubrika__rubrikator, .col-xs-4, .col-sm-4, .catalogs-dop_page_main .catalogs-dop__item, .become-master, .about-company, .bayda, .news__img-wr, .sale_list__sale, .header__login, .secret_gorizontal .secret__img-wr, .col-md-4, .labeled-input__label, .labeled-input__submit, .dop-function, .master_page_recommend__social-links, .present_competition_item__right-column, .present_competition_reg__members, .about-list-item, .ofers-block__item, .our-plus, .rubriks-column, .list_col-3__item, .footer__links, .page_master_page__navigate, .page_master_page__contacts, .page_master_page__menu, .inner-top__callback, .page_secret_rubrika__rubrikator, .col-lg-4, .call-back, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .page_entry__form, .col-xs-5, .col-sm-5, .description-tarif__part-2, .header__title, .master_minicard__left-column, .page_master_page__navigate, .col-md-5, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .master_company, .capcha__code-img, .col-lg-5, .more-page__pic, .more-page__text, .col-xs-6, .ofers-block-plus__item, .company_minicard__logo-wr, .company_minicard__info, .inner-top__search, .inner-top__callback, .col-sm-6, .find-master, .call-back, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .rubriks-column, .list_col-3__item, .video_gorizontal .video__img-wr, .video_gorizontal .video__content, .video_gorizontal .video__autor, .video_gorizontal .video__dop, .inner-top__search, .inner-top__callback, .col-md-6, .master_page_services__list, .master_page_services__other-services-list, .faq__block, .form_reg-master .form__row_half, .more-page__pic, .more-page__text, .ofers-block-plus__item, .footer__copyright, .capcha_registration .capcha__code-img, .capcha_registration .capcha__reload-link, .page_callback_request__form, .col-lg-6, .feedback-block, .news__content, .present_competition_reg__registration, .present_competition_reg__members, .recovery-password-block, .col-xs-7, .col-sm-7, .description-tarif__part-1, .master_minicard__right-column, .page_master_page__header, .col-md-7, .master_page_work__time-table, .header__title, .header__menu, .master_name-and-spec_half, .master_services_half, .search__field, .search_inner .search__field, .col-lg-7, .footer__copyright, .col-xs-8, .col-sm-8, .news__content, .search__field, .secret_gorizontal .secret__content, .col-md-8, .labeled-input__input, .main-function, .master_page_recommend__comment, .feedback-block, .present_competition_item__left-column, .present_competition_reg__registration, .recovery-password-block, .page_404__msg, .page_404__action, .page_master_page__header, .page_master_page__card, .page_master_page__main-info, .inner-top__search, .page_secret_rubrika__list, .col-lg-8, .find-master, .header__title, .header__menu, .search_inner .search__field, .col-xs-9, .col-sm-9, .recommendation__content, .footer__links, .search_inner .search__field, .col-md-9, .sale_rubrika__list, .master_minicard__right-column, .page_search_result__result, .col-lg-9, .main-function, .master-rubrikator-page__rubriks-columns, .search__field, .page_master_page__header, .page_master_page__card, .page_master_page__main-info, .company-rubrika-page__company-list, .inner-top__search, .inner-content__right-side, .page_secret_rubrika__list, .col-xs-10, .col-sm-10, .master_services_half, .master_services_wide, .col-md-10, .col-lg-10, .catalogs__dop, .about, .landing-header, .col-xs-11, .col-sm-11, .col-md-11, .master_services_wide, .col-lg-11, .col-xs-12, .catalogs, .catalogs__services, .catalogs__dop, .master_page_links__list, .master_page_recommend__review, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .contact-page, .feedback-page, .oferta-page, .vacancy-page, .vacancy-one-page, .present_competition_list, .present_competition_list__item, .present_competition_reg__title, .present_competition_reg__description, .present_competition_reg__registration, .present_competition_reg__members, .about-list-item, .faq, .more-page, .ofers-block-plus__item_single, .why-we, .master-rubrikator-page, .master-rubrikator-page__rubriks-columns, .rubriks-column, .sale_rubrika__paginator, .list_col-3__item, .master_page_about__content, .breadcrumbs, .footer__coordinator, .footer__copyright, .master_minicard__left-column, .master_minicard__right-column, .recovery-password-page, .video_gorizontal .video__img-wr, .video_gorizontal .video__content, .video_gorizontal .video__autor, .video_gorizontal .video__dop, .page_callback_request__header, .page_master_page__breadcrumps, .page_master_page__header, .page_master_page__navigate, .page_master_page__card, .page_master_page__contacts, .company-rubrika-page, .company-rubrika-page__company-list, .inner-top__title, .page_oth_news, .page_oht_recommendation, .page_sale_rubrikator, .page_search_result__search, .page_search_result__result-item, .col-sm-12, .ofers-block-plus__item, .ofers-block-plus__item_single, .description-tarif__part-3, .sale_rubrika__list, .header__menu, .page_404__msg, .col-md-12, .become-master, .about-company, .bayda, .master_page_photo__album_content, .master_page_recommend__recommendations, .master_page_recommend__title, .master_page_services__other-services-title, .landing-header, .ofers-block-plus__item_single, .description-tarif__part-1, .description-tarif__part-2, .master_name-and-spec_wide, .inner-content__left-side, .inner-content__right-side, .col-lg-12 {
+.col-xs-1, .col-sm-1, .search__title, .col-md-1, .col-lg-1, .search__title, .col-xs-2, .col-sm-2, .col-md-2, .master_page_photo__photo-list-item, .become_master__smile, .footer__counters, .header__left-col, .search__title, .search_inner .search__title, .col-lg-2, .catalogs__services, .header__login, .header__social, .search__button, .col-xs-3, .ofers-block-plus-dop__item, .col-sm-3, .recommendation__img-wr, .footer__counters, .header__left-col, .search__button, .col-md-3, .master_page_photo__albums_item, .present_competition__member, .present_competition_item__decor, .sale_rubrika__rubrikator, .become_master__button, .header__login, .header__social, .master_minicard__left-column, .capcha__reload-link, .page_search_result__left-column, .col-lg-3, .catalogs-dop_page_main .catalogs-dop__item, .dop-function, .news__img-wr, .news__autor, .master-rubrikator-page__dop, .sale_list__sale, .footer__links, .page_master_page__navigate, .page_master_page__contacts, .page_master_page__menu, .inner-top__callback, .inner-content__left-side, .page_secret_rubrika__rubrikator, .col-xs-4, .col-sm-4, .catalogs-dop_page_main .catalogs-dop__item, .become-master, .about-company, .bayda, .news__img-wr, .sale_list__sale, .header__login, .secret_gorizontal .secret__img-wr, .col-md-4, .labeled-input__label, .labeled-input__submit, .dop-function, .master_page_recommend__social-links, .present_competition_item__right-column, .present_competition_reg__members, .about-list-item, .ofers-block__item, .our-plus, .rubriks-column, .list_col-3__item, .footer__links, .page_master_page__navigate, .page_master_page__contacts, .page_master_page__menu, .inner-top__callback, .page_secret_rubrika__rubrikator, .col-lg-4, .call-back, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .page_entry__form, .col-xs-5, .col-sm-5, .description-tarif__part-2, .header__title, .master_minicard__left-column, .page_master_page__navigate, .col-md-5, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .master_company, .capcha__code-img, .col-lg-5, .more-page__pic, .more-page__text, .col-xs-6, .ofers-block-plus__item, .company_minicard__logo-wr, .company_minicard__info, .inner-top__search, .inner-top__callback, .col-sm-6, .find-master, .call-back, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .rubriks-column, .list_col-3__item, .video_gorizontal .video__img-wr, .video_gorizontal .video__content, .video_gorizontal .video__autor, .video_gorizontal .video__dop, .inner-top__search, .inner-top__callback, .col-md-6, .master_page_services__list, .master_page_services__other-services-list, .faq__block, .form_reg-master .form__row_half, .more-page__pic, .more-page__text, .ofers-block-plus__item, .footer__copyright, .capcha_registration .capcha__code-img, .capcha_registration .capcha__reload-link, .page_callback_request__form, .col-lg-6, .feedback-block, .news__content, .present_competition_reg__registration, .present_competition_reg__members, .recovery-password-block, .col-xs-7, .col-sm-7, .description-tarif__part-1, .master_minicard__right-column, .page_master_page__header, .col-md-7, .master_page_work__time-table, .become_master__text, .header__title, .header__menu, .master_name-and-spec_half, .master_services_half, .search__field, .search_inner .search__field, .col-lg-7, .footer__copyright, .col-xs-8, .col-sm-8, .news__content, .search__field, .secret_gorizontal .secret__content, .col-md-8, .labeled-input__input, .main-function, .master_page_recommend__comment, .feedback-block, .present_competition_item__left-column, .present_competition_reg__registration, .recovery-password-block, .page_master_page__header, .page_master_page__card, .page_master_page__main-info, .inner-top__search, .page_404__msg, .page_404__action, .page_secret_rubrika__list, .col-lg-8, .find-master, .header__title, .header__menu, .search_inner .search__field, .col-xs-9, .col-sm-9, .recommendation__content, .footer__links, .search_inner .search__field, .col-md-9, .sale_rubrika__list, .master_minicard__right-column, .page_search_result__result, .col-lg-9, .main-function, .master-rubrikator-page__rubriks-columns, .search__field, .page_master_page__header, .page_master_page__card, .page_master_page__main-info, .company-rubrika-page__company-list, .inner-top__search, .inner-content__right-side, .page_secret_rubrika__list, .col-xs-10, .col-sm-10, .master_services_half, .master_services_wide, .col-md-10, .col-lg-10, .catalogs__dop, .about, .landing-header, .col-xs-11, .col-sm-11, .col-md-11, .master_services_wide, .col-lg-11, .col-xs-12, .find-master, .call-back, .catalogs, .catalogs__services, .catalogs__dop, .master_page_links__list, .master_page_recommend__review, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .contact-page, .feedback-page, .oferta-page, .vacancy-page, .vacancy-one-page, .present_competition_list, .present_competition_list__item, .present_competition_reg__title, .present_competition_reg__description, .present_competition_reg__registration, .present_competition_reg__members, .about-list-item, .faq, .more-page, .ofers-block-plus__item_single, .why-we, .master-rubrikator-page, .master-rubrikator-page__rubriks-columns, .rubriks-column, .sale_rubrika__paginator, .list_col-3__item, .master_page_about__content, .breadcrumbs, .footer__coordinator, .footer__copyright, .master_minicard__left-column, .master_minicard__right-column, .recovery-password-page, .video_gorizontal .video__img-wr, .video_gorizontal .video__content, .video_gorizontal .video__autor, .video_gorizontal .video__dop, .page_callback_request__header, .page_master_page__breadcrumps, .page_master_page__header, .page_master_page__navigate, .page_master_page__card, .page_master_page__contacts, .company-rubrika-page, .company-rubrika-page__company-list, .inner-top__title, .page_oth_news, .page_oht_recommendation, .page_sale_rubrikator, .page_search_result__search, .page_search_result__result-item, .col-sm-12, .ofers-block-plus__item, .ofers-block-plus__item_single, .description-tarif__part-3, .sale_rubrika__list, .header__menu, .page_404__msg, .col-md-12, .become-master, .about-company, .bayda, .master_page_photo__album_content, .master_page_recommend__recommendations, .master_page_recommend__title, .master_page_services__other-services-title, .landing-header, .ofers-block-plus__item_single, .description-tarif__part-1, .description-tarif__part-2, .master_name-and-spec_wide, .inner-content__left-side, .inner-content__right-side, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 10px;
   padding-right: 10px; }
 
-.col-xs-1, .col-xs-2, .col-xs-3, .ofers-block-plus-dop__item, .col-xs-4, .col-xs-5, .col-xs-6, .ofers-block-plus__item, .company_minicard__logo-wr, .company_minicard__info, .inner-top__search, .inner-top__callback, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .catalogs, .catalogs__services, .catalogs__dop, .master_page_links__list, .master_page_recommend__review, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .contact-page, .feedback-page, .oferta-page, .vacancy-page, .vacancy-one-page, .present_competition_list, .present_competition_list__item, .present_competition_reg__title, .present_competition_reg__description, .present_competition_reg__registration, .present_competition_reg__members, .about-list-item, .faq, .more-page, .ofers-block-plus__item_single, .why-we, .master-rubrikator-page, .master-rubrikator-page__rubriks-columns, .rubriks-column, .sale_rubrika__paginator, .list_col-3__item, .master_page_about__content, .breadcrumbs, .footer__coordinator, .footer__copyright, .master_minicard__left-column, .master_minicard__right-column, .recovery-password-page, .video_gorizontal .video__img-wr, .video_gorizontal .video__content, .video_gorizontal .video__autor, .video_gorizontal .video__dop, .page_callback_request__header, .page_master_page__breadcrumps, .page_master_page__header, .page_master_page__navigate, .page_master_page__card, .page_master_page__contacts, .company-rubrika-page, .company-rubrika-page__company-list, .inner-top__title, .page_oth_news, .page_oht_recommendation, .page_sale_rubrikator, .page_search_result__search, .page_search_result__result-item {
+.col-xs-1, .col-xs-2, .col-xs-3, .ofers-block-plus-dop__item, .col-xs-4, .col-xs-5, .col-xs-6, .ofers-block-plus__item, .company_minicard__logo-wr, .company_minicard__info, .inner-top__search, .inner-top__callback, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .find-master, .call-back, .catalogs, .catalogs__services, .catalogs__dop, .master_page_links__list, .master_page_recommend__review, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .contact-page, .feedback-page, .oferta-page, .vacancy-page, .vacancy-one-page, .present_competition_list, .present_competition_list__item, .present_competition_reg__title, .present_competition_reg__description, .present_competition_reg__registration, .present_competition_reg__members, .about-list-item, .faq, .more-page, .ofers-block-plus__item_single, .why-we, .master-rubrikator-page, .master-rubrikator-page__rubriks-columns, .rubriks-column, .sale_rubrika__paginator, .list_col-3__item, .master_page_about__content, .breadcrumbs, .footer__coordinator, .footer__copyright, .master_minicard__left-column, .master_minicard__right-column, .recovery-password-page, .video_gorizontal .video__img-wr, .video_gorizontal .video__content, .video_gorizontal .video__autor, .video_gorizontal .video__dop, .page_callback_request__header, .page_master_page__breadcrumps, .page_master_page__header, .page_master_page__navigate, .page_master_page__card, .page_master_page__contacts, .company-rubrika-page, .company-rubrika-page__company-list, .inner-top__title, .page_oth_news, .page_oht_recommendation, .page_sale_rubrikator, .page_search_result__search, .page_search_result__result-item {
   float: left; }
 
 .col-xs-1 {
@@ -779,7 +779,7 @@ p {
 .col-xs-11 {
   width: 91.66667%; }
 
-.col-xs-12, .catalogs, .catalogs__services, .catalogs__dop, .master_page_links__list, .master_page_recommend__review, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .contact-page, .feedback-page, .oferta-page, .vacancy-page, .vacancy-one-page, .present_competition_list, .present_competition_list__item, .present_competition_reg__title, .present_competition_reg__description, .present_competition_reg__registration, .present_competition_reg__members, .about-list-item, .faq, .more-page, .ofers-block-plus__item_single, .why-we, .master-rubrikator-page, .master-rubrikator-page__rubriks-columns, .rubriks-column, .sale_rubrika__paginator, .list_col-3__item, .master_page_about__content, .breadcrumbs, .footer__coordinator, .footer__copyright, .master_minicard__left-column, .master_minicard__right-column, .recovery-password-page, .video_gorizontal .video__img-wr, .video_gorizontal .video__content, .video_gorizontal .video__autor, .video_gorizontal .video__dop, .page_callback_request__header, .page_master_page__breadcrumps, .page_master_page__header, .page_master_page__navigate, .page_master_page__card, .page_master_page__contacts, .company-rubrika-page, .company-rubrika-page__company-list, .inner-top__title, .page_oth_news, .page_oht_recommendation, .page_sale_rubrikator, .page_search_result__search, .page_search_result__result-item {
+.col-xs-12, .find-master, .call-back, .catalogs, .catalogs__services, .catalogs__dop, .master_page_links__list, .master_page_recommend__review, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .contact-page, .feedback-page, .oferta-page, .vacancy-page, .vacancy-one-page, .present_competition_list, .present_competition_list__item, .present_competition_reg__title, .present_competition_reg__description, .present_competition_reg__registration, .present_competition_reg__members, .about-list-item, .faq, .more-page, .ofers-block-plus__item_single, .why-we, .master-rubrikator-page, .master-rubrikator-page__rubriks-columns, .rubriks-column, .sale_rubrika__paginator, .list_col-3__item, .master_page_about__content, .breadcrumbs, .footer__coordinator, .footer__copyright, .master_minicard__left-column, .master_minicard__right-column, .recovery-password-page, .video_gorizontal .video__img-wr, .video_gorizontal .video__content, .video_gorizontal .video__autor, .video_gorizontal .video__dop, .page_callback_request__header, .page_master_page__breadcrumps, .page_master_page__header, .page_master_page__navigate, .page_master_page__card, .page_master_page__contacts, .company-rubrika-page, .company-rubrika-page__company-list, .inner-top__title, .page_oth_news, .page_oht_recommendation, .page_sale_rubrikator, .page_search_result__search, .page_search_result__result-item {
   width: 100%; }
 
 .col-xs-pull-0 {
@@ -1006,13 +1006,13 @@ p {
     margin-left: 100%; } }
 
 @media (min-width: 750px) {
-  .col-md-1, .col-md-2, .master_page_photo__photo-list-item, .footer__counters, .header__left-col, .search__title, .search_inner .search__title, .col-md-3, .master_page_photo__albums_item, .present_competition__member, .present_competition_item__decor, .sale_rubrika__rubrikator, .header__login, .header__social, .master_minicard__left-column, .capcha__reload-link, .page_search_result__left-column, .col-md-4, .labeled-input__label, .labeled-input__submit, .dop-function, .master_page_recommend__social-links, .present_competition_item__right-column, .present_competition_reg__members, .about-list-item, .ofers-block__item, .our-plus, .rubriks-column, .list_col-3__item, .footer__links, .page_master_page__navigate, .page_master_page__contacts, .page_master_page__menu, .inner-top__callback, .page_secret_rubrika__rubrikator, .col-md-5, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .master_company, .capcha__code-img, .col-md-6, .master_page_services__list, .master_page_services__other-services-list, .faq__block, .form_reg-master .form__row_half, .more-page__pic, .more-page__text, .ofers-block-plus__item, .footer__copyright, .capcha_registration .capcha__code-img, .capcha_registration .capcha__reload-link, .page_callback_request__form, .col-md-7, .master_page_work__time-table, .header__title, .header__menu, .master_name-and-spec_half, .master_services_half, .search__field, .search_inner .search__field, .col-md-8, .labeled-input__input, .main-function, .master_page_recommend__comment, .feedback-block, .present_competition_item__left-column, .present_competition_reg__registration, .recovery-password-block, .page_404__msg, .page_404__action, .page_master_page__header, .page_master_page__card, .page_master_page__main-info, .inner-top__search, .page_secret_rubrika__list, .col-md-9, .sale_rubrika__list, .master_minicard__right-column, .page_search_result__result, .col-md-10, .col-md-11, .master_services_wide, .col-md-12, .become-master, .about-company, .bayda, .master_page_photo__album_content, .master_page_recommend__recommendations, .master_page_recommend__title, .master_page_services__other-services-title, .landing-header, .ofers-block-plus__item_single, .description-tarif__part-1, .description-tarif__part-2, .master_name-and-spec_wide, .inner-content__left-side, .inner-content__right-side {
+  .col-md-1, .col-md-2, .master_page_photo__photo-list-item, .become_master__smile, .footer__counters, .header__left-col, .search__title, .search_inner .search__title, .col-md-3, .master_page_photo__albums_item, .present_competition__member, .present_competition_item__decor, .sale_rubrika__rubrikator, .become_master__button, .header__login, .header__social, .master_minicard__left-column, .capcha__reload-link, .page_search_result__left-column, .col-md-4, .labeled-input__label, .labeled-input__submit, .dop-function, .master_page_recommend__social-links, .present_competition_item__right-column, .present_competition_reg__members, .about-list-item, .ofers-block__item, .our-plus, .rubriks-column, .list_col-3__item, .footer__links, .page_master_page__navigate, .page_master_page__contacts, .page_master_page__menu, .inner-top__callback, .page_secret_rubrika__rubrikator, .col-md-5, .master_page_sale__sale, .master_page_secret__secret, .master_page_video__video, .master_company, .capcha__code-img, .col-md-6, .master_page_services__list, .master_page_services__other-services-list, .faq__block, .form_reg-master .form__row_half, .more-page__pic, .more-page__text, .ofers-block-plus__item, .footer__copyright, .capcha_registration .capcha__code-img, .capcha_registration .capcha__reload-link, .page_callback_request__form, .col-md-7, .master_page_work__time-table, .become_master__text, .header__title, .header__menu, .master_name-and-spec_half, .master_services_half, .search__field, .search_inner .search__field, .col-md-8, .labeled-input__input, .main-function, .master_page_recommend__comment, .feedback-block, .present_competition_item__left-column, .present_competition_reg__registration, .recovery-password-block, .page_master_page__header, .page_master_page__card, .page_master_page__main-info, .inner-top__search, .page_404__msg, .page_404__action, .page_secret_rubrika__list, .col-md-9, .sale_rubrika__list, .master_minicard__right-column, .page_search_result__result, .col-md-10, .col-md-11, .master_services_wide, .col-md-12, .become-master, .about-company, .bayda, .master_page_photo__album_content, .master_page_recommend__recommendations, .master_page_recommend__title, .master_page_services__other-services-title, .landing-header, .ofers-block-plus__item_single, .description-tarif__part-1, .description-tarif__part-2, .master_name-and-spec_wide, .inner-content__left-side, .inner-content__right-side {
     float: left; }
   .col-md-1 {
     width: 8.33333%; }
-  .col-md-2, .master_page_photo__photo-list-item, .footer__counters, .header__left-col, .search__title, .search_inner .search__title {
+  .col-md-2, .master_page_photo__photo-list-item, .become_master__smile, .footer__counters, .header__left-col, .search__title, .search_inner .search__title {
     width: 16.66667%; }
-  .col-md-3, .master_page_photo__albums_item, .present_competition__member, .present_competition_item__decor, .sale_rubrika__rubrikator, .header__login, .header__social, .master_minicard__left-column, .capcha__reload-link, .page_search_result__left-column {
+  .col-md-3, .master_page_photo__albums_item, .present_competition__member, .present_competition_item__decor, .sale_rubrika__rubrikator, .become_master__button, .header__login, .header__social, .master_minicard__left-column, .capcha__reload-link, .page_search_result__left-column {
     width: 25%; }
   .col-md-4, .labeled-input__label, .labeled-input__submit, .dop-function, .master_page_recommend__social-links, .present_competition_item__right-column, .present_competition_reg__members, .about-list-item, .ofers-block__item, .our-plus, .rubriks-column, .list_col-3__item, .footer__links, .page_master_page__navigate, .page_master_page__contacts, .page_master_page__menu, .inner-top__callback, .page_secret_rubrika__rubrikator {
     width: 33.33333%; }
@@ -1020,9 +1020,9 @@ p {
     width: 41.66667%; }
   .col-md-6, .master_page_services__list, .master_page_services__other-services-list, .faq__block, .form_reg-master .form__row_half, .more-page__pic, .more-page__text, .ofers-block-plus__item, .footer__copyright, .capcha_registration .capcha__code-img, .capcha_registration .capcha__reload-link, .page_callback_request__form {
     width: 50%; }
-  .col-md-7, .master_page_work__time-table, .header__title, .header__menu, .master_name-and-spec_half, .master_services_half, .search__field, .search_inner .search__field {
+  .col-md-7, .master_page_work__time-table, .become_master__text, .header__title, .header__menu, .master_name-and-spec_half, .master_services_half, .search__field, .search_inner .search__field {
     width: 58.33333%; }
-  .col-md-8, .labeled-input__input, .main-function, .master_page_recommend__comment, .feedback-block, .present_competition_item__left-column, .present_competition_reg__registration, .recovery-password-block, .page_404__msg, .page_404__action, .page_master_page__header, .page_master_page__card, .page_master_page__main-info, .inner-top__search, .page_secret_rubrika__list {
+  .col-md-8, .labeled-input__input, .main-function, .master_page_recommend__comment, .feedback-block, .present_competition_item__left-column, .present_competition_reg__registration, .recovery-password-block, .page_master_page__header, .page_master_page__card, .page_master_page__main-info, .inner-top__search, .page_404__msg, .page_404__action, .page_secret_rubrika__list {
     width: 66.66667%; }
   .col-md-9, .sale_rubrika__list, .master_minicard__right-column, .page_search_result__result {
     width: 75%; }
@@ -1767,6 +1767,9 @@ p {
   .dop-function {
     padding-right: 15px;
     padding-left: 15px; } }
+@media  (min-width: 250px) and (max-width: 499px) {
+  .dop-function {
+    padding: 0; } }
 
 .become-master, .about-company, .bayda {
   padding-bottom: 10px; }
@@ -1948,9 +1951,18 @@ p {
       padding: 25px 10px 10px 10px; }
       .find-master__inner-rel, .call-back__inner-rel {
         height: 100px; } }
+  @media  (min-width: 250px) and (max-width: 499px) {
+    .find-master__inner, .call-back__inner {
+      padding: 5px; }
+      .find-master__inner-rel, .call-back__inner-rel {
+        height: 25px; } }
 
 .find-master {
   padding-right: 5px; }
+  @media  (min-width: 250px) and (max-width: 499px) {
+    .find-master {
+      padding-right: 10px;
+      margin-bottom: 10px; } }
   .find-master__inner {
     background-color: #8dc63f;
     border-top: 5px solid #009444; }
@@ -1978,6 +1990,14 @@ p {
         text-align: left;
         font-size: 1.375em;
         line-height: 1.09091em; } }
+    @media  (min-width: 250px) and (max-width: 499px) {
+      .find-master__title {
+        margin: 0 0 0 35px;
+        padding: 0;
+        text-align: left;
+        text-transform: none;
+        font-size: 1em;
+        line-height: 1.5625em; } }
   .find-master__btn, .call-back__btn {
     width: 100%;
     display: block;
@@ -2001,6 +2021,9 @@ p {
         height: 30px;
         font-size: 0.9375em;
         line-height: 2em; } }
+    @media  (min-width: 250px) and (max-width: 499px) {
+      .find-master__btn, .call-back__btn {
+        display: none; } }
   .find-master__icon {
     float: left;
     margin-left: 30px;
@@ -2021,10 +2044,19 @@ p {
         width: 48px;
         height: 48px;
         background-size: 502.5px auto; } }
+    @media  (min-width: 250px) and (max-width: 499px) {
+      .find-master__icon {
+        margin: 0;
+        width: 24px;
+        height: 24px;
+        background-size: 251.25px auto; } }
 
 .call-back {
   padding-left: 5px;
   color: #58595b; }
+  @media  (min-width: 250px) and (max-width: 499px) {
+    .call-back {
+      padding-left: 10px; } }
   .call-back__inner {
     background-color: #efd200;
     border-top: 5px solid #f7941e; }
@@ -2043,6 +2075,14 @@ p {
         text-align: left;
         font-size: 1.375em;
         line-height: 1.09091em; } }
+    @media  (min-width: 250px) and (max-width: 499px) {
+      .call-back__title {
+        margin: 0 0 0 35px;
+        padding: 0;
+        text-align: left;
+        text-transform: none;
+        font-size: 1em;
+        line-height: 1.5625em; } }
   .call-back__text {
     text-align: center;
     font-size: 0.75em;
@@ -2059,6 +2099,13 @@ p {
         width: 48px;
         height: 48px;
         background-size: 502.5px auto; } }
+    @media  (min-width: 250px) and (max-width: 499px) {
+      .call-back__icon {
+        margin: 0;
+        float: left;
+        width: 24px;
+        height: 24px;
+        background-size: 251.25px auto; } }
 
 .catalogs {
   padding-top: 10px; }
@@ -2508,61 +2555,6 @@ p {
 .vacancy-one-page__text {
   margin-bottom: 20px; }
 
-.present_competition_member {
-  padding: 10px 10px 20px; }
-  .present_competition_member__title {
-    padding-bottom: 10px;
-    color: #949599;
-    text-align: center;
-    font-weight: bold;
-    text-transform: uppercase; }
-  .present_competition_member__photo {
-    display: block;
-    height: 200px;
-    overflow: hidden;
-    margin-bottom: 10px;
-    position: relative; }
-    .present_competition_member__photo:hover:before {
-      content: '';
-      display: block;
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
-      z-index: 2;
-      background-color: rgba(0, 0, 0, 0.5); }
-    .present_competition_member__photo:hover:after {
-      content: 'смотреть описание';
-      display: block;
-      position: absolute;
-      z-index: 3;
-      text-align: center;
-      color: #EF850D;
-      font-weight: bold;
-      top: 50%;
-      left: 50%;
-      -webkit-transform: translate(-50%, -50%);
-          -ms-transform: translate(-50%, -50%);
-              transform: translate(-50%, -50%); }
-    .present_competition_member__photo img {
-      width: 100%;
-      position: relative;
-      top: 50%;
-      -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-      transform: translateY(-50%); }
-  .present_competition_member__score {
-    display: none;
-    font-weight: bold;
-    color: #EF850D;
-    text-align: center;
-    font-size: 1.5625em;
-    line-height: 1.6em; }
-  .present_competition_member__all-photos {
-    display: none;
-    width: 100%; }
-
 .present_competition_list__item {
   padding-bottom: 20px; }
 
@@ -2623,6 +2615,61 @@ p {
     color: #009444; }
   .present_competition_item__voting-date {
     color: #00A79D; }
+
+.present_competition_member {
+  padding: 10px 10px 20px; }
+  .present_competition_member__title {
+    padding-bottom: 10px;
+    color: #949599;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase; }
+  .present_competition_member__photo {
+    display: block;
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    position: relative; }
+    .present_competition_member__photo:hover:before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      z-index: 2;
+      background-color: rgba(0, 0, 0, 0.5); }
+    .present_competition_member__photo:hover:after {
+      content: 'смотреть описание';
+      display: block;
+      position: absolute;
+      z-index: 3;
+      text-align: center;
+      color: #EF850D;
+      font-weight: bold;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%); }
+    .present_competition_member__photo img {
+      width: 100%;
+      position: relative;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%); }
+  .present_competition_member__score {
+    display: none;
+    font-weight: bold;
+    color: #EF850D;
+    text-align: center;
+    font-size: 1.5625em;
+    line-height: 1.6em; }
+  .present_competition_member__all-photos {
+    display: none;
+    width: 100%; }
 
 .present_competition_reg__title {
   padding-bottom: 20px; }
@@ -4052,6 +4099,14 @@ h2.resp-accordion {
   padding-bottom: 20px; }
 .master_page_about__info {
   margin-bottom: 10px; }
+
+.become_master {
+  background-color: #e6e7e8;
+  padding: 30px 20px; }
+  .become_master__smile {
+    text-align: center;
+    font-size: 1.875em;
+    line-height: 1em; }
 
 .breadcrumbs {
   padding-top: 15px;
