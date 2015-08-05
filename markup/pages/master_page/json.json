@@ -46,7 +46,7 @@
         "master": {
             "card": "readyBlocksData.block_master_page_card",
             "contacts": "readyBlocksData.block_master_page_contacts",
-            "callback_request": "readyBloksData.block_callback_request",
+            "callback_request": "readyBlocksData.block_callback_request",
             "menu": "readyBlocksData.block_master_page_menu",
             "services": "readyBlocksData.block_master_page_services",
             "work": "readyBlocksData.block_master_page_work",

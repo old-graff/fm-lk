@@ -1492,49 +1492,9 @@ $('#entry-link').click(function () {
     $('#registration-form').hide();
     $('#entry-form').show();
 });
-$('.master_content-icon.exist').on('mouseenter', function (e) {
-    var x = e.pageX + 20;
-    var y = e.pageY - 10;
-    var name = $(this).attr('data-nameLink');
-    if ($('.tooltip').length == 0) {
-        $('body').prepend('<span class=\"tooltip\" style=\"z-index:2;position:absolute;margin-left:' + x + 'px;margin-top:' + y + 'px\">' + name + '</span>');
-    }
-});
-$('.master_content-icon.exist').on('mouseleave', function (e) {
-    $('.tooltip').remove();
-});
-
-function servicesCut() {
-    $('.js-services-cut').each(function () {
-        while ($(this).height() > 170) {
-            $(this).find('li').last().remove();
-        }
-    });
-}
-//@todo Доработать функцию обрезки услуг, для использования максимума свободного пространства
-servicesCut();
-
-$('.js-content-icon-switch.active')
-    .parents('.master_presentation')
-    .find('.master_have-content-widget').removeClass('active');
-$('.js-content-icon-switch.active')
-    .parents('.master_presentation')
-    .find('.master_have-content-widget_' + $('.js-content-icon-switch.active').attr('data-toggle'))
-    .addClass('active');
-
-$('.js-content-icon-switch.exist').mouseenter(function () {
-    var current = $(this).attr('data-toggle');
-    $(this).parents('.master_presentation').find('.active').removeClass('active')
-        .end().find('.master_have-content-widget_' + current).addClass('active');
-    $(this).addClass('active');
-});
-
-$('.js-services-toggle').click(function () {
-    $(this).hide();
-    $(this).parents('.master_minicard').find('.master_services').slideDown();
-    if ($(this).parent().find('.master_photo-and-contacts__to-page')) {
-        $(this).parent().find('.master_photo-and-contacts__to-page').css('display', 'block');
-    }
+$('.js-filter-toggle-btn.active').click(function () {
+    $(this).parent().find('.js-filter-toggle-section').slideToggle();
+    $(this).find('.filter-section__arrow-icon').toggleClass('down');
     return false;
 });
 if ($('.master_list').length > 0) {
@@ -1570,6 +1530,51 @@ if ($('.master_list').length > 0) {
         }
     });
 }
+function servicesCut() {
+    $('.js-services-cut').each(function () {
+        while ($(this).height() > 170) {
+            $(this).find('li').last().remove();
+        }
+    });
+}
+//@todo Доработать функцию обрезки услуг, для использования максимума свободного пространства
+servicesCut();
+
+$('.js-content-icon-switch.active')
+    .parents('.master_presentation')
+    .find('.master_have-content-widget').removeClass('active');
+$('.js-content-icon-switch.active')
+    .parents('.master_presentation')
+    .find('.master_have-content-widget_' + $('.js-content-icon-switch.active').attr('data-toggle'))
+    .addClass('active');
+
+$('.js-content-icon-switch.exist').mouseenter(function () {
+    var current = $(this).attr('data-toggle');
+    $(this).parents('.master_presentation').find('.active').removeClass('active')
+        .end().find('.master_have-content-widget_' + current).addClass('active');
+    $(this).addClass('active');
+});
+
+$('.js-services-toggle').click(function () {
+    $(this).hide();
+    $(this).parents('.master_minicard').find('.master_services').slideDown();
+    if ($(this).parent().find('.master_photo-and-contacts__to-page')) {
+        $(this).parent().find('.master_photo-and-contacts__to-page').css('display', 'block');
+    }
+    return false;
+});
+$('.master_content-icon.exist').on('mouseenter', function (e) {
+    var x = e.pageX + 20;
+    var y = e.pageY - 10;
+    var name = $(this).attr('data-nameLink');
+    if ($('.tooltip').length == 0) {
+        $('body').prepend('<span class=\"tooltip\" style=\"z-index:2;position:absolute;margin-left:' + x + 'px;margin-top:' + y + 'px\">' + name + '</span>');
+    }
+});
+$('.master_content-icon.exist').on('mouseleave', function (e) {
+    $('.tooltip').remove();
+});
+
 $('.master_recommended__slider').slick({
     dots: false,
     infinite: false,
@@ -1606,11 +1611,6 @@ $('.capcha__reload-link a').click(function () {
 });
 
 
-$('.js-filter-toggle-btn.active').click(function () {
-    $(this).parent().find('.js-filter-toggle-section').slideToggle();
-    $(this).find('.filter-section__arrow-icon').toggleClass('down');
-    return false;
-});
 $('.dop-function-block-js').click(function () {
     $(this).parent().find('ul').toggleClass('dop-function-block-uncollapse');
 });
@@ -1682,56 +1682,6 @@ $('#feedback-form').submit(function () {
     });
     return false;
 });
-$('.js-present-competition-work').click(function () {
-    var current = $(this).attr('href');
-    var photos = [];
-    $(current).find('.js-present-competition-work-photo').each(function () {
-        var photo = {};
-        photo.href = $(this).attr('src');
-        photo.title = $(this).attr('alt');
-        photos.push(photo);
-    });
-    $.fancybox.open(photos, {
-        prevEffect: 'none',
-        nextEffect: 'none',
-        helpers: {
-            title: {
-                type: 'inside'
-            },
-            thumbs: {
-                width: 50,
-                height: 50,
-                position: 'top'
-            }
-        }
-    });
-});
-$('.js-present-competition-vote').click(function () {
-    var id = $(this).parent().attr('data-id');
-    jQuery.ajax({
-        url: $(this).attr('href'),
-        type: 'get',
-        dataType: 'json',
-        data: {
-            id: id
-        },
-        success: function (response) {
-            if (response.count) {
-                $('.js-present-competition-vote').hide();
-                $('[data-id="' + id + '"]').find('.present_competition_member__score').html(response.count);
-                $('.js-present-competition-score').show();
-            }
-        }
-    });
-    return false;
-});
-
-if ($('.js-present-competition-vote').parents('.voted')) {
-    $('.js-present-competition-vote').hide();
-    $('.js-present-competition-score').show();
-}
-
-
 $('.faq__item-title').click(function () {
     $(this).parent().toggleClass('faq__item_uncollapse');
 });
@@ -1810,3 +1760,52 @@ $('.js-to-top').click(function () {
     }, 1000);
     return false;
 });
+$('.js-present-competition-work').click(function () {
+    var current = $(this).attr('href');
+    var photos = [];
+    $(current).find('.js-present-competition-work-photo').each(function () {
+        var photo = {};
+        photo.href = $(this).attr('src');
+        photo.title = $(this).attr('alt');
+        photos.push(photo);
+    });
+    $.fancybox.open(photos, {
+        prevEffect: 'none',
+        nextEffect: 'none',
+        helpers: {
+            title: {
+                type: 'inside'
+            },
+            thumbs: {
+                width: 50,
+                height: 50,
+                position: 'top'
+            }
+        }
+    });
+});
+$('.js-present-competition-vote').click(function () {
+    var id = $(this).parent().attr('data-id');
+    jQuery.ajax({
+        url: $(this).attr('href'),
+        type: 'get',
+        dataType: 'json',
+        data: {
+            id: id
+        },
+        success: function (response) {
+            if (response.count) {
+                $('.js-present-competition-vote').hide();
+                $('[data-id="' + id + '"]').find('.present_competition_member__score').html(response.count);
+                $('.js-present-competition-score').show();
+            }
+        }
+    });
+    return false;
+});
+
+if ($('.js-present-competition-vote').parents('.voted')) {
+    $('.js-present-competition-vote').hide();
+    $('.js-present-competition-score').show();
+}
+

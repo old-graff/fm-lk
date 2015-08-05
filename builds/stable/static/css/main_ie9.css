@@ -5118,15 +5118,6 @@ h2.resp-accordion {
   color: #1c75bc;
   border: 1px solid #1c75bc; }
 
-.seo-text {
-  padding-top: 20px; }
-  .seo-text__text {
-    background-color: #e6e7e8;
-    padding: 20px;
-    color: #949599;
-    font-size: 0.9375em;
-    line-height: 1.26667em; }
-
 .secret {
   padding: 10px; }
   .secret_vertical {
@@ -5191,6 +5182,15 @@ h2.resp-accordion {
     position: absolute;
     right: 0;
     bottom: 1px; }
+
+.seo-text {
+  padding-top: 20px; }
+  .seo-text__text {
+    background-color: #e6e7e8;
+    padding: 20px;
+    color: #949599;
+    font-size: 0.9375em;
+    line-height: 1.26667em; }
 
 .social {
   text-align: justify;
