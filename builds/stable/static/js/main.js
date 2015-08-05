@@ -1556,7 +1556,7 @@ servicesCut();
 function master_minicard_preload() {
     $('.js-content-icon-switch.active').each(function () {
         $(this).parents('.master_presentation')
-            .find('.master_have-content-widget_' + $('.js-content-icon-switch.active').attr('data-toggle'))
+            .find('.master_have-content-widget_' + $(this).attr('data-toggle'))
             .addClass('active');
     });
 }
@@ -1789,6 +1789,17 @@ $('.js-show-phone').on('click', function () {
     tellAboutUs($(this), '.master_photo-and-contacts__contact-wrap');
     yandexGoal_showPhone($(this).attr('data-id'));
 });
+tellAboutUs = function (el, parent) {
+    var tip = el.parents(parent).find('.js-tip');
+    tip.show();
+    setTimeout(function () {
+        tip.hide();
+    }, 5000);
+};
+
+$('.js-close-tip').click(function () {
+    $(this).parent('.js-tip').hide();
+});
 $(window).scroll(function () {
     if ($(this).scrollTop() > 300) {
         $('.js-to-top').css('display', 'block');
@@ -1801,15 +1812,4 @@ $('.js-to-top').click(function () {
         scrollTop: 0
     }, 1000);
     return false;
-});
-tellAboutUs = function (el, parent) {
-    var tip = el.parents(parent).find('.js-tip');
-    tip.show();
-    setTimeout(function () {
-        tip.hide();
-    }, 5000);
-};
-
-$('.js-close-tip').click(function () {
-    $(this).parent('.js-tip').hide();
 });

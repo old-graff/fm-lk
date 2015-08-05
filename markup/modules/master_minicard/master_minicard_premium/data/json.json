@@ -25,7 +25,40 @@
             "По желанию клиента осуществляется порошковая окраска.",
             "Очистка металла от старой краски, обработка деталей машин"
         ],
-        "have-content-icons": "readyBlocksData.block_master_have_content_icons",
+        "have-content-icons": {
+            "modificator": "vertical",
+            "switch": true,
+            "have-content-icons": [
+                {
+                    "content-type": "gift",
+                    "url": "404",
+                    "is-active": true,
+                    "is-exist": true,
+                    "hint": "У мастера есть скидки"
+                },
+                {
+                    "content-type": "photo",
+                    "url": "404",
+                    "is-active": false,
+                    "is-exist": false,
+                    "hint": "У мастера есть фотографии"
+                },
+                {
+                    "content-type": "video",
+                    "url": "404",
+                    "is-active": false,
+                    "is-exist": false,
+                    "hint": "У мастера есть видео"
+                },
+                {
+                    "content-type": "comments",
+                    "url": "404",
+                    "is-active": false,
+                    "is-exist": true,
+                    "hint": "У мастера есть отзывы"
+                }
+            ]
+        },
         "have-content": {
             "gift": {
                 "title": "1000 рублей",
@@ -46,6 +79,5 @@
                 "desc": "Отличный мастер-ломастер!"
             }
         }
-
     }
 }

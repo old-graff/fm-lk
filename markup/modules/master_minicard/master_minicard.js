@@ -11,7 +11,7 @@ servicesCut();
 function master_minicard_preload() {
     $('.js-content-icon-switch.active').each(function () {
         $(this).parents('.master_presentation')
-            .find('.master_have-content-widget_' + $('.js-content-icon-switch.active').attr('data-toggle'))
+            .find('.master_have-content-widget_' + $(this).attr('data-toggle'))
             .addClass('active');
     });
 }

@@ -39,14 +39,14 @@
                 "have-content-icons": [{
                     "content-type": "gift",
                     "url": "404",
-                    "is-active": false,
-                    "is-exist": false,
+                    "is-active": true,
+                    "is-exist": true,
                     "hint": "У мастера есть скидки"
                 }, {
                     "content-type": "photo",
                     "url": "404",
-                    "is-active": true,
-                    "is-exist": true,
+                    "is-active": false,
+                    "is-exist": false,
                     "hint": "У мастера есть фотографии"
                 }, {
                     "content-type": "video",
