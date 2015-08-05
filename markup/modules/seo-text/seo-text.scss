@@ -1,7 +1,9 @@
 .seo-text {
-    background-color: $color-bg-grey-light;
-    padding: 20px;
+    padding-top: 20px;
+    @extend .col-sm-12;
     &__text{
+        background-color: $color-bg-grey-light;
+        padding: 20px;
         color: $color-bg-grey-dark;
         @include font-tuning(15, 19);
     }

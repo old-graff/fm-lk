@@ -7,6 +7,10 @@ function servicesCut() {
 }
 //@todo Доработать функцию обрезки услуг, для использования максимума свободного пространства
 servicesCut();
+
+$('.js-content-icon-switch.active')
+    .parents('.master_presentation')
+    .find('.master_have-content-widget').removeClass('active');
 $('.js-content-icon-switch.active')
     .parents('.master_presentation')
     .find('.master_have-content-widget_' + $('.js-content-icon-switch.active').attr('data-toggle'))

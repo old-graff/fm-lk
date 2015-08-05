@@ -1492,11 +1492,6 @@ $('#entry-link').click(function () {
     $('#registration-form').hide();
     $('#entry-form').show();
 });
-$('.js-filter-toggle-btn.active').click(function () {
-    $(this).parent().find('.js-filter-toggle-section').slideToggle();
-    $(this).find('.filter-section__arrow-icon').toggleClass('down');
-    return false;
-});
 $('.master_content-icon.exist').on('mouseenter', function (e) {
     var x = e.pageX + 20;
     var y = e.pageY - 10;
@@ -1509,6 +1504,39 @@ $('.master_content-icon.exist').on('mouseleave', function (e) {
     $('.tooltip').remove();
 });
 
+function servicesCut() {
+    $('.js-services-cut').each(function () {
+        while ($(this).height() > 170) {
+            $(this).find('li').last().remove();
+        }
+    });
+}
+//@todo Доработать функцию обрезки услуг, для использования максимума свободного пространства
+servicesCut();
+
+$('.js-content-icon-switch.active')
+    .parents('.master_presentation')
+    .find('.master_have-content-widget').removeClass('active');
+$('.js-content-icon-switch.active')
+    .parents('.master_presentation')
+    .find('.master_have-content-widget_' + $('.js-content-icon-switch.active').attr('data-toggle'))
+    .addClass('active');
+
+$('.js-content-icon-switch.exist').mouseenter(function () {
+    var current = $(this).attr('data-toggle');
+    $(this).parents('.master_presentation').find('.active').removeClass('active')
+        .end().find('.master_have-content-widget_' + current).addClass('active');
+    $(this).addClass('active');
+});
+
+$('.js-services-toggle').click(function () {
+    $(this).hide();
+    $(this).parents('.master_minicard').find('.master_services').slideDown();
+    if ($(this).parent().find('.master_photo-and-contacts__to-page')) {
+        $(this).parent().find('.master_photo-and-contacts__to-page').css('display', 'block');
+    }
+    return false;
+});
 if ($('.master_list').length > 0) {
     var busy = false;
     var page = 1;
@@ -1542,35 +1570,6 @@ if ($('.master_list').length > 0) {
         }
     });
 }
-function servicesCut() {
-    $('.js-services-cut').each(function () {
-        while ($(this).height() > 170) {
-            $(this).find('li').last().remove();
-        }
-    });
-}
-//@todo Доработать функцию обрезки услуг, для использования максимума свободного пространства
-servicesCut();
-$('.js-content-icon-switch.active')
-    .parents('.master_presentation')
-    .find('.master_have-content-widget_' + $('.js-content-icon-switch.active').attr('data-toggle'))
-    .addClass('active');
-
-$('.js-content-icon-switch.exist').mouseenter(function () {
-    var current = $(this).attr('data-toggle');
-    $(this).parents('.master_presentation').find('.active').removeClass('active')
-        .end().find('.master_have-content-widget_' + current).addClass('active');
-    $(this).addClass('active');
-});
-
-$('.js-services-toggle').click(function () {
-    $(this).hide();
-    $(this).parents('.master_minicard').find('.master_services').slideDown();
-    if ($(this).parent().find('.master_photo-and-contacts__to-page')) {
-        $(this).parent().find('.master_photo-and-contacts__to-page').css('display', 'block');
-    }
-    return false;
-});
 $('.master_recommended__slider').slick({
     dots: false,
     infinite: false,
@@ -1607,6 +1606,11 @@ $('.capcha__reload-link a').click(function () {
 });
 
 
+$('.js-filter-toggle-btn.active').click(function () {
+    $(this).parent().find('.js-filter-toggle-section').slideToggle();
+    $(this).find('.filter-section__arrow-icon').toggleClass('down');
+    return false;
+});
 $('.dop-function-block-js').click(function () {
     $(this).parent().find('ul').toggleClass('dop-function-block-uncollapse');
 });
