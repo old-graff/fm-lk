@@ -1,0 +1,15 @@
+.become_master {
+    background-color: $color-bg-grey-light;
+    padding: 30px 20px;
+    &__smile {
+        @extend .col-md-2;
+        text-align: center;
+        @include font-tuning(30, 30)
+    }
+    &__text {
+        @extend .col-md-7;
+    }
+    &__button {
+        @extend .col-md-3;
+    }
+}

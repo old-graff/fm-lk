@@ -77,6 +77,12 @@
                 height: 100px;
             }
         }
+        @include at(xs) {
+            padding: 5px;
+            &-rel {
+                height: 25px;
+            }
+        }
     }
 }
 
@@ -84,12 +90,17 @@
     padding-right: 5px;
     @extend .col-lg-8;
     @extend .col-sm-6;
+    @extend .col-xs-12;
+    @include at(xs) {
+        padding-right: 10px;
+        margin-bottom: 10px;
+    }
     &__inner {
         background-color: $color-green;
         border-top: 5px solid $color-green-deep;
         &-rel {
             padding-top: 25px;
-            @include to(md){
+            @include to(md) {
                 padding-top: 0;
             }
         }
@@ -109,6 +120,13 @@
             padding: 0;
             text-align: left;
             @include font-tuning(22, 24);
+        }
+        @include at(xs) {
+            margin: 0 0 0 35px;
+            padding: 0;
+            text-align: left;
+            text-transform: none;
+            @include font-tuning(16, 25);
         }
     }
     &__btn {
@@ -132,6 +150,9 @@
             height: 30px;
             @include font-tuning(15, 30);
         }
+        @include at(xs) {
+            display: none;
+        }
     }
     &__icon {
         float: left;
@@ -141,14 +162,18 @@
         @extend %icon_block;
         @extend %icon_man-in-sun_white;
         @include icon_size_xxxbig;
-        @include at(md){
+        @include at(md) {
             @include icon_size_xbig;
             float: none;
             margin: 0 auto;
         }
-        @include at(sm){
+        @include at(sm) {
             margin: 0;
             @include icon_size_big;
+        }
+        @include at(xs) {
+            margin: 0;
+            @include icon_size_small;
         }
     }
 }
@@ -158,6 +183,10 @@
     color: $color-text-dark;
     @extend .col-lg-4;
     @extend .col-sm-6;
+    @extend .col-xs-12;
+    @include at(xs) {
+        padding-left: 10px;
+    }
     &__inner {
         background-color: $color-yellow;
         border-top: 5px solid $color-yellow-deep;
@@ -173,6 +202,13 @@
             margin-left: 60px;
             text-align: left;
             @include font-tuning(22, 24);
+        }
+        @include at(xs) {
+            margin: 0 0 0 35px;
+            padding: 0;
+            text-align: left;
+            text-transform: none;
+            @include font-tuning(16, 25);
         }
     }
     &__text {
@@ -191,10 +227,15 @@
         @extend %icon_size_xbig;
         @extend %icon_block;
         @extend %icon_star-in-sun;
-        @include at(sm){
+        @include at(sm) {
             margin: 0;
             float: left;
             @include icon_size_big;
+        }
+        @include at(xs) {
+            margin: 0;
+            float: left;
+            @include icon_size_small;
         }
     }
 }
