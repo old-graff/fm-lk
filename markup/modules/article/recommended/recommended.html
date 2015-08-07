@@ -1,0 +1,12 @@
+<div block="article_recommended">
+    <div elem="block">
+        <p elem="title">Другие статьи на эту тему:</p>
+        <ul elem="list">
+            {{#each articles}}
+            <li elem="item">
+                <a href="{{url}}" title="{{title}}">{{title}}</a>
+            </li>
+            {{/each}}
+        </ul>
+    </div>
+</div>

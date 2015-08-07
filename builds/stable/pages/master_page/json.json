@@ -122,7 +122,7 @@
             },
             "callback_request": {
                 "method": "get",
-                "url": "404"
+                "url": "/master_page/success.json"
             },
             "menu": {
                 "list": [{
@@ -264,14 +264,14 @@
                     "src": "%=staticPrefix=%img/assets/secret/3705.jpg",
                     "title": "Как рассчитать бюджет ремонта квартиры",
                     "avtor": "Бабылкина Ирина Чуразмазовна",
-                    "url": "404"
+                    "url": "/master_article/master_article.html"
                 }, {
                     "modificator": "vertical",
                     "all-link": true,
                     "src": "%=staticPrefix=%img/assets/secret/3705.jpg",
                     "title": "Как рассчитать бюджет ремонта квартиры",
                     "avtor": "Бабылкина Ирина Чуразмазовна",
-                    "url": "404"
+                    "url": "/master_article/master_article.html"
                 }]
             },
             "photo": {
@@ -354,7 +354,7 @@
                 "comment": {
                     "form": {
                         "method": "get",
-                        "url": "404"
+                        "url": "/master_page/success.json"
                     },
                     "comments": [{
                         "author": "Николай",

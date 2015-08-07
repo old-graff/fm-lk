@@ -295,3 +295,11 @@ a:active {
     @include font-tuning(12, 14);
 
 }
+
+.success_response {
+    display: none;
+    padding: 20px 0;
+    color: $color-orange;
+    text-align: center;
+    @include font-tuning(20, 24);
+}

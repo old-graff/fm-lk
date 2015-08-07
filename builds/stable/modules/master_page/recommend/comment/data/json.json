@@ -2,7 +2,7 @@
     "block_master_page_comment": {
         "form": {
             "method": "get",
-            "url": "404"
+            "url": "/master_page/success.json"
         },
         "comments": [{
             "author": "Николай",

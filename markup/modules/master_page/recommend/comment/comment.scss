@@ -20,4 +20,10 @@
         @extend .btn-accent;
         width: 146px;
     }
+    &__success {
+        padding-top: 30px;
+        color: $color-orange;
+        display: none;
+        @include font-tuning(20, 24);
+    }
 }
