@@ -83,7 +83,6 @@
                 "is-free": true,
                 "master_minicard": "readyBlocksData.block_master_minicard_free"
             }
-        ],
-        "preloader-src": "%=staticPrefix=%img/general/preloader.gif"
+        ]
     }
 }
