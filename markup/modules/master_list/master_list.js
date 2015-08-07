@@ -26,10 +26,10 @@ if ($('.master_list').length > 0) {
                         $('.master_list__preloader').before(card);
                         $('.master_list__preloader').hide();
                         master_minicard_preload();
+                        servicesCut();
                         busy = false;
                     } else {
                         $('.master_list__preloader').hide();
-                        busy = false;
                     }
                 }
             });
