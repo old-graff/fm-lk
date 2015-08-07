@@ -1,10 +1,12 @@
 if ($('.master_list').length > 0) {
     var busy = false;
     var page = 1;
+    console.log('start');
     $(window).scroll(function () {
         var masterList = $('.master_list');
 
         if ((($(window).height() + $(window).scrollTop()) >= (masterList.offset().top + masterList.height())) && !busy) {
+            console.log('start if');
             busy = true;
             page++;
             jQuery.ajax({

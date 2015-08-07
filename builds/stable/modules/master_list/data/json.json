@@ -310,6 +310,7 @@
                     "Дачные дома, загородные дома, дома под ключ, дома и коттеджи."
                 ]
             }
-        }]
+        }],
+        "preloader-src": "%=staticPrefix=%img/general/preloader.gif"
     }
 }

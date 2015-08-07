@@ -1522,10 +1522,12 @@ $('.master_content-icon.exist').on('mouseleave', function (e) {
 if ($('.master_list').length > 0) {
     var busy = false;
     var page = 1;
+    void 0;
     $(window).scroll(function () {
         var masterList = $('.master_list');
 
         if ((($(window).height() + $(window).scrollTop()) >= (masterList.offset().top + masterList.height())) && !busy) {
+            void 0;
             busy = true;
             page++;
             jQuery.ajax({
