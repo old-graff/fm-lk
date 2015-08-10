@@ -1,6 +1,0 @@
-{
-    "block_feedback": {
-        "url": "/oth_feedback/success.json",
-        "method": "get"
-    }
-}
