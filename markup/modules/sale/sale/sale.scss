@@ -110,3 +110,19 @@
         }
     }
 }
+
+.sale_popup {
+    @extend .col-xs-12;
+    background-color: $color-bg-grey-light;
+    &__title {
+        padding: 10px 0;
+        background-color: $color-orange;
+        color: #FFFFFF;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    &__pic {
+
+    }
+}

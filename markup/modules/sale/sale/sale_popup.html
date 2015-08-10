@@ -1,0 +1,26 @@
+<div block="sale_popup">
+    <div class="row">
+        <div elem="title">
+            {{title}}
+        </div>
+        <div elem="description">
+            <img elem="pic" src="{{pic}}" alt="{{title}}">
+
+            <p elem="text">
+                {{text}}
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div elem="date">
+            Акция действует до: {{date}}
+        </div>
+        {{#if is-have-btn}}
+        <div elem="button">
+            <a href="{{url}}" block="btn" mod="color_pink">
+                на страницу мастера
+            </a>
+        </div>
+        {{/if}}
+    </div>
+</div>
