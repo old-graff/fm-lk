@@ -1,4 +1,4 @@
-$('.master_content-icon.exist').on('mouseenter', function (e) {
+$(document).on('mouseenter', '.master_content-icon.exist', function (e) {
     var x = e.pageX + 20;
     var y = e.pageY - 10;
     var name = $(this).attr('data-nameLink');
@@ -6,6 +6,6 @@ $('.master_content-icon.exist').on('mouseenter', function (e) {
         $('body').prepend('<span class=\"tooltip\" style=\"z-index:2;position:absolute;margin-left:' + x + 'px;margin-top:' + y + 'px\">' + name + '</span>');
     }
 });
-$('.master_content-icon.exist').on('mouseleave', function (e) {
+$(document).on('mouseleave', '.master_content-icon.exist', function (e) {
     $('.tooltip').remove();
 });
