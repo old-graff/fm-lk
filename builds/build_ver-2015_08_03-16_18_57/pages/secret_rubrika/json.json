@@ -1,0 +1,197 @@
+{
+    "page_secret_rubrika": {
+        "head": {
+            "title": "Каталог секретов Мастеров. FaceMaster.ru."
+        },
+        "header": {
+            "logo-url": "/main/main.html",
+            "visitor": "12 456 посещений",
+            "menu": [{
+                "url": "/master_rubrikator/master_rubrikator.html",
+                "title": "КАТАЛОГ УСЛУГ"
+            }, {
+                "url": "http://facemaster.ru/site/javascript:void(0)",
+                "title": "ЗАКАЗАТЬ УСЛУГУ"
+            }, {
+                "url": "/reg-master/reg-master.html",
+                "title": "СТАТЬ МАСТЕРОМ"
+            }],
+            "auth": false,
+            "authData": {
+                "name": "Администратор С.Н.",
+                "homeUrl": "http://facemaster.ru/home",
+                "menuUser": [{
+                    "url": "http://facemaster.ru/office",
+                    "title": "Офис"
+                }, {
+                    "url": "http://facemaster.ru/auth/logout",
+                    "title": "Выход"
+                }]
+            },
+            "authUrl": "/entry/entry.html",
+            "social": {
+                "list": [{
+                    "url": "http://vk.com/fm_mf",
+                    "mod": "vk"
+                }, {
+                    "url": "http://www.facebook.com/face.mast",
+                    "mod": "fb"
+                }, {
+                    "url": "http://www.odnoklassniki.ru/facemaster",
+                    "mod": "ok"
+                }, {
+                    "url": "http://twitter.com/FacemasterRu",
+                    "mod": "tw"
+                }]
+            }
+        },
+        "footer": {
+            "phone": "(8482) 74-44-19",
+            "links": [{
+                "url": "/oth_oferta/oth_oferta.html",
+                "title": "Оферта"
+            }, {
+                "url": "/oth_contact/oth_contact.html",
+                "title": "Контакты"
+            }, {
+                "url": "/oth_feedback/oth_feedback.html",
+                "title": "Обратная связь"
+            }],
+            "counters": {
+                "type": "гость",
+                "login": "гость"
+            }
+        },
+        "breadcrumps": {
+            "links": [{
+                "title": "Каталог секретов Мастеров"
+            }]
+        },
+        "title": "Каталог секретов Мастеров",
+        "secret": {
+            "list": {
+                "list": [{
+                    "modificator": "gorizontal",
+                    "src": "%=staticPrefix=%img/assets/secret/3705.jpg",
+                    "title": "Как рассчитать бюджет ремонта квартиры",
+                    "intro": "Период летних отпусков многие используют для проведения косметического (и не очень) ремонта в квартирах и на дачах. Обычно речь идет о замене плитки и сантехники, переклейке обоев и покраске, замене электропроводки, установке пластиковых окон и т.д. К сожалению, цены на строительные и отделочные материалы растут гораздо быстрее инфляции. ",
+                    "date": "26 Мая 2015",
+                    "url": "404"
+                }, {
+                    "modificator": "gorizontal",
+                    "src": "%=staticPrefix=%img/assets/secret/3598.jpg",
+                    "title": "Прочистка канализации в частном доме: практические советы и рекомендации",
+                    "intro": "Период asdkf asdkfasdjkf hasdkjfh askjfh askjdfhaskdjfh askjdfhsakjdfhsajkdfh sakjdfhk jsadfhakjsdhf ajskdhf akjshfajksdhf kjasdhf akjsdhfkjasdhf kjasdhf kjasdhfa jskhf akjsdfh aksdfhas jkhfaskdjf akjsdfha jkshdfkajsh fjaksdhfajksd hfkjasdfhлетних отпусков многие используют для проведения косметического (и не очень) ремонта в квартирах и на дачах. Обычно речь идет о замене плитки и сантехники, переклейке обоев и покраске, замене электропроводки, установке пластиковых окон и т.д. К сожалению, цены на строительные и отделочные материалы растут гораздо быстрее инфляции. ",
+                    "date": "26 Мая 2015",
+                    "url": "404"
+                }, {
+                    "modificator": "gorizontal",
+                    "src": "%=staticPrefix=%img/assets/secret/3391.jpg",
+                    "title": "12 МАРТА 2015. НАЛОГОПЛАТЕЛЬЩИК НА УСН ВПРАВЕ ПРИМЕНЯТЬ НАИМЕНЬШУЮ СТАВКУ, УСТАНОВЛЕННУЮ В СУБЪЕКТЕ РФ",
+                    "intro": "Период летних отпусков многие используют для проведения косметического (и не очень) ремонта в квартирах и на дачах. Обычно речь идет о замене плитки и сантехники, переклейке обоев и покраске, замене электропроводки, установке пластиковых окон и т.д. К сожалению, цены на строительные и отделочные материалы растут гораздо быстрее инфляции. ",
+                    "date": "26 Мая 2015",
+                    "url": "404"
+                }]
+            },
+            "rubrikator": {
+                "rubrikator": [{
+                    "is-active": true,
+                    "url": "/secret_rubrika/secret_rubrika.html",
+                    "title": "Все"
+                }, {
+                    "url": "/secret_rubrika/secret_rubrika.html",
+                    "title": "Автоуслуги"
+                }, {
+                    "url": "/secret_rubrika/secret_rubrika.html",
+                    "title": "Врачи"
+                }, {
+                    "url": "/secret_rubrika/secret_rubrika.html",
+                    "title": "Доставка"
+                }, {
+                    "url": "/secret_rubrika/secret_rubrika.html",
+                    "title": "Другие услуги"
+                }, {
+                    "url": "/secret_rubrika/secret_rubrika.html",
+                    "title": "Интерьер"
+                }, {
+                    "url": "/secret_rubrika/secret_rubrika.html",
+                    "title": "Красота"
+                }, {
+                    "url": "/secret_rubrika/secret_rubrika.html",
+                    "title": "Курсы"
+                }, {
+                    "url": "/secret_rubrika/secret_rubrika.html",
+                    "title": "Недвижимость"
+                }, {
+                    "url": "/secret_rubrika/secret_rubrika.html",
+                    "title": "Одежда и обувь"
+                }, {
+                    "url": "/secret_rubrika/secret_rubrika.html",
+                    "title": "Оздоровительные услуги"
+                }, {
+                    "url": "/secret_rubrika/secret_rubrika.html",
+                    "title": "Окна, балконы, двери, потолки"
+                }, {
+                    "url": "/secret_rubrika/secret_rubrika.html",
+                    "title": "Организация праздников"
+                }, {
+                    "url": "/secret_rubrika/secret_rubrika.html",
+                    "title": "Отдых"
+                }, {
+                    "url": "/secret_rubrika/secret_rubrika.html",
+                    "title": "Персональные консультации"
+                }, {
+                    "url": "/secret_rubrika/secret_rubrika.html",
+                    "title": "Ремонт квартир, домов"
+                }, {
+                    "url": "/secret_rubrika/secret_rubrika.html",
+                    "title": "Рестораны, кафе, бары"
+                }, {
+                    "url": "/secret_rubrika/secret_rubrika.html",
+                    "title": "Ритуальные услуги"
+                }, {
+                    "url": "/secret_rubrika/secret_rubrika.html",
+                    "title": "Спорт"
+                }, {
+                    "url": "/secret_rubrika/secret_rubrika.html",
+                    "title": "Строительство"
+                }, {
+                    "url": "/secret_rubrika/secret_rubrika.html",
+                    "title": "Туризм"
+                }, {
+                    "url": "/secret_rubrika/secret_rubrika.html",
+                    "title": "Услуги для бизнеса"
+                }, {
+                    "url": "/secret_rubrika/secret_rubrika.html",
+                    "title": "Установка и ремонт техники"
+                }]
+            }
+        },
+        "paginator": {
+            "is-paginator": true,
+            "start": {
+                "url": "#"
+            },
+            "end": {
+                "url": "#"
+            },
+            "list": [{
+                "is-selected": true,
+                "url": "#",
+                "number": "1"
+            }, {
+                "url": "#",
+                "number": "2"
+            }, {
+                "url": "#",
+                "number": "3"
+            }, {
+                "url": "#",
+                "number": "4"
+            }, {
+                "url": "#",
+                "number": "5"
+            }]
+        }
+    }
+}

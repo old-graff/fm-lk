@@ -1,0 +1,21 @@
+<div class="present_competition">
+    <h2 class="present_competition__title">{{title}}</h2>
+
+    <p class="present_competition__description">
+        {{description}}
+    </p>
+
+    <div class="row">
+        {{#if is-vote}}
+        <div class="voted">
+            {{/if}}
+            {{#each members}}
+            <div class="present_competition__member">
+                {{> present/competition_member/competition_member this}}
+            </div>
+            {{/each}}
+        </div>
+        {{#if is-vote}}
+    </div>
+    {{/if}}
+</div>

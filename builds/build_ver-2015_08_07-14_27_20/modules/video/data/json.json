@@ -1,0 +1,11 @@
+{
+    "block_video": {
+        "video-url": "404",
+        "src": "%=staticPrefix=%img/assets/video/maxresdefault.jpg",
+        "title": "Как рассчитать бюджет ремонта квартиры",
+        "master": {
+            "name": "Низамутдинова Маргарита Константиновна",
+            "url": "/master_page/master_page.html"
+        }
+    }
+}

@@ -1,0 +1,231 @@
+{
+    "block_master_list": {
+        "load-url": "/master_rubrika/success.json",
+        "method": "get",
+        "master_list": [{
+            "is-free": false,
+            "master_minicard": {
+                "master-photo": {
+                    "src": "%=staticPrefix=%img/assets/master_minicard/6461.jpg",
+                    "alt": "alt"
+                },
+                "likes": {
+                    "url": "404",
+                    "count": "142"
+                },
+                "phone-btn": {
+                    "masterID": "1605",
+                    "phone": "+7 960 835 06 46",
+                    "url": "404"
+                },
+                "tip": {
+                    "text": "Пожалуйста скажите мастеру что нашли его на нашем сайте"
+                },
+                "master-page-url": "/master_page/master_page.html",
+                "master-name": "Хархавкина Евген",
+                "specialisation": "Продажа домов под ключ",
+                "company": {
+                    "logo": "%=staticPrefix=%img/assets/master_minicard/1022.png",
+                    "name": "Компания Мера"
+                },
+                "service-list": [
+                    "Проектирование, производство и строительство домов, продажа участков",
+                    "Дачные дома, загородные дома, дома под ключ, дома и коттеджи.",
+                    "ЗАБОРЫ из ПРОФЛИСТА. ПЕНСИОНЕРАМ скидка -5%!!!!Ангары× Изготовление металлоконструкций× Навесы×",
+                    "Пескоструйная обработка металла от ржавчины, старой краски и т. д.",
+                    "По желанию клиента осуществляется порошковая окраска.",
+                    "Очистка металла от старой краски, обработка деталей машин"
+                ],
+                "have-content-icons": {
+                    "modificator": "vertical",
+                    "switch": true,
+                    "have-content-icons": [{
+                        "content-type": "gift",
+                        "url": "404",
+                        "is-active": false,
+                        "is-exist": false,
+                        "hint": "У мастера есть скидки"
+                    }, {
+                        "content-type": "photo",
+                        "url": "404",
+                        "is-active": true,
+                        "is-exist": true,
+                        "hint": "У мастера есть фотографии"
+                    }, {
+                        "content-type": "video",
+                        "url": "404",
+                        "is-active": false,
+                        "is-exist": false,
+                        "hint": "У мастера есть видео"
+                    }, {
+                        "content-type": "comments",
+                        "url": "404",
+                        "is-active": false,
+                        "is-exist": true,
+                        "hint": "У мастера есть отзывы"
+                    }]
+                },
+                "have-content": {
+                    "gift": {
+                        "title": "1000 рублей",
+                        "desc": "Скидка 1000 рублей на бананы"
+                    },
+                    "photo": {
+                        "count": "25 фотографий",
+                        "desc": ""
+                    },
+                    "video": {
+                        "url": "404",
+                        "preview": "%=staticPrefix=%img/assets/master_minicard/video.jpg",
+                        "desc": "некоторое описание данного видео"
+                    },
+                    "comments": {
+                        "recommendations": "52 рекомендации",
+                        "comments": "10 отзывов",
+                        "desc": "Отличный мастер-ломастер!"
+                    }
+                }
+            }
+        }, {
+            "is-free": true,
+            "master_minicard": {
+                "master-photo": {
+                    "src": "%=staticPrefix=%img/assets/master_minicard/6461.jpg",
+                    "alt": "alt"
+                },
+                "phone-btn": {
+                    "masterID": "1605",
+                    "phone": "+7 960 835 06 46"
+                },
+                "tip": {
+                    "text": "Пожалуйста скажите мастеру что нашли его на нашем сайте"
+                },
+                "master-name": "Хархавкина Евгения",
+                "service-list": [
+                    "Проектирование, производство и строительство домов, продажа участков",
+                    "Дачные дома, загородные дома, дома под ключ, дома и коттеджи."
+                ]
+            }
+        }, {
+            "is-free": true,
+            "master_minicard": {
+                "master-photo": {
+                    "src": "%=staticPrefix=%img/assets/master_minicard/6461.jpg",
+                    "alt": "alt"
+                },
+                "phone-btn": {
+                    "masterID": "1605",
+                    "phone": "+7 960 835 06 46"
+                },
+                "tip": {
+                    "text": "Пожалуйста скажите мастеру что нашли его на нашем сайте"
+                },
+                "master-name": "Хархавкина Евгения",
+                "service-list": [
+                    "Проектирование, производство и строительство домов, продажа участков",
+                    "Дачные дома, загородные дома, дома под ключ, дома и коттеджи."
+                ]
+            }
+        }, {
+            "is-free": true,
+            "master_minicard": {
+                "master-photo": {
+                    "src": "%=staticPrefix=%img/assets/master_minicard/6461.jpg",
+                    "alt": "alt"
+                },
+                "phone-btn": {
+                    "masterID": "1605",
+                    "phone": "+7 960 835 06 46"
+                },
+                "tip": {
+                    "text": "Пожалуйста скажите мастеру что нашли его на нашем сайте"
+                },
+                "master-name": "Хархавкина Евгения",
+                "service-list": [
+                    "Проектирование, производство и строительство домов, продажа участков",
+                    "Дачные дома, загородные дома, дома под ключ, дома и коттеджи."
+                ]
+            }
+        }, {
+            "is-free": true,
+            "master_minicard": {
+                "master-photo": {
+                    "src": "%=staticPrefix=%img/assets/master_minicard/6461.jpg",
+                    "alt": "alt"
+                },
+                "phone-btn": {
+                    "masterID": "1605",
+                    "phone": "+7 960 835 06 46"
+                },
+                "tip": {
+                    "text": "Пожалуйста скажите мастеру что нашли его на нашем сайте"
+                },
+                "master-name": "Хархавкина Евгения",
+                "service-list": [
+                    "Проектирование, производство и строительство домов, продажа участков",
+                    "Дачные дома, загородные дома, дома под ключ, дома и коттеджи."
+                ]
+            }
+        }, {
+            "is-free": true,
+            "master_minicard": {
+                "master-photo": {
+                    "src": "%=staticPrefix=%img/assets/master_minicard/6461.jpg",
+                    "alt": "alt"
+                },
+                "phone-btn": {
+                    "masterID": "1605",
+                    "phone": "+7 960 835 06 46"
+                },
+                "tip": {
+                    "text": "Пожалуйста скажите мастеру что нашли его на нашем сайте"
+                },
+                "master-name": "Хархавкина Евгения",
+                "service-list": [
+                    "Проектирование, производство и строительство домов, продажа участков",
+                    "Дачные дома, загородные дома, дома под ключ, дома и коттеджи."
+                ]
+            }
+        }, {
+            "is-free": true,
+            "master_minicard": {
+                "master-photo": {
+                    "src": "%=staticPrefix=%img/assets/master_minicard/6461.jpg",
+                    "alt": "alt"
+                },
+                "phone-btn": {
+                    "masterID": "1605",
+                    "phone": "+7 960 835 06 46"
+                },
+                "tip": {
+                    "text": "Пожалуйста скажите мастеру что нашли его на нашем сайте"
+                },
+                "master-name": "Хархавкина Евгения",
+                "service-list": [
+                    "Проектирование, производство и строительство домов, продажа участков",
+                    "Дачные дома, загородные дома, дома под ключ, дома и коттеджи."
+                ]
+            }
+        }, {
+            "is-free": true,
+            "master_minicard": {
+                "master-photo": {
+                    "src": "%=staticPrefix=%img/assets/master_minicard/6461.jpg",
+                    "alt": "alt"
+                },
+                "phone-btn": {
+                    "masterID": "1605",
+                    "phone": "+7 960 835 06 46"
+                },
+                "tip": {
+                    "text": "Пожалуйста скажите мастеру что нашли его на нашем сайте"
+                },
+                "master-name": "Хархавкина Евгения",
+                "service-list": [
+                    "Проектирование, производство и строительство домов, продажа участков",
+                    "Дачные дома, загородные дома, дома под ключ, дома и коттеджи."
+                ]
+            }
+        }]
+    }
+}

@@ -1,0 +1,14 @@
+<div class="master_page_links">
+    <div class="master_page_links__header h2">Ссылки</div>
+    <div class="row">
+        <div class="master_page_links__list">
+            {{#each links-list}}
+            <div class="master_page_links__item">
+                <a class="master_page_links__link" href="{{url}}">
+                    <i class="master_page_links__icon master_page_links__icon_{{type}}"></i> <span>{{url}}</span>
+                </a>
+            </div>
+            {{/each}}
+        </div>
+    </div>
+</div>

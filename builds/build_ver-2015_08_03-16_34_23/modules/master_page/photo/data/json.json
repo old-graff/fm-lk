@@ -1,0 +1,39 @@
+{
+    "block_master_page_photo": {
+        "update-url": "/master_page/photos.html",
+        "method": "get",
+        "album-list": [{
+            "album": {
+                "src": "%=staticPrefix=%img/assets/sale/52f16e1697817.jpg",
+                "name": "Новый альбом",
+                "id": "22"
+            },
+            "photos": [{
+                "src": "%=staticPrefix=%img/assets/master_page/111.jpg",
+                "desc": "фотография"
+            }, {
+                "src": "%=staticPrefix=%img/assets/master_page/112.jpg",
+                "desc": "фотография"
+            }, {
+                "src": "%=staticPrefix=%img/assets/master_page/113.jpg",
+                "desc": "фотография"
+            }, {
+                "src": "%=staticPrefix=%img/assets/master_page/114.jpg",
+                "desc": "фотография"
+            }, {
+                "src": "%=staticPrefix=%img/assets/master_page/115.jpg",
+                "desc": "фотография"
+            }, {
+                "src": "%=staticPrefix=%img/assets/master_page/117.jpg",
+                "desc": "фотография"
+            }]
+        }, {
+            "album": {
+                "src": "%=staticPrefix=%img/assets/sale/52f16e1697817.jpg",
+                "name": "Новый альбом",
+                "id": "23"
+            },
+            "photos": ""
+        }]
+    }
+}

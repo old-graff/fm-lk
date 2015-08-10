@@ -1,0 +1,10 @@
+<div class="master_list" data-url="{{load-url}}" data-method="{{method}}">
+    {{#each master_list}}
+    <div class="master_list__item">
+        {{> master_minicard/master_minicard this}}
+    </div>
+    {{/each}}
+    <div class="master_list__preloader">
+        <img src="/static/img/general/preloader.gif">
+    </div>
+</div>

@@ -1,0 +1,38 @@
+<div class="feedback-page">
+    <h1 class="h1 h1_style">Обратная связь</h1>
+
+    <div class="feedback-block">
+        <form id="feedback-form" action="{{url}}" method="{{method}}">
+            <div class="labeled-input">
+                <div class="labeled-input__label">
+                    <label class="label"><span class="label__text">Ваше имя</span></label>
+                </div>
+                <div class="labeled-input__input">
+                    <input class="input-text" type="text" name="feedback[name]" autofocus>
+                </div>
+            </div>
+            <div class="labeled-input">
+                <div class="labeled-input__label">
+                    <label class="label"><span class="label__text">Ваш e-mail</span></label>
+                </div>
+                <div class="labeled-input__input">
+                    <input class="input-text" type="text" name="feedback[email]">
+                </div>
+            </div>
+            <div class="labeled-input">
+                <div class="labeled-input__label">
+                    <label class="label"><span class="label__text">Ваше сообщение</span></label>
+                </div>
+                <div class="labeled-input__input">
+                    <textarea class="textarea" name="feedback[text]"></textarea>
+
+                </div>
+            </div>
+            <div class="labeled-input">
+                <div class="labeled-input__submit">
+                    <input class="btn-accent" type="submit" value="Отправить">
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

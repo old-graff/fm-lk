@@ -1,0 +1,157 @@
+{
+    "page_search_result": {
+        "head": {
+            "title": "Результаты поиска - FaceMaster.ru."
+        },
+        "header": {
+            "logo-url": "/main/main.html",
+            "visitor": "12 456 посещений",
+            "menu": [{
+                "url": "/master_rubrikator/master_rubrikator.html",
+                "title": "КАТАЛОГ УСЛУГ"
+            }, {
+                "url": "http://facemaster.ru/site/javascript:void(0)",
+                "title": "ЗАКАЗАТЬ УСЛУГУ"
+            }, {
+                "url": "/reg-master/reg-master.html",
+                "title": "СТАТЬ МАСТЕРОМ"
+            }],
+            "auth": false,
+            "authData": {
+                "name": "Администратор С.Н.",
+                "homeUrl": "http://facemaster.ru/home",
+                "menuUser": [{
+                    "url": "http://facemaster.ru/office",
+                    "title": "Офис"
+                }, {
+                    "url": "http://facemaster.ru/auth/logout",
+                    "title": "Выход"
+                }]
+            },
+            "authUrl": "http://facemaster.ru/auth",
+            "social": {
+                "list": [{
+                    "url": "http://vk.com/fm_mf",
+                    "mod": "vk"
+                }, {
+                    "url": "http://www.facebook.com/face.mast",
+                    "mod": "fb"
+                }, {
+                    "url": "http://www.odnoklassniki.ru/facemaster",
+                    "mod": "ok"
+                }, {
+                    "url": "http://twitter.com/FacemasterRu",
+                    "mod": "tw"
+                }]
+            }
+        },
+        "footer": {
+            "phone": "(8482) 74-44-19",
+            "links": [{
+                "url": "/oth_oferta/oth_oferta.html",
+                "title": "Оферта"
+            }, {
+                "url": "/oth_contact/oth_contact.html",
+                "title": "Контакты"
+            }, {
+                "url": "/oth_feedback/oth_feedback.html",
+                "title": "Обратная связь"
+            }]
+        },
+        "breadcrumps": {
+            "links": [{
+                "title": "Результаты поиска"
+            }]
+        },
+        "search": {
+            "url": "404",
+            "method": "get",
+            "modificator": "inner"
+        },
+        "name": "Результаты поиска",
+        "search_filter": {
+            "total": "20",
+            "details": [{
+                "name": "Пластиковые окна",
+                "count": "10"
+            }, {
+                "name": "Потолки",
+                "count": "6"
+            }, {
+                "name": "Ремонт квартир",
+                "count": "3"
+            }, {
+                "name": "Строительство",
+                "count": "1"
+            }]
+        },
+        "results": [{
+            "is-free": true,
+            "master_minicard": {
+                "master-photo": {
+                    "src": "%=staticPrefix=%img/assets/master_minicard/6461.jpg",
+                    "alt": "alt"
+                },
+                "phone-btn": {
+                    "phone": "+7 960 835 06 46"
+                },
+                "tip": {
+                    "text": "Пожалуйста скажите мастеру что нашли его на нашем сайте"
+                },
+                "master-name": "Хархавкина Евгения",
+                "service-list": [
+                    "Проектирование, производство и строительство домов, продажа участков",
+                    "Дачные дома, загородные дома, дома под ключ, дома и коттеджи."
+                ],
+                "search-note": "skajlajdjsd lkdasjdksajdksa ksadjlkdsaklds"
+            }
+        }, {
+            "is-free": true,
+            "master_minicard": {
+                "master-photo": {
+                    "src": "%=staticPrefix=%img/assets/master_minicard/6461.jpg",
+                    "alt": "alt"
+                },
+                "phone-btn": {
+                    "phone": "+7 960 835 06 46"
+                },
+                "tip": {
+                    "text": "Пожалуйста скажите мастеру что нашли его на нашем сайте"
+                },
+                "master-name": "Хархавкина Евгения",
+                "service-list": [
+                    "Проектирование, производство и строительство домов, продажа участков",
+                    "Дачные дома, загородные дома, дома под ключ, дома и коттеджи."
+                ],
+                "search-note": "skajlajdjsd lkdasjdksajdksa ksadjlkdsaklds"
+            }
+        }, {
+            "is-free": true,
+            "master_minicard": {
+                "master-photo": {
+                    "src": "%=staticPrefix=%img/assets/master_minicard/6461.jpg",
+                    "alt": "alt"
+                },
+                "phone-btn": {
+                    "phone": "+7 960 835 06 46"
+                },
+                "tip": {
+                    "text": "Пожалуйста скажите мастеру что нашли его на нашем сайте"
+                },
+                "master-name": "Хархавкина Евгения",
+                "service-list": [
+                    "Проектирование, производство и строительство домов, продажа участков",
+                    "Дачные дома, загородные дома, дома под ключ, дома и коттеджи."
+                ],
+                "search-note": "skajlajdjsd lkdasjdksajdksa ksadjlkdsaklds"
+            }
+        }],
+        "banner_side": {
+            "is-banner_side": true,
+            "is-url": false,
+            "src": "%=staticPrefix=%/img/assets/banner/manner_side.jpg",
+            "alt": "Выгодное предложение от газеты Презент",
+            "url": ""
+        }
+    }
+}

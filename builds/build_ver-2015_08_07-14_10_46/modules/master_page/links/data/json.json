@@ -1,0 +1,14 @@
+{
+    "block_master_page_links": {
+        "links-list": [{
+            "url": "http://vk.com/id1342347",
+            "type": "vk"
+        }, {
+            "url": "http://ok.com/id1342347",
+            "type": "ok"
+        }, {
+            "url": "http://my-site.ru",
+            "type": "site"
+        }]
+    }
+}
