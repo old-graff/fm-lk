@@ -62,6 +62,11 @@
                 "login": "гость"
             }
         },
+        "map": {
+            "adress": "ул.70 лет Октября 28Б, оф.316",
+            "src": "%=staticPrefix=%img/assets/map/map.png",
+            "url": "/404/404.html"
+        },
         "breadcrumps": {
             "links": [{
                 "title": "Каталог услуг",
@@ -118,7 +123,7 @@
                 "phone": "+7 876 862-16-13",
                 "email": "gosha-ttt-ashfhfg@mail.ru",
                 "adress": "Ботаническая 38",
-                "url-adress": "404"
+                "url-adress": "#map_master"
             },
             "callback_request": {
                 "method": "get",
