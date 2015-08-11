@@ -1483,6 +1483,7 @@ $('.js-parent-rub').click(function () {
     return false;
 
 });
+
 $('#callback-request-popup-form').submit(function () {
     sendForm($(this), function () {
         $('#callback-request-popup-form').hide();
@@ -1493,7 +1494,6 @@ $('#callback-request-popup-form').submit(function () {
     });
     return false;
 });
-
 $('#reg-link').click(function () {
     $('#entry-form').hide();
     $('#registration-form').show();
