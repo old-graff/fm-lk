@@ -4263,25 +4263,6 @@ h2.resp-accordion {
       .callback__icon {
         display: none; } }
 
-.callback_request {
-  background-color: #e6e7e8;
-  padding: 10px; }
-  .callback_request__intro {
-    padding-bottom: 10px;
-    font-size: 1.125em;
-    line-height: 1em; }
-  .callback_request__input {
-    padding-bottom: 20px; }
-  .callback_request__submit {
-    width: 200px; }
-
-.callback_popup {
-  background-color: #e6e7e8;
-  padding: 20px;
-  display: none; }
-  .callback_popup__input {
-    padding-bottom: 20px; }
-
 .master_page_card {
   background-color: #e6e7e8;
   height: 225px;
@@ -4372,6 +4353,25 @@ h2.resp-accordion {
   @media  (max-width: 999px) {
     .master_number {
       display: none; } }
+
+.callback_request {
+  background-color: #e6e7e8;
+  padding: 10px; }
+  .callback_request__intro {
+    padding-bottom: 10px;
+    font-size: 1.125em;
+    line-height: 1em; }
+  .callback_request__input {
+    padding-bottom: 20px; }
+  .callback_request__submit {
+    width: 200px; }
+
+.callback_popup {
+  background-color: #e6e7e8;
+  padding: 20px;
+  display: none; }
+  .callback_popup__input {
+    padding-bottom: 20px; }
 
 .company_minicard {
   display: block;

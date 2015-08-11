@@ -1,6 +1,6 @@
 {
     "block_video": {
-        "video-url": "404",
+        "video-url": "https://www.youtube.com/embed/eVeaaxSGw_c",
         "src": "%=staticPrefix=%img/assets/video/maxresdefault.jpg",
         "title": "Как рассчитать бюджет ремонта квартиры",
         "master": {
