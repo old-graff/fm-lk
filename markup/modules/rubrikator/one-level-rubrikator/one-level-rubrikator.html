@@ -13,7 +13,7 @@
                 </a>
                 {{else}}
             </p>
-            {{/if}}
+            {{/unless}}
 
             {{#if inner-list}}
             <ul elem="inner-list">
@@ -29,11 +29,11 @@
                             {{title}}
                             {{#if count}}<span elem="inner-count">&nbsp;&nbsp;{{count}}</span>{{/if}}
 
-                            {{#if is-active}}
+                            {{#unless is-active}}
+                        </a>
+                        {{else}}
                     </p>
-                    {{else}}
-                    </a>
-                    {{/if}}
+                    {{/unless}}
                 </li>
                 {{/each}}
             </ul>
