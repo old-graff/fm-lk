@@ -1,0 +1,37 @@
+{{#each sale_rubrika_list}}
+<div class="sale_rubrika">
+    <div class="sale_rubrika__title" style="background-color: {{color}}">
+        <p class="sale_rubrika__title-count">{{count}}</p>
+        <p class="sale_rubrika__title-name">{{name}}</p>
+    </div>
+    <div class="sale_rubrika__content">
+        <div class="sale_rubrika__list">
+            <div class="sale_list">
+                {{#each sale-list}}
+                <div class="sale_list__sale">
+                    {{> sale/sale/sale this}}
+                </div>
+                {{/each}}
+            </div>
+        </div>
+        <div class="sale_rubrika__rubrikator">
+            <div class="sale_rubrikator">
+                {{> rubrikator/one-level-rubrikator/one-level-rubrikator podrubriks}}
+            </div>
+        </div>
+    </div>
+    {{#if is-one-rubrika}}
+    <div class="row">
+        <div class="sale_rubrika__paginator">
+            {{> _common/paginator/paginator paginator}}
+        </div>
+    </div>
+    {{else}}
+    <div class="row">
+        <a class="sale_rubrika__more" href="{{url}}">
+            Все акции <i class="sale_rubrika__icon"></i>
+        </a>
+    </div>
+    {{/if}}
+</div>
+{{/each}}
