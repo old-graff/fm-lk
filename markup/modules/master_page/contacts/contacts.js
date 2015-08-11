@@ -11,3 +11,7 @@ $('.js-callback-popup').click(function () {
         });
     }
 });
+
+$('.js-open-map').fancybox({
+    padding: 0
+});

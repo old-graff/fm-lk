@@ -5,6 +5,7 @@
         },
         "header": "readyBlocksData.block_header",
         "footer": "readyBlocksData.block_footer",
+        "map": "readyBlocksData.block_map",
         "breadcrumps": {
             "links": [
                 {
