@@ -7,12 +7,12 @@
                 {{else}}
                 <a href="{{url}}" elem="link">
                     {{/if}}
-                    <i elem="icon"></i>{{title}} 
+                    <i elem="icon"></i>{{title}}
                     {{#if count}}<span elem="count">&nbsp;&nbsp;{{count}}</span>{{/if}}
-                    {{#if is-active}}
+                    {{#unless is-active}}
+                </a>
+                {{else}}
             </p>
-            {{else}}
-            </a>
             {{/if}}
 
             {{#if inner-list}}
@@ -26,7 +26,7 @@
                         <a href="{{url}}" elem="inner-link">
                             {{/if}}
 
-                            {{title}} 
+                            {{title}}
                             {{#if count}}<span elem="inner-count">&nbsp;&nbsp;{{count}}</span>{{/if}}
 
                             {{#if is-active}}
