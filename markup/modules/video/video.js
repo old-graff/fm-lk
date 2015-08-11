@@ -1,0 +1,3 @@
+$('.js-open-video').fancybox({
+
+});
