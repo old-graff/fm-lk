@@ -1,0 +1,33 @@
+<!doctype html>
+<!--[if IE 7]>
+<html class="ie7 lt-ie10 lt-ie9 lt-ie8 no-js" lang="ru"><![endif]-->
+<!--[if IE 8]>
+<html class="ie8 lt-ie10 lt-ie9 no-js" lang="ru"><![endif]-->
+<!--[if IE 9 ]>
+<html class="ie9 lt-ie10 no-js" lang="ru"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="no-js" lang="ru"><!--<![endif]-->
+
+    <head>
+        {{> head/head page_oht_news.head}}
+    </head>
+
+    <body class="page">
+        {{> header/header page_oht_news.header}}
+        {{> breadcrumps/breadcrumps page_oht_news.breadcrumps}}
+
+        <div class="container">
+            <div class="row">
+                <div class="page_oth_news">
+                    <h1 class="h1 h1_style">Новости</h1>
+                    <div class="page_oth_news__list">
+                        {{> other/news/news page_oht_news.news}}     
+                        {{> _common/paginator/paginator page_oht_news.paginator}}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{> footer/footer page_oht_news.footer}}
+    </body>
+</html>

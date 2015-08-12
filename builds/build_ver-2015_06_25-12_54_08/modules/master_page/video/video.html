@@ -1,0 +1,14 @@
+<div class="master_page_video">
+    <div class="master_page_video__header h2">Видео</div>
+    <div class="master_page_video__list">
+        {{#each video-list}}
+        <div class="master_page_video__video">
+            <a class="video-widget" href="{{url}}">
+                <div class="video-widget__img">
+                    <img src="{{pic}}" alt="{{title}}">
+                </div>
+            </a>
+        </div>
+        {{/each}}
+    </div>
+</div>

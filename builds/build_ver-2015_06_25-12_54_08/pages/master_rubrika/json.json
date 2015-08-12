@@ -1,0 +1,339 @@
+{
+    "page_master_rubrika": {
+        "head": {
+            "title": "Строительство в Тольятти - FaceMaster.ru."
+        },
+        "header": {
+            "logo-url": "/main/main.html",
+            "visitor": "12 456 посещений",
+            "menu": [{
+                "url": "/master_rubrikator/master_rubrikator.html",
+                "title": "КАТАЛОГ УСЛУГ"
+            }, {
+                "url": "http://facemaster.ru/site/javascript:void(0)",
+                "title": "ЗАКАЗАТЬ УСЛУГУ"
+            }, {
+                "url": "/reg-master/reg-master.html",
+                "title": "СТАТЬ МАСТЕРОМ"
+            }],
+            "auth": false,
+            "authData": {
+                "name": "Администратор С.Н.",
+                "homeUrl": "http://facemaster.ru/home",
+                "menuUser": [{
+                    "url": "http://facemaster.ru/office",
+                    "title": "Офис"
+                }, {
+                    "url": "http://facemaster.ru/auth/logout",
+                    "title": "Выход"
+                }]
+            },
+            "authUrl": "http://facemaster.ru/auth",
+            "social": {
+                "list": [{
+                    "url": "http://vk.com/fm_mf",
+                    "mod": "vk"
+                }, {
+                    "url": "http://www.facebook.com/face.mast",
+                    "mod": "fb"
+                }, {
+                    "url": "http://www.odnoklassniki.ru/facemaster",
+                    "mod": "ok"
+                }, {
+                    "url": "http://twitter.com/FacemasterRu",
+                    "mod": "tw"
+                }]
+            }
+        },
+        "footer": {
+            "phone": "(8482) 74-44-19",
+            "links": [{
+                "url": "/oth_oferta/oferta.html",
+                "title": "Оферта"
+            }, {
+                "url": "/oth_contact/contact.html",
+                "title": "Контакты"
+            }, {
+                "url": "/oth_feedback/feedback.html",
+                "title": "Обратная связь"
+            }]
+        },
+        "breadcrumps": {
+            "links": [{
+                "title": "Каталог услуг",
+                "url": "/master_rubrikator/master_rubrikator.html"
+            }, {
+                "title": "Строительство",
+                "url": "404",
+                "links": [{
+                    "title": "Бани",
+                    "url": "/master_rubrika/master_rubrika.html"
+                }, {
+                    "title": "Бассейны",
+                    "url": "/master_rubrika/master_rubrika.html"
+                }, {
+                    "title": "Печи и камины",
+                    "url": "master_rubrika/master_rubrika.html"
+                }, {
+                    "title": "Проектирование",
+                    "url": "master_rubrika/master_rubrika.html"
+                }]
+            }, {
+                "title": "Строительство"
+            }]
+        },
+        "search": {
+            "url": "404",
+            "method": "get",
+            "modificator": "inner"
+        },
+        "name": "Строительство",
+        "filter": {
+            "filter-section": [{
+                "url": "",
+                "section-name": "masters",
+                "title": "Мастера",
+                "open-section": {
+                    "is-sort": true,
+                    "sort-by": {
+                        "url": "/master_rubrika/master_rubrika.html",
+                        "method": "get"
+                    },
+                    "is-filter": true,
+                    "tags-free": {
+                        "tags": [{
+                            "url": "/master_rubrika/master_rubrika.html",
+                            "title": "Алмазная резка"
+                        }, {
+                            "url-back": "/master_rubrika/master_rubrika.html",
+                            "title": "Брусчатка",
+                            "is-active": true
+                        }, {
+                            "url": "/master_rubrika/master_rubrika.html",
+                            "title": "Бурение скважин"
+                        }, {
+                            "url": "/master_rubrika/master_rubrika.html",
+                            "title": "Герметизация швов"
+                        }, {
+                            "url": "/master_rubrika/master_rubrika.html",
+                            "title": "Заливка фундамента"
+                        }]
+                    },
+                    "tags-group": [{
+                        "title": "Дома дачи:",
+                        "list": {
+                            "tags": [{
+                                "url": "/master_rubrika/master_rubrika.html",
+                                "title": "Алмазная резка"
+                            }, {
+                                "url-back": "/master_rubrika/master_rubrika.html",
+                                "title": "Брусчатка",
+                                "is-active": true
+                            }, {
+                                "url": "/master_rubrika/master_rubrika.html",
+                                "title": "Бурение скважин"
+                            }, {
+                                "url": "/master_rubrika/master_rubrika.html",
+                                "title": "Герметизация швов"
+                            }, {
+                                "url": "/master_rubrika/master_rubrika.html",
+                                "title": "Заливка фундамента"
+                            }]
+                        }
+                    }, {
+                        "title": "Кровля:",
+                        "list": {
+                            "tags": [{
+                                "url": "/master_rubrika/master_rubrika.html",
+                                "title": "Алмазная резка"
+                            }, {
+                                "url-back": "/master_rubrika/master_rubrika.html",
+                                "title": "Брусчатка",
+                                "is-active": true
+                            }, {
+                                "url": "/master_rubrika/master_rubrika.html",
+                                "title": "Бурение скважин"
+                            }, {
+                                "url": "/master_rubrika/master_rubrika.html",
+                                "title": "Герметизация швов"
+                            }, {
+                                "url": "/master_rubrika/master_rubrika.html",
+                                "title": "Заливка фундамента"
+                            }]
+                        }
+                    }]
+                }
+            }, {
+                "url": "/master_rubrika_video/master_rubrika_video.html",
+                "section-name": "video",
+                "title": "Видео Мастеров"
+            }, {
+                "url": "/master_rubrika_sales/master_rubrika_sales.html",
+                "section-name": "sales",
+                "title": "Скидки Мастеров"
+            }, {
+                "url": "/master_rubrika_secret/master_rubrika_secret.html",
+                "section-name": "secrets",
+                "title": "Секреты Мастеров"
+            }]
+        },
+        "banner_side": {
+            "is-banner_side": true,
+            "is-url": false,
+            "src": "%=staticPrefix=%/img/assets/banner/manner_side.jpg",
+            "alt": "Выгодное предложение от газеты Презент",
+            "url": ""
+        },
+        "banner_top": {
+            "is-banner_top": true,
+            "is-url": false,
+            "src_1000": "%=staticPrefix=%/img/assets/banner/manner.jpg",
+            "src_750": "%=staticPrefix=%/img/assets/banner/manner_750.jpg",
+            "alt": "Выгодное предложение от газеты Презент",
+            "url": "404"
+        },
+        "master_recommended": {
+            "is-recommended-masters": true,
+            "url-arrow-left": "404",
+            "url-arrow-right": "404",
+            "recommended-master": [{
+                "master-url": "404",
+                "src": "%=staticPrefix=%/img/assets/master_recommended/3720.jpg",
+                "alt": "Князев А.Ю.",
+                "master-name": "Князев А.Ю.",
+                "recommendation-number": "27 человек"
+            }, {
+                "master-url": "404",
+                "src": "%=staticPrefix=%/img/assets/master_recommended/4617.jpg",
+                "alt": "Хальзов А.",
+                "master-name": "Хальзов А.",
+                "recommendation-number": "6 человек"
+            }, {
+                "master-url": "404",
+                "src": "%=staticPrefix=%/img/assets/master_recommended/7428.jpg",
+                "alt": "Булгаков В.А.",
+                "master-name": "Булгаков В.А.",
+                "recommendation-number": "5 человек"
+            }, {
+                "master-url": "404",
+                "src": "%=staticPrefix=%/img/assets/master_recommended/2274.jpg",
+                "alt": "Арсланов И.Р.",
+                "master-name": "Арсланов И.Р.",
+                "recommendation-number": "4 человека"
+            }, {
+                "master-url": "404",
+                "src": "%=staticPrefix=%/img/assets/master_recommended/3720.jpg",
+                "alt": "Князев А.Ю.",
+                "master-name": "Князев А.Ю.",
+                "recommendation-number": "27 человек"
+            }, {
+                "master-url": "404",
+                "src": "%=staticPrefix=%/img/assets/master_recommended/4617.jpg",
+                "alt": "Хальзов А.",
+                "master-name": "Хальзов А.",
+                "recommendation-number": "6 человек"
+            }, {
+                "master-url": "404",
+                "src": "%=staticPrefix=%/img/assets/master_recommended/4617.jpg",
+                "alt": "Хальзов А.",
+                "master-name": "Хальзов А.",
+                "recommendation-number": "6 человек"
+            }]
+        },
+        "master-list": {
+            "master_list": [{
+                "is-free": false,
+                "master_minicard": {
+                    "master-photo": {
+                        "src": "%=staticPrefix=%img/assets/master_minicard/6461.jpg",
+                        "alt": "alt"
+                    },
+                    "likes": {
+                        "url": "404",
+                        "count": "142"
+                    },
+                    "phone-btn": {
+                        "phone": "+7 960 835 06 46",
+                        "url": "404"
+                    },
+                    "master-page-url": "404",
+                    "master-name": "Хархавкина Евген",
+                    "specialisation": "Продажа домов под ключ",
+                    "company": {
+                        "logo": "%=staticPrefix=%img/assets/master_minicard/1022.png",
+                        "name": "Компания Мера"
+                    },
+                    "service-list": [
+                        "Проектирование, производство и строительство домов, продажа участков",
+                        "Дачные дома, загородные дома, дома под ключ, дома и коттеджи.",
+                        "ЗАБОРЫ из ПРОФЛИСТА. ПЕНСИОНЕРАМ скидка -5%!!!!Ангары× Изготовление металлоконструкций× Навесы×",
+                        "Пескоструйная обработка металла от ржавчины, старой краски и т. д.",
+                        "По желанию клиента осуществляется порошковая окраска.",
+                        "Очистка металла от старой краски, обработка деталей машин"
+                    ],
+                    "have-content-icons": {
+                        "modificator": "vertical",
+                        "switch": true,
+                        "have-content-icons": [{
+                            "content-type": "gift",
+                            "url": "404",
+                            "is-active": false,
+                            "is-exist": true
+                        }, {
+                            "content-type": "photo",
+                            "url": "404",
+                            "is-active": false,
+                            "is-exist": true
+                        }, {
+                            "content-type": "video",
+                            "url": "404",
+                            "is-active": false,
+                            "is-exist": true
+                        }, {
+                            "content-type": "comments",
+                            "url": "404",
+                            "is-active": true,
+                            "is-exist": true
+                        }]
+                    },
+                    "have-content": {
+                        "gift": {
+                            "title": "1000 рублей",
+                            "desc": "Скидка 1000 рублей на бананы"
+                        },
+                        "photo": {
+                            "count": "25 фотографий",
+                            "desc": ""
+                        },
+                        "video": {
+                            "url": "404",
+                            "preview": "%=staticPrefix=%img/assets/master_minicard/video.jpg",
+                            "desc": "некоторое описание данного видео"
+                        },
+                        "comments": {
+                            "recommendations": "52 рекомендации",
+                            "comments": "10 отзывов",
+                            "desc": "Отличный мастер-ломастер!"
+                        }
+                    }
+                }
+            }, {
+                "is-free": true,
+                "master_minicard": {
+                    "master-photo": {
+                        "src": "%=staticPrefix=%img/assets/master_minicard/6461.jpg",
+                        "alt": "alt"
+                    },
+                    "phone-btn": {
+                        "phone": "+7 960 835 06 46"
+                    },
+                    "master-name": "Хархавкина Евгения",
+                    "service-list": [
+                        "Проектирование, производство и строительство домов, продажа участков",
+                        "Дачные дома, загородные дома, дома под ключ, дома и коттеджи."
+                    ]
+                }
+            }]
+        }
+    }
+}

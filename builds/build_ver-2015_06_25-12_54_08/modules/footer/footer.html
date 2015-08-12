@@ -1,0 +1,26 @@
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer__coordinator">Координатор сайта: {{phone}}</div>
+
+            <div class="footer__copyright">
+                <p class="footer__copyright-who">© FaceMaster — Фейсмастер</p>
+                <p class="footer__copyright-text">При полном или частичном воспроизведении информации 
+                    активная ссылка на Фейсмастер обязательна.</p>
+            </div>
+
+
+            <div class="footer__links">
+                {{#each links}}
+                <a class="footer__links-a" href="{{url}}">{{{title}}}</a>&nbsp;
+                {{/each}}
+            </div>
+
+
+            <div class="footer__counters">
+                <!--{ { > footer/counters } }-->
+            </div>
+            <script src="/templates/static/js/main.js"></script>
+        </div>
+    </div>
+</footer>
