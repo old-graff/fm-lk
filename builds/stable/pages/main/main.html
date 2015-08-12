@@ -7,21 +7,22 @@
 <html class="ie9 lt-ie10 no-js" lang="ru"><![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!-->
 <html class="no-js" lang="ru"><!--<![endif]-->
-
+{{#with page_main}}
 <head>
-    {{> head/head page_main.head}}
+    {{> head/head head}}
 </head>
 
 <body class="page">
-{{> header/header page_main.header}}
+{{> header/header header}}
 
 <div class="main-page container">
     <div class="row">
-        {{> main/main-function/main-function page_main.mainFunction}}
-        {{> main/dop-function/dop-function page_main.dopFunction}}
+        {{> main/main-function/main-function mainFunction}}
+        {{> main/dop-function/dop-function dopFunction}}
     </div>
 </div>
 
-{{> footer/footer page_main.footer}}
+{{> footer/footer footer}}
 </body>
+{{/with}}
 </html>

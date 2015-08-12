@@ -7,21 +7,24 @@
 <html class="ie9 lt-ie10 no-js" lang="ru"><![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!-->
 <html class="no-js" lang="ru"><!--<![endif]-->
-
+{{#with page_oht_oferta}}
     <head>
-        {{> head/head page_oht_oferta.head}}
+        {{> head/head head}}
     </head>
 
     <body class="page">
-        {{> header/header page_oht_oferta.header}}
-        {{> breadcrumps/breadcrumps page_oht_oferta.breadcrumps}}
+        {{> header/header header}}
 
         <div class="container">
             <div class="row">
-                {{> other/oferta/oferta page_oht_oferta.oferta}}
+                {{> breadcrumps/breadcrumps breadcrumps}}
+            </div>
+            <div class="row">
+                {{> other/oferta/oferta oferta}}
             </div>
         </div>
 
-        {{> footer/footer page_oht_oferta.footer}}
+        {{> footer/footer footer}}
     </body>
+{{/with}}
 </html>

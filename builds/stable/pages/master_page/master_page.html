@@ -42,14 +42,30 @@
         </div>
         <div class="page_master_page__main-info">
             {{> master_page/services/services services}}
+            {{#if work}}
             {{> master_page/work/work work}}
+            {{/if}}
+            {{#if sale}}
             {{> master_page/sale/sale sale}}
+            {{/if}}
+            {{#if about}}
             {{> about/about about}}
+            {{/if}}
+            {{#if secret}}
             {{> master_page/secret/secret secret}}
+            {{/if}}
+            {{#if photo}}
             {{> master_page/photo/photo photo}}
+            {{/if}}
+            {{#if video}}
             {{> master_page/video/video video}}
+            {{/if}}
+            {{#if links}}
             {{> master_page/links/links links}}
+            {{/if}}
+            {{#if recommend}}
             {{> master_page/recommend/recommend recommend}}
+            {{/if}}
         </div>
     </div>
     {{/with}}

@@ -6,7 +6,8 @@
             "callback": "/404",
             "catalog": "/master_rubrikator/master_rubrikator.html"
         },
-        "catalogs": "readyBlocksData.block_main_catalogs"
+        "catalogs": "readyBlocksData.block_main_catalogs",
+        "search": "readyBlocksData.block_search"
     }
 }
 

@@ -72,7 +72,7 @@
         },
         "callback_request": {
             "method": "get",
-            "url": "/master_page/success.json"
+            "url": "/callback_request/success.json"
         }
     }
 }

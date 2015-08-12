@@ -43,10 +43,18 @@
         </div>
         <div elem="main-info">
             {{> master_list/master_list_company master_list}}
+            {{#if about}}
             {{> about/about_company about}}
+            {{/if}}
+            {{#if work}}
             {{> master_page/work/work work}}
+            {{/if}}
+            {{#if photo}}
             {{> master_page/photo/photo photo}}
+            {{/if}}
+            {{#if video}}
             {{> master_page/video/video video}}
+            {{/if}}
         </div>
     </div>
     {{/with}}

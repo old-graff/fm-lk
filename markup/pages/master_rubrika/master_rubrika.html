@@ -7,26 +7,26 @@
 <html class="ie9 lt-ie10 no-js" lang="ru"><![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!-->
 <html class="no-js" lang="ru"><!--<![endif]-->
-
+{{#with page_master_rubrika}}
 <head>
-    {{> head/head page_master_rubrika.head}}
+    {{> head/head head}}
 </head>
 
 <body class="page">
-{{> banner/banner_top/banner_top page_master_rubrika.banner_top}}
-{{> header/header page_master_rubrika.header}}
+{{> banner/banner_top/banner_top banner_top}}
+{{> header/header header}}
 
 <div block="container">
     <div class="row">
-        {{> breadcrumps/breadcrumps page_master_rubrika.breadcrumps}}
+        {{> breadcrumps/breadcrumps breadcrumps}}
     </div>
     <div block="inner-top">
         <div elem="title">
-            <h1 block="h1" mod="style">{{page_master_rubrika.name}}</h1>
+            <h1 block="h1" mod="style">{{name}}</h1>
         </div>
 
         <div elem="search">
-            {{> search/search page_master_rubrika.search}}
+            {{> search/search search}}
         </div>
         <div elem="callback">
             {{> callback/callback}}
@@ -34,19 +34,20 @@
     </div>
     <div block="inner-content">
         <div elem="left-side">
-            {{> filter/filter page_master_rubrika.filter}}
-            {{> banner/banner_side/banner_side page_master_rubrika.banner_side}}
+            {{> filter/filter filter}}
+            {{> banner/banner_side/banner_side banner_side}}
         </div>
         <div elem="right-side">
-            {{> master_recommended/master_recommended page_master_rubrika.master_recommended}}
-            {{> master_list/master_list page_master_rubrika.master-list}}
+            {{> master_recommended/master_recommended master_recommended}}
+            {{> master_list/master_list master-list}}
         </div>
     </div>
     <div block="row">
-        {{> seo-text/seo-text page_master_rubrika.seotext}}
+        {{> seo-text/seo-text seotext}}
     </div>
 </div>
 
-{{> footer/footer page_master_rubrika.footer}}
+{{> footer/footer footer}}
 </body>
+{{/with}}
 </html>
