@@ -7,46 +7,48 @@
 <html class="ie9 lt-ie10 no-js" lang="ru"><![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!-->
 <html class="no-js" lang="ru"><!--<![endif]-->
-    {{#with page_master_rubrika_company}}
-    <head>
-        {{> head/head head}}
-    </head>
+{{#with page_master_rubrika_company}}
+<head>
+    {{> head/head head}}
+</head>
 
-    <body class="page">
-        {{> banner/banner_top/banner_top banner_top}}
-        {{> header/header header}}
-        <div class="container">
-            <div class="row">
-                {{> breadcrumps/breadcrumps breadcrumps}}
-            </div>  
-        </div>
-        <div class="container">
-            <div class="inner-top">
-                <h1 class="h1 h1_style">{{name}}</h1>
-
-                <div class="inner-top__search">
-                    {{> search/search search}}
-                </div>
-                <div class="inner-top__callback">
-                    {{> callback/callback}}
-                </div>
-            </div>
-            <div class="inner-content">
-                <div class="inner-content__left-side">
-                    {{> filter/filter filter}}
-                    {{> banner/banner_side/banner_side banner_side}}
-                </div>
-                <div class="inner-content__right-side">
-                    {{> _common/list_col-3/list_col-3_company company}} 
-                    {{> _common/paginator/paginator paginator}}  
-                </div>
-            </div>
-            <div class="row">
-                {{> seo-text/seo-text}}
-            </div>
+<body class="page">
+{{> banner/banner_top/banner_top banner_top}}
+{{> header/header header}}
+<div class="container">
+    <div class="row">
+        {{> breadcrumps/breadcrumps breadcrumps}}
+    </div>
+</div>
+<div class="container">
+    <div class="inner-top">
+        <div class="inner-top__title">
+            <h1 class="h1 h1_style">{{name}}</h1>
         </div>
 
-        {{> footer/footer page_master_rubrika.footer}}
-    </body>
-    {{/with}}
+        <div class="inner-top__search">
+            {{> search/search search}}
+        </div>
+        <div class="inner-top__callback">
+            {{> callback/callback}}
+        </div>
+    </div>
+    <div class="inner-content">
+        <div class="inner-content__left-side">
+            {{> filter/filter filter}}
+            {{> banner/banner_side/banner_side banner_side}}
+        </div>
+        <div class="inner-content__right-side">
+            {{> _common/list_col-3/list_col-3_company company}}
+            {{> _common/paginator/paginator paginator}}
+        </div>
+    </div>
+    <div class="row">
+        {{> seo-text/seo-text}}
+    </div>
+</div>
+
+{{> footer/footer page_master_rubrika.footer}}
+</body>
+{{/with}}
 </html>

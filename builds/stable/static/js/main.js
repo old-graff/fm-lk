@@ -1641,7 +1641,7 @@ $('.capcha__reload-link a').click(function () {
 
 
 $('.js-open-video').fancybox({
-
+    type: 'iframe'
 });
 $('.dop-function-block-js').click(function () {
     $(this).parent().find('ul').toggleClass('dop-function-block-uncollapse');

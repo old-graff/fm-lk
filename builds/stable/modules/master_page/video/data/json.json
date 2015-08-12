@@ -1,11 +1,11 @@
 {
     "block_master_page_video": {
         "video-list": [{
-            "video-url": "https://www.youtube.com/watch?v=eVeaaxSGw_c",
+            "video-url": "https://www.youtube.com/embed/eVeaaxSGw_c",
             "src": "%=staticPrefix=%img/assets/sale/52f16e1697817.jpg",
             "title": "Как рассчитать бюджет ремонта квартиры"
         }, {
-            "video-url": "https://www.youtube.com/watch?v=eVeaaxSGw_c",
+            "video-url": "https://www.youtube.com/embed/gdxHkRfI5W0",
             "src": "%=staticPrefix=%img/assets/sale/52f16e1697817.jpg",
             "title": "Как рассчитать бюджет ремонта квартиры"
         }]

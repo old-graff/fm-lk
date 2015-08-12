@@ -319,7 +319,7 @@ ol, ul, li {
 
 .close__icon, .tip__close {
   background-position: 11.73554% 47.36842%; }
-.master_page_links__icon_ok {
+.ofers-block-plus__icon_mini-page {
   background-position: 22.77228% 47.27626%; }
 .filter-section__title_company.active .filter-section__icon {
   background-position: 33.82838% 47.27626%; }
@@ -331,84 +331,86 @@ ol, ul, li {
   background-position: 0.49505% 60.31128%; }
 .master_content-icon_comments.exist .master_content-icon__icon {
   background-position: 11.55116% 60.31128%; }
-.master_contact__contact-icon_email {
+.master_page_links__icon_site {
   background-position: 33.66337% 60.31128%; }
-.social-icon_fb {
+.master_contact__contact-icon_email {
   background-position: 44.71947% 60.31128%; }
-.catalogs-dop__icon_gift, .ofers-block-plus-dop__icon_gift_white, .filter-section__title_sales .filter-section__icon {
+.social-icon_fb {
   background-position: 66.33663% 0.58366%; }
-.master_content-icon_gift .master_content-icon__icon {
+.catalogs-dop__icon_gift, .ofers-block-plus-dop__icon_gift_white, .filter-section__title_sales .filter-section__icon {
   background-position: 66.33663% 13.61868%; }
-.master_content-icon_gift.exist .master_content-icon__icon {
+.master_content-icon_gift .master_content-icon__icon {
   background-position: 66.33663% 26.6537%; }
-.filter-section__title_sales.active .filter-section__icon {
+.master_content-icon_gift.exist .master_content-icon__icon {
   background-position: 66.33663% 39.68872%; }
-.master_contact__contact-icon_icq {
+.filter-section__title_sales.active .filter-section__icon {
   background-position: 66.33663% 52.72374%; }
-.company_minicard__icon_likes {
+.master_contact__contact-icon_icq {
   background-position: 0.49505% 73.3463%; }
-.master_photo-and-contacts__icon-like {
+.company_minicard__icon_likes {
   background-position: 11.55116% 73.3463%; }
-.catalogs-dop__icon_case, .filter-section__title_company .filter-section__icon {
+.master_photo-and-contacts__icon-like {
   background-position: 22.60726% 73.3463%; }
-.find-master__icon {
+.catalogs-dop__icon_case, .filter-section__title_company .filter-section__icon {
   background-position: 33.66337% 73.3463%; }
-.become-master__icon, .about-company__icon, .bayda__icon, .filter-section__title_masters .filter-section__icon {
+.find-master__icon {
   background-position: 44.71947% 73.3463%; }
-.filter-section__title_masters.active .filter-section__icon {
+.become-master__icon, .about-company__icon, .bayda__icon, .filter-section__title_masters .filter-section__icon {
   background-position: 55.77558% 73.3463%; }
-.ofers-block-medals__icon {
+.filter-section__title_masters.active .filter-section__icon {
   background-position: 77.39274% 0.58366%; }
-.master_page_links__icon_site, .ofers-block-plus__icon_mini-page {
+.ofers-block-medals__icon {
   background-position: 77.39274% 13.61868%; }
 .breadcrumbs__icon {
   background-position: 77.39274% 26.6537%; }
-.social-icon_ok {
+.master_page_links__icon_ok {
   background-position: 77.39274% 39.68872%; }
-.ofers-block-plus__icon_page {
+.social-icon_ok {
   background-position: 77.39274% 52.72374%; }
-.about-list-item__icon_people {
+.ofers-block-plus__icon_page {
   background-position: 77.39274% 65.75875%; }
-.master_contact__icon-phone, .master_contact__contact-icon_phone, .master_contact__contact-icon_phone-work {
+.about-list-item__icon_people {
   background-position: 0.49505% 86.38132%; }
-.about-list-item__icon_picture, .ofers-block-plus-dop__icon_picture_white {
+.master_contact__icon-phone, .master_contact__contact-icon_phone, .master_contact__contact-icon_phone-work {
   background-position: 11.55116% 86.38132%; }
-.master_content-icon_photo .master_content-icon__icon {
+.about-list-item__icon_picture, .ofers-block-plus-dop__icon_picture_white {
   background-position: 22.60726% 86.38132%; }
-.master_content-icon_photo.exist .master_content-icon__icon {
+.master_content-icon_photo .master_content-icon__icon {
   background-position: 33.66337% 86.38132%; }
+.master_content-icon_photo.exist .master_content-icon__icon {
+  background-position: 44.71947% 86.38132%; }
 .master_contact__contact-icon_adress {
-  background-position: 55.77558% 86.38132%; }
-.catalogs-dop__icon_qwestion, .filter-section__title_secrets .filter-section__icon {
   background-position: 66.83168% 86.38132%; }
-.filter-section__title_secrets.active .filter-section__icon {
+.catalogs-dop__icon_qwestion, .filter-section__title_secrets .filter-section__icon {
   background-position: 88.44884% 0.58366%; }
-.search__icon-search {
+.filter-section__title_secrets.active .filter-section__icon {
   background-position: 88.44884% 13.61868%; }
-.master_contact__contact-icon_skype {
+.search__icon-search {
   background-position: 88.44884% 26.6537%; }
-.call-back__icon, .callback__icon {
+.master_contact__contact-icon_skype {
   background-position: 88.44884% 39.68872%; }
+.call-back__icon, .callback__icon {
+  background-position: 88.44884% 52.72374%; }
 .master_navigation__icon, .js-photo-view .icon, .js-album-slider .icon, .faq__item-title:after, .more-page__text-title:after, .resp-arrow, .one_level_rubrikator__icon, .rubrika-list_tool-collapsed .rubrika-list__icon, .totop-btn__icon, .filter-section__arrow-icon, .master_recommended .slick-prev .icon, .master_recommended .slick-next .icon, .master_recommended-arrows__arrow-left, .master_recommended-arrows__arrow-right {
-  background-position: 88.44884% 78.79377%; }
-.news__icon, .one_level_rubrikator__item_active .one_level_rubrikator__icon, .sale_rubrika__icon, .secret_gorizontal .secret__icon {
   background-position: 0.49505% 99.41634%; }
-.filter-section__title.active .filter-section__arrow-icon, .master_photo-and-contacts__icon {
+.news__icon, .one_level_rubrikator__item_active .one_level_rubrikator__icon, .sale_rubrika__icon, .secret_gorizontal .secret__icon {
   background-position: 11.55116% 99.41634%; }
-.social-icon_tw {
+.filter-section__title.active .filter-section__arrow-icon, .master_photo-and-contacts__icon {
   background-position: 22.60726% 99.41634%; }
-.catalogs-dop__icon_video, .ofers-block-plus-dop__icon_video_white, .filter-section__title_video .filter-section__icon {
+.social-icon_tw {
   background-position: 33.66337% 99.41634%; }
-.master_content-icon_video.exist .master_content-icon__icon {
+.catalogs-dop__icon_video, .ofers-block-plus-dop__icon_video_white, .filter-section__title_video .filter-section__icon {
   background-position: 44.71947% 99.41634%; }
-.master_content-icon_video .master_content-icon__icon {
+.master_content-icon_video.exist .master_content-icon__icon {
   background-position: 55.77558% 99.41634%; }
-.filter-section__title_video.active .filter-section__icon {
+.master_content-icon_video .master_content-icon__icon {
   background-position: 66.83168% 99.41634%; }
-.master_page_links__icon_vk {
+.filter-section__title_video.active .filter-section__icon {
   background-position: 77.88779% 99.41634%; }
-.social-icon_vk {
+.master_page_links__icon_vk {
   background-position: 99.50495% 0.58366%; }
+.social-icon_vk {
+  background-position: 99.50495% 13.61868%; }
 
 /* Your custom fonts here */
 /* Example
