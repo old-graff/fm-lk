@@ -4197,14 +4197,6 @@ h2.resp-accordion {
 .master_page_about__info {
   margin-bottom: 10px; }
 
-.become_master {
-  background-color: #e6e7e8;
-  padding: 30px 20px; }
-  .become_master__smile {
-    text-align: center;
-    font-size: 1.875em;
-    line-height: 1em; }
-
 .breadcrumbs {
   padding-top: 15px;
   font-size: 0.6875em;
@@ -4228,6 +4220,14 @@ h2.resp-accordion {
 
 .js-parent-rub, .js-parent-rub:hover {
   text-decoration: underline; }
+
+.become_master {
+  background-color: #e6e7e8;
+  padding: 30px 20px; }
+  .become_master__smile {
+    text-align: center;
+    font-size: 1.875em;
+    line-height: 1em; }
 
 .callback {
   display: block;
@@ -4262,6 +4262,25 @@ h2.resp-accordion {
     @media  (min-width: 250px) and (max-width: 499px) {
       .callback__icon {
         display: none; } }
+
+.callback_request {
+  background-color: #e6e7e8;
+  padding: 10px; }
+  .callback_request__intro {
+    padding-bottom: 10px;
+    font-size: 1.125em;
+    line-height: 1em; }
+  .callback_request__input {
+    padding-bottom: 20px; }
+  .callback_request__submit {
+    width: 200px; }
+
+.callback_popup {
+  background-color: #e6e7e8;
+  padding: 20px;
+  display: none; }
+  .callback_popup__input {
+    padding-bottom: 20px; }
 
 .master_page_card {
   background-color: #e6e7e8;
@@ -4353,25 +4372,6 @@ h2.resp-accordion {
   @media  (max-width: 999px) {
     .master_number {
       display: none; } }
-
-.callback_request {
-  background-color: #e6e7e8;
-  padding: 10px; }
-  .callback_request__intro {
-    padding-bottom: 10px;
-    font-size: 1.125em;
-    line-height: 1em; }
-  .callback_request__input {
-    padding-bottom: 20px; }
-  .callback_request__submit {
-    width: 200px; }
-
-.callback_popup {
-  background-color: #e6e7e8;
-  padding: 20px;
-  display: none; }
-  .callback_popup__input {
-    padding-bottom: 20px; }
 
 .company_minicard {
   display: block;
@@ -4717,31 +4717,6 @@ h2.resp-accordion {
 .main-page {
   padding-top: 20px; }
 
-.map_master {
-  display: none;
-  width: 100%; }
-  .map_master .map__map {
-    width: 100%; }
-  .map_master .map__text {
-    padding: 10px;
-    background-color: #e6e7e8;
-    font-size: 1.0625em;
-    line-height: 1.17647em; }
-.map_company {
-  height: 225px;
-  background-color: #e6e7e8;
-  position: relative; }
-  .map_company .map__map {
-    width: 100%;
-    height: 225px; }
-  .map_company .map__text {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: 5px;
-    background-color: #e6e7e8; }
-
 .master_have-content-icons_vertical {
   width: 45px;
   float: right;
@@ -4783,6 +4758,31 @@ h2.resp-accordion {
     display: none;
     text-align: center;
     padding: 30px 0; }
+
+.map_master {
+  display: none;
+  width: 100%; }
+  .map_master .map__map {
+    width: 100%; }
+  .map_master .map__text {
+    padding: 10px;
+    background-color: #e6e7e8;
+    font-size: 1.0625em;
+    line-height: 1.17647em; }
+.map_company {
+  height: 225px;
+  background-color: #e6e7e8;
+  position: relative; }
+  .map_company .map__map {
+    width: 100%;
+    height: 225px; }
+  .map_company .map__text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 5px;
+    background-color: #e6e7e8; }
 
 .master_minicard {
   padding: 20px;

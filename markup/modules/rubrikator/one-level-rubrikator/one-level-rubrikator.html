@@ -2,18 +2,12 @@
     <ul>
         {{#each rubrikator}}
         <li class="one_level_rubrikator__item{{#if is-active}} one_level_rubrikator__item_active{{/if}}">
-            {{#if is-active}}
-            <p elem="link">
-                {{else}}
-                <a href="{{url}}" elem="link">
-                    {{/if}}
-                    <i elem="icon"></i>{{title}}
-                    {{#if count}}<span elem="count">&nbsp;&nbsp;{{count}}</span>{{/if}}
-                    {{#unless is-active}}
-                </a>
-                {{else}}
-            </p>
-            {{/unless}}
+
+            {{#if is-active}}<p elem="link">{{else}}<a href="{{url}}" elem="link">{{/if}}
+            <i elem="icon"></i>
+            {{title}}
+            {{#if count}}<span elem="count">&nbsp;&nbsp;{{count}}</span>{{/if}}
+            {{#unless is-active}}</a>{{else}}</p>{{/unless}}
 
             {{#if inner-list}}
             <ul elem="inner-list">
