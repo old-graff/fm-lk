@@ -7,21 +7,24 @@
 <html class="ie9 lt-ie10 no-js" lang="ru"><![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!-->
 <html class="no-js" lang="ru"><!--<![endif]-->
-
+{{#with page_oth_feedback}}
     <head>
-        {{> head/head page_oth_feedback.head}}
+        {{> head/head head}}
     </head>
 
     <body class="page">
-        {{> header/header page_oth_feedback.header}}
-        {{> breadcrumps/breadcrumps page_oth_feedback.breadcrumps}}
+        {{> header/header header}}
 
         <div block="container">
+            <div class="row">
+                {{> breadcrumps/breadcrumps breadcrumps}}
+            </div>
             <div block="row">
-                {{> other/feedback/feedback page_oth_feedback.feedback}}
+                {{> other/feedback/feedback feedback}}
             </div>
         </div>
 
-        {{> footer/footer page_oth_feedback.footer}}
+        {{> footer/footer footer}}
     </body>
+{{/with}}
 </html>
