@@ -11,6 +11,8 @@
         .sale {
             &__pic {
                 padding: 10px 10px 0 10px;
+                max-height: 126px;
+                overflow: hidden;
             }
             &__img {
                 width: 100%;
@@ -20,69 +22,84 @@
                 height: 90px;
                 overflow: hidden;
                 text-overflow: ellipsis;
-                padding-top: 10px;
                 @include font-tuning(13, 16);
             }
         }
     }
-    &_vertical {
-        margin-bottom: 20px;
+    &_vert_w {
+        @extend .sale_vert;
+        background-color: #fff;
+        &:hover {
+            background-color: #FAFAFA;
+        }
         .sale {
-            &__link {
-                height: 219px;
-                overflow: hidden;
-                display: block;
-                &:hover {
-                    .sale__text {
-                        height: auto;
-                        overflow: auto;
-                    }
-                    .sale__title {
-                        background-color: darken($color-orange, 3);
-                    }
-                }
-                @include at(md) {
-                    height: 215px;
-                }
-                @include at(sm) {
-                    height: 195px;
-                }
-                @include at(xs) {
-                    height: auto;
-                }
-            }
             &__pic {
-                background-color: #fff;
-                @include at(xs) {
-                    display: none;
-                }
-            }
-            &__img {
-                width: 100%;
+                padding: 0;
             }
             &__text {
-                position: absolute;
-                bottom: 20px;
-                background-color: #fff;
-                padding: 3px 3px;
-                height: 53px;
-                overflow: hidden;
-                width: 159px;
-                @include at(md) {
-                    width: 157px;
-                }
-                @include at(sm) {
-                    height: 60px;
-                    width: 134px;
-                }
-                @include at(xs) {
-                    height: auto;
-                    width: auto;
-                    position: static;
-                }
+                height: 70px;
+                padding-top: 5px;
             }
         }
     }
+    //&_vertical {
+    //    margin-bottom: 20px;
+    //    .sale {
+    //        &__link {
+    //            height: 219px;
+    //            overflow: hidden;
+    //            display: block;
+    //            &:hover {
+    //                .sale__text {
+    //                    height: auto;
+    //                    overflow: auto;
+    //                }
+    //                .sale__title {
+    //                    background-color: darken($color-orange, 3);
+    //                }
+    //            }
+    //            @include at(md) {
+    //                height: 215px;
+    //            }
+    //            @include at(sm) {
+    //                height: 195px;
+    //            }
+    //            @include at(xs) {
+    //                height: auto;
+    //            }
+    //        }
+    //        &__pic {
+    //            background-color: #fff;
+    //            @include at(xs) {
+    //                display: none;
+    //            }
+    //        }
+    //        &__img {
+    //            width: 100%;
+    //        }
+    //        &__text {
+    //            position: absolute;
+    //            bottom: 20px;
+    //            background-color: #fff;
+    //            padding: 3px 3px;
+    //            height: 53px;
+    //            overflow: hidden;
+    //            width: 159px;
+    //            @include at(md) {
+    //                width: 157px;
+    //            }
+    //            @include at(sm) {
+    //                height: 60px;
+    //                width: 134px;
+    //            }
+    //            @include at(xs) {
+    //                height: auto;
+    //                width: auto;
+    //                position: static;
+    //            }
+    //        }
+    //    }
+    //}
     &_gorizontal {
         .sale {
             &__pic {
