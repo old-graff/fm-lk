@@ -14,9 +14,11 @@
 
     <body class="page">
         {{> header/header header}}
-        {{> breadcrumps/breadcrumps breadcrumps}}
 
         <div block="container">
+            <div class="row">
+                {{> breadcrumps/breadcrumps breadcrumps}}
+            </div>
             <div block="row">
                 <div block="company-rubrika-page">
                     <h1 block="h1" mod="style">{{name-rubrika}}</h1>

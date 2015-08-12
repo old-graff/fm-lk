@@ -7,21 +7,24 @@
 <html class="ie9 lt-ie10 no-js" lang="ru"><![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!-->
 <html class="no-js" lang="ru"><!--<![endif]-->
-
+{{#with page_company_rubrikator}}
 <head>
-    {{> head/head page_company_rubrikator.head}}
+    {{> head/head head}}
 </head>
 
 <body class="page">
-{{> header/header page_company_rubrikator.header}}
-{{> breadcrumps/breadcrumps page_company_rubrikator.breadcrumps}}
+{{> header/header header}}
 
 <div block="container">
+    <div class="row">
+        {{> breadcrumps/breadcrumps breadcrumps}}
+    </div>
     <div block="row">
-        {{> rubrikator/two-level-rubrikator/two-level-rubrikator page_company_rubrikator.rubrikator}}
+        {{> rubrikator/two-level-rubrikator/two-level-rubrikator rubrikator}}
     </div>
 </div>
 
-{{> footer/footer page_company_rubrikator.footer}}
+{{> footer/footer footer}}
 </body>
+{{/with}}
 </html>
