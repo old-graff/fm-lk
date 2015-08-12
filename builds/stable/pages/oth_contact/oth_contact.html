@@ -7,21 +7,24 @@
 <html class="ie9 lt-ie10 no-js" lang="ru"><![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!-->
 <html class="no-js" lang="ru"><!--<![endif]-->
-
+{{#with page_oht_contact}}
     <head>
         {{> head/head page_oht_contact.head}}
     </head>
 
     <body class="page">
-        {{> header/header page_oht_contact.header}}
-        {{> breadcrumps/breadcrumps page_oht_contact.breadcrumps}}
+        {{> header/header header}}
 
         <div class="container">
             <div class="row">
-                {{> other/contact/contact page_oht_contact.contact}}
+                {{> breadcrumps/breadcrumps breadcrumps}}
+            </div>
+            <div class="row">
+                {{> other/contact/contact contact}}
             </div>
         </div>
 
-        {{> footer/footer page_oht_contact.footer}}
+        {{> footer/footer footer}}
     </body>
+{{/with}}
 </html>

@@ -119,6 +119,10 @@
                         "icon": "case"
                     }]
                 }
+            },
+            "search": {
+                "url": "404",
+                "method": "get"
             }
         }
     }

@@ -7,22 +7,24 @@
 <html class="ie9 lt-ie10 no-js" lang="ru"><![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!-->
 <html class="no-js" lang="ru"><!--<![endif]-->
-
+{{#with page_sale_rubrika}}
     <head>
-        {{> head/head page_sale_rubrika.head}}
+        {{> head/head head}}
     </head>
 
     <body class="page">
-        {{> header/header page_sale_rubrika.header}}
-        {{> breadcrumps/breadcrumps page_sale_rubrika.breadcrumps}}
+        {{> header/header header}}
 
         <div class="container">
+            <div class="row">
+                {{> breadcrumps/breadcrumps breadcrumps}}
+            </div>
             <div class="page_sale_rubrikator">
                 <div class="row">
-                    <h1 class="h1 h1_style">{{page_sale_rubrika.title}}</h1>
+                    <h1 class="h1 h1_style">{{title}}</h1>
 
                     <div class="page_sale_rubrikator__list">
-                        {{> sale/sale_rubrikator/sale_rubrikator page_sale_rubrika.sale}}    
+                        {{> sale/sale_rubrikator/sale_rubrikator sale}}
                     </div>
                 </div>
             </div>
@@ -30,4 +32,5 @@
 
         {{> footer/footer page_sale_rubrika.footer}}
     </body>
+{{/with}}
 </html>
