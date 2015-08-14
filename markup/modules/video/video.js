@@ -1,3 +1,9 @@
 $('.js-open-video').fancybox({
-    type: 'iframe'
+    type: 'iframe',
+    padding: 0,
+    helpers: {
+        overlay: {
+            locked: false
+        }
+    }
 });

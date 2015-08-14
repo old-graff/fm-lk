@@ -4577,9 +4577,12 @@ h2.resp-accordion {
 
 .login {
   background: #bbbdc0;
-  height: 30px; }
+  height: 30px;
+  position: relative; }
   .login:hover {
     background: #949599; }
+    .login:hover .menu-user {
+      display: block; }
   .login__btn {
     text-align: right;
     display: block;
@@ -4592,6 +4595,21 @@ h2.resp-accordion {
     line-height: 2.72727em; }
     .login__btn:visited, .login__btn:hover {
       color: #fff; }
+
+.menu-user {
+  display: none;
+  width: 100%;
+  background-color: #bbbdc0;
+  padding: 10px;
+  position: absolute;
+  top: 30px;
+  z-index: 20; }
+  .menu-user__item {
+    padding-bottom: 5px; }
+  .menu-user__item-link {
+    color: #FFFFFF;
+    font-size: 0.9375em;
+    line-height: 1em; }
 
 .logo {
   width: 100px; }

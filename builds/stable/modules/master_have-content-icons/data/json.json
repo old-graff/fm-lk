@@ -4,7 +4,6 @@
         "switch": true,
         "have-content-icons": [{
             "content-type": "gift",
-            "url": "404",
             "is-active": false,
             "is-exist": false,
             "hint": "У мастера есть скидки"
@@ -16,7 +15,6 @@
             "hint": "У мастера есть фотографии"
         }, {
             "content-type": "video",
-            "url": "404",
             "is-active": false,
             "is-exist": false,
             "hint": "У мастера есть видео"
