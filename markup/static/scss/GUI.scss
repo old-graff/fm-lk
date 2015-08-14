@@ -211,9 +211,7 @@ a:active {
     margin-bottom: 10px;
     border: 1px solid $color-red;
     @include font-tuning(14, 16);
-
 }
-
 .btn {
     width: 100%;
     border: none;

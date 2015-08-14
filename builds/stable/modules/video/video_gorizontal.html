@@ -1,10 +1,13 @@
 <div class="video video_gorizontal">
     <div class="row">
-        <div class="video__img-wr">
-            <img class="video__img" src="{{src}}" alt="{{title}}">
-        </div>
+        <a class="js-open-video" href="{{video-url}}">
+            <div class="video__img-wr">
+                <img class="video__img" src="{{src}}" alt="{{title}}">
+            </div>
+        </a>
         <div class="video__content">
             <p class="video__title">{{title}}</p>
+
             <p class="video__intro">{{intro}}</p>
         </div>
     </div>
@@ -14,12 +17,14 @@
             <a href="{{url}}">
                 <img class="video__master-photo" src="{{photo}}" alt="{{name}}">
             </a>
+
             <p>Видео добавил Мастер: </p>
             <a href="{{url}}">{{name}}</a>
             {{/with}}
         </div>
         <div class="video__dop">
             <p class="video__rubrika"><strong>Рубрика:</strong> {{rubrika}}</p>
+
             <p class="video__date">{{date}}</p>
         </div>
     </div>

@@ -1,6 +1,7 @@
 .video_vertical{
     display: block;
     text-decoration:none;
+    height: 247px;
     @extend .bg_grey;
     .video{
         &__img-wr{
