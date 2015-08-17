@@ -1,0 +1,32 @@
+{
+  "block_photo_slider": [
+    {
+      "img": "%=staticPrefix=%img/assets/photo_slider/1.jpg",
+      "desc": "Описание фотографии"
+    },
+    {
+      "img": "%=staticPrefix=%img/assets/photo_slider/2.jpg",
+      "desc": "Описание фотографии"
+    },
+    {
+      "img": "%=staticPrefix=%img/assets/photo_slider/3.jpg",
+      "desc": "Описание фотографии"
+    },
+    {
+      "img": "%=staticPrefix=%img/assets/photo_slider/4.jpg",
+      "desc": "Описание фотографии"
+    },
+    {
+      "img": "%=staticPrefix=%img/assets/photo_slider/5.jpg",
+      "desc": "Описание фотографии"
+    },
+    {
+      "img": "%=staticPrefix=%img/assets/photo_slider/6.jpg",
+      "desc": "Описание фотографии"
+    },
+    {
+      "img": "%=staticPrefix=%img/assets/photo_slider/7.jpg",
+      "desc": "Описание фотографии"
+    }
+  ]
+}
