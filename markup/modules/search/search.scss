@@ -30,8 +30,6 @@
         @extend .col-lg-2;
         @extend .col-sm-3;
         &-submit {
-            display: table-cell;
-            vertical-align: middle;
             font-weight: normal;
             height: 40px;
             width: 100%;
@@ -59,7 +57,7 @@
     @include at(sm) {
         &__title, &__field, &__button {
             height: 70px;
-
+            
         }
         &__field {
             &-input {
@@ -86,12 +84,17 @@
         }
         &__button {
             padding-left: 10px;
-            height: 70px;
+            height: 68px;
+            &-submit {
+                display:block;
+                top: 10px;
+                transform:none;
+            }
         }
     }
     &_inner {
         background-color: #5DC8ED;
-
+        
         .search {
             &__title, &__field, &__button {
                 height: 60px;
@@ -104,7 +107,7 @@
                     background-color: #8ed8f2;
                     @include at(xs){
                         background-color: transparent;
-
+                        
                     }
                     &:hover {
                         background-color: lighten(#8ed8f2, 10%);
@@ -112,7 +115,7 @@
                             background-color: transparent;
                         }
                     }
-
+                    
                 }
             }
             &__title {

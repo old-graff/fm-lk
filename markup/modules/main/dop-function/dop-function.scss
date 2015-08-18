@@ -1,5 +1,5 @@
 .dop-function{
-
+    
     @extend .col-lg-3;
     @extend .col-md-4;
     @extend .col-ms-12;
@@ -93,7 +93,7 @@
             }
         }
     }
-    @include at(sm){
+    @include to(md){
         padding-right: 5px;
         padding-left: 5px;
         &__menu, &__menu-cube{
@@ -126,6 +126,31 @@
             padding: 0 20px;
             cursor: pointer;
             @include font-tuning(13,34);
+            &:after{
+                content: ' ';
+                display: block;
+                position: absolute;
+                right:10px;
+                top: 12px;
+                @extend %icon;
+                @extend %icon_block;
+                @extend %icon_strelka;
+                @extend %icon_size_xxsmall;
+            }
+        }
+    }
+    @include at(xs){
+        padding-right: 10px;
+        padding-left: 10px;
+        &__inner{
+            padding-top: 3px;
+            padding-bottom: 3px;
+        }
+        &__title{
+            &:after{
+                right:20px;
+                top: 15px;
+            }
         }
     }
     

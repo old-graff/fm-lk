@@ -12,6 +12,10 @@
     @include at(xs) {
         padding-right: 10px;
         padding-left: 10px;
+        &__inner{
+            position:relative;
+            padding-bottom: 60px;
+        }
     }
 }
 
@@ -45,9 +49,10 @@
         text-align: center;
         padding-top: 0;
         right: 0;
-        top: 54px;
+        top: 50px;
         width: 100%;
         transform: none;
+        margin: 2px 0;
         @include font-tuning(12, 15);
     }
 }
@@ -176,6 +181,23 @@
             @include icon_size_small;
         }
     }
+    @include at(xs){
+        &__inner{
+            padding-top: 6px;
+            padding-bottom: 9px;
+            border-width: 2px;
+        }
+        &:after{
+            @extend .or;
+            content: 'или';
+            display: block; 
+            position: absolute;
+            bottom: -17px;
+            top: auto;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
 }
 
 .call-back {
@@ -184,9 +206,6 @@
     @extend .col-lg-4;
     @extend .col-sm-6;
     @extend .col-xs-12;
-    @include at(xs) {
-        padding-left: 10px;
-    }
     &__inner {
         background-color: $color-yellow;
         border-top: 5px solid $color-yellow-deep;
@@ -237,6 +256,16 @@
             float: left;
             @include icon_size_small;
         }
+    }    
+    @include at(xs) {
+        padding-left: 10px;
+        position: absolute;
+        bottom: 10px;
+        &__inner{
+            padding-top: 6px;
+            padding-bottom: 9px;
+            border-width: 2px;
+        }
     }
 }
 
@@ -272,5 +301,8 @@
     &__dop {
         @extend .col-lg-10;
         @extend .col-xs-12;
+    }
+    @include at(xs){
+        display: none;
     }
 }
