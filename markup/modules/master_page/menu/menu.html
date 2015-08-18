@@ -1,12 +1,12 @@
-<div block="master_page_menu">
+<div block="master_page_menu" mix="block:js-menu-fix">
     <ul elem="list">
         {{#each list}}
         <li elem="item">
             {{#if exist}}
             {{#if active}}
-            <a elem="link" mod="active" href="#{{position}}">{{name}}</a>
+            <a elem="link" mod="active" href="#{{position}}" mix="block:scrollto">{{name}}</a>
             {{else}}
-            <a elem="link" href="#{{position}}">{{name}}</a>
+            <a elem="link" href="#{{position}}" mix="block:scrollto">{{name}}</a>
             {{/if}} 
             {{else}}
             <span elem="not-exist">{{name}}</span>

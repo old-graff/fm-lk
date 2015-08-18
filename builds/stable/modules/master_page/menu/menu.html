@@ -1,12 +1,12 @@
-<div class="master_page_menu">
+<div class="master_page_menu js-menu-fix">
     <ul class="master_page_menu__list">
         {{#each list}}
         <li class="master_page_menu__item">
             {{#if exist}}
             {{#if active}}
-            <a class="master_page_menu__link master_page_menu__link_active" href="#{{position}}">{{name}}</a>
+            <a class="master_page_menu__link master_page_menu__link_active scrollto" href="#{{position}}">{{name}}</a>
             {{else}}
-            <a class="master_page_menu__link" href="#{{position}}">{{name}}</a>
+            <a class="master_page_menu__link scrollto" href="#{{position}}">{{name}}</a>
             {{/if}} 
             {{else}}
             <span class="master_page_menu__not-exist">{{name}}</span>

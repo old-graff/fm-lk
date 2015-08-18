@@ -41,30 +41,48 @@
             {{> master_page/menu/menu menu}}
         </div>
         <div class="page_master_page__main-info">
-            {{> master_page/services/services services}}
+            <div id="servicesPosition">
+                {{> master_page/services/services services}}
+            </div>
             {{#if work}}
-            {{> master_page/work/work work}}
+            <div id="workPosition">
+                {{> master_page/work/work work}}
+            </div>
             {{/if}}
             {{#if sale}}
-            {{> master_page/sale/sale sale}}
+            <div id="salePosition">
+                {{> master_page/sale/sale sale}}
+            </div>
             {{/if}}
             {{#if about}}
-            {{> about/about about}}
+            <div id="aboutPosition">
+                {{> about/about about}}
+            </div>
             {{/if}}
             {{#if secret}}
-            {{> master_page/secret/secret secret}}
+            <div id="secretPosition">
+                {{> master_page/secret/secret secret}}
+            </div>
             {{/if}}
             {{#if photo}}
-            {{> master_page/photo/photo_new photo}}
+            <div id="photoPosition">
+                {{> master_page/photo/photo_new photo}}
+            </div>
             {{/if}}
             {{#if video}}
-            {{> master_page/video/video video}}
+            <div id="videoPosition">
+                {{> master_page/video/video video}}
+            </div>
             {{/if}}
             {{#if links}}
-            {{> master_page/links/links links}}
+            <div id="linkPosition">
+                {{> master_page/links/links links}}
+            </div>
             {{/if}}
             {{#if recommend}}
-            {{> master_page/recommend/recommend recommend}}
+            <div id="recommendPosition">
+                {{> master_page/recommend/recommend recommend}}
+            </div>
             {{/if}}
         </div>
     </div>
