@@ -1,0 +1,9 @@
+.page_article {
+    &__article {
+        @extend .col-xs-12;
+    }
+    &__author {
+        @extend .col-xs-12;
+        padding-bottom: 10px;
+    }
+}
