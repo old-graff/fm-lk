@@ -19,6 +19,7 @@ function sendForm(form_DOM, successHandler, errorHandler) {
         data: form_DOM.serialize(),
         success: function (response) {
             if (response.success) {
+                form_DOM.find('.error-summary').remove();
                 successHandler(response);
             } else {
                 form_DOM.find('.error-summary').remove();
