@@ -1596,6 +1596,13 @@ function servicesCut() {
 
 servicesCut();
 
+$(window).resize(function () {
+    var width = $(window).width();
+    if (width <= 750) {
+        servicesCut();
+    }
+});
+
 function master_minicard_preload() {
     $('.js-content-icon-switch.active').each(function () {
         $(this).parents('.master_presentation')
@@ -1629,15 +1636,6 @@ $('.master_recommended__slider').slick({
     slidesToScroll: 3
 });
 
-$('.js-open-video').fancybox({
-    type: 'iframe',
-    padding: 0,
-    helpers: {
-        overlay: {
-            locked: false
-        }
-    }
-});
 $('#recovery-password-form').submit(function () {
     sendForm($(this),
         function (response) {
@@ -1667,6 +1665,15 @@ $('.capcha__reload-link a').click(function () {
 });
 
 
+$('.js-open-video').fancybox({
+    type: 'iframe',
+    padding: 0,
+    helpers: {
+        overlay: {
+            locked: false
+        }
+    }
+});
 $('.dop-function-block-js').click(function () {
     $(this).parent().find('ul').toggleClass('dop-function-block-uncollapse');
 });

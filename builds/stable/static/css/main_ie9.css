@@ -662,6 +662,8 @@ html, body {
   content: "—";
   position: absolute;
   left: 0px; }
+.format p, .master_page_services__services p, .master_page_services__other-services p {
+  margin-bottom: 10px; }
 
 h1, .h1 {
   font-size: 25px;
@@ -4336,6 +4338,9 @@ h2.resp-accordion {
       text-decoration: none; }
     .rubrika-list__list-count {
       margin-left: 8px; }
+  @media  (min-width: 0px) and (max-width: 499px) {
+    .rubrika-list_tool-collapsed {
+      display: none; } }
   .rubrika-list_tool-collapsed .rubrika-list__title {
     background-color: transparent;
     border: 1px solid #d3d5d6;
@@ -5898,6 +5903,15 @@ h2.resp-accordion {
     right: 0;
     bottom: 1px; }
 
+.seo-text {
+  padding-top: 20px; }
+  .seo-text__text {
+    background-color: #e6e7e8;
+    padding: 20px;
+    color: #949599;
+    font-size: 0.8125em;
+    line-height: 1.23077em; }
+
 .social {
   text-align: justify;
   line-height: 0;
@@ -5924,15 +5938,6 @@ h2.resp-accordion {
         background-color: #949599; }
   .social-icon {
     margin: 0 auto; }
-
-.seo-text {
-  padding-top: 20px; }
-  .seo-text__text {
-    background-color: #e6e7e8;
-    padding: 20px;
-    color: #949599;
-    font-size: 0.9375em;
-    line-height: 1.26667em; }
 
 .video__img-wr {
   position: relative; }

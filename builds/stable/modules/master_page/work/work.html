@@ -20,9 +20,13 @@
                 </thead>
                 <tbody class="work-week__tbody">
                 <tr class="work-week__tr">
+                    {{#if is-always}}
+                    <td class="work-week__tbody-td" colspan="7"><strong>круглосуточно</strong></td>
+                    {{else}}
                     {{#each week}}
                     <td class="work-week__tbody-td">{{time-start}}<br>{{time-end}}</td>
                     {{/each}}
+                    {{/if}}
                 </tr>
                 </tbody>
             </table>

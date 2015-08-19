@@ -254,10 +254,6 @@
                         "src": "%=staticPrefix=%img/assets/master_minicard/6461.jpg",
                         "alt": "alt"
                     },
-                    "likes": {
-                        "url": "404",
-                        "count": "142"
-                    },
                     "phone-btn": {
                         "masterID": "1605",
                         "phone": "+7 960 835 06 46",

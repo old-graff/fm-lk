@@ -9,6 +9,13 @@ function servicesCut() {
 
 servicesCut();
 
+$(window).resize(function () {
+    var width = $(window).width();
+    if (width <= 750) {
+        servicesCut();
+    }
+});
+
 function master_minicard_preload() {
     $('.js-content-icon-switch.active').each(function () {
         $(this).parents('.master_presentation')

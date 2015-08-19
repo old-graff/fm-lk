@@ -67,6 +67,9 @@
         }
     }
     &_tool-collapsed {
+        @include at(xs){
+            display: none;
+        }
         .rubrika-list {
             &__title {
                 background-color: transparent;

@@ -20,9 +20,13 @@
                 </thead>
                 <tbody elem="tbody">
                 <tr elem="tr">
+                    {{#if is-always}}
+                    <td colspan="7" elem="tbody-td"><strong>круглосуточно</strong></td>
+                    {{else}}
                     {{#each week}}
                     <td elem="tbody-td">{{time-start}}<br>{{time-end}}</td>
                     {{/each}}
+                    {{/if}}
                 </tr>
                 </tbody>
             </table>

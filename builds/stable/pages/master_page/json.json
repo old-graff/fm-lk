@@ -194,6 +194,7 @@
                 }]
             },
             "work": {
+                "is-always": false,
                 "week": [{
                     "is-active": true,
                     "day": "пн",

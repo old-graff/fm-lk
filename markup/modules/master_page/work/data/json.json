@@ -1,5 +1,6 @@
 {
     "block_master_page_work": {
+        "is-always": false,
         "week": [
             {
                 "is-active": true,
