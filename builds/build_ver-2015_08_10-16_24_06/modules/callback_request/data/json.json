@@ -1,6 +1,0 @@
-{
-    "block_callback_request": {
-        "method": "get",
-        "url": "/master_page/success.json"
-    }
-}
