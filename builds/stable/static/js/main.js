@@ -945,6 +945,7 @@ function sendForm(form_DOM, successHandler, errorHandler) {
         data: form_DOM.serialize(),
         success: function (response) {
             if (response.success) {
+                form_DOM.find('.error-summary').remove();
                 successHandler(response);
             } else {
                 form_DOM.find('.error-summary').remove();
@@ -972,6 +973,17 @@ function yandexGoal_showPhone(masterID) {
     });
     return true;
 }
+
+$('a.scrollto[href^=#]').each(function () {
+    var $target = $(this.hash);
+
+    $(this).on('click', function () {
+        if ($target.length > 0) {
+            $('html, body').animate({scrollTop: $target.offset().top}, 'slow');
+        }
+        return false;
+    });
+});
 /*!
  * Fotorama 4.6.4 | http://fotorama.io/license/
  */
@@ -1523,44 +1535,6 @@ $('.js-filter-toggle-btn.active').click(function () {
     $(this).find('.filter-section__arrow-icon').toggleClass('down');
     return false;
 });
-if ($('.master_list').length > 0) {
-    var busy = false;
-    var page = 1;
-    $(window).scroll(function () {
-        var masterList = $('.master_list');
-
-        if ((($(window).height() + $(window).scrollTop()) >= (masterList.offset().top + masterList.height())) && !busy) {
-            busy = true;
-            page++;
-            jQuery.ajax({
-                url: masterList.attr('data-url'),
-                type: masterList.attr('data-method'),
-                dataType: 'json',
-                data: {
-                    page: page
-                },
-                beforeSend: function () {
-                    $('.master_list__preloader').show();
-                },
-                success: function (response) {
-                    if (response.success == true) {
-                        var card = '';
-                        response.content.forEach(function (entry) {
-                            card += '<div class="master_list__item">' + entry + '</div>';
-                        });
-                        $('.master_list__preloader').before(card);
-                        $('.master_list__preloader').hide();
-                        master_minicard_preload();
-                        servicesCut();
-                        busy = false;
-                    } else {
-                        $('.master_list__preloader').hide();
-                    }
-                }
-            });
-        }
-    });
-}
 $(document).on('mouseenter', '.master_content-icon.exist', function (e) {
     var x = e.pageX + 20;
     var y = e.pageY - 10;
@@ -1609,6 +1583,44 @@ $(document).on('click', '.js-services-toggle', function () {
     }
     return false;
 });
+if ($('.master_list').length > 0) {
+    var busy = false;
+    var page = 1;
+    $(window).scroll(function () {
+        var masterList = $('.master_list');
+
+        if ((($(window).height() + $(window).scrollTop()) >= (masterList.offset().top + masterList.height())) && !busy) {
+            busy = true;
+            page++;
+            jQuery.ajax({
+                url: masterList.attr('data-url'),
+                type: masterList.attr('data-method'),
+                dataType: 'json',
+                data: {
+                    page: page
+                },
+                beforeSend: function () {
+                    $('.master_list__preloader').show();
+                },
+                success: function (response) {
+                    if (response.success == true) {
+                        var card = '';
+                        response.content.forEach(function (entry) {
+                            card += '<div class="master_list__item">' + entry + '</div>';
+                        });
+                        $('.master_list__preloader').before(card);
+                        $('.master_list__preloader').hide();
+                        master_minicard_preload();
+                        servicesCut();
+                        busy = false;
+                    } else {
+                        $('.master_list__preloader').hide();
+                    }
+                }
+            });
+        }
+    });
+}
 $('.master_recommended__slider').slick({
     dots: false,
     infinite: false,
@@ -1655,6 +1667,12 @@ $('.js-open-video').fancybox({
         }
     }
 });
+$('.js-find-master').click(function () {
+    if ($(this).parent().find('.catalogs').is(':hidden')) {
+        $(this).parent().find('.catalogs').show();
+        return false;
+    }
+});
 $('.dop-function-block-js').click(function () {
     $(this).parent().find('ul').toggleClass('dop-function-block-uncollapse');
 });
@@ -1681,6 +1699,17 @@ $('.js-callback-popup').click(function () {
 
 $('.js-open-map').fancybox({
     padding: 0
+});
+$(window).on('scroll', function () {
+    if ($(window).scrollTop() > 460) {
+        $('.js-menu-fix').addClass('master_page_menu_fix');
+    } else {
+        $('.js-menu-fix').removeClass('master_page_menu_fix');
+    }
+});
+$('.master_page_menu__link').on('click', function () {
+    $('.master_page_menu__link').removeClass('master_page_menu__link_active');
+    $(this).addClass('master_page_menu__link_active');
 });
 $('.photo_slider').fotorama({
     allowfullscreen: true,
@@ -1770,6 +1799,9 @@ if ($('.js-present-competition-vote').parents('.voted')) {
 }
 
 
+$('.faq__item-title').click(function () {
+    $(this).parent().toggleClass('faq__item_uncollapse');
+});
 $('.form__form').submit(function () {
     var form = $(this);
     sendForm(form, function (response) {
@@ -1780,9 +1812,6 @@ $('.form__form').submit(function () {
 
 $('.more-page__item').click(function () {
     $(this).toggleClass('more-page__item_uncollapse');
-});
-$('.faq__item-title').click(function () {
-    $(this).parent().toggleClass('faq__item_uncollapse');
 });
 //$(document).ready(function(){
     //$('#tab').easyResponsiveTabs();
@@ -1824,6 +1853,17 @@ $(document).on('click', '.js-show-phone', function () {
     tellAboutUs($(this), '.master_photo-and-contacts__contact-wrap');
     yandexGoal_showPhone($(this).attr('data-id'));
 });
+tellAboutUs = function (el, parent) {
+    var tip = el.parents(parent).find('.js-tip');
+    tip.show();
+    setTimeout(function () {
+        tip.hide();
+    }, 5000);
+};
+
+$('.js-close-tip').click(function () {
+    $(this).parent('.js-tip').hide();
+});
 $(window).scroll(function () {
     if ($(this).scrollTop() > 300) {
         $('.js-to-top').css('display', 'block');
@@ -1836,17 +1876,6 @@ $('.js-to-top').click(function () {
         scrollTop: 0
     }, 1000);
     return false;
-});
-tellAboutUs = function (el, parent) {
-    var tip = el.parents(parent).find('.js-tip');
-    tip.show();
-    setTimeout(function () {
-        tip.hide();
-    }, 5000);
-};
-
-$('.js-close-tip').click(function () {
-    $(this).parent('.js-tip').hide();
 });
 $('#comment_form').submit(function () {
         sendForm($(this),

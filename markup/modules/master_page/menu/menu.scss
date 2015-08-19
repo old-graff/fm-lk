@@ -1,24 +1,29 @@
 .master_page_menu {
-    &__link {
-        display: block;
-        height: 42px;
-        padding-left: 18px;
-        text-decoration: none;
-        text-transform: uppercase;
-        background-color: $color-bg-grey-light;
-        @include font-tuning(12, 42);
-        &_active, &:hover {
-            background-color: $color-bg-grey-medium;
-            color: #FFFFFF;
-        }
+  &_fix {
+    position: fixed;
+    width: 225px;
+    top: 0;
+  }
+  &__link {
+    display: block;
+    height: 42px;
+    padding-left: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: $color-bg-grey-light;
+    @include font-tuning(12, 42);
+    &_active, &:hover {
+      background-color: $color-bg-grey-medium;
+      color: #FFFFFF;
     }
-    &__not-exist {
-        @extend .master_page_menu__link;
-        color: $color-bg-grey-medium;
-        &:hover {
-            background-color: $color-bg-grey-light;
-            color: $color-bg-grey-medium;
-        }
+  }
+  &__not-exist {
+    @extend .master_page_menu__link;
+    color: $color-bg-grey-medium;
+    &:hover {
+      background-color: $color-bg-grey-light;
+      color: $color-bg-grey-medium;
     }
+  }
 
 }
