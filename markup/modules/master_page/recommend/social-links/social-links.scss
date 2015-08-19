@@ -33,4 +33,7 @@
     &__note {
         @include font-tuning(10, 12);
     }
+    &__buttons {
+        padding-top: 10px;
+    }
 }

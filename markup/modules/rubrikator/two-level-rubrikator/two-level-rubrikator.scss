@@ -29,6 +29,11 @@
     @extend .col-md-4;
     @extend .col-sm-6;
     @extend .col-xs-12;
+    &:nth-child(2) {
+        @include at(sm){
+            float: right;
+        }
+    }
 }
 .rubrika-list {
     margin-bottom: 20px;
