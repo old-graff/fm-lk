@@ -29,6 +29,7 @@
     &_vert_w {
         @extend .sale_vert;
         background-color: #fff;
+        height: 250px;
         &:hover {
             background-color: #FAFAFA;
         }

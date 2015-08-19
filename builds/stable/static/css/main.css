@@ -486,11 +486,11 @@ a:active {
 .close__icon, .catalogs-dop__icon, .become-master__icon, .about-company__icon, .bayda__icon, .become-master__title:after, .about-company__title:after, .bayda__title:after, .find-master__icon, .call-back__icon, .master_contact__icon-phone, .master_contact__contact-icon, .master_page_links__icon, .master_navigation__icon, .js-photo-view .icon, .js-album-slider .icon, .news__icon, .about-list-item__icon, .faq__item-title:after, .more-page__text-title:after, .ofers-block-plus__icon, .ofers-block-plus-dop__icon, .ofers-block-medals__icon, .resp-arrow, .one_level_rubrikator__icon, .rubrika-list_tool-collapsed .rubrika-list__icon, .sale_rubrika__icon, .tip__close, .totop-btn__icon, .breadcrumbs__icon, .callback__icon, .company_minicard__icon_likes, .filter-section__icon, .filter-section__arrow-icon, .master_content-icon__icon, .master_photo-and-contacts__icon, .master_photo-and-contacts__icon-like, .master_recommended .slick-prev .icon, .master_recommended .slick-next .icon, .master_recommended-arrows__arrow-left, .master_recommended-arrows__arrow-right, .search__icon-search, .secret_gorizontal .secret__icon, .social-icon {
   background-image: url('../img/svg-sprite/sprite.svg');
   background-repeat: no-repeat; }
-  .call-back__icon, .master_contact__icon-phone, .ofers-block-plus__icon {
+  .master_contact__icon-phone, .ofers-block-plus__icon {
     width: 64px;
     height: 64px;
     background-size: 670px auto; }
-  .about-list-item__icon, .ofers-block-medals__icon {
+  .call-back__icon, .about-list-item__icon, .ofers-block-medals__icon {
     width: 48px;
     height: 48px;
     background-size: 502.5px auto; }
@@ -2582,7 +2582,7 @@ p {
     border-top: 5px solid #009444; }
     .find-master__inner-rel {
       padding-top: 25px; }
-      @media  (max-width: 749px) {
+      @media  (max-width: 999px) {
         .find-master__inner-rel {
           padding-top: 0; } }
   .find-master__title {
@@ -2651,7 +2651,8 @@ p {
         height: 64px;
         background-size: 670px auto;
         float: none;
-        margin: 0 auto; } }
+        margin: 0 auto;
+        margin-bottom: 5px; } }
     @media  (min-width: 500px) and (max-width: 749px) {
       .find-master__icon {
         margin: 0;
@@ -2718,6 +2719,12 @@ p {
         display: none; } }
   .call-back__icon {
     margin: 0 auto; }
+    @media  (min-width: 750px) and (max-width: 999px) {
+      .call-back__icon {
+        width: 64px;
+        height: 64px;
+        background-size: 670px auto;
+        margin-bottom: 5px; } }
     @media  (min-width: 500px) and (max-width: 749px) {
       .call-back__icon {
         margin: 0;
@@ -4299,6 +4306,10 @@ h2.resp-accordion {
   .master-rubrikator-page__dop {
     display: none; } }
 
+@media  (min-width: 500px) and (max-width: 749px) {
+  .rubriks-column:nth-child(2) {
+    float: right; } }
+
 .rubrika-list {
   margin-bottom: 20px; }
   .rubrika-list__title {
@@ -4374,7 +4385,8 @@ h2.resp-accordion {
     font-size: 0.8125em;
     line-height: 1.23077em; }
 .sale_vert_w {
-  background-color: #fff; }
+  background-color: #fff;
+  height: 250px; }
   .sale_vert_w:hover {
     background-color: #FAFAFA; }
   .sale_vert_w .sale__pic {
@@ -4778,6 +4790,8 @@ h2.resp-accordion {
   .social-links__note {
     font-size: 0.625em;
     line-height: 1.2em; }
+  .social-links__buttons {
+    padding-top: 10px; }
 
 .master_page_about__content {
   padding-top: 10px;

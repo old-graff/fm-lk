@@ -105,7 +105,7 @@
         border-top: 5px solid $color-green-deep;
         &-rel {
             padding-top: 25px;
-            @include to(md) {
+            @include to(lg) {
                 padding-top: 0;
             }
         }
@@ -171,6 +171,7 @@
             @include icon_size_xbig;
             float: none;
             margin: 0 auto;
+            margin-bottom: 5px;
         }
         @include at(sm) {
             margin: 0;
@@ -243,9 +244,13 @@
     &__icon {
         margin: 0 auto;
         @extend %icon;
-        @extend %icon_size_xbig;
+        @extend %icon_size_big;
         @extend %icon_block;
         @extend %icon_star-in-sun;
+        @include at(md){
+            @include icon_size_xbig;
+            margin-bottom: 5px;
+        }
         @include at(sm) {
             margin: 0;
             float: left;
