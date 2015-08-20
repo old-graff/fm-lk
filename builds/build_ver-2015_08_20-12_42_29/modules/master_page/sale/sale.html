@@ -1,0 +1,11 @@
+<div class="master_page_sale">
+    <div class="master_page_sale__header h2">Скидки и подарки</div>
+    <div class="master_page_sale__list">
+        {{#each sale-list}}
+        <div class="master_page_sale__sale">
+            {{> sale/sale/sale this}}
+            {{> sale/sale/sale_popup this}}
+        </div>
+        {{/each}}
+    </div>
+</div>

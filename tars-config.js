@@ -156,7 +156,7 @@ var tarsConfig = {
      * @type {String}
      */
     staticPrefix: '/static/',
-    staticPrefixForPhp: '/tmpl/build/stable/static/',
+    staticPrefixForPhp: '/tmpl/builds/stable/static/',
 
     /**
      * Beginning of path for static files for using in css
