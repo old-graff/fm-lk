@@ -1522,6 +1522,11 @@ $('#callback-request-form').submit(function () {
     });
     return false;
 });
+$('.js-filter-toggle-btn.active').click(function () {
+    $(this).parent().find('.js-filter-toggle-section').slideToggle();
+    $(this).find('.filter-section__arrow-icon').toggleClass('down');
+    return false;
+});
 $('#reg-link').click(function () {
     $('#entry-form').hide();
     $('#registration-form').show();
@@ -1529,11 +1534,6 @@ $('#reg-link').click(function () {
 $('#entry-link').click(function () {
     $('#registration-form').hide();
     $('#entry-form').show();
-});
-$('.js-filter-toggle-btn.active').click(function () {
-    $(this).parent().find('.js-filter-toggle-section').slideToggle();
-    $(this).find('.filter-section__arrow-icon').toggleClass('down');
-    return false;
 });
 $(document).on('mouseenter', '.master_content-icon.exist', function (e) {
     var x = e.pageX + 20;

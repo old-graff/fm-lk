@@ -1,0 +1,37 @@
+<!doctype html>
+<!--[if IE 7]>
+<html class="ie7 lt-ie10 lt-ie9 lt-ie8 no-js" lang="ru"><![endif]-->
+<!--[if IE 8]>
+<html class="ie8 lt-ie10 lt-ie9 no-js" lang="ru"><![endif]-->
+<!--[if IE 9 ]>
+<html class="ie9 lt-ie10 no-js" lang="ru"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="no-js" lang="ru"><!--<![endif]-->
+
+    <head>
+        {{> head/head page_regmaster.head}}
+    </head>
+
+    <body class="page">
+        {{> header/header page_regmaster.header}}
+        
+        {{> reg-master/about/header}}
+        <div id="form1">
+            {{> reg-master/form/form page_regmaster.form}}
+        </div>
+        {{> reg-master/about/about}}
+        {{> reg-master/why-we/why-we page_regmaster.why-we}}
+        {{> reg-master/price/price}}
+        <div id="form2">
+            {{> reg-master/form/form page_regmaster.form}}
+        </div>
+        {{> reg-master/more-page/more-page}}
+        {{> reg-master/faq/faq}}
+        <div id="form3">
+            {{> reg-master/form/form page_regmaster.form}}
+        </div>
+
+
+        {{> footer/footer page_regmaster.footer}}
+    </body>
+</html>
