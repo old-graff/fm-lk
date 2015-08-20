@@ -1,0 +1,20 @@
+{
+    "block_present_competition_member": {
+        "id": "231",
+        "score": "24 голоса",
+        "url": "/present_competition/success.json",
+        "photos": [{
+            "src": "%=staticPrefix=%img/assets/present/work.jpg",
+            "name": "Прекрасная работа"
+        }, {
+            "src": "%=staticPrefix=%img/assets/present/work2.jpg",
+            "name": "Прекрасная работа"
+        }, {
+            "src": "%=staticPrefix=%img/assets/present/work3.jpg",
+            "name": "Прекрасная работа"
+        }, {
+            "src": "%=staticPrefix=%img/assets/present/work4.jpg",
+            "name": "Прекрасная работа"
+        }]
+    }
+}

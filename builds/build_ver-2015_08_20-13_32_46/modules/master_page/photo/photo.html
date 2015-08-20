@@ -1,0 +1,41 @@
+<div class="master_page_photo" data-url="{{update-url}}" data-method="{{method}}">
+    <div class="master_page_photo__header h2">Фото</div>
+    <div class="master_page_photo__albums_list js-album-slider">
+        {{#each album-list}}
+        <div class="master_page_photo__albums_item js-photo-album" data-id="{{album.id}}">
+            <img class="master_page_photo__album_preview" src="{{album.src}}" alt="{{album.name}}">
+
+            <p class="master_page_photo__album_name">{{album.name}}</p>
+        </div>
+        {{/each}}
+    </div>
+    <div class="row">
+        {{#each album-list}}
+        <div class="master_page_photo__album_content" id="album{{album.id}}">
+            <div class="master_page_photo__photo-preview js-photo-view">
+                {{#each photos}}
+                <div class="master_page_photo__photo-list-item">
+                    <img src="{{src}}" alt="{{name}}">
+
+                    <p class="master_page_photo__photo-desc">{{desc}}</p>
+                </div>
+
+                {{else}}
+                <div class="master_page_photo__preloader">
+                    <img src="/static/img/general/preloader.gif">
+                </div>
+                {{/each}}
+            </div>
+            <div class="master_page_photo__photo-list js-photo-slider">
+                {{#each photos}}
+                <div class="master_page_photo__photo-list-item">
+                    <div class="master_page_photo__photo-list-wrap">
+                        <img src="{{src}}" alt="{{name}}">
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</div>
