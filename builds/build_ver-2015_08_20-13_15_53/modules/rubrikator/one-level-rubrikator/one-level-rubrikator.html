@@ -1,0 +1,39 @@
+<div class="one_level_rubrikator">
+    <ul>
+        {{#each rubrikator}}
+        <li class="one_level_rubrikator__item{{#if is-active}} one_level_rubrikator__item_active{{/if}}">
+
+            {{#if is-active}}<p class="one_level_rubrikator__link">{{else}}<a class="one_level_rubrikator__link" href="{{url}}">{{/if}}
+            <i class="one_level_rubrikator__icon"></i>
+            {{title}}
+            {{#if count}}<span class="one_level_rubrikator__count">&nbsp;&nbsp;{{count}}</span>{{/if}}
+            {{#unless is-active}}</a>{{else}}</p>{{/unless}}
+
+            {{#if inner-list}}
+            <ul class="one_level_rubrikator__inner-list">
+                {{#each inner-list}}
+
+                <li class="one_level_rubrikator__inner-list-item{{#if is-active}} one_level_rubrikator__inner-list-item_active{{/if}}">
+                    {{#if is-active}}
+                    <p class="one_level_rubrikator__inner-link">
+                        {{else}}
+                        <a class="one_level_rubrikator__inner-link" href="{{url}}">
+                            {{/if}}
+
+                            {{title}}
+                            {{#if count}}<span class="one_level_rubrikator__inner-count">&nbsp;&nbsp;{{count}}</span>{{/if}}
+
+                            {{#unless is-active}}
+                        </a>
+                        {{else}}
+                    </p>
+                    {{/unless}}
+                </li>
+                {{/each}}
+            </ul>
+            {{/if}}
+
+        </li>
+        {{/each}}
+    </ul>
+</div>

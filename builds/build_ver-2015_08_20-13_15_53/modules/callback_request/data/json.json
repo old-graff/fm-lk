@@ -1,0 +1,6 @@
+{
+    "block_callback_request": {
+        "method": "get",
+        "url": "/callback_request/success.json"
+    }
+}
