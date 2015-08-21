@@ -1,0 +1,17 @@
+{
+    "block_entry": {
+        "entry": {
+            "method": "get",
+            "action": "",
+            "recovery-url": "/recovery-password/recovery-password.html"
+        },
+        "registration": {
+            "method": "get",
+            "action": "",
+            "capcha": {
+                "img-url": "%=staticPrefix=%img/assets/recovery-password/captcha.png",
+                "reload-url": "/recovery-password/capcha.json"
+            }
+        }
+    }
+}

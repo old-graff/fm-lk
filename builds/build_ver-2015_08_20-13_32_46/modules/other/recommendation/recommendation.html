@@ -1,0 +1,16 @@
+<div class="recommendation-list">
+    {{#each recommendation}}
+    <div class="recommendation">
+        <div class="recommendation__inner">
+            <div class="recommendation__img-wr">
+                <img class="recommendation__img" src="{{src}}" alt="{{title}}">
+            </div>
+            <div class="recommendation__content">
+                <p class="recommendation__title">{{title}}</p>
+                <p class="recommendation__intro">{{{intro}}}</p>
+                <p class="recommendation__date">{{date}}</p>
+            </div>
+        </div>
+    </div>
+    {{/each}}
+</div>

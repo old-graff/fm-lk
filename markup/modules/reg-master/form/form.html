@@ -5,7 +5,7 @@
                 <div elem="cont">
                     <h2 elem="title">Начать регистрацию</h2>
 
-                    <form elem="form" action="{{url}}" method="{{method}}">
+                    <form elem="form" action="{{url}}" method="{{method}}" data-url-lk="{{url-lk}}">
                         <div elem="row">
                             <input type="text" placeholder="Как Вас зовут?" name="regmaster[name]">
                         </div>
@@ -14,11 +14,11 @@
                                 <input type="text" placeholder="Укажите Ваш телефон" name="regmaster[phone]">
                             </div>
                             <div elem="row_half">
-                                <input type="text" placeholder="Придумайте пароль" name="regmaster[password]">
+                                <input type="password" placeholder="Придумайте пароль" name="regmaster[password]">
                             </div>
                         </div>
                         <div elem="row">
-                            <input elem="btn" mix="block:btn" type="submit" value="УРА!">
+                            <input elem="btn" mix="block:btn" type="submit" value="ЗАРАГИСТРИРОВАТЬСЯ">
                         </div>
                         <div elem="row">
                             <label><input type="checkbox" checked value="true">я согласен с <a href="#">условиями</a> </label>

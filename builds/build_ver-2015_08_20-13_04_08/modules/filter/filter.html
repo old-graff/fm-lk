@@ -1,0 +1,43 @@
+<div class="filter">
+    {{#each filter-section}}
+    <div class="filter-section">
+        <a class="filter-section__title filter-section__title_{{section-name}} {{#if open-section}}active{{/if}} js-filter-toggle-btn" href="{{url}}">
+            <i class="filter-section__icon"></i>
+            {{title}}
+            <i class="filter-section__arrow-icon {{#if open-section}}down{{/if}}"></i>
+        </a>
+        {{#if open-section}}
+        {{#with open-section}}
+        <div class="filter-section__section js-filter-toggle-section">
+            {{#if is-sort}}
+            <div class="sort-by">
+                <p class="sort-by__title">Отсортировать: </p>
+
+                <form class="sort-by__form" action="{{sort-by.url}}" method="{{sort-by.method}}">
+                    <div class="filter-radio">
+                        <input class="filter-radio__input" type="radio" name="sort-by" value="name" id="sort-by-name">
+                        <label class="filter-radio__label" for="sort-by-name">по фамилии по алфавиту</label>
+                    </div>
+                    <div class="filter-radio">
+                        <input class="filter-radio__input" type="radio" name="sort-by" value="recommendation" id="sort-by-recommendation">
+                        <label class="filter-radio__label" for="sort-by-recommendation">по количеству рекомендаций</label>
+                    </div>
+                </form>
+            </div>
+            {{/if}}
+            {{#if is-filter}}
+            <div class="filter-by">
+                <p class="filter-by__title">Отфильтровать:</p>
+                {{> filter/tags/tags tags-free}}
+                {{#each tags-group}}
+                <p class="filter-by__title">{{title}}</p>
+                {{> filter/tags/tags list}}
+                {{/each}}
+            </div>
+            {{/if}}
+        </div>
+        {{/with}}
+        {{/if}}
+    </div>
+    {{/each}}
+</div>
