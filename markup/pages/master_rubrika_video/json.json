@@ -43,6 +43,7 @@
             "method": "get",
             "modificator": "inner"
         },
+        "callback": "readyBlocksData.block_callback",
         "name": "Строительство",
         "filter": {
             "filter-section": [

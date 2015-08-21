@@ -1818,9 +1818,6 @@ if ($('.js-present-competition-vote').parents('.voted')) {
 }
 
 
-$('.faq__item-title').click(function () {
-    $(this).parent().toggleClass('faq__item_uncollapse');
-});
 $('.form__form').submit(function () {
     var form = $(this);
     sendForm(form, function (response) {
@@ -1829,6 +1826,9 @@ $('.form__form').submit(function () {
     return false;
 });
 
+$('.faq__item-title').click(function () {
+    $(this).parent().toggleClass('faq__item_uncollapse');
+});
 $('.more-page__item').click(function () {
     $(this).toggleClass('more-page__item_uncollapse');
 });

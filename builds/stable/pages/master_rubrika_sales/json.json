@@ -91,6 +91,9 @@
             "method": "get",
             "modificator": "inner"
         },
+        "callback": {
+            "url": "/callback_request/callback_request.html"
+        },
         "name": "Строительные компании",
         "filter": {
             "filter-section": [{
