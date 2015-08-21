@@ -33,9 +33,11 @@
             <article class="page_master_article__article">
                 {{{article.text}}}
             </article>
+            {{#if article.source}}
             <div class="page_master_article__source">
                 Источник: <a target="_blank" href="{{article.source}}" title="ссылка на источник">{{article.source}}</a>
             </div>
+            {{/if}}
             {{> article/recommended/recommended article_recommended}}
         </div>
     </div>

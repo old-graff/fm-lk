@@ -1,8 +1,10 @@
+{{#if next}}
 <div block="master_navigation">
     <div elem="prev">
         {{#with prev}}
         <a href="{{url}}">
             <i elem="icon" mod="prev"></i>
+
             <p elem="text">Пред.</p>
             <img elem="src" alt="{{name}}" src="{{src}}">
         </a>
@@ -12,9 +14,11 @@
         {{#with next}}
         <a href="{{url}}">
             <img elem="src" alt="{{name}}" src="{{src}}">
+
             <p elem="text">След.</p>
             <i elem="icon" mod="prev"></i>
         </a>
         {{/with}}
     </div>
 </div>
+{{/if}}

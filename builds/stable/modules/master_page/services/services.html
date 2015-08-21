@@ -12,15 +12,15 @@
         </ul>
     </div>
     {{#if list-rubriks}}
-    {{#each list-rubriks}}
     <div class="master_page_services__other-services">
         <p class="master_page_services__other-services-title">Услуги Мастера в других рубриках</p>
         <ul class="master_page_services__other-services-list">
+            {{#each list-rubriks}}
             <li class="master_page_services__list-item master_page_services__list-item_link">
                 <a class="master_page_services__list-link" href="{{link}}">{{name}}</a>
             </li>
+            {{/each}}
         </ul>
     </div>
-    {{/each}}
     {{/if}}
 </div>

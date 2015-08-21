@@ -1,0 +1,13 @@
+.page_500 {
+    padding-top: 150px;
+    &__number {
+        color: $color-orange;
+        font-weight: bold;
+        @include font-tuning(100, 100);
+    }
+    &__text {
+        color: $color-bg-grey-dark;
+        font-weight: bold;
+        @include font-tuning(20, 24);
+    }
+}
