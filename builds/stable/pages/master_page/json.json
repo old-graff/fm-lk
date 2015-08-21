@@ -116,7 +116,7 @@
                     "name": "Компания Новая"
                 },
                 "number": "5616",
-                "url-printCard": "404"
+                "url-printCard": "/print_card/print_card.html"
             },
             "contacts": {
                 "masterID": "1602",
