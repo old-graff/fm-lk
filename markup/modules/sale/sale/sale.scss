@@ -132,6 +132,7 @@
 .sale_popup {
     @extend .col-xs-12;
     background-color: $color-bg-grey-light;
+    display: none;
     &__title {
         padding: 10px 0;
         background-color: $color-orange;
@@ -141,6 +142,15 @@
         font-weight: bold;
     }
     &__pic {
-
+        float: left;
+        margin-right: 15px;
+    }
+    &__text {
+        padding: 20px;
+    }
+    &__date {
+        padding: 10px 20px;
+        font-weight: bold;
+        @include font-tuning(20, 20);
     }
 }

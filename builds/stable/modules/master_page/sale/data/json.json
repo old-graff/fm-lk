@@ -2,14 +2,14 @@
     "block_master_page_sale": {
         "sale-list": [{
             "modificator": "vert",
-            "url": "404",
+            "url": "sale-1",
             "title": "ПОДАРОК",
             "pic": "%=staticPrefix=%img/assets/sale/52f16e1697817.jpg",
             "date": "23.10.15",
             "text": "При заказе балкона под ключ-жалюзи в подарок и много лыбок При заказе балкона под ключ-жалюзи в подарок и много лыбок При заказе балкона под ключ-жалюзи в подарок и много лыбок"
         }, {
             "modificator": "vert",
-            "url": "404",
+            "url": "sale-2",
             "title": "-1000 рублей",
             "date": "23.10.15",
             "pic": "%=staticPrefix=%img/assets/sale/52f16e1697817.jpg",
