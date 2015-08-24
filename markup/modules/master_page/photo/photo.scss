@@ -5,9 +5,12 @@
     }
     &__albums_item {
         @extend .col-md-3;
+        @extend .col-sm-6;
+        @extend .col-xs-12;
         padding-bottom: 10px;
         padding-top: 10px;
         cursor: pointer;
+        height: 210px;
         &.active {
             background-color: $color-bg-grey-light;
         }

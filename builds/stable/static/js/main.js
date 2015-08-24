@@ -1760,7 +1760,25 @@ $('.js-photo-album').click(function () {
     if ($('.js-photo-album').hasClass('active')) {
         $('#album' + id).show();
     }
-
+});
+$('.js-photo-album1').on('click', function () {
+    var container = $('.master_page_photo');
+    var id = $(this).attr('data-id');
+    $.ajax({
+        url: container.attr('data-url'),
+        type: container.attr('data-method'),
+        dataType: 'json',
+        data: {
+            id: id
+        },
+        success: function (response) {
+            var album = $('.js-album-content').fotorama;
+            var photos = album.data();
+            void 0;
+            /*$.fotorama.data().load(photos);
+            $.fotorama.data().requestFullScreen();*/
+        }
+    });
 });
 $('#feedback-form').submit(function () {
     sendForm($(this), function (response) {
@@ -1818,38 +1836,6 @@ if ($('.js-present-competition-vote').parents('.voted')) {
 }
 
 
-$('.faq__item-title').click(function () {
-    $(this).parent().toggleClass('faq__item_uncollapse');
-});
-$('.form__form').submit(function () {
-    var form = $(this);
-    var urlLk = form.attr('data-url-lk');
-    sendForm(form, function (response) {
-        form.html('<p>Вы успешно зарегистрированны, сейчас вы будете перенаправлены в личный кабинет.</p><br>\n\
-<p>Если этого не произошло, нажмите на <a href="' + urlLk + '">ссылку</a></p>');
-        window.location.href = urlLk;
-    });
-    return false;
-});
-
-$('.more-page__item').click(function () {
-    $(this).toggleClass('more-page__item_uncollapse');
-});
-//$(document).ready(function(){
-    //$('#tab').easyResponsiveTabs();
-    $('#horizontalTab').easyResponsiveTabs({
-        type: 'default', //Types: default, vertical, accordion
-        width: 'auto', //auto or any width like 600px
-        tabidentify: 'hor_1'// The tab groups identifier
-        /*activate: function(event) { // Callback function if tab is switched
-         var $tab = $(this);
-         var $info = $('#nested-tabInfo');
-         var $name = $('span', $info);
-         $name.text($tab.text());
-         $info.show();
-         }*/
-    });
-//});
 $('.js-rubrika-list').click(function () {
     $(this).parent().find('.rubrika-list__list').toggle();
 });
@@ -1882,11 +1868,38 @@ $('.js-open-sale').on('click', function () {
     });
     return false;
 });
-$(document).on('click', '.js-show-phone', function () {
-    $(this).hide().parent().find('.js-show-phone_details').show();
-    tellAboutUs($(this), '.master_photo-and-contacts__contact-wrap');
-    yandexGoal_showPhone($(this).attr('data-id'));
+$('.faq__item-title').click(function () {
+    $(this).parent().toggleClass('faq__item_uncollapse');
 });
+$('.form__form').submit(function () {
+    var form = $(this);
+    var urlLk = form.attr('data-url-lk');
+    sendForm(form, function (response) {
+        form.html('<p>Вы успешно зарегистрированны, сейчас вы будете перенаправлены в личный кабинет.</p><br>\n\
+<p>Если этого не произошло, нажмите на <a href="' + urlLk + '">ссылку</a></p>');
+        window.location.href = urlLk;
+    });
+    return false;
+});
+
+$('.more-page__item').click(function () {
+    $(this).toggleClass('more-page__item_uncollapse');
+});
+//$(document).ready(function(){
+    //$('#tab').easyResponsiveTabs();
+    $('#horizontalTab').easyResponsiveTabs({
+        type: 'default', //Types: default, vertical, accordion
+        width: 'auto', //auto or any width like 600px
+        tabidentify: 'hor_1'// The tab groups identifier
+        /*activate: function(event) { // Callback function if tab is switched
+         var $tab = $(this);
+         var $info = $('#nested-tabInfo');
+         var $name = $('span', $info);
+         $name.text($tab.text());
+         $info.show();
+         }*/
+    });
+//});
 tellAboutUs = function (el, parent) {
     var tip = el.parents(parent).find('.js-tip');
     tip.show();
@@ -1910,6 +1923,11 @@ $('.js-to-top').click(function () {
         scrollTop: 0
     }, 1000);
     return false;
+});
+$(document).on('click', '.js-show-phone', function () {
+    $(this).hide().parent().find('.js-show-phone_details').show();
+    tellAboutUs($(this), '.master_photo-and-contacts__contact-wrap');
+    yandexGoal_showPhone($(this).attr('data-id'));
 });
 $('#comment_form').submit(function () {
         sendForm($(this),

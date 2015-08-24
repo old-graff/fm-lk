@@ -502,7 +502,7 @@
                 }]
             },
             "photo": {
-                "update-url": "/master_page/photos.html",
+                "update-url": "/master_page/photos.json",
                 "method": "get",
                 "album-list": [{
                     "album": {

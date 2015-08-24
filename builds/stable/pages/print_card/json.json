@@ -1,6 +1,8 @@
 {
     "page_print_card": {
-        "head": "readtBlocksData.block_head",
+        "head": {
+            "title": "Распечатать визитку. FaceMaster.ru."
+        },
         "img": "%=staticPrefix=%img/assets/master_page/5616.jpg",
         "name": "Камельчукова Оксана Васильевна",
         "spec": "Аквагрим,мехенди,тату хной,роспись по ткани(акрил,батик),ремесленные работы",

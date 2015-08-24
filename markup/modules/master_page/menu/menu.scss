@@ -1,4 +1,7 @@
 .master_page_menu {
+  @include to(md) {
+    display: none;
+  }
   &_fix {
     position: fixed;
     width: 225px;

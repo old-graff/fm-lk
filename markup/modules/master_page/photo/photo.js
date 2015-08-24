@@ -28,5 +28,23 @@ $('.js-photo-album').click(function () {
     if ($('.js-photo-album').hasClass('active')) {
         $('#album' + id).show();
     }
-
+});
+$('.js-photo-album1').on('click', function () {
+    var container = $('.master_page_photo');
+    var id = $(this).attr('data-id');
+    $.ajax({
+        url: container.attr('data-url'),
+        type: container.attr('data-method'),
+        dataType: 'json',
+        data: {
+            id: id
+        },
+        success: function (response) {
+            var album = $('.js-album-content').fotorama;
+            var photos = album.data();
+            console.log(photos);
+            /*$.fotorama.data().load(photos);
+            $.fotorama.data().requestFullScreen();*/
+        }
+    });
 });

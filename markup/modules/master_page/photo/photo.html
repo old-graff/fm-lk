@@ -2,40 +2,14 @@
     <div elem="header" mix="block:h2">Фото</div>
     <div elem="albums_list" mix="block:js-album-slider">
         {{#each album-list}}
-        <div elem="albums_item" data-id="{{album.id}}" mix="block:js-photo-album">
+        <div elem="albums_item" data-id="{{album.id}}" mix="block:js-photo-album1">
             <img elem="album_preview" src="{{album.src}}" alt="{{album.name}}">
 
             <p elem="album_name">{{album.name}}</p>
         </div>
         {{/each}}
     </div>
-    <div class="row">
-        {{#each album-list}}
-        <div elem="album_content" id="album{{album.id}}">
-            <div elem="photo-preview" mix="block:js-photo-view">
-                {{#each photos}}
-                <div elem="photo-list-item">
-                    <img src="{{src}}" alt="{{name}}">
+    <div block="js-album-content">
 
-                    <p elem="photo-desc">{{desc}}</p>
-                </div>
-
-                {{else}}
-                <div elem="preloader">
-                    <img src="/static/img/general/preloader.gif">
-                </div>
-                {{/each}}
-            </div>
-            <div elem="photo-list" mix="block:js-photo-slider">
-                {{#each photos}}
-                <div elem="photo-list-item">
-                    <div elem="photo-list-wrap">
-                        <img src="{{src}}" alt="{{name}}">
-                    </div>
-                </div>
-                {{/each}}
-            </div>
-        </div>
-        {{/each}}
     </div>
 </div>
