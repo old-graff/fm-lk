@@ -1836,38 +1836,6 @@ if ($('.js-present-competition-vote').parents('.voted')) {
 }
 
 
-$('.js-rubrika-list').click(function () {
-    $(this).parent().find('.rubrika-list__list').toggle();
-});
-$('.js-rubrika-collapsed').click(function () {
-    var cl = 'master-rubrikator-page';
-    var cl_col = cl + '_collapsed';
-    var el = $('.master-rubrikator-page');
-
-    if (el.hasClass(cl_col)) {
-        el.removeClass(cl_col);
-        $('.rubrika-list__list').show();
-        $(this).find('.rubrika-list__name').html('Свернуть все рубрики')
-        .end().find('.rubrika-list__icon').addClass('rubrika-list__icon_rotate');
-    } else {
-        el.addClass(cl_col);
-        $('.rubrika-list__list').hide();
-        $(this).find('.rubrika-list__name').html('Развернуть все рубрики')
-        .end().find('.rubrika-list__icon').removeClass('rubrika-list__icon_rotate');
-    }
-});
-$('.js-open-sale').on('click', function () {
-    $.fancybox.open($(this).attr('href'), {
-        padding: 0,
-        maxWidth: 400,
-        helpers: {
-            overlay: {
-                locked: false
-            }
-        }
-    });
-    return false;
-});
 $('.faq__item-title').click(function () {
     $(this).parent().toggleClass('faq__item_uncollapse');
 });
@@ -1900,6 +1868,43 @@ $('.more-page__item').click(function () {
          }*/
     });
 //});
+$('.js-rubrika-list').click(function () {
+    $(this).parent().find('.rubrika-list__list').toggle();
+});
+$('.js-rubrika-collapsed').click(function () {
+    var cl = 'master-rubrikator-page';
+    var cl_col = cl + '_collapsed';
+    var el = $('.master-rubrikator-page');
+
+    if (el.hasClass(cl_col)) {
+        el.removeClass(cl_col);
+        $('.rubrika-list__list').show();
+        $(this).find('.rubrika-list__name').html('Свернуть все рубрики')
+        .end().find('.rubrika-list__icon').addClass('rubrika-list__icon_rotate');
+    } else {
+        el.addClass(cl_col);
+        $('.rubrika-list__list').hide();
+        $(this).find('.rubrika-list__name').html('Развернуть все рубрики')
+        .end().find('.rubrika-list__icon').removeClass('rubrika-list__icon_rotate');
+    }
+});
+$('.js-open-sale').on('click', function () {
+    $.fancybox.open($(this).attr('href'), {
+        padding: 0,
+        maxWidth: 400,
+        helpers: {
+            overlay: {
+                locked: false
+            }
+        }
+    });
+    return false;
+});
+$(document).on('click', '.js-show-phone', function () {
+    $(this).hide().parent().find('.js-show-phone_details').show();
+    tellAboutUs($(this), '.master_photo-and-contacts__contact-wrap');
+    yandexGoal_showPhone($(this).attr('data-id'));
+});
 tellAboutUs = function (el, parent) {
     var tip = el.parents(parent).find('.js-tip');
     tip.show();
@@ -1923,11 +1928,6 @@ $('.js-to-top').click(function () {
         scrollTop: 0
     }, 1000);
     return false;
-});
-$(document).on('click', '.js-show-phone', function () {
-    $(this).hide().parent().find('.js-show-phone_details').show();
-    tellAboutUs($(this), '.master_photo-and-contacts__contact-wrap');
-    yandexGoal_showPhone($(this).attr('data-id'));
 });
 $('#comment_form').submit(function () {
         sendForm($(this),

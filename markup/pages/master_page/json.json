@@ -1,7 +1,13 @@
 {
     "page_master_page": {
         "head": {
-            "title": "Шевчик Егор Владимирович - FaceMaster.ru."
+            "title": "Шевчик Егор Владимирович - FaceMaster.ru.",
+            "social": {
+                "title": "Шевчик Егор Владимирович",
+                "description": "Здесь описание услуг мастера до 200 символов",
+                "url": "",
+                "img": "%=staticPrefix=%img/assets/master_page/5616.jpg"
+            }
         },
         "header": "readyBlocksData.block_header",
         "footer": "readyBlocksData.block_footer",
