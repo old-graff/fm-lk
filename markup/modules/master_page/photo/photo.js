@@ -40,11 +40,18 @@ $('.js-photo-album1').on('click', function () {
             id: id
         },
         success: function (response) {
-            var album = $('.js-album-content').fotorama;
-            var photos = album.data();
-            console.log(photos);
-            /*$.fotorama.data().load(photos);
-            $.fotorama.data().requestFullScreen();*/
+            var album = $('.js-album-content').fotorama({
+                allowfullscreen: true,
+                nav: 'thumbs',
+                captions: true,
+                swipe: true
+            });
+            var photos = album.data('fotorama');
+            photos.load(response);
+            photos.requestFullScreen();
+            album.on('fotorama:fullscreenexit', function () {
+                photos.destroy();
+            });
         }
     });
 });

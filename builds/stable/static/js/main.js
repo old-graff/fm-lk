@@ -1535,6 +1535,7 @@ $('.js-filter-toggle-btn.active').click(function () {
     $(this).find('.filter-section__arrow-icon').toggleClass('down');
     return false;
 });
+
 $(document).on('mouseenter', '.master_content-icon.exist', function (e) {
     var x = e.pageX + 20;
     var y = e.pageY - 10;
@@ -1772,14 +1773,22 @@ $('.js-photo-album1').on('click', function () {
             id: id
         },
         success: function (response) {
-            var album = $('.js-album-content').fotorama;
-            var photos = album.data();
-            void 0;
-            /*$.fotorama.data().load(photos);
-            $.fotorama.data().requestFullScreen();*/
+            var album = $('.js-album-content').fotorama({
+                allowfullscreen: true,
+                nav: 'thumbs',
+                captions: true,
+                swipe: true
+            });
+            var photos = album.data('fotorama');
+            photos.load(response);
+            photos.requestFullScreen();
+            album.on('fotorama:fullscreenexit', function () {
+                photos.destroy();
+            });
         }
     });
 });
+
 $('#feedback-form').submit(function () {
     sendForm($(this), function (response) {
         $('#feedback-form').html('<p class="feedback-block__success-msg">Ваше сообщение отправленно</p>');
