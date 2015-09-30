@@ -16,11 +16,18 @@
 {{> header/header header}}
 
 <div block="main-page" mix="block:container">
-    <div block="row">
-        {{> main/main-function/main-function mainFunction}}
-        {{> main/dop-function/dop-function dopFunction}}
-    </div>
-</div>
+
+    <div elem="top">
+    {{> breadcrumbs/breadcrumbs breadcrumbs}}
+    {{> user-info-head/user-info-head user-info-head}}
+
+    </div><!--top-->
+
+    <div elem="left">
+    </div><!--left-->
+
+    <div elem="right">
+    </div><!--right-->
 
 {{> footer/footer footer}}
 </body>

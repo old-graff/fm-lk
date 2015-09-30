@@ -1,7 +1,0 @@
-{
-    "block_master_page_recommend": {
-        "recommendations": "readyBlocksData.block_master_page_recommendations",
-        "comment": "readyBlocksData.block_master_page_comment",
-        "social-links": "readyBlocksData.block_master_page_social_links"
-    }
-}

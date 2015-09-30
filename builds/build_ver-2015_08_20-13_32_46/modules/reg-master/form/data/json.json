@@ -1,7 +1,0 @@
-{
-    "block_regmaster_form": {
-        "url": "/reg-master/success.json",
-        "url-lk": "404",
-        "method": "get"
-    }
-}

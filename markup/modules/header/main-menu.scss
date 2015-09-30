@@ -2,6 +2,7 @@
 .main-menu {
     height: 24px;
     @include font-tuning(14, 24);
+    font-size: 1.4rem;
 
     /** element **/
     &__item {

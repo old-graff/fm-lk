@@ -2,12 +2,19 @@
 *, :before, :after {
     box-sizing: border-box;
 }
+//html {font-size: 16px}
+//body {font-size: 62.5%} /* 1rem = 10px */
+//Отключенно - размер шрифта в старых блоках поплыл
+
+html {font-size: 62.5%}
+body {font-size: 1.4rem}
 
 html, body {
     height: 100%;
     font-family: 'PT Sans Caption', sans-serif;
     background-color: $color-bg;
     color: $color-text;
+//    font-size: 16px;
 }
 
 .bg {
@@ -61,27 +68,31 @@ h2, .h2{
     @include font-tuning(22, 26);
 }
 
-p {
-    line-height: 1.3em
+p {line-height: 1.3em}
+
+.page {}
+
+.page__wrapper {min-height: 100%; margin-bottom: -50px;}
+* html .page__wrapper {height: 100%;}
+
+.page__buffer {height: 50px;  width: 40px;}
+
+.main-page>* {min-height: 50px !important}
+.main-page {
+    &__top {
+        border: 1px solid orange;
+    }
+    &__left {
+        border: 1px solid blue;
+        @extend .col-lg-3;
+    }
+    &__right {
+        border: 1px solid red;
+        @extend .col-lg-9;
+    }
 }
 
-.page {
 
-}
-
-.page__wrapper {
-    min-height: 100%;
-    margin-bottom: -50px;
-}
-
-* html .page__wrapper {
-    height: 100%;
-}
-
-.page__buffer {
-    height: 50px;
-    width: 40px;
-}
 
 //
 // Grid system
